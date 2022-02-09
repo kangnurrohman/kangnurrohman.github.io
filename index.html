@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Tes</title>
-</head>
-<body>
-  <h1>Tes</h1>
-</body>
-</html>
+---
+layout: default
+---
+<div class="post-container">
+	{% for post in paginator.posts %}
+        <div class="post-list">
+            <a class="post-title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%d.%m.%Y" }}</time>
+        </div>
+    {% endfor %}
+</div>
+{% include pagination.html %}
