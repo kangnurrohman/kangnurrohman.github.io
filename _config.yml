@@ -1,12 +1,12 @@
 # Site settings
-site: Ephesus
-title: Ephesus - Minimalist Jekyll Theme
-keywords: ephesus, blog
+site: Kang Nur Rohman
+title: Kang Nur
+keywords: kangnurrohman, blog
 description: >-
-  Ephesus - Minimalist Jekyll Theme
+  suka main, suka njajan
 lang: en-US
-timezone: Europe/Istanbul
-repo: https://github.com/onepase/Ephesus # site repo [optional]
+timezone: Asia/Jakarta
+repo: https://github.com/kangnurrohman # site repo [optional]
 google_verify: XXX # Put your Google Verification here
 google_analytics: UA-XXXXXXXX-00 # Put your Google Analytics code
 discus-identifier: XXX
@@ -14,15 +14,14 @@ discus-identifier: XXX
 # Author settings
 author:
   name: Kang Nur
-  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
+  bio: Suka main, suka njajan, dan suka data
   picture: assets/images/profile.jpg
   github: onepase # github username
   twitter: onepase # twitter username
   facebook: onepase # facebook username
   instagram: onepase # instagram username
-  youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
   linkedin: hakantorun # linkedin username
-  email: your-email@email.com # email adress
+  email: ainurrohman869@email.com # email adress
 
 # URL settings
 url: "https://kangnurrohman.github.io" # Domain Name of host. [username].github.io for github pages
