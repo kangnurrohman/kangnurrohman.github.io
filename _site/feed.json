@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Ephesus - Minimalist Jekyll Theme",
+    "title": "Kang Nur",
     "home_page_url": "http://localhost:4000/",
     "feed_url": "http://localhost:4000/feed.json",
-    "description": "Ephesus - Minimalist Jekyll Theme",
+    "description": "suka main, suka njajan",
     "icon": "http://localhost:4000/assets/images/apple-touch-icon.png",
     "favicon": "http://localhost:4000/assets/images/favicon.png",
     "expired": false,
@@ -28,8 +28,8 @@
             
             "tags": ["ephesus","jekyll"],
             
-            "date_published": "2021-09-22T03:00:00+03:00",
-            "date_modified": "2021-09-22T03:00:00+03:00",
+            "date_published": "2021-09-22T07:00:00+07:00",
+            "date_modified": "2021-09-22T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -47,8 +47,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-09-21T03:00:00+03:00",
-            "date_modified": "2021-09-21T03:00:00+03:00",
+            "date_published": "2021-09-21T07:00:00+07:00",
+            "date_modified": "2021-09-21T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -66,8 +66,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-09-11T03:00:00+03:00",
-            "date_modified": "2021-09-11T03:00:00+03:00",
+            "date_published": "2021-09-11T07:00:00+07:00",
+            "date_modified": "2021-09-11T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -85,8 +85,8 @@
             
             "tags": ["email","php","filter_var"],
             
-            "date_published": "2021-08-27T03:00:00+03:00",
-            "date_modified": "2021-08-27T03:00:00+03:00",
+            "date_published": "2021-08-27T07:00:00+07:00",
+            "date_modified": "2021-08-27T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -104,8 +104,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-08-19T03:00:00+03:00",
-            "date_modified": "2021-08-19T03:00:00+03:00",
+            "date_published": "2021-08-19T07:00:00+07:00",
+            "date_modified": "2021-08-19T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -123,8 +123,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-07-28T03:00:00+03:00",
-            "date_modified": "2021-07-28T03:00:00+03:00",
+            "date_published": "2021-07-28T07:00:00+07:00",
+            "date_modified": "2021-07-28T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -142,8 +142,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-07-23T03:00:00+03:00",
-            "date_modified": "2021-07-23T03:00:00+03:00",
+            "date_published": "2021-07-23T07:00:00+07:00",
+            "date_modified": "2021-07-23T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -161,8 +161,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-06-19T03:00:00+03:00",
-            "date_modified": "2021-06-19T03:00:00+03:00",
+            "date_published": "2021-06-19T07:00:00+07:00",
+            "date_modified": "2021-06-19T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -180,8 +180,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-06-11T03:00:00+03:00",
-            "date_modified": "2021-06-11T03:00:00+03:00",
+            "date_published": "2021-06-11T07:00:00+07:00",
+            "date_modified": "2021-06-11T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -199,8 +199,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-05-29T03:00:00+03:00",
-            "date_modified": "2021-05-29T03:00:00+03:00",
+            "date_published": "2021-05-29T07:00:00+07:00",
+            "date_modified": "2021-05-29T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -218,8 +218,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-05-21T03:00:00+03:00",
-            "date_modified": "2021-05-21T03:00:00+03:00",
+            "date_published": "2021-05-21T07:00:00+07:00",
+            "date_modified": "2021-05-21T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -237,8 +237,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-05-19T03:00:00+03:00",
-            "date_modified": "2021-05-19T03:00:00+03:00",
+            "date_published": "2021-05-19T07:00:00+07:00",
+            "date_modified": "2021-05-19T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -256,8 +256,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-05-17T03:00:00+03:00",
-            "date_modified": "2021-05-17T03:00:00+03:00",
+            "date_published": "2021-05-17T07:00:00+07:00",
+            "date_modified": "2021-05-17T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -275,8 +275,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-05-12T03:00:00+03:00",
-            "date_modified": "2021-05-12T03:00:00+03:00",
+            "date_published": "2021-05-12T07:00:00+07:00",
+            "date_modified": "2021-05-12T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -294,8 +294,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-04-24T03:00:00+03:00",
-            "date_modified": "2021-04-24T03:00:00+03:00",
+            "date_published": "2021-04-24T07:00:00+07:00",
+            "date_modified": "2021-04-24T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -313,8 +313,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-04-19T03:00:00+03:00",
-            "date_modified": "2021-04-19T03:00:00+03:00",
+            "date_published": "2021-04-19T07:00:00+07:00",
+            "date_modified": "2021-04-19T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -332,8 +332,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-04-19T03:00:00+03:00",
-            "date_modified": "2021-04-19T03:00:00+03:00",
+            "date_published": "2021-04-19T07:00:00+07:00",
+            "date_modified": "2021-04-19T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -351,8 +351,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-04-16T03:00:00+03:00",
-            "date_modified": "2021-04-16T03:00:00+03:00",
+            "date_published": "2021-04-16T07:00:00+07:00",
+            "date_modified": "2021-04-16T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -370,8 +370,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-04-15T03:00:00+03:00",
-            "date_modified": "2021-04-15T03:00:00+03:00",
+            "date_published": "2021-04-15T07:00:00+07:00",
+            "date_modified": "2021-04-15T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -389,8 +389,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-03-13T03:00:00+03:00",
-            "date_modified": "2021-03-13T03:00:00+03:00",
+            "date_published": "2021-03-13T07:00:00+07:00",
+            "date_modified": "2021-03-13T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -408,8 +408,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-02-23T03:00:00+03:00",
-            "date_modified": "2021-02-23T03:00:00+03:00",
+            "date_published": "2021-02-23T07:00:00+07:00",
+            "date_modified": "2021-02-23T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -427,8 +427,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-02-16T03:00:00+03:00",
-            "date_modified": "2021-02-16T03:00:00+03:00",
+            "date_published": "2021-02-16T07:00:00+07:00",
+            "date_modified": "2021-02-16T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -446,8 +446,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-02-09T03:00:00+03:00",
-            "date_modified": "2021-02-09T03:00:00+03:00",
+            "date_published": "2021-02-09T07:00:00+07:00",
+            "date_modified": "2021-02-09T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -465,8 +465,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-02-07T03:00:00+03:00",
-            "date_modified": "2021-02-07T03:00:00+03:00",
+            "date_published": "2021-02-07T07:00:00+07:00",
+            "date_modified": "2021-02-07T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             
@@ -484,8 +484,8 @@
             
             "tags": ["lorem","ipsum"],
             
-            "date_published": "2021-01-29T03:00:00+03:00",
-            "date_modified": "2021-01-29T03:00:00+03:00",
+            "date_published": "2021-01-29T07:00:00+07:00",
+            "date_modified": "2021-01-29T07:00:00+07:00",
             
                 "author": "Hakan Torun"
             

@@ -9,18 +9,18 @@ timezone: Asia/Jakarta
 repo: https://github.com/kangnurrohman # site repo [optional]
 google_verify: XXX # Put your Google Verification here
 google_analytics: UA-XXXXXXXX-00 # Put your Google Analytics code
-discus-identifier: XXX
+discus-identifier: kangnurrohman
 
 # Author settings
 author:
   name: Kang Nur
   bio: Suka main, suka njajan, dan suka data
   picture: assets/images/profile.jpg
-  github: onepase # github username
-  twitter: onepase # twitter username
-  facebook: onepase # facebook username
-  instagram: onepase # instagram username
-  linkedin: hakantorun # linkedin username
+  github: kangnurrohman # github username
+  twitter: kangnurrohman # twitter username
+  facebook: kangnurrohman # facebook username
+  instagram: kangnurrohman # instagram username
+  linkedin: kangnurrohman # linkedin username
   email: ainurrohman869@email.com # email adress
 
 # URL settings
