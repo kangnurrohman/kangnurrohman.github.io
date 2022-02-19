@@ -4,6 +4,7 @@ date: 2022-02-20T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /rujak-soto-bik-siyam-kemiren/
+image: "/assets/images/post/rujak-soto-bik-siyam-kemiren/gambar2.jpeg"
 categories: Kuliner
 tags: [kuliner, banyuwangi, suku-using]
 ---
