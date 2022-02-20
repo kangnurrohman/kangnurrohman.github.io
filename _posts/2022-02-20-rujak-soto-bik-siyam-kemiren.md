@@ -11,7 +11,7 @@ tags: [kuliner, banyuwangi, suku-using]
 ---
 <div style="text-align: justify"><p>Selain wisata, Banyuwangi juga terkenal akan kulinernya yang khas. Bermacam-macam kuliner yang unik banyak dijumpai di Banyuwangi. Salah satu kuliner yang unik di telinga orang luar Banyuwangi adalah rujak soto.</p></div>
 
-<div style="text-align: justify"><p>Rujak soto adalah merupakan kuliner yang memadukan rujak sayur disiram dengan kuah soto, ini yang menjadikan orang luar Banyuwangi terheran-heran. Namun, dari sekian banyak penjual rujak soto di Banyuwangi. Ada yang paling saya sukai yaitu Rujak Soto Bik Siyam yang berada di Desa Kemiren, Glagah, Banyuwangi.</p></div>
+<div style="text-align: justify"><p>Rujak soto merupakan kuliner yang memadukan rujak sayur disiram dengan kuah soto, ini yang menjadikan orang luar Banyuwangi terheran-heran. Namun, dari sekian banyak penjual rujak soto di Banyuwangi. Ada yang paling saya sukai yaitu Rujak Soto Bik Siyam yang berada di Desa Kemiren, Glagah, Banyuwangi.</p></div>
 
 <div style="text-align: justify"><p>Saya pertama kali mencicipi Rujak Soto Bik Siyam Kemiren pada tahun 2017, sewaktu saya pulang menghadiri launching Banyuwangi Festival pada tahun 2017 di Desa Banjar, Licin. Pasca menghadiri acara itu teman saya Kang Edy (yang asli anak Kemiren) mengajak saya makan ke Bik Siyam. <i>"Ayo Kang, madhang rujak soto ring Bik Siyam"</i> Kang Edy mengajak saya dengan logat bahasa usingnya yang khas Kemiren. Tanpa banyak basa-basi karena saya suka njajan langsung ke TKP.</p></div>
 
