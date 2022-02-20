@@ -198,6 +198,7 @@ figure figcaption {
 .blog-post-content {
   width: 100%;
   font-size: 18px;
+  text-align: justify;
 }
 
 .post-tag {
