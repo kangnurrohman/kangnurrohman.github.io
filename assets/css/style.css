@@ -106,6 +106,14 @@ body {
   display: flex;
 }
 
+figure img {
+  border-radius: 1%;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
 .tags-container {
   width: 100%;
   display: flex;
