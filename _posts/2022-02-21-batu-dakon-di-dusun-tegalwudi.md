@@ -28,4 +28,4 @@ Dengan ditemukannya batu yang konon peninggalan masa lampau, Pokdarwis Dakon Hil
 
 
 #### **Referensi :**
-[1] <a style="color:green" href="http://kebudayaan.kemdikbud.go.id/bpcbjatim/batu-dakon/">http://kebudayaan.kemdikbud.go.id/bpcbjatim/batu-dakon/</a>
+[1] <a style="color:green" href="http://kebudayaan.kemdikbud.go.id/bpcbjatim/batu-dakon/">Batu Dakon Di Museum Anjuk Ladang</a>
