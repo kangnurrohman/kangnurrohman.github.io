@@ -1,5 +1,5 @@
 ---
 layout: none
 ---
-User-agent: *
+Google: *
 Sitemap: {{ site.url }}/sitemap.xml
