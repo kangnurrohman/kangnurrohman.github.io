@@ -112,6 +112,7 @@ figure img {
 
 figure figcaption {
   text-align: center;
+  font-size: 12px;
 }
 
 .tags-container {
