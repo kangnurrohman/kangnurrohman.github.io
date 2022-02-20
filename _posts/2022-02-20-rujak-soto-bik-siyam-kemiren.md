@@ -7,7 +7,7 @@ permalink: /rujak-soto-bik-siyam-kemiren/
 image: "/assets/images/post/rujak-soto-bik-siyam-kemiren/gambar2.jpeg"
 description: "Selain wisata, Banyuwangi juga terkenal akan kulinernya yang khas. Bermacam-macam kuliner yang unik banyak dijumpai di Banyuwangi. Salah satu kuliner yang unik di telinga orang luar Banyuwangi adalah rujak soto."
 categories: Kuliner
-tags: [kuliner, banyuwangi, suku-using]
+tags: [kuliner, banyuwangi, suku using]
 ---
 <div style="text-align: justify"><p>Selain wisata, Banyuwangi juga terkenal akan kulinernya yang khas. Bermacam-macam kuliner yang unik banyak dijumpai di Banyuwangi. Salah satu kuliner yang unik di telinga orang luar Banyuwangi adalah rujak soto.</p></div>
 
