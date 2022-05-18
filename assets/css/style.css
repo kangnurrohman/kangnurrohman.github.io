@@ -106,10 +106,6 @@ body {
   display: flex;
 }
 
-figure img {
-  border-radius: 1%;
-}
-
 figure figcaption {
   text-align: center;
   font-size: 12px;
@@ -267,6 +263,7 @@ img {
 figure {
   margin: 0;
   padding: 15px;
+  border-radius: 1%;
 }
 pre {
   font-size: 14px;
