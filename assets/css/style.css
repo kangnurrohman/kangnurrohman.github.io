@@ -106,11 +106,6 @@ body {
   display: flex;
 }
 
-figure figcaption {
-  text-align: center;
-  font-size: 12px;
-}
-
 .tags-container {
   width: 100%;
   display: flex;
@@ -265,6 +260,12 @@ figure {
   padding: 15px;
   border-radius: 1%;
 }
+
+figure figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+
 pre {
   font-size: 14px;
   max-width: 90vw;
