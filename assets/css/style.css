@@ -258,6 +258,9 @@ img {
 figure {
   margin: 0;
   padding: 15px;
+}
+
+figure img {
   border-radius: 1%;
 }
 
