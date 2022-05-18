@@ -38,5 +38,5 @@ Bagi yang ingin tau lokasi rujak soto Bik Siyam ini. Lokasinya ada di belakang p
 
 
 <div class="map-responsive">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505573.88530715194!2d113.74786708613313!3d-8.122243850418712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd14f690f540331%3A0x809e40057776e51d!2sRujak%20Soto%20Bek%20Siyam!5e0!3m2!1sid!2sid!4v1652887881562!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505573.88530715194!2d113.74786708613313!3d-8.122243850418712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd14f690f540331%3A0x809e40057776e51d!2sRujak%20Soto%20Bek%20Siyam!5e0!3m2!1sid!2sid!4v1652887881562!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
