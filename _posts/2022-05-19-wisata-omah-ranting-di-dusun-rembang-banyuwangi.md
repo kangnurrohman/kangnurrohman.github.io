@@ -33,5 +33,5 @@ Wisatawan akan disuguhkan panorama yang eksotis jika datang pagi dan sore hari. 
 Oh iya, bagi penghobi gowes, di omah ranting juga sudah disediakan jalur track yang panjang dan menantang. Jadi tunggu apalagi sobat “Ayo datang ke Banyuwangi, anda pasti ingin kembali”.
 
 <div class="map-responsive">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.1515960171346!2d114.24590421380823!3d-8.187479784357976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd14f46302582b5%3A0x487f8a29c8b21046!2sRembang%20Village!5e0!3m2!1sid!2sid!4v1652926952167!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.3278028393734!2d114.2348873138081!3d-8.169692384133484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd14d076dab0c03%3A0x2e4b4be132d560b7!2sOmah%20Ranting!5e0!3m2!1sid!2sid!4v1652950100793!5m2!1sid!2sid"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
