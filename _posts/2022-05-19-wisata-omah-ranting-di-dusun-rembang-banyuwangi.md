@@ -4,7 +4,7 @@ date: 2022-05-19T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /wisata-omah-ranting-di-dusun-rembang-banyuwangi/
-image: "/assets/images/post/rujak-soto-bik-siyam-kemiren/gambar2.jpeg"
+image: "/assets/images/post/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar1.jpg"
 description: "Di Dusun Rembang atau yang biasa disebut “Rembang Village” terdapat sebuah wisata yaitu “Omah Ranting”. Omah ranting terletak di sebuah komplek perkebunan pinus yang dikelola oleh perhutani. Berawal dari hutan pinus pada umumnya hingga disulap menjadi perkebunan pinus yang instagramable."
 categories: Wisata
 tags: [wisata alam, banyuwangi]
