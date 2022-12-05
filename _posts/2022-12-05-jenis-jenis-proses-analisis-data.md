@@ -12,6 +12,10 @@ tags: [analisis data, teknologi]
 Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola (pattern) dan wawasan (insight). Ada beberapa jenis proses analisis data, yaitu: Proses Standar Analisis Data, Proses KDD, Proses SEMMA, dan yang lebih sering didengar yaitu CRISP-DM Proses. Berikut untuk penjelasan lebih detailnya:
 
 1. Proses Standar Analisis Data
+   Pada proses ini, analisis data merujuk pada investigasi, menemukan insight, dan penarikan kesimpulan berdasarkan data. Tujuan utamanya adalah mengumpulkan, memfilter, membersihkan, mentransformasikan, mengeksplorasi, mendeskripsikan, memvisualisasikan dan mengkomunikasikan insight berdasarkan data untuk tujuan pengambilan keputusan. Berikut tahap-tahap dari proses standar analisis data:
+
+   1. Collecting Data: Mengumpulkan data dari berbagai sumber
+   2. Preprocessing Data:
 
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar2.svg"></center>
