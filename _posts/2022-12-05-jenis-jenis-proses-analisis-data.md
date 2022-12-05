@@ -15,10 +15,15 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
 <li>Proses Standar Analisis Data</li>
    
    Pada proses ini, analisis data merujuk pada investigasi, menemukan insight, dan penarikan kesimpulan berdasarkan data. Tujuan utamanya adalah mengumpulkan, memfilter, membersihkan, mentransformasikan, mengeksplorasi, mendeskripsikan, memvisualisasikan dan mengkomunikasikan insight berdasarkan data untuk tujuan pengambilan keputusan. Berikut tahap-tahap dari proses standar analisis data:
+
    <ol>
    <li>Collecting Data: Mengumpulkan data dari berbagai sumber</li>
-   <li>Preprocessing Data:</li>
+   <li>Preprocessing Data: Memfilter, membersihkan dan mentransformasikan data kedalam bentuk yang dibutuhkan</li>
+   <li>Analyzing and Finding Insights: Mengeksplorasi, mendeskripsikan (menggambarkan) dan memvisualisasikan data untuk menemukan pola dan kesimpulan</li>
+   <li>Insight Interpretations: memahami insight dan menemukan dampak (impact) pada masing-masing variabel</li>
+   <li>Storytelling: Mengkomunikasikan hasil analisis dalam bentuk cerita (story) sehingga orang awam dapat memahaminya</li>
    </ol>
+
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar2.svg"></center>
 <figcaption>Gambar 1. analisis data</figcaption>
@@ -26,7 +31,17 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
 
 <li>Proses KDD</li>
 
-    KDD merupakan akronim dari ()
+    KDD merupakan akronim dari Knowledge Discovery in Databases / Data mining. Data mining merujuk pada proses pencarian pengetahuan dari pola (pattern) yang menarik. Tujuan utama KDD adalah untuk mengekstrak pola yang tersembunyi dari database, data warehouse dan sumber data lainnya. Berikut tahap-tahap dari proses KDD:
+
+    <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ol>
 
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar3.svg"></center>
