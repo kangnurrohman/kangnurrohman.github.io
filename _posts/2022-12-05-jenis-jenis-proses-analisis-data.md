@@ -11,35 +11,40 @@ tags: [analisis data, teknologi]
 ---
 Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola (pattern) dan wawasan (insight). Ada beberapa jenis proses analisis data, yaitu: Proses Standar Analisis Data, Proses KDD, Proses SEMMA, dan yang lebih sering didengar yaitu CRISP-DM Proses. Berikut untuk penjelasan lebih detailnya:
 
-*1. Proses Standar Analisis Data
+<ol>
+<li>Proses Standar Analisis Data</li>
    
    Pada proses ini, analisis data merujuk pada investigasi, menemukan insight, dan penarikan kesimpulan berdasarkan data. Tujuan utamanya adalah mengumpulkan, memfilter, membersihkan, mentransformasikan, mengeksplorasi, mendeskripsikan, memvisualisasikan dan mengkomunikasikan insight berdasarkan data untuk tujuan pengambilan keputusan. Berikut tahap-tahap dari proses standar analisis data:
-
-   1. Collecting Data: Mengumpulkan data dari berbagai sumber
-   2. Preprocessing Data:
-
+   <ol>
+   <li>Collecting Data: Mengumpulkan data dari berbagai sumber</li>
+   <li>Preprocessing Data:</li>
+   </ol>
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar2.svg"></center>
 <figcaption>Gambar 1. analisis data</figcaption>
 </figure>
 
-*2. Proses KDD
+<li>Proses KDD</li>
+
+    KDD merupakan akronim dari ()
 
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar3.svg"></center>
 <figcaption>Gambar 2. Proses KDD</figcaption>
 </figure>
 
-*3. Proses SEMMA
+<li>Proses SEMMA</li>
 
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar4.svg"></center>
 <figcaption>Gambar 3. Proses SEMMA</figcaption>
 </figure>
 
-*4. Proses CRISP-DM
+<li>Proses CRISP-DM</li>
 
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar5.svg"></center>
 <figcaption>Gambar 4. Proses CRISP-DM</figcaption>
 </figure>
+
+</ol>
