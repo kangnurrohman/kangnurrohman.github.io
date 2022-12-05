@@ -94,8 +94,7 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
 <figcaption>Gambar 4. Proses CRISP-DM</figcaption>
 </figure>
 
-Kesimpulan
-
+Kesimpulan:
 
 Manakah proses analisis data yang terbaik? Untuk menjawab ini seorang data analis/scientist harus tau dulu tujuan utamanya. Berdasarkan tahap-tahap dari proses analis data dapat disimpulkan:
 
