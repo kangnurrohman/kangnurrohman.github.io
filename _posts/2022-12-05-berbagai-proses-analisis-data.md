@@ -1,15 +1,15 @@
 ---
-title: "Jenis-Jenis Proses Analisis Data"
+title: "Berbagai Proses Analisis Data"
 date: 2022-12-05T00:00:00+00:00
 author: Kang Nur
 layout: post
-permalink: /jenis-jenis-proses-analisis-data/
-image: "/assets/images/post/jenis-jenis-proses-analisis-data/gambar1.jpg"
+permalink: /berbagai-proses-analisis-data/
+image: "/assets/images/post/berbagai-proses-analisis-data/gambar1.jpg"
 description: "Proses data analisis adalah ... ."
 categories: Analisis Data
 tags: [analisis data, teknologi]
 ---
-Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola (pattern) dan wawasan (insight). Ada beberapa jenis proses analisis data, yaitu: Proses Standar Analisis Data, Proses KDD, Proses SEMMA, dan yang lebih sering didengar yaitu proses CRISP-DM. Berikut untuk penjelasan lebih detailnya:
+Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola (pattern) dan wawasan (insight). Ada berbagai proses analisis data, seperti: Proses Standar Analisis Data, Proses KDD, Proses SEMMA, dan yang lebih sering didengar yaitu proses CRISP-DM. Berikut untuk penjelasan lebih detailnya:
 
 <ol>
 <li>Proses Standar Analisis Data</li>
@@ -25,7 +25,7 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
    </ol>
 
 <figure>
-<center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar2.svg"></center>
+<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar2.svg"></center>
 <figcaption>Gambar 1. analisis data</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
     </ol>
 
 <figure>
-<center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar3.svg"></center>
+<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar3.svg"></center>
 <figcaption>Gambar 2. Proses KDD</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
     </ol>
 
 <figure>
-<center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar4.svg"></center>
+<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar4.svg"></center>
 <figcaption>Gambar 3. Proses SEMMA</figcaption>
 </figure>
 
@@ -90,11 +90,12 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
     </ol>
 
 <figure>
-<center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar5.svg"></center>
+<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar5.svg"></center>
 <figcaption>Gambar 4. Proses CRISP-DM</figcaption>
 </figure>
 
 Kesimpulan
+
 
 Manakah proses analisis data yang terbaik? Untuk menjawab ini seorang data analis/scientist harus tau dulu tujuan utamanya. Berdasarkan tahap-tahap dari proses analis data dapat disimpulkan:
 
