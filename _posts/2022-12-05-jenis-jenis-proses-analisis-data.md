@@ -38,9 +38,9 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
     <li>Data Integration: Menggabungkan dan mengintegrasikan data dari berbagai sumber dengan metode ETL (Extract, Transform, Load)</li>
     <li>Data Selection: Data yang sekiranya relevan sesuai kebutuhan analisis dikumpulkan kembali</li>
     <li>Data Transformation: Data dibentuk (direkayasa) sesuai kebutuhan analisis</li>
-    <li>Data Mining: Menemukan pola yang berguna dan pola yang tersembunyi</li>
+    <li>Data Mining: Menemukan pola yang berguna dan yang tersembunyi</li>
     <li>Pattern Evaluation: Mengevaluasi pola yang diekstrak</li>
-    <li>Knowledge Presentation: Setelah pola dievaluasi, memvisualisasikan dan mempresentasikan kepada stackholder untuk tujuan pengambilan keputusan (decision-making)</li>
+    <li>Knowledge Presentation: Setelah pola dievaluasi, pengetahuan (inforsmasi) divisualisasikan dan dipresentasikan kepada stackholder untuk tujuan pengambilan keputusan (decision-making)</li>
     </ol>
 
 <figure>
@@ -50,6 +50,21 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
 
 <li>Proses SEMMA</li>
 
+    SEMMA merupakan akronim dari Sample, Explore, Modify, Model dan Assess. Metode ini dikembangkan oleh SAS. Berikut tahap-tahap dari proses SAS:
+
+    <ol>
+    <li>Sample</li>
+      Pada tahap ini, mengidentifikasi database yang berbeda kemudian menggabungkannya. Setelah itu, memilih sampel data untuk digunakan proses pemodelan.
+    <li>Explore</li>
+       Pada tahap ini, memahami data, mencari korelasi dari masing-masing variable, memvisualisasikan data, dan menginterpretasikan.
+    <li>Modify</li>
+       Pada tahap ini, sebelum data dimodelkan perlu dilakukan modifikasi. Modifikasi ini melibatkan penanganan pada missing value (data yang hilang), mendeteksi outlier, mentransformasikan fitur, dan membuat fitur tambahan baru.
+    <li>Model</li>
+       Pada tahap ini, fokus utama adalah memilih dan menerapkan berbagai teknik pemodelan, seperti: Regresi Linear, Regresi Logistik, Decision Tree, KNN, SVM, Neural Netwok, dll.
+    <li>Assess</li>
+       Pada tahap terakhir, model yang dibuat performanya dievaluasi dengan evaluation measure, seperti: Confusion Matrix, ROC-AUC, Precision-Recall, dll.
+    </ol>
+
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar4.svg"></center>
 <figcaption>Gambar 3. Proses SEMMA</figcaption>
@@ -57,9 +72,37 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
 
 <li>Proses CRISP-DM</li>
 
+    CRISP-DM adalah akronim dari Cross-Industry Process for Data Mining. CRISP-DM dari proses, struktur telah terbukti dengan baik untuk proyek machine learning, data mining, dan bisnis intelijen. Berikut tahap-tahap dari CRISP-DM:
+
+    <ol>
+    <li>Business Understanding</li>
+    Pada tahap pertama, memahami skenario dan keperluan bisnis untuk mendesain tujuan analitik dan tujuan awal.
+    <li>Data Understading</li>
+    Pada tahap ini, memahami data, melakukan pengecekan terhadap kualitas data, dan menemukan insight awal.
+    <li>Data Preparation</li>
+    Pada tahap ini, menyiapkan data untuk dianalisis. Tahap ini melibatkan penanganan terhadap missing values, mendeteksi dan menangani outlier, normalisasi data, dan feature engineering. Tahap ini paling banyak memakan waktu.
+    <li>Modeling</li>
+    Pada tahap ini adalah proses mendesain model untuk tujuan prediksi. Data analis/scientist harus memutuskan teknik pemodelan berdasarkan data
+    <li>Evaluation</li>
+    Setelah data dimodelkan, selanjutnya untuk melakukan evaluasi terhadap kinerja model menggunakan evaluation measures, sepertiL MSE, RMSE, R-Square, akurasi, presisi, recall, F1-Score, dll.
+    <li>Deployment</li>
+    Tahap terakhir adalah melakukan deploy ke production evironment. Tahap ini melibatkan data scientist, software engineering, DevOps, dan bisnis profesional.
+    </ol>
+
 <figure>
 <center><img src="/assets/images/post/jenis-jenis-proses-analisis-data/gambar5.svg"></center>
 <figcaption>Gambar 4. Proses CRISP-DM</figcaption>
 </figure>
 
 </ol>
+
+Kesimpulan
+
+Manakah proses analisis data yang terbaik? Untuk menjawab ini seorang data analis/scientist harus tau dulu tujuan utamanya. Berdasarkan tahap-tahap dari proses analis data dapat disimpulkan:
+
+    <ol>
+    <li>Proses standar data analisis tujuan utamanya adalah mencari insight dan membuat interpretasi dalam bentuk cerita (story).</li>
+    <li>Proses KDD tujuan utamanya adalah mencari pola (pattern) berdasarkan data dan memvisualisasikannya.</li>
+    <li>Proses SEMMA tujuan utamanya adakah membangun model atau pemodelan data.</li>
+    <li>Proses CRISP-DM tujuan utamanya adalah memahami dan mengembangkan bisnis.</li>
+    </ol>
