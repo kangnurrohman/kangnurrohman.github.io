@@ -77,7 +77,7 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
     <ol>
     <li>Business Understanding</li>
     Pada tahap pertama, memahami skenario dan keperluan bisnis untuk mendesain tujuan analitik dan tujuan awal.
-    <li>Data Understading.</li>
+    <li>Data Understading</li>
     Pada tahap ini, memahami data, melakukan pengecekan terhadap kualitas data, dan menemukan insight awal.
     <li>Data Preparation</li>
     Pada tahap ini, menyiapkan data untuk dianalisis. Tahap ini melibatkan penanganan terhadap missing values, mendeteksi dan menangani outlier, normalisasi data, dan feature engineering. Tahap ini paling banyak memakan waktu.
