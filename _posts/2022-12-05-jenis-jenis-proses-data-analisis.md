@@ -12,6 +12,6 @@ tags: [data analisis, teknologi]
 Proses data analysis adalah ...
 
 <figure>
-<img src="/assets/images/post/jenis-jenis-proses-data-analisis/gambar2.svg">
+<img src="/assets/images/post/jenis-jenis-proses-data-analisis/gambar1.jpg">
 <figcaption>Gambar 1. pondok berbentuk segitiga </figcaption>
 </figure>
