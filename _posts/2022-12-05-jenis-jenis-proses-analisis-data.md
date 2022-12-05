@@ -34,13 +34,13 @@ Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan pengg
     KDD merupakan akronim dari Knowledge Discovery in Databases / Data mining. Data mining merujuk pada proses pencarian pengetahuan dari pola (pattern) yang menarik. Tujuan utama KDD adalah untuk mengekstrak pola yang tersembunyi dari database, data warehouse dan sumber data lainnya. Berikut tahap-tahap dari proses KDD:
 
     <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Data Cleaning: Membersihkan noise pada data, mengatasi dan mendeteksi missing value (nilai yang hilang) dan data outlier (pencilan)</li>
+    <li>Data Integration: Menggabungkan dan mengintegrasikan data dari berbagai sumber dengan metode ETL (Extract, Transform, Load)</li>
+    <li>Data Selection: Data yang sekiranya relevan sesuai kebutuhan analisis dikumpulkan kembali</li>
+    <li>Data Transformation: Data dibentuk (direkayasa) sesuai kebutuhan analisis</li>
+    <li>Data Mining: Menemukan pola yang berguna dan pola yang tersembunyi</li>
+    <li>Pattern Evaluation: Mengevaluasi pola yang diekstrak</li>
+    <li>Knowledge Presentation: Setelah pola dievaluasi, memvisualisasikan dan mempresentasikan kepada stackholder untuk tujuan pengambilan keputusan (decision-making)</li>
     </ol>
 
 <figure>
