@@ -106,3 +106,6 @@ Manakah proses analisis data yang terbaik? Untuk menjawab ini seorang data anali
     </ol>
 
 </ol>
+
+#### **Referensi :**
+[1] <a style="color:green" href="https://www.amazon.com/Python-Data-Analysis-collection-visualization-ebook/dp/B0859CVGB4">Python Data Analysis (Third Edition)</a>
