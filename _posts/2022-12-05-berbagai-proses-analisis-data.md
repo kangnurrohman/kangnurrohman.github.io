@@ -101,7 +101,7 @@ Manakah proses analisis data yang terbaik? Untuk menjawab ini seorang data anali
     <ol>
     <li>Proses standar data analisis tujuan utamanya adalah mencari insight dan membuat interpretasi dalam bentuk cerita (story).</li>
     <li>Proses KDD tujuan utamanya adalah mencari pola (pattern) berdasarkan data dan memvisualisasikannya.</li>
-    <li>Proses SEMMA tujuan utamanya adakah membangun model atau pemodelan data.</li>
+    <li>Proses SEMMA tujuan utamanya adalah membangun model atau pemodelan data.</li>
     <li>Proses CRISP-DM tujuan utamanya adalah memahami dan mengembangkan bisnis.</li>
     </ol>
 
