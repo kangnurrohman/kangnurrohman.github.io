@@ -68,20 +68,20 @@ tags: [analisis data, teknologi]
 <li><p><strong>Proses SEMMA</strong></p>
 <p>SEMMA merupakan akronim dari <em>Sample, Explore, Modify, Model</em> dan <em>Assess</em>. Metode ini dikembangkan oleh SAS. Berikut tahap-tahap dari proses SAS:</p>
 <ol>
-<li><p><strong><em>Sample</em></strong>
-Pada tahap ini, mengidentifikasi <em>database</em> yang berbeda kemudian menggabungkannya. Setelah itu, memilih sampel data untuk digunakan proses pemodelan.</p>
+<li><p><strong><em>Sample</em></strong></p>
+<p>Pada tahap ini, mengidentifikasi <em>database</em> yang berbeda kemudian menggabungkannya. Setelah itu, memilih sampel data untuk digunakan proses pemodelan.</p>
 </li>
-<li><p><strong><em>Explore</em></strong>
-Pada tahap ini, memahami data, mencari korelasi dari masing-masing variable, memvisualisasikan data, dan menginterpretasikan.</p>
+<li><p><strong><em>Explore</em></strong></p>
+<p>Pada tahap ini, memahami data, mencari korelasi dari masing-masing variable, memvisualisasikan data, dan menginterpretasikan.</p>
 </li>
-<li><p><strong><em>Modify</em></strong>
-Pada tahap ini, sebelum data dimodelkan perlu dilakukan modifikasi. Modifikasi ini melibatkan penanganan pada <em>missing value</em> (data yang hilang), mendeteksi <em>outlier</em>, mentransformasikan fitur, dan membuat fitur tambahan baru.</p>
+<li><p><strong><em>Modify</em></strong></p>
+<p>Pada tahap ini, sebelum data dimodelkan perlu dilakukan modifikasi. Modifikasi ini melibatkan penanganan pada <em>missing value</em> (data yang hilang), mendeteksi <em>outlier</em>, mentransformasikan fitur, dan membuat fitur tambahan baru.</p>
 </li>
-<li><p><strong><em>Model</em></strong>
-Pada tahap ini, fokus utama adalah memilih dan menerapkan berbagai teknik pemodelan, seperti: Regresi Linear, Regresi Logistik, Decision Tree, KNN, SVM, Neural Netwok, dll.</p>
+<li><p><strong><em>Model</em></strong></p>
+<p>Pada tahap ini, fokus utama adalah memilih dan menerapkan berbagai teknik pemodelan, seperti: Regresi Linear, Regresi Logistik, Decision Tree, KNN, SVM, Neural Netwok, dll.</p>
 </li>
-<li><p><strong><em>Assess</em></strong>
-Pada tahap terakhir, model yang dibuat performanya dievaluasi dengan evaluation measure, seperti: Confusion Matrix, ROC-AUC, Precision-Recall, dll.</p>
+<li><p><strong><em>Assess</em></strong></p>
+<p>Pada tahap terakhir, model yang dibuat performanya dievaluasi dengan evaluation measure, seperti: Confusion Matrix, ROC-AUC, Precision-Recall, dll.</p>
 </li>
 </ol>
 </li>
@@ -98,23 +98,23 @@ Pada tahap terakhir, model yang dibuat performanya dievaluasi dengan evaluation 
 <li><p><strong><em>Proses CRISP-DM</em></strong>
 CRISP-DM adalah akronim dari <em>Cross-Industry Process for Data Mining</em>. CRISP-DM adalah prosesnya baik, strukturnya baik dan telah terbukti dengan baik untuk proyek <em>machine learning, data mining</em>, dan bisnis intelijen. Berikut tahap-tahap dari CRISP-DM:</p>
 <ol>
-<li><p><strong><em>Business Understanding</em></strong>
-Pada tahap pertama, memahami skenario dan keperluan bisnis untuk mendesain tujuan analitik dan tujuan awal.</p>
+<li><p><strong><em>Business Understanding</em></strong></p>
+<p>Pada tahap pertama, memahami skenario dan keperluan bisnis untuk mendesain tujuan analitik dan tujuan awal.</p>
 </li>
-<li><p><strong><em>Data Understanding</em></strong>
-Pada tahap ini, memahami data, melakukan pengecekan terhadap kualitas data, dan menemukan insight awal.</p>
+<li><p><strong><em>Data Understanding</em></strong></p>
+<p>Pada tahap ini, memahami data, melakukan pengecekan terhadap kualitas data, dan menemukan insight awal.</p>
 </li>
-<li><p><strong><em>Data Preparation</em></strong>
-Pada tahap ini, menyiapkan data untuk dianalisis. Tahap ini melibatkan penanganan terhadap <em>missing values</em>, mendeteksi dan menangani <em>outlier</em>, normalisasi data, dan <em>feature engineering</em>. Tahap ini paling banyak memakan waktu.</p>
+<li><p><strong><em>Data Preparation</em></strong></p>
+<p>Pada tahap ini, menyiapkan data untuk dianalisis. Tahap ini melibatkan penanganan terhadap <em>missing values</em>, mendeteksi dan menangani <em>outlier</em>, normalisasi data, dan <em>feature engineering</em>. Tahap ini paling banyak memakan waktu.</p>
 </li>
-<li><p><strong><em>Modeling</em></strong>
-Pada tahap ini adalah proses mendesain model untuk tujuan prediksi. Data analis/scientist harus memutuskan teknik pemodelan berdasarkan data.</p>
+<li><p><strong><em>Modeling</em></strong></p>
+<p>Pada tahap ini adalah proses mendesain model untuk tujuan prediksi. Data analis/scientist harus memutuskan teknik pemodelan berdasarkan data.</p>
 </li>
-<li><p><strong><em>Evaluation</em></strong>
-Setelah data dimodelkan, selanjutnya melakukan evaluasi terhadap kinerja model menggunakan evaluation measures, seperti: MSE, RMSE, R-Square, akurasi, presisi, recall, F1-Score, dll.</p>
+<li><p><strong><em>Evaluation</em></strong></p>
+<p>Setelah data dimodelkan, selanjutnya melakukan evaluasi terhadap kinerja model menggunakan evaluation measures, seperti: MSE, RMSE, R-Square, akurasi, presisi, recall, F1-Score, dll.</p>
 </li>
-<li><p><strong><em>Deployment</em></strong>
-Tahap terakhir adalah melakukan deploy ke <em>production environment</em>. Tahap ini melibatkan <em>data scientist, software engineering, DevOps</em>, dan bisnis profesional.</p>
+<li><p><strong><em>Deployment</em></strong></p>
+<p>Tahap terakhir adalah melakukan deploy ke <em>production environment</em>. Tahap ini melibatkan <em>data scientist, software engineering, DevOps</em>, dan bisnis profesional.</p>
 </li>
 </ol>
 </li>
