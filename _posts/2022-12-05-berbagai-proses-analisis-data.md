@@ -140,4 +140,4 @@ Tahap terakhir adalah melakukan deploy ke <em>production environment</em>. Tahap
 </li>
 </ol>
 <p><strong>Referensi :</strong></p>
-<p><a href="https://www.amazon.com/Python-Data-Analysis-collection-visualization-ebook/dp/B0859CVGB4">Python Data Analysis (Third Edition)</a></p>
+<p>[1] <a href="https://www.amazon.com/Python-Data-Analysis-collection-visualization-ebook/dp/B0859CVGB4">Python Data Analysis (Third Edition)</a></p>
