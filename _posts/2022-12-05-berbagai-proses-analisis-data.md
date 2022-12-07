@@ -14,7 +14,7 @@ tags: [analisis data, teknologi]
 <li><p><strong>Proses Standar Analisis Data</strong></p>
 <p>Pada proses ini, analisis data merujuk pada investigasi, menemukan insight, dan penarikan kesimpulan berdasarkan data. Tujuan utamanya adalah mengumpulkan, memfilter, membersihkan, mentransformasikan, mengeksplorasi, mendeskripsikan, memvisualisasikan dan mengkomunikasikan <em>insight</em> berdasarkan data untuk tujuan pengambilan keputusan. Berikut tahap-tahap dari proses standar analisis data:&nbsp;</p>
 <ol>
-<li><p>&nbsp;&nbsp;<strong><em>Collecting Data:</em></strong> Mengumpulkan data dari berbagai sumber.</p>
+<li><p><strong><em>Collecting Data:</em></strong> Mengumpulkan data dari berbagai sumber.</p>
 </li>
 <li><p><strong><em>Preprocessing Data:</em></strong> Memfilter, membersihkan dan mentransformasikan data ke dalam bentuk yang dibutuhkan.</p>
 </li>
