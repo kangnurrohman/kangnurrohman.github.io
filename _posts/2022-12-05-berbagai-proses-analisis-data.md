@@ -12,12 +12,12 @@ tags: [analisis data, teknologi]
 Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola *(pattern)* dan wawasan *(insight)*. Ada berbagai proses analisis data, seperti: **Proses Standar Analisis Data**, **Proses KDD**, **Proses SEMMA**, dan yang lebih sering didengar yaitu **Proses CRISP-DM**. Berikut untuk penjelasan lebih detailnya:
 
 <ol>
-<li>Proses Standar Analisis Data</li>
+<b><li>Proses Standar Analisis Data</li></b>
    
-   Pada proses ini, analisis data merujuk pada investigasi, menemukan insight, dan penarikan kesimpulan berdasarkan data. Tujuan utamanya adalah mengumpulkan, memfilter, membersihkan, mentransformasikan, mengeksplorasi, mendeskripsikan, memvisualisasikan dan mengkomunikasikan insight berdasarkan data untuk tujuan pengambilan keputusan. Berikut tahap-tahap dari proses standar analisis data:
+   Pada proses ini, analisis data merujuk pada investigasi, menemukan insight, dan penarikan kesimpulan berdasarkan data. Tujuan utamanya adalah mengumpulkan, memfilter, membersihkan, mentransformasikan, mengeksplorasi, mendeskripsikan, memvisualisasikan dan mengkomunikasikan *insight* berdasarkan data untuk tujuan pengambilan keputusan. Berikut tahap-tahap dari proses standar analisis data:
 
    <ol>
-   <li>Collecting Data: Mengumpulkan data dari berbagai sumber.</li>
+   <li>**Collecting Data**: Mengumpulkan data dari berbagai sumber.</li>
    <li>Preprocessing Data: Memfilter, membersihkan dan mentransformasikan data ke dalam bentuk yang dibutuhkan.</li>
    <li>Analyzing and Finding Insights: Mengeksplorasi, mendeskripsikan (menggambarkan) dan memvisualisasikan data untuk menemukan pola dan kesimpulan.</li>
    <li>Insight Interpretations: memahami insight dan menemukan dampak (impact) pada masing-masing variabel.</li>
