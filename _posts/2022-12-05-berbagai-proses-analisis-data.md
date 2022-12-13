@@ -51,7 +51,7 @@ tags: [analisis data, teknologi]
 </li>
 <li><p><strong><em>Pattern Evaluation:</em></strong> Mengevaluasi pola yang diekstrak.</p>
 </li>
-<li><p><em>Knowledge Presentation:</em> Setelah pola dievaluasi, pengetahuan (informasi) divisualisasikan dan dipresentasikan kepada stackholder untuk tujuan pengambilan keputusan <em>(decision-making)</em>.</p>
+<li><p><em>Knowledge Presentation:</em> Setelah pola dievaluasi, pengetahuan (informasi) divisualisasikan dan dipresentasikan kepada stakeholder untuk tujuan pengambilan keputusan <em>(decision-making)</em>.</p>
 </li>
 </ol>
 </li>
