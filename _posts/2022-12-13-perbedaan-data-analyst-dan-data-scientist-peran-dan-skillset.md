@@ -59,7 +59,7 @@ tags: [analisis data, teknologi]
 </li>
 <li><p><strong><em>Spreadsheet:</em></strong> Pengetahuan tentang MS Excel, Google sheets, LibreOffice adalah wajib yang berfungsi untuk mengelola data dalam bentuk tabel.</p>
 </li>
-<li><p><strong><em>Storytelling dan skill presentasi:</em></strong> Skill dalam <em>storytelling</em> (bercerita) adalah skill yang sangat diperlukan. Karena seorang data analyst diharuskan dalam menyampaikan hasil dari analisisnya kepada stakeholder untuk membuat sebuah keputusan.</p>
+<li><p><strong><em>Storytelling dan skill presentasi:</em></strong> Skill dalam <em>storytelling</em> (bercerita) adalah skill yang sangat diperlukan. Karena seorang data analyst diharuskan mampu dalam menyampaikan hasil dari analisisnya kepada stakeholder untuk membuat sebuah keputusan.</p>
 </li>
 </ul>
 <p>Disisi lain, Data scientist sendiri adalah seseorang yang memecahkan masalah menggunakan data. Lalu, Apakah sesederhana itu? Tentu tidak. Data scientist adalah profesi PaluGada (Apa yang lu mau gue ada) beberapa irisan profesi seperti data analyst, statistikawan, matematikawan, programmer, Machine Learning dan NLP Engineer melebur dalam diri data scientist. Inilah mengapa data science tidak bisa dipelajari dalam hitungan bulan. Menjadi data scientist memerlukan banyak effort dan kesabaran. Mempelajari data science adalah sebuah perjalanan. Berikut skillset yang harus dimiliki data scientist:</p>
