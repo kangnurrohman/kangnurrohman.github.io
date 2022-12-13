@@ -72,6 +72,73 @@ tags: [analisis data, teknologi]
 </li>
 <li><p><strong><em>Programming Skill:</em></strong> Pemrograman membantu data scientist dalam mengotomatiskan solusi yang dibuat. Oleh karena itu pengetahuan tentang pemrograman dibutuhkan. Untuk saat ini bahasa pemrograman yang banyak dipakai pada bidang data science adalah Python dan R.</p>
 </li>
+<li><p><strong><em>Storytelling dan skill presentasi:</em></strong> Mengkomunikasikan hasil dalam bentuk storytelling (cerita) melalui presentasi powerpoint.</p>
+</li>
+<li><p><strong><em>Teknologi Big Data:</em></strong> Di zaman digital seperti sekarang data ada dimana-mana. Semua orang bisa menghasilkan data. Dengan banjirnya data lalu lahirlah konsep Big Data. Data Scientist sendiri perlu pengetahuan tentang Teknologi Big Data seperti Hadoop dan Spark untuk membantu mengembangkan solusi Big Data.</p>
+</li>
+<li><p><strong><em>Deep Learning Tools:</em></strong> Deep learning tools seperti Tensorflow, PyTorch dan Keras digunakan dalam bidang NLP dan Computer Vision.</p>
+</li>
+</ul>
+<h2 class="atx" id="kesimpulan">Kesimpulan</h2>
+<p>Melihat perbandingan antara data analyst dan data scientist berdasarkan peran dan skillset, didapatkan beberapa kesimpulan sebagai berikut:</p>
+<ul>
+<li><p>Data Scientist berorientasi pada ranah riset dan akademis (research-oriented) sedangkan data analyst lebih berorientasi pada penerapan (application-oriented).</p>
+</li>
+<li><p>Data scientist diharapkan memprediksi kejadian di masa depan sedangkan data analyst mengekstraksi insight yang berguna dari data.</p>
+</li>
+<li><p>Data Scientist mengembangkan pertanyaan mereka sendiri sedangkan data analyst menemukan jawaban atas pertanyaan yang diberikan.</p>
+</li>
+<li><p>Data scientist menjawab pertanyaan <strong><em>“what is going to happen?”</em></strong>, sedangkan data analyst menjawab pertanyaan <strong><em>“what has happened so far”</em></strong>.</p>
+</li>
+</ul>
+<p><strong>Referensi :</strong></p>
+<p>[1] [Python Data Analysis (Third Edition)</p>
+
+<tr>
+<td>Role</td>
+<td>Memformulasikan pertanyaan bisnis sehingga mendapatkan profit.</td>
+<td>Memecahkan pertanyaan bisnis untuk membuat keputusan.</td>
+</tr>
+<tr>
+<td>Type of Data</td>
+<td>Bekerja pada data terstruktur dan tidak terstruktur</td>
+<td>Hanya bekerja pada data terstruktur</td>
+</tr>
+<tr>
+<td>Skillset</td>
+<td>Pengetahuan tentang statistik, machine learning, deep learning.</td>
+<td>Pengetahuan tentang statistik, SQL, dan visualisasi data.</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>R, Python, SAS, Hadoop, Spark, Tensorflow, dan Keras</td>
+<td>Excel, SQL, R, Tableau, dan Qlikview</td>
+</tr>
+</tbody></table>
+<p><strong>Skillset data analyst dan data scientist</strong></p>
+<p>Data analyst adalah seseorang yang menemukan <em>insight</em> dan menghasilkan <em>value</em> dari data untuk membantu <em>decision-makers</em> membuat keputusan. Oleh karena itu skillset yang harus dikuasai seorang data analyst sebagai berikut:</p>
+<ul>
+<li><p><strong><em>Exploratory Data Analysis (EDA):</em></strong> EDA digunakan untuk membantu pengecekan data, menemukan pola, menguji hipotesis dan asumsi. Oleh karena itu skill EDA hal yang sangat krusial untuk seorang data analyst.</p>
+</li>
+<li><p><strong><em>Relational Database:</em></strong> SQL diwajibkan untuk seorang data analyst untuk bekerja pada database relasional. Setidaknya menguasai satu tool seperti MySQL atau PostgreSQL.</p>
+</li>
+<li><p><strong><em>Visualization Tools:</em></strong> Pada hakikatnya seseorang lebih mudah melihat data dalam bentuk visualisasi yang indah. Ada sebuah pepatah yang bilang “gambar lebih berbicara dari kata-kata”. Oleh karena itu seorang data analyst harus menguasai <em>visualization tools</em> seperti Tableau, QlikView, Power BI, dan sejenisnya.</p>
+</li>
+<li><p><strong><em>Spreadsheet:</em></strong> Pengetahuan tentang MS Excel, Google sheets, LibreOffice adalah wajib yang berfungsi untuk mengelola data dalam bentuk tabel.</p>
+</li>
+<li><p><strong><em>Storytelling dan skill presentasi:</em></strong> Skill dalam <em>storytelling</em> (bercerita) adalah skill yang sangat diperlukan. Karena seorang data analyst diharuskan dalam menyampaikan hasil dari analisisnya kepada stakeholder untuk membuat sebuah keputusan.</p>
+</li>
+</ul>
+<p>Disisi lain, Data scientist sendiri adalah seseorang yang memecahkan masalah menggunakan data. Lalu, Apakah sesederhana itu? Tentu tidak. Data scientist adalah profesi PaluGada (Apa yang lu mau gue ada) beberapa irisan profesi seperti data analyst, statistikawan, matematikawan, programmer, Machine Learning dan NLP Engineer melebur dalam diri data scientist. Inilah mengapa data science tidak bisa dipelajari dalam hitungan bulan. Menjadi data scientist memerlukan banyak effort dan kesabaran. Mempelajari data science adalah sebuah perjalanan. Berikut skillset yang harus dimiliki data scientist:</p>
+<ul>
+<li><p><strong><em>Matematika dan Statistika:</em></strong> Pengetahuan tentang matematika dan statistika diperlukan karena algoritma machine learning pondasinya adalah matematika dan statistika.</p>
+</li>
+<li><p><strong><em>Database:</em></strong> Dalam berinteraksi dengan database dibutuhkan alat komunikasi yaitu SQL. Seorang data scientist diharuskan menguasai SQL untuk berinteraksi dengan data.</p>
+</li>
+<li><p><strong><em>Machine Learning:</em></strong> Seorang data scientist perlu pengetahuan tentang teknik machine learning seperti teknik supervised dan unsupervised. Supervised sendiri seperti klasifikasi, regresi sedangkan unsupervised seperti klasterisasi dan dimensionality reduction.</p>
+</li>
+<li><p><strong><em>Programming Skill:</em></strong> Pemrograman membantu data scientist dalam mengotomatiskan solusi yang dibuat. Oleh karena itu pengetahuan tentang pemrograman dibutuhkan. Untuk saat ini bahasa pemrograman yang banyak dipakai pada bidang data science adalah Python dan R.</p>
+</li>
 <li><p>Storytelling dan skill presentasi: Mengkomunikasikan hasil dalam bentuk storytelling (cerita) melalui presentasi powerpoint.</p>
 </li>
 <li><p>Teknologi Big Data: Di zaman digital seperti sekarang data ada dimana-mana. Semua orang bisa menghasilkan data. Dengan banjirnya data lalu lahirlah konsep Big Data. Data Scientist sendiri perlu pengetahuan tentang Teknologi Big Data seperti Hadoop dan Spark untuk membantu mengembangkan solusi Big Data.</p>
