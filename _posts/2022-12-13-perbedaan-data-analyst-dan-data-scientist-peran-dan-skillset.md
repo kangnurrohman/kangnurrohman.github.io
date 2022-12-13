@@ -76,7 +76,7 @@ tags: [analisis data, teknologi]
 </li>
 <li><p><strong><em>Teknologi Big Data:</em></strong> Di zaman digital seperti sekarang data ada dimana-mana. Semua orang bisa menghasilkan data. Dengan banjirnya data lalu lahirlah konsep Big Data. Data Scientist sendiri perlu pengetahuan tentang Teknologi Big Data seperti Hadoop dan Spark untuk membantu mengembangkan solusi Big Data.</p>
 </li>
-<li><p><strong><em>Deep Learning Tools:</em></strong> Deep learning tools seperti Tensorflow, PyTorch dan Keras digunakan dalam bidang NLP dan Computer Vision.</p>
+<li><p><strong><em>Teknologi Deep Learning:</em></strong> Deep learning tools seperti Tensorflow, PyTorch dan Keras digunakan dalam bidang NLP dan Computer Vision.</p>
 </li>
 </ul>
 <h2 class="atx" id="kesimpulan">Kesimpulan</h2>
