@@ -48,7 +48,7 @@ tags: [analisis data, teknologi]
 <td>Excel, SQL, R, Tableau, dan Qlikview</td>
 </tr>
 </tbody></table>
-<p><strong>Skillset data analyst dan data scientist</strong></p>
+<h2 class="atx" id="skillset-data-analyst-dan-data-scientist"><strong>Skillset data analyst dan data scientist</strong></h2>
 <p>Data analyst adalah seseorang yang menemukan <em>insight</em> dan menghasilkan <em>value</em> dari data untuk membantu <em>decision-makers</em> membuat keputusan. Oleh karena itu skillset yang harus dikuasai seorang data analyst sebagai berikut:</p>
 <ul>
 <li><p><strong><em>Exploratory Data Analysis (EDA):</em></strong> EDA digunakan untuk membantu pengecekan data, menemukan pola, menguji hipotesis dan asumsi. Oleh karena itu skill EDA hal yang sangat krusial untuk seorang data analyst.</p>
