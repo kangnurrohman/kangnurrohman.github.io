@@ -4,9 +4,12 @@
 		<a href="{{ site.url }}"><img src="{{site.author.picture}}" class="profile-image"></a>
 		<div class="profile-about">
 			<h2 style="margin-bottom: 0; font-weight: 700;">{{site.author.name}}</h2>
-			{% if site.author.kaggle %}
-				<a href="https://kaggle.com/{{site.author.kaggle}}" target="_blank"><img src="assets/images/icon/kaggle.svg" class="social-icon"></a>
+			{% if site.author.facebook %}
+				<a href="https://kaggle.com/{{site.author.facebook}}" target="_blank"><img src="assets/images/icon/facebook.svg" class="social-icon"></a>
 			{% endif %}
+			<!-- {% if site.author.kaggle %}
+				<a href="https://kaggle.com/{{site.author.kaggle}}" target="_blank"><img src="assets/images/icon/kaggle.svg" class="social-icon"></a>
+			{% endif %} -->
 			{% if site.author.twitter %}
 				<a href="https://twitter.com/{{site.author.twitter}}" target="_blank"><img src="assets/images/icon/twitter.svg" class="social-icon"></a>
 			{% endif %}
