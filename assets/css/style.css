@@ -61,8 +61,8 @@ body {
   align-items: center;
   padding: 5px 10px;
   margin-bottom: 5px;
-  background: var(--bg-color);
-  /* border: 1px ridge var(--border-color); */
+  /* background: var(--bg-color);
+  border: 1px ridge var(--border-color); */
 }
 
 .post-list:hover {
@@ -89,7 +89,7 @@ body {
   padding: 5px 10px;
   margin-bottom: 5px;
   background: var(--bg-color);
-  border: 1px ridge var(--border-color);
+  /* border: 1px ridge var(--border-color); */
 }
 
 .post-header .post-share {
