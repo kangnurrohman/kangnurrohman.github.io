@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Tentang saya"
 ---
 <div style="text-align: justify" class="w-100">
