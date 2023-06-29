@@ -1,12 +1,11 @@
 ---
-layout: default
-title: Tags
+layout: page
+title: Tags in Blog
 permalink: /tags/
 ---
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 <div class="w-100">
-	<h1>Tags in Blog</h1>
 	<div class="tags">
 		{% for item in (0..site.tags.size) %}{% unless forloop.last %}
 		{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
