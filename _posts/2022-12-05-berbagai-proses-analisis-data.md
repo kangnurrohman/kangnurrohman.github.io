@@ -3,7 +3,7 @@ title: "Berbagai Proses Analisis Data"
 date: 2022-12-05T00:00:00+00:00
 author: Kang Nur
 layout: post
-permalink: /berbagai-proses-analisis-data/
+permalink: /berbagai-proses-analisis-data
 image: "/assets/images/post/berbagai-proses-analisis-data/gambar1.jpg"
 description: "Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola"
 categories: Analisis Data
