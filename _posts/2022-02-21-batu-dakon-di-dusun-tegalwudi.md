@@ -3,7 +3,7 @@ title: "Batu Dakon di Dusun Tegalwudi"
 date: 2022-02-21T00:00:00+00:00
 author: Kang Nur
 layout: post
-permalink: /batu-dakon-di-dusun-tegalwudi/
+permalink: /batu-dakon-di-dusun-tegalwudi
 image: "/assets/images/post/batu-dakon-di-dusun-tegalwudi/gambar1.jpeg"
 description: "Sekitaran pertengahan Januari 2022, ketika saya lagi scroll-scroll beranda facebook, saya tidak sengaja menemukan sebuah postingan di facebook-nya mas Bayu Ari Wibowo. Salah satu postingan Mas Bayu menggelitik jari saya untuk segera mengklik postingan tersebut. Dan ternyata postingan tersebut mengarah pada desa saya dengan judul “Alas Bedewang”. Setelah saya baca sampai tuntas ternyata Disbudpar Banyuwangi menemukan sebuah Batu Dakon di Desa Bedewang, Songgon, Banyuwangi."
 categories: Situs
