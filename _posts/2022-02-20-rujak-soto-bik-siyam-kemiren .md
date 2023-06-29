@@ -3,7 +3,7 @@ title: "Rujak Soto Bik Siyam Kemiren"
 date: 2022-02-20T00:00:00+00:00
 author: Kang Nur
 layout: post
-permalink: /rujak-soto-bik-siyam-kemiren/
+permalink: /rujak-soto-bik-siyam-kemiren
 image: "/assets/images/post/rujak-soto-bik-siyam-kemiren/gambar2.jpeg"
 description: "Selain wisata, Banyuwangi juga terkenal akan kulinernya yang khas. Bermacam-macam kuliner yang unik banyak dijumpai di Banyuwangi. Salah satu kuliner yang unik di telinga orang luar Banyuwangi adalah rujak soto."
 categories: Kuliner
