@@ -34,8 +34,8 @@ window.addEventListener('scroll', function() {
         backToTop.style.backgroundColor = 'white';
         backToTop.style.color = 'black';
       } else {
-        backToTop.style.backgroundColor = 'black';
-        backToTop.style.color = 'white';
+        backToTop.style.backgroundColor = 'rgb(16, 23, 30)';
+        backToTop.style.color = 'rgb(191, 191, 191)';
       }
     }
 
