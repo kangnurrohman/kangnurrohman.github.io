@@ -30,7 +30,7 @@ window.addEventListener('scroll', function() {
     function updateButtonBackground() {
       var body = document.body;
       var backToTop = document.getElementById('backToTop');
-      if (getComputedStyle(body).getPropertyValue('background-color') === 'rgb(22, 31, 41)') {
+      if (getComputedStyle(body).getPropertyValue('background-color') === 'rgb(16, 23, 30)') {
         backToTop.style.backgroundColor = 'white';
         backToTop.style.color = 'black';
       } else {
