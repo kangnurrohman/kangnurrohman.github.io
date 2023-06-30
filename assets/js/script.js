@@ -20,11 +20,12 @@ window.addEventListener('scroll', function() {
       }
     });
 
-    function scrollToTop() {
+    function scrollToTop(event) {
       window.scrollTo({
         top: 0,
         behavior: 'smooth'
       });
+						event.preventDefault();
     }
 
     function updateButtonBackground() {
