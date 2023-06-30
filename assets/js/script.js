@@ -11,10 +11,6 @@ function toggleNightMode(){
 	}
 }
 
-document.getElementById("backToTop").addEventListener("click", function(event) {
-  event.preventDefault();
-});
-
 window.addEventListener('scroll', function() {
       var backToTop = document.getElementById('backToTop');
       if (window.pageYOffset > 100) {
