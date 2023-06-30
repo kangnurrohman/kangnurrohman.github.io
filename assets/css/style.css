@@ -467,7 +467,7 @@ th {
 }
 
 .table-of-contents-link:hover {
-  color: #555;
+  color: var(--bg-hover-color);
 }
 
 .table-of-contents-icon {
