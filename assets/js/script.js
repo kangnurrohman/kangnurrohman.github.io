@@ -11,14 +11,17 @@ function toggleNightMode(){
 	}
 }
 
-window.addEventListener('scroll', function(event) {
+document.getElementById("backToTop").addEventListener("click", function(event) {
+  event.preventDefault();
+});
+
+window.addEventListener('scroll', function() {
       var backToTop = document.getElementById('backToTop');
       if (window.pageYOffset > 100) {
         backToTop.style.display = 'block';
       } else {
         backToTop.style.display = 'none';
       }
-						event.preventDefault();
     });
 
     function scrollToTop() {
