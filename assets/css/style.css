@@ -436,7 +436,7 @@ th {
 }
 
 .table-of-contents {
-  background-color: #f2f2f2;
+  background-color: var(--body-bg);
   padding: 10px;
   border-radius: 4px;
   font-size: 14px;
