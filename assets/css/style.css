@@ -396,3 +396,20 @@ th {
   transform: translateX(20px);
   transition: all 0.4s ease;
 }
+
+.footnote {
+  font-size: 0.8em;
+  vertical-align: super;
+  color: #999;
+  text-decoration: none;
+}
+
+.footnote:hover {
+  text-decoration: none;
+}
+
+.endnote {
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 10px;
+}
