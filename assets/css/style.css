@@ -363,7 +363,7 @@ th {
   cursor: pointer;
 }
 .mode:after {
-  content: "☀️";
+  content: "🌝";
   position: absolute;
   top: 0;
   left: 4px;
@@ -377,7 +377,7 @@ th {
   background: #0771ca;
 }
 .mode.active:after {
-  content: "🌛";
+  content: "🌚";
   transform: translateX(20px);
 }
 .mode.active span {
