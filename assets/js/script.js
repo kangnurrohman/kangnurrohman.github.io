@@ -1,3 +1,4 @@
+// switch dark mode
 function toggleNightMode(){
 	if(document.documentElement.getAttribute('data-theme') == 'light'){
 		document.documentElement.setAttribute('data-theme', 'dark');
@@ -11,6 +12,7 @@ function toggleNightMode(){
 	}
 }
 
+// back to top
 window.addEventListener('scroll', function() {
       var backToTop = document.getElementById('backToTop');
       if (window.pageYOffset > 100) {
@@ -27,7 +29,7 @@ window.addEventListener('scroll', function() {
       });
     }
 
-    function updateButtonBackground() {
+function updateButtonBackground() {
       var body = document.body;
       var backToTop = document.getElementById('backToTop');
       if (getComputedStyle(body).getPropertyValue('background-color') === 'rgb(16, 23, 30)') {
@@ -41,3 +43,11 @@ window.addEventListener('scroll', function() {
 
     window.addEventListener('DOMContentLoaded', updateButtonBackground);
     window.addEventListener('resize', updateButtonBackground);
+
+// collapse navbar
+function toggleContent(id) {
+      var element = document.getElementById(id);
+      element.classList.toggle("hidden");
+      var arrow = document.getElementById("arrow-" + id);
+      arrow.classList.toggle("collapsed");
+    }

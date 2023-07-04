@@ -397,6 +397,8 @@ th {
   transition: all 0.4s ease;
 }
 
+/* footnote */
+
 .footnote {
   font-size: 0.8em;
   vertical-align: super;
@@ -429,6 +431,8 @@ th {
   z-index: 999;
   transition: background-color 0.3s ease;
 }
+
+/* Back to top */
 
 .back-to-top:hover {
   background-color: black;
@@ -472,4 +476,37 @@ th {
 
 .table-of-contents-icon {
   margin-right: 5px;
+}
+
+/* collapse navbar */
+.arrow {
+  cursor: pointer;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow:before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.arrow.collapsed:before {
+  transform: rotate(-90deg);
+}
+
+.content {
+  display: block;
+  margin-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.arrow-right {
+  transform: rotate(90deg);
 }
