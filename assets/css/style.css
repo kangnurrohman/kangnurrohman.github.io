@@ -197,7 +197,7 @@ body {
 /* If the post is still a draft */
 
 .draft-message {
-  background-color: var(--bg-color);
+  background-color: var(--body-bg);
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -438,6 +438,8 @@ th {
   margin-top: 10px;
 }
 
+/* Back to top */
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -454,12 +456,12 @@ th {
   transition: background-color 0.3s ease;
 }
 
-/* Back to top */
-
 .back-to-top:hover {
   background-color: black;
   color: white;
 }
+
+/* table of content */
 
 .table-of-contents {
   background-color: var(--body-bg);
@@ -501,6 +503,7 @@ th {
 }
 
 /* collapse navbar */
+
 .arrow {
   cursor: pointer;
   margin-right: 10px;
