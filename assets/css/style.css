@@ -197,7 +197,7 @@ body {
 /* If the post is still a draft */
 
 .draft-message {
-  background-color: #f8f8f8;
+  background-color: var(--bg-color);
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -213,7 +213,7 @@ body {
 
 .draft-message p {
   font-size: 16px;
-  color: #666666;
+  color: var(--primary-font-color);
 }
 
 .post-tag {
