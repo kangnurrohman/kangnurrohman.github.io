@@ -72,11 +72,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
+ - scope:
       path: ""
-      type: "drafts"
+      type: "drafts" 
     values:
-      layout: "post"
+      layout: "draft"
 
 relative_links:
   enabled: true
