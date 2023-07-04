@@ -72,11 +72,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
- - scope:
-      path: ""
-      type: "drafts" 
-    values:
-      layout: "draft"
 
 relative_links:
   enabled: true
