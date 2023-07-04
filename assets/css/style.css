@@ -24,12 +24,6 @@ body {
   color: var(--primary-font-color);
   margin: 0;
   padding: 5px;
-  overflow: hidden;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-body::-webkit-scrollbar {
-  display: none;
 }
 .container {
   display: flex;
@@ -39,7 +33,6 @@ body::-webkit-scrollbar {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
 }
 .post-container {
   display: flex;
@@ -47,7 +40,6 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .footer {
