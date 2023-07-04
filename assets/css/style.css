@@ -495,7 +495,7 @@ th {
 }
 
 .arrow.collapsed:before {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 .content {
@@ -508,5 +508,5 @@ th {
 }
 
 .arrow-right {
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
