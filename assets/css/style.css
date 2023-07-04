@@ -300,7 +300,7 @@ figure figcaption {
 pre {
   font-size: 14px;
   max-width: 90vw;
-  overflow: auto;
+  overflow: hidden;
 }
 .social-icon {
   height: 24px;
