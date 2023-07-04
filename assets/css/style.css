@@ -33,6 +33,7 @@ body {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
 }
 .post-container {
   display: flex;
@@ -40,6 +41,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .footer {
@@ -300,7 +302,7 @@ figure figcaption {
 pre {
   font-size: 14px;
   max-width: 90vw;
-  overflow: hidden;
+  overflow: auto;
 }
 .social-icon {
   height: 24px;
