@@ -25,6 +25,9 @@ body {
   margin: 0;
   padding: 5px;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 .container {
   display: flex;
   flex-direction: row;
