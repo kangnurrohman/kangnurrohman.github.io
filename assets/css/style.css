@@ -202,7 +202,7 @@ body {
 
 .blog-post-content {
   width: 100%;
-  font-size: 18px;
+  font-size: 14px;
   text-align: justify;
 }
 
@@ -221,12 +221,12 @@ body {
 }
 
 .draft-message h2 {
-  font-size: 24px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 
 .draft-message p {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--primary-font-color);
 }
 
@@ -551,7 +551,7 @@ th {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
 }
 
