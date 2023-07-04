@@ -8,6 +8,7 @@ image: "/assets/images/post/batu-dakon-di-dusun-tegalwudi/gambar1.jpeg"
 description: "Sekitaran pertengahan Januari 2022, ketika saya lagi scroll-scroll beranda facebook, saya tidak sengaja menemukan sebuah postingan di facebook-nya mas Bayu Ari Wibowo. Salah satu postingan Mas Bayu menggelitik jari saya untuk segera mengklik postingan tersebut. Dan ternyata postingan tersebut mengarah pada desa saya dengan judul “Alas Bedewang”. Setelah saya baca sampai tuntas ternyata Disbudpar Banyuwangi menemukan sebuah Batu Dakon di Desa Bedewang, Songgon, Banyuwangi."
 categories: Situs
 tags: [situs, banyuwangi, suku using]
+published: true
 ---
 Sekitaran pertengahan Januari 2022, ketika lagi scroll-scroll beranda facebook, saya tidak sengaja menemukan sebuah postingan di facebook-nya mas <a style="color:green" href="https://www.facebook.com/j.ariwibowo.5">Bayu Ari Wibowo</a>. Salah satu postingan Mas Bayu menggelitik jari saya untuk segera mengklik postingan tersebut. Dan ternyata postingan tersebut mengarah pada desa saya dengan judul <a style="color:green" href="https://www.facebook.com/j.ariwibowo.5/posts/1317976108719089">“Alas Bedewang”</a>. Setelah saya baca sampai tuntas ternyata Disbudpar Banyuwangi menemukan sebuah Batu Dakon di Desa Bedewang, Songgon, Banyuwangi.
 

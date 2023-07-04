@@ -8,6 +8,7 @@ image: "/assets/images/post/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gamb
 description: "Di Dusun Rembang atau yang biasa disebut “Rembang Village” terdapat sebuah wisata yaitu “Omah Ranting”. Omah ranting terletak di sebuah komplek perkebunan pinus yang dikelola oleh perhutani. Berawal dari hutan pinus pada umumnya hingga disulap menjadi perkebunan pinus yang instagramable."
 categories: Wisata
 tags: [wisata alam, banyuwangi]
+published: true
 ---
 Mendengar kata Rembang, pasti di benak kita langsung mengarah ke salah satu kabupaten di Jawa Tengah. Namun, Rembang yang ini merupakan salah satu dusun yang terletak di Desa Banjar, Licin, Banyuwangi. Ya Rembang, dusun yang sudah bangun dari tidurnya ini telah berhasil memikat banyak hati para wisatawan, mulai dari kuliner, keindahan dusunnya dan wisatanya.
 

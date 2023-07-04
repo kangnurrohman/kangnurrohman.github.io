@@ -8,6 +8,7 @@ image: "/assets/images/post/perbedaan-data-analyst-dan-data-scientist-peran-dan-
 description: "Seperti yang kita ketahui masih banyak mispersepsi di masyarakat dalam membedakan Data analyst dan Data Scientist, terutama pemula."
 categories: Analisis Data
 tags: [analisis data, teknologi]
+published: true
 ---
 <p>Seperti yang kita ketahui masih banyak mispersepsi di masyarakat dalam membedakan Data analyst dan Data Scientist, terutama pemula. Memang jika kita mengacu pada industri antara istilah dan job desk-nya tergantung perusahaan masing-masing. Namun, pada artikel ini menjelaskan perbedaan Data analyst dan Data Scientist berdasarkan Peran dan Skillset-nya.</p>
 <p>Sebelum membahas perbedaan Data analyst dan Data Scientist kita harus tau dulu apa itu data analysis dan data science. Data analysis adalah proses mengeksplorasi data untuk menemukan pola dengan tujuan membantu membuat keputusan bisnis <em>(business decisions)</em>. Data analysis ini salah satu subdomain dari data science. Data analysis mengekstrak data dari berbagai sumber, memvisualisasikan data, membuat laporan, dan mempresentasikan kepada stakeholder/pembuat keputusan.</p>

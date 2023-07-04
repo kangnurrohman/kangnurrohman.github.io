@@ -8,6 +8,7 @@ image: "/assets/images/post/berbagai-proses-analisis-data/gambar1.jpg"
 description: "Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola"
 categories: Analisis Data
 tags: [analisis data, teknologi]
+published: true
 ---
 <p>Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola <em>(pattern)</em> dan wawasan <em>(insight)</em>. Ada berbagai proses analisis data, seperti: <strong>Proses Standar Analisis Data</strong>, <strong>Proses KDD</strong>, <strong>Proses SEMMA</strong>, dan yang lebih sering didengar yaitu <strong>Proses CRISP-DM</strong>. Berikut untuk penjelasan lebih detailnya:</p>
 <ol>
