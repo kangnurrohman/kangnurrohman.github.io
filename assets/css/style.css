@@ -25,6 +25,11 @@ body {
   margin: 0;
   padding: 5px;
   overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 .container {
   display: flex;
