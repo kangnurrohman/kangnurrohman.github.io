@@ -194,6 +194,28 @@ body {
   text-align: justify;
 }
 
+/* If the post is still a draft */
+
+.draft-message {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.draft-message-inner {
+  text-align: center;
+}
+
+.draft-message h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.draft-message p {
+  font-size: 16px;
+  color: #666666;
+}
+
 .post-tag {
   background: var(--bg-color);
   color: var(--primary-font-color);
