@@ -76,7 +76,7 @@ function toggleContent(id) {
 
 // Estimate Reading Time
   document.addEventListener("DOMContentLoaded", function() {
-    var content = document.getElementsByClassName("post-content")[0];
+    var content = document.getElementsByClassName("blog-post-content")[0];
     var words = content.innerText.split(' ').length;
     var readingTime = Math.ceil(words / 200); // Estimasi waktu membaca dengan kecepatan 200 kata per menit
     var readingTimeText = readingTime + " menit membaca";
