@@ -51,3 +51,20 @@ function toggleContent(id) {
       var arrow = document.getElementById("arrow-" + id);
       arrow.classList.toggle("collapsed");
     }
+
+// View count
+  // Membaca jumlah tampilan dari Local Storage
+  var viewCount = localStorage.getItem('viewCount');
+
+  // Periksa apakah sudah ada data viewCount di Local Storage
+  if (viewCount) {
+    viewCount = parseInt(viewCount) + 1;
+  } else {
+    viewCount = 1;
+  }
+
+  // Simpan jumlah tampilan terbaru ke Local Storage
+  localStorage.setItem('viewCount', viewCount);
+
+  // Perbarui tampilan di elemen dengan ID "countNumber"
+  document.getElementById('countNumber').innerHTML = viewCount;
