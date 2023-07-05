@@ -53,18 +53,23 @@ function toggleContent(id) {
     }
 
 // View count
-  // Membaca jumlah tampilan dari Local Storage
-  var viewCount = localStorage.getItem('viewCount');
+ // Mendapatkan URL unik untuk posting saat ini
+  var postUrl = window.location.href;
 
-  // Periksa apakah sudah ada data viewCount di Local Storage
-  if (viewCount) {
-    viewCount = parseInt(viewCount) + 1;
-  } else {
-    viewCount = 1;
+  // Cek apakah jumlah tampilan sudah ada dalam localStorage
+  if (!localStorage.getItem(postUrl)) {
+    // Jika belum ada, inisialisasi dengan 0
+    localStorage.setItem(postUrl, 0);
   }
 
-  // Simpan jumlah tampilan terbaru ke Local Storage
-  localStorage.setItem('viewCount', viewCount);
+  // Mendapatkan jumlah tampilan dari localStorage
+  var viewCount = parseInt(localStorage.getItem(postUrl));
 
-  // Perbarui tampilan di elemen dengan ID "countNumber"
+  // Meningkatkan jumlah tampilan
+  viewCount++;
+
+  // Menyimpan kembali jumlah tampilan yang sudah ditingkatkan
+  localStorage.setItem(postUrl, viewCount);
+
+  // Menampilkan jumlah tampilan di elemen HTML dengan ID 'countNumber'
   document.getElementById('countNumber').innerHTML = viewCount;
