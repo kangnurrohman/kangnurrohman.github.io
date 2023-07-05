@@ -73,3 +73,14 @@ function toggleContent(id) {
 
   // Menampilkan jumlah tampilan di elemen HTML dengan ID 'countNumber'
   document.getElementById('countNumber').innerHTML = viewCount;
+
+// Estimate Reading Time
+  document.addEventListener("DOMContentLoaded", function() {
+    var content = document.getElementsByClassName("post-content")[0];
+    var words = content.innerText.split(' ').length;
+    var readingTime = Math.ceil(words / 200); // Estimasi waktu membaca dengan kecepatan 200 kata per menit
+    var readingTimeText = readingTime + " menit membaca";
+
+    var readingTimeElement = document.getElementById("reading-time");
+    readingTimeElement.innerText = readingTimeText;
+  });
