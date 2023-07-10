@@ -140,5 +140,10 @@ CRISP-DM adalah akronim dari <em>Cross-Industry Process for Data Mining</em>. CR
 <li><p><strong>Proses CRISP-DM</strong> tujuan utamanya adalah memahami dan mengembangkan bisnis.</p>
 </li>
 </ol>
-<p><strong>Referensi :</strong></p>
-<p>[1] <a href="https://www.amazon.com/Python-Data-Analysis-collection-visualization-ebook/dp/B0859CVGB4">Python Data Analysis (Third Edition)</a></p>
+
+#### **Referensi :**
+<div class="endnote">
+    <ol>
+      <li><a style="color:green" href="https://www.amazon.com/Python-Data-Analysis-collection-visualization-ebook/dp/B0859CVGB4">Python Data Analysis (Third Edition)</a></li>
+    </ol>
+  </div>
