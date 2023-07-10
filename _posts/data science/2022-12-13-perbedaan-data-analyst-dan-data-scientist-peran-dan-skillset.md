@@ -92,5 +92,10 @@ published: true
 <li><p>Data scientist menjawab pertanyaan <strong><em>“what is going to happen?”</em></strong>, sedangkan data analyst menjawab pertanyaan <strong><em>“what has happened so far”</em></strong>.</p>
 </li>
 </ul>
-<p><strong>Referensi :</strong></p>
-<p>[1] <a href="https://www.amazon.com/Python-Data-Analysis-collection-visualization-ebook/dp/B0859CVGB4">Python Data Analysis (Third Edition)</a></p>
+
+#### **Referensi :**
+<div class="endnote">
+    <ol>
+      <li><a style="color:green" href="https://www.amazon.com/Python-Data-Analysis-collection-visualization-ebook/dp/B0859CVGB4">Python Data Analysis (Third Edition)</a></li>
+    </ol>
+  </div>
