@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Tentang saya"
+permalink: /tentang/
 ---
 <div style="text-align: justify" class="w-100">
 	<p>Hi ✋, Saya Moh. Ainur Rohman biasa dipanggil Kang Nur. Saya dari Banyuwangi, Jawa Timur. Suka main, suka njajan dan suka hal yang berbau budaya terutama budaya Banyuwangi. Bidang dan riset saya adalah Artificial Intelligence, Machine Learning dan Deep Learning karena kebetulan S2 saya Informatika bidang kajian Data Science</p>
