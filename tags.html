@@ -9,7 +9,7 @@ permalink: /topik/
 	<div class="tags">
 		{% for item in (0..site.tags.size) %}{% unless forloop.last %}
 		{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-			<a href="tags/#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a>
+			<a href="topik/#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a>
 		{% endunless %}{% endfor %}
 	</div>
 </div>
