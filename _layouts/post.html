@@ -9,7 +9,9 @@ layout: default
 ></script>
 {% endif %}
 <div class="post-header">
-  <div class="post-date">{{ page.date | date: "%d.%m.%Y" }}</div>
+  <div class="post-date">
+    {{ page.date | date: "%A, %d %B %Y" | replace: "Monday", "Senin" | replace: "Tuesday", "Selasa" | replace: "Wednesday", "Rabu" | replace: "Thursday", "Kamis" | replace: "Friday", "Jumat" | replace: "Saturday", "Sabtu" | replace: "Sunday", "Minggu" }}
+  </div>
   <div class="post-share">
     Share:&nbsp;
     <a
