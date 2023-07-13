@@ -80,11 +80,4 @@ relative_links:
 # Format tanggal
 date_format: "%A, %d %B %Y"
 
-# Nama-nama bulan dalam bahasa Indonesia
-month_names: [Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember]
-
-# Nama-nama hari dalam bahasa Indonesia
-day_names: [Minggu, Senin, Selasa, Rabu, Kamis, Jumat, Sabtu]
-
-
 
