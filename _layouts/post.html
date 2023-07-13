@@ -10,7 +10,7 @@ layout: default
 {% endif %}
 <div class="post-header">
   <div class="post-date">
-    {{ page.date | date: "%A, %d %B %Y" | replace: "Monday", "Senin" | replace: "Tuesday", "Selasa" | replace: "Wednesday", "Rabu" | replace: "Thursday", "Kamis" | replace: "Friday", "Jumat" | replace: "Saturday", "Sabtu" | replace: "Sunday", "Minggu" }}
+    {{ page.date | date: "%A, %d %B %Y" | replace: page.date | date: "%B", "{{ site.month_names[page.date | date: "%-m"] }}" | replace: page.date | date: "%a", "{{ site.day_names_short[page.date | date: "%w"] }}" }}
   </div>
   <div class="post-share">
     Share:&nbsp;
