@@ -8,14 +8,15 @@ layout: default
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ></script>
 {% endif %}
-  <div class="post-header">
-    <div class="post-date">
+<div class="post-header">
+  <div class="post-date">
     {% assign month_number = page.date | date: "%m" | minus: 1 %}
     {% assign month_name = site.month_names[month_number] %}
     {% assign day_name = site.day_names[page.date | date: "%u" | minus: 1] %}
     
-    {{ day_name }}, {{ page.date | date: "%d" }} {{ month_name }} {{ page.date | date: "%Y" }}
+    {{ day_name }}, {{ page.date | date: "%e" }} {{ month_name }} {{ page.date | date: "%Y" }}
   </div>
+
   <div class="post-share">
     Share:&nbsp;
     <a
