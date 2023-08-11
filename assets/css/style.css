@@ -574,7 +574,6 @@ th {
 }
 
 /* highlight code */
-
 #code-container {
   position: relative;
 }
@@ -582,8 +581,8 @@ th {
 #copy-button {
   display: none;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   padding: 5px 10px;
   background-color: #f0f0f0;
   border: none;
@@ -592,13 +591,20 @@ th {
   color: #666;
 }
 
-#code-container:hover #copy-button {
-  display: block;
+@media (hover: hover) {
+
+  /* Apply styles only for devices that support hover (non-touch devices) */
+  #code-container:hover #copy-button {
+    display: block;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+
+  /* Adjust styles for smaller devices */
   #copy-button {
-    font-size: 12px;
-    padding: 3px 6px;
+    top: 5px;
+    right: 5px;
+    padding: 3px 8px;
   }
 }
