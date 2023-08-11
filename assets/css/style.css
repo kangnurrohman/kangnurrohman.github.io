@@ -581,7 +581,7 @@ th {
 #copy-button {
   display: block;
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 10px;
   padding: 5px 10px;
   background-color: #f0f0f0;
