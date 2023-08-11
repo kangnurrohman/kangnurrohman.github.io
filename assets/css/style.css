@@ -593,7 +593,7 @@ th {
 @media (max-width: 768px) {
   #copy-button {
     top: 20px;
-    right: 40px;
+    right: 20px;
   }
 }
 
