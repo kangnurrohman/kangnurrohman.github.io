@@ -10,7 +10,7 @@ published: true
 <h2>Cara bekerja dengan conda environment</h2>
 
 <div id="code-container">
- <button id="copy-button"><i class="fas fa-copy"></i> Salin</button>
+ <button id="copy-button"><i class="fas fa-copy"></i> Salin kode</button>
  <pre>
   <code class="bash">
    package                 |            build

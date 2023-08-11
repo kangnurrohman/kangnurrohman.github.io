@@ -111,11 +111,11 @@ document.addEventListener("DOMContentLoaded", highlightcode => {
         document.body.removeChild(textarea);
 
         // Update the button text
-        copyButton.innerHTML = "<i class='fas fa-copy'></i> Terkopi!";
+        copyButton.innerHTML = "<i class='fas fa-copy'></i> Tersalin!";
         
         // Reset button text after a delay
         setTimeout(function() {
-          copyButton.innerHTML = "<i class='fas fa-copy'></i> Salin";
+          copyButton.innerHTML = "<i class='fas fa-copy'></i> Salin kode";
         }, 1500);
       });
     });
