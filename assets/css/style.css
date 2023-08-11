@@ -581,8 +581,6 @@ th {
 #copy-button {
   display: block;
   position: absolute;
-  top: 20px;
-  right: 10px;
   padding: 5px 10px;
   background-color: #f0f0f0;
   border: none;
@@ -591,11 +589,34 @@ th {
   color: #666;
 }
 
+/* Adjust styles for devices with width up to 768px */
 @media (max-width: 768px) {
-  /* Adjust styles for smaller devices */
   #copy-button {
     top: 20px;
     right: 60px;
-    padding: 3px 8px;
+  }
+}
+
+/* Adjust styles for devices with width between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #copy-button {
+    top: 20px;
+    right: 0px;
+  }
+}
+
+/* Adjust styles for devices with width between 1025px and 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  #copy-button {
+    top: 20px;
+    right: 0px;
+  }
+}
+
+/* Adjust styles for devices with width above 1440px */
+@media (min-width: 1441px) {
+  #copy-button {
+    top: 20px;
+    right: 0px;
   }
 }
