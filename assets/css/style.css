@@ -594,8 +594,8 @@ th {
 @media (max-width: 768px) {
   /* Adjust styles for smaller devices */
   #copy-button {
-    top: 5px;
-    right: 5px;
+    top: 20px;
+    right: 60px;
     padding: 3px 8px;
   }
 }
