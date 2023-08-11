@@ -12,7 +12,7 @@ published: true
 <div id="code-container">
  <button id="copy-button"><i class="fas fa-copy"></i> Salin</button>
  <pre>
-  <code>
+  <code class="bash">
    package                 |            build
 ---------------------------|-----------------
 certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
