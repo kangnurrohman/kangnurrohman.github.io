@@ -595,3 +595,10 @@ th {
 #code-container:hover #copy-button {
   display: block;
 }
+
+@media (max-width: 480px) {
+  #copy-button {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+}
