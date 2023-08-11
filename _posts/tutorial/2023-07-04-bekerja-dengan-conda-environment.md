@@ -12,7 +12,7 @@ published: true
 <div id="code-container">
  <button id="copy-button"><i class="fas fa-copy"></i> Salin</button>
  <pre>
-  <code class="python">
+  <code>
    conda create --name project_data_science python=3.5
   </code>
  </pre>
