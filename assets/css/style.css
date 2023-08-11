@@ -575,26 +575,23 @@ th {
 
 /* highlight code */
 
-.code-container {
+#code-container {
   position: relative;
 }
 
-.copy-button {
+#copy-button {
   display: none;
   position: absolute;
   top: 10px;
   right: 10px;
+  padding: 5px 10px;
   background-color: #f0f0f0;
   border: none;
-  padding: 5px 10px;
+  border-radius: 4px;
   cursor: pointer;
   color: #666;
 }
 
-.copy-button:hover {
-  background-color: #ddd;
-}
-
-.code-container:hover .copy-button {
+#code-container:hover #copy-button {
   display: block;
 }

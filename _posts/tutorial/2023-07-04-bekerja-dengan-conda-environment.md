@@ -9,13 +9,11 @@ published: true
 
 <h2>Cara bekerja dengan conda environment</h2>
 
-<div class="code-container">
- <button class="copy-button" onclick="copyToClipboard(this)">
-  <i class="fas fa-copy"></i> Salin Kode
- </button>
+<div id="code-container">
+ <button id="copy-button"><i class="fas fa-copy"></i> Salin</button>
  <pre>
-  <code id="code">
-   conda create --name &lt;name_env&gt; &lt;package&gt;=&lt;version&gt;
+  <code class="python">
+   conda create --name project_data_science python=3.5
   </code>
  </pre>
 </div>
