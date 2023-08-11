@@ -52,7 +52,7 @@ function toggleContent(id) {
       arrow.classList.toggle("collapsed");
     }
 
-// View count
+// view count
  // Mendapatkan URL unik untuk posting saat ini
   var postUrl = window.location.href;
 
@@ -84,3 +84,19 @@ function toggleContent(id) {
     var readingTimeElement = document.getElementById("reading-time");
     readingTimeElement.innerText = readingTimeText;
   });
+
+// highlight code
+function copyToClipboard(button) {
+      const codeElement = document.getElementById("code");
+      const codeText = codeElement.textContent;
+      const textarea = document.createElement("textarea");
+      textarea.value = codeText;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      button.innerHTML = '<i class="fas fa-check"></i> Disalin!';
+      setTimeout(() => {
+        button.innerHTML = '<i class="fas fa-copy"></i> Salin Kode';
+      }, 2000);
+    }
