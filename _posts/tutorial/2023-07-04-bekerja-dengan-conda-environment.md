@@ -13,7 +13,7 @@ published: true
  <button id="copy-button"><i class="fas fa-copy"></i> Salin</button>
  <pre>
   <code>
-   package                    |            build
+   package                 |            build
 ---------------------------|-----------------
 certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
 pip-10.0.1                 |           py35_0         1.6 MB
