@@ -591,14 +591,6 @@ th {
   color: #666;
 }
 
-@media (hover: hover) {
-
-  /* Apply styles only for devices that support hover (non-touch devices) */
-  #code-container:hover #copy-button {
-    display: block;
-  }
-}
-
 @media (max-width: 768px) {
 
   /* Adjust styles for smaller devices */
