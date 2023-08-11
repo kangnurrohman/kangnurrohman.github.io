@@ -15,7 +15,7 @@ published: true
  </button>
  <pre>
   <code id="code">
-   conda create --name <name_env> <package>=<version>
+   conda create --name &lt;name_env&gt; &lt;package&gt;=&lt;version&gt;
   </code>
  </pre>
 </div>
