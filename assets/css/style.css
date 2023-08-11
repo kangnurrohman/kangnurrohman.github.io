@@ -582,7 +582,7 @@ th {
   display: block;
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 15px;
   padding: 5px 10px;
   background-color: #f0f0f0;
   border: none;
@@ -591,11 +591,11 @@ th {
   color: #666;
 }
 
-    @media (max-width: 768px) {
-      /* Adjust styles for smaller devices */
-      #copy-button {
-        top: 5px;
-        right: 5px;
-        padding: 3px 8px;
-      }
-    }
+@media (max-width: 768px) {
+  /* Adjust styles for smaller devices */
+  #copy-button {
+    top: 5px;
+    right: 5px;
+    padding: 3px 8px;
+  }
+}
