@@ -86,36 +86,31 @@ function toggleContent(id) {
   });
 
 // highlight code
-document.addEventListener("DOMContentLoaded", highlightcode => {
+ document.addEventListener("DOMContentLoaded", highlightcode => {
       // Initialize highlight.js
       hljs.initHighlightingOnLoad();
 
       // Get the code element
-      var codeElement = document.querySelector("code");
+      var codeElement = document.getElementById("code");
 
       // Get the copy button
       var copyButton = document.getElementById("copy-button");
 
       // Add click event to the copy button
       copyButton.addEventListener("click", function() {
-        // Create a textarea to hold the code
         var textarea = document.createElement("textarea");
         textarea.value = codeElement.innerText;
         document.body.appendChild(textarea);
 
-        // Select and copy the content
         textarea.select();
         document.execCommand("copy");
 
-        // Remove the textarea
         document.body.removeChild(textarea);
 
-        // Update the button text
-        copyButton.innerHTML = "<i class='fas fa-copy'></i> Tersalin!";
+        copyButton.innerHTML = "<i class='fas fa-copy'></i> Terkopi!";
         
-        // Reset button text after a delay
         setTimeout(function() {
-          copyButton.innerHTML = "<i class='fas fa-copy'></i> Salin kode";
+          copyButton.innerHTML = "<i class='fas fa-copy'></i> Salin";
         }, 1500);
       });
     });

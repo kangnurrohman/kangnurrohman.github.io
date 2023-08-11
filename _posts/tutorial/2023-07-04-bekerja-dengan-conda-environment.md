@@ -12,7 +12,7 @@ published: true
 <div id="code-container">
  <button id="copy-button"><i class="fas fa-copy"></i> Salin kode</button>
  <pre>
-  <code class="bash">
+  <code class="bash" id="code">
    package                 |            build
 ---------------------------|-----------------
 certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
@@ -25,4 +25,3 @@ wincertstore-0.2           |   py35hfebbdb8_0          14 KB
   </code>
  </pre>
 </div>
- 

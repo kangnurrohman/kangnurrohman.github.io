@@ -579,7 +579,7 @@ th {
 }
 
 #copy-button {
-  display: none;
+  display: block;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -589,14 +589,4 @@ th {
   border-radius: 4px;
   cursor: pointer;
   color: #666;
-}
-
-@media (max-width: 768px) {
-
-  /* Adjust styles for smaller devices */
-  #copy-button {
-    top: 5px;
-    right: 5px;
-    padding: 3px 8px;
-  }
 }
