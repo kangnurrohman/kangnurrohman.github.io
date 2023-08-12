@@ -589,11 +589,27 @@ th {
   color: #666;
 }
 
-/* Adjust styles for devices with width up to 768px */
-@media (max-width: 768px) {
+/* Adjust styles for devices with width between 241px and 319px */
+@media (min-width: 241px) and (max-width: 319px) {
   #copy-button {
     top: 20px;
-    right: 20px;
+    right: 5px;
+  }
+}
+
+/* Adjust styles for devices with width between 321px and 480px */
+@media (min-width: 321px) and (max-width: 480px) {
+  #copy-button {
+    top: 20px;
+    right: 55px;
+  }
+}
+
+/* Adjust styles for devices with width between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  #copy-button {
+    top: 20px;
+    right: 30px;
   }
 }
 
@@ -601,7 +617,7 @@ th {
 @media (min-width: 769px) and (max-width: 1024px) {
   #copy-button {
     top: 20px;
-    right: 0px;
+    right: 5px;
   }
 }
 
@@ -609,7 +625,7 @@ th {
 @media (min-width: 1025px) and (max-width: 1440px) {
   #copy-button {
     top: 20px;
-    right: 0px;
+    right: 5px;
   }
 }
 
@@ -617,6 +633,6 @@ th {
 @media (min-width: 1441px) {
   #copy-button {
     top: 20px;
-    right: 0px;
+    right: 5px;
   }
 }
