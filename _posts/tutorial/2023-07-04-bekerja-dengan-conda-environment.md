@@ -4,7 +4,7 @@ date: 2023-08-11T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /bekerja-dengan-conda-environment/
-published: true
+published: false
 ---
 
 <h2>Cara bekerja dengan conda environment</h2>
@@ -54,7 +54,7 @@ published: true
   <code id="code" class="bash">
 
    conda env list
-   
+
   </code>
   </pre>
 </div>
