@@ -16,8 +16,6 @@ published: true
   <pre>
   <code id="code" class="">
 
-   
-
       name: coba_env
       channels:
       - conda-forge
@@ -47,6 +45,7 @@ published: true
         # Machine Learning
         - jcopml==1.2.0
         - luwiji==1.2.0
+  
   </code>
   </pre>
 </div>
