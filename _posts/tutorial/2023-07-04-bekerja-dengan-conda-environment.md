@@ -23,7 +23,9 @@ published: true
   </button>
   <pre>
   <code id="code" class="bash">
+
    conda create --name project_data_science python=3.5
+
   </code>
   </pre>
 </div>
@@ -50,7 +52,9 @@ published: true
   </button>
   <pre>
   <code id="code" class="bash">
+
    conda env list
+   
   </code>
   </pre>
 </div>
