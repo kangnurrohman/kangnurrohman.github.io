@@ -15,37 +15,34 @@ published: true
   </button>
   <pre>
   <code id="code" class="">
+name: coba_env
+channels:
+- conda-forge
+- anaconda 
+dependencies:
+# Essential
+- python==3.9
+- nb_conda_kernels==2.3.1
+- pip==22.2.1
+- ipython==8.4.0
+- tqdm==4.64.0
+# Data Science
+- numpy==1.23.1
+- scipy==1.8.1
+- pandas==1.4.3
+# Machine Learning
+- scikit-learn==1.0.2
+- xgboost==1.5.1
+- scikit-optimize==0.9.0
+# Visualization
+- matplotlib==3.5.2
+- seaborn==0.11.2
+- ipywidgets==7.7.1
+- pip:
+  # Machine Learning
+  - jcopml==1.2.0
+  - luwiji==1.2.0
 
-      name: coba_env
-      channels:
-      - conda-forge
-      - anaconda 
-
-      dependencies:
-      # Essential
-      - python==3.9
-      - nb_conda_kernels==2.3.1
-      - pip==22.2.1
-      - ipython==8.4.0
-      - tqdm==4.64.0
-      # Data Science
-      - numpy==1.23.1
-      - scipy==1.8.1
-      - pandas==1.4.3
-      # Machine Learning
-      - scikit-learn==1.0.2
-      - xgboost==1.5.1
-      - scikit-optimize==0.9.0
-      # Visualization
-      - matplotlib==3.5.2
-      - seaborn==0.11.2
-      - ipywidgets==7.7.1
-
-      - pip:
-        # Machine Learning
-        - jcopml==1.2.0
-        - luwiji==1.2.0
-  
   </code>
   </pre>
 </div>
