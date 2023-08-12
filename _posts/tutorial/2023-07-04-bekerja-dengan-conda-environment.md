@@ -10,39 +10,58 @@ published: true
 <h2>Cara bekerja dengan conda environment</h2>
 
 <div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+   conda create --name &lt;name_env&gt; &lt;package&gt;=&lt;version&gt;
+  </code>
+  </pre>
+</div>
+
+<div class="code-container">
   <button class="copy-button" onclick="copyToClipboard(this)">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="">
-name: coba_env
-channels:
-- conda-forge
-- anaconda 
-dependencies:
-# Essential
-- python==3.9
-- nb_conda_kernels==2.3.1
-- pip==22.2.1
-- ipython==8.4.0
-- tqdm==4.64.0
-# Data Science
-- numpy==1.23.1
-- scipy==1.8.1
-- pandas==1.4.3
-# Machine Learning
-- scikit-learn==1.0.2
-- xgboost==1.5.1
-- scikit-optimize==0.9.0
-# Visualization
-- matplotlib==3.5.2
-- seaborn==0.11.2
-- ipywidgets==7.7.1
-- pip:
-  # Machine Learning
-  - jcopml==1.2.0
-  - luwiji==1.2.0
+  <code id="code" class="bash">
+   conda create --name project_data_science python=3.5
+  </code>
+  </pre>
+</div>
 
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+      package                 |            build
+   ---------------------------|-----------------
+   certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
+   pip-10.0.1                 |           py35_0         1.6 MB
+   python-3.5.6               |       he025d50_0        14.5 MB
+   setuptools-40.2.0          |           py35_0         497 KB
+   wincertstore-0.2           |   py35hfebbdb8_0          14 KB
+   ------------------------------------------------------------
+                                          Total:        16.7 MB
+  </code>
+  </pre>
+</div>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+   conda env list
+  </code>
+  </pre>
+</div>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+   # conda environments:
+   #
+   base                  *  C:\Users\Kang Nur\miniconda3
+   project_data_science     C:\Users\Kang Nur\miniconda3\envs\project_data_science
   </code>
   </pre>
 </div>
