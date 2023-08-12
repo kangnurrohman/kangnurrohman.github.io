@@ -589,10 +589,6 @@ th {
   border-radius: 4px;
 }
 
-.copy-button:hover {
-  background-color: #ddd;
-}
-
 .code-container:hover .copy-button {
   display: block;
 }
