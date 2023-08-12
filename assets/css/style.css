@@ -576,12 +576,12 @@ th {
 /* highlight code */
 .code-container {
   position: relative;
-  border-radius: 4px;
 }
 
 .copy-button {
   display: none;
   position: absolute;
+  background-color: #f0f0f0;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
