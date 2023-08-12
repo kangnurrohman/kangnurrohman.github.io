@@ -576,6 +576,7 @@ th {
 /* highlight code */
 .code-container {
   position: relative;
+  border-radius: 4px;
 }
 
 .copy-button {
