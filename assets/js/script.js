@@ -97,6 +97,6 @@ function copyToClipboard(button) {
       document.body.removeChild(textarea);
       button.innerHTML = '<i class="fas fa-check"></i> Disalin!';
       setTimeout(() => {
-        button.innerHTML = '<i class="fas fa-copy"></i> Salin Kode';
+        button.innerHTML = '<i class="fas fa-copy"></i> Salin';
       }, 2000);
     }

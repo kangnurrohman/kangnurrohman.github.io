@@ -11,7 +11,7 @@ published: true
 
 <div class="code-container">
   <button class="copy-button" onclick="copyToClipboard(this)">
-    <i class="fas fa-copy"></i> Salin Kode
+    <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
   <code id="code" class="">
