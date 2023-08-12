@@ -86,31 +86,17 @@ function toggleContent(id) {
   });
 
 // highlight code
- document.addEventListener("DOMContentLoaded", highlightcode => {
-      // Initialize highlight.js
-      hljs.initHighlightingOnLoad();
-
-      // Get the code element
-      var codeElement = document.getElementById("code");
-
-      // Get the copy button
-      var copyButton = document.getElementById("copy-button");
-
-      // Add click event to the copy button
-      copyButton.addEventListener("click", function() {
-        var textarea = document.createElement("textarea");
-        textarea.value = codeElement.innerText;
-        document.body.appendChild(textarea);
-
-        textarea.select();
-        document.execCommand("copy");
-
-        document.body.removeChild(textarea);
-
-        copyButton.innerHTML = "<i class='fas fa-copy'></i> Terkopi!";
-        
-        setTimeout(function() {
-          copyButton.innerHTML = "<i class='fas fa-copy'></i> Salin";
-        }, 1500);
-      });
-    });
+function copyToClipboard(button) {
+      const codeElement = document.getElementById("code");
+      const codeText = codeElement.textContent;
+      const textarea = document.createElement("textarea");
+      textarea.value = codeText;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      button.innerHTML = '<i class="fas fa-check"></i> Disalin!';
+      setTimeout(() => {
+        button.innerHTML = '<i class="fas fa-copy"></i> Salin Kode';
+      }, 2000);
+    }
