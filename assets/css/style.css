@@ -601,7 +601,7 @@ th {
 @media (min-width: 321px) and (max-width: 480px) {
   #copy-button {
     top: 20px;
-    right: 55px;
+    right: 30px;
   }
 }
 
@@ -609,7 +609,7 @@ th {
 @media (min-width: 481px) and (max-width: 768px) {
   #copy-button {
     top: 20px;
-    right: 30px;
+    right: 60px;
   }
 }
 
