@@ -14,7 +14,9 @@ published: true
     <i class="fas fa-copy"></i> Salin Kode
   </button>
   <pre>
-      <code id="code" class="">
+  <code id="code" class="">
+
+   
 
       name: coba_env
       channels:
@@ -45,7 +47,6 @@ published: true
         # Machine Learning
         - jcopml==1.2.0
         - luwiji==1.2.0
-
-      </code>
-   </pre>
+  </code>
+  </pre>
 </div>
