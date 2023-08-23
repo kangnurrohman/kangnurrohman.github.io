@@ -91,7 +91,7 @@ published: true
     # conda environments:
     #
     base                  *  C:\Users\Kang Nur\miniconda3
-    data_science_projects     C:\Users\Kang Nur\miniconda3\envs\data_science_projects
+    data_science_projects    C:\Users\Kang Nur\miniconda3\envs\data_science_projects
 
   </code>
   </pre>
@@ -296,7 +296,7 @@ published: true
   <pre>
   <code id="code" class="bash">
 
-    # packages in environment at C:\Users\Kang Nur\miniconda3\envs\project_data_science:
+    # packages in environment at C:\Users\Kang Nur\miniconda3\envs\data_science_projects:
     #
     # Name                    Version                   Build  Channel
     blas                      1.0                         mkl
@@ -372,6 +372,168 @@ published: true
 <p>Kemudian kita cek juga di jupyter notebook:</p>
 
 <figure>
-<img src="/assets/images/post/batu-dakon-di-dusun-tegalwudi/gambar1.jpeg">
-<figcaption>Gambar 1. batu dakon di dusun tegalwudi </figcaption>
+<img src="/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar1.jpg">
+<figcaption>Gambar 1. cek virtual environment di jupyter notebook </figcaption>
 </figure>
+
+<p>Jika sudah ada virtual environment yang sudah kita buat seperti pada gambar 1, maka kita berhasil mengintegrasikan virtual environment dengan jupyter notebook.</p>
+
+</li>
+
+<li>
+
+<p><strong>Membuat virtual environment sekaligus menginstall package yang dibutuhkan</strong></p>
+
+<p>Dalam dunia nyata, biasanya kita tidak menginstall package satu-satu. Akan tetapi, kita membuat virtual environment sekaligus menginstall package-package yang kita butuhkan sekaligus. Sebagai contoh, kita mengerjakan proyek peramalan harga saham, maka kita membuat file konfigurasi yang berisi nama virtual environment beserta package-package yang dibutuhkan untuk peramalan harga saham, berikut contohnya:</p>
+
+<p>Oh iya, untuk nama file defaultnya adalah <code>environments</code> dan ekstensi filenya adalah <code>.yml</code>.</p>
+
+<p>nb: sebisa mungkin file konfigurasi ditempatkan satu direktori dengan proyek.</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="yaml">
+
+    name: peramalan_harga_saham
+    channels:
+        - anaconda
+    dependencies:
+    # essential
+        - python
+        - nb_conda_kernels # mengaktifkan kernel jupyter notebook
+        - pip # package manager
+    # package forecasting
+        - pandas # manipulasi data
+        - numpy # operasi matematika dan numerik
+        - matplotlib # visualisasi data
+        - seaborn # visualisasi data
+        - scikit-learn # machine learning
+        - statsmodels # analisis statistik dan peramalan
+        - prophet # peramalan
+
+  </code>
+  </pre>
+</div>
+
+<p>Untuk menjalankan file konfigurasi tersebut, berikut kodenya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+   conda env create -f &lt;nama_file&gt;.yml
+
+  </code>
+  </pre>
+</div>
+
+<p>Mari kita praktikkan kode tersebut:</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda env create -f environments.yml
+
+  </code>
+  </pre>
+</div>
+
+<p>Untuk memastikan virtual environment yang kita buat, mari kita ulangi langkah nomor 2:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    (base) C:\Users\Kang Nur> conda env list
+    # conda environments:
+    #
+    base                  *  C:\Users\Kang Nur\miniconda3
+    peramalan_harga_saham    C:\Users\Kang Nur\miniconda3\envs\peramalan_harga_saham
+    data_science_projects     C:\Users\Kang Nur\miniconda3\envs\data_science_projects
+
+  </code>
+  </pre>
+</div>
+
+<p>Kita telah berhasil membuat satu lagi virtual environment untuk proyek peramalan harga saham, dan virtual environment tersebut sudah siap dipakai karena sudah teinstall package-package yang dibutuhkan, tanpa kita menginstall package satu-satu.</p>
+
+</li>
+
+<li>
+
+<p><strong>Menghapus virtual environment</strong></p>
+
+<p>Kadang kala kita ingin menghapus sebuah virtual environment dikarenakan kesalahan menginstall package, atau tidak diperlukan lagi atau alasan lain, berikut kodenya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+   conda env remove --name &lt;nama_env&gt;
+
+  </code>
+  </pre>
+</div>
+
+<p>Mari kita praktikkan kode tersebut dengan menghapus virtual environment <code>project_data_science</code>.</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda env remove --name data_science_projects
+
+  </code>
+  </pre>
+</div>
+
+<p>Untuk memastikan bahwa virtual environment <code>project_data_science</code> sudah terhapus, mari ulangi kembali langkah nomor 2:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    (base) C:\Users\Kang Nur> conda env list
+    # conda environments:
+    #
+    base                  *  C:\Users\Kang Nur\miniconda3
+    peramalan_harga_saham    C:\Users\Kang Nur\miniconda3\envs\peramalan_harga_saham
+
+  </code>
+  </pre>
+</div>
+
+<p>Virtual environment tinggal dua, environment default dan environment <code>peramalan_harga_saham</code>.</p>
+
+</li>
+
+</ol>
+
+<h2>Penutup</h2>
+
+<p>Dengan menggunakan virtual environment, seorang data analyst/scientist dapat menghindari permasalahan version dan konflik pada package yang berbeda pada saat berkolaborasi dengan tim. Dan juga dengan membuat ruang-ruang khusus pada setiap proyek kita, membuat pekerjaan kita menjadi rapi.</p>
+
+<h2>Apa selanjutnya?</h2>
+
+<ol>
+
+<li>
+
+<p>Pembaca diharapkan memahami pentingnya penggunaan virtual environment dalam proyek data analysis/science.</p>
+
+</li>
+
+<li>
+
+<p>Pembaca dapat melakukan melakukan langkah-langkah yang sudah dibahas pada proyek data analysis/science yang lain sehingga pembaca lebih mahir dalam menggunakan virtual environment.</p>
+
+</li>
+
+</ol>
