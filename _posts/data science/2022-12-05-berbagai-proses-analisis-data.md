@@ -7,7 +7,7 @@ layout: post
 permalink: /berbagai-proses-analisis-data/
 image: "/assets/images/post/berbagai-proses-analisis-data/gambar1.jpg"
 description: "Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola"
-categories: Analisis Data
+categories: Data Science
 tags: [analisis data, teknologi]
 published: true
 ---

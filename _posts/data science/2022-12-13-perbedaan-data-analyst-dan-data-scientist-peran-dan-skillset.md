@@ -7,7 +7,7 @@ layout: post
 permalink: /perbedaan-data-analyst-dan-data-scientist-peran-dan-skillset/
 image: "/assets/images/post/perbedaan-data-analyst-dan-data-scientist-peran-dan-skillset/gambar1.jpg"
 description: "Seperti yang kita ketahui masih banyak mispersepsi di masyarakat dalam membedakan Data analyst dan Data Scientist, terutama pemula."
-categories: Analisis Data
+categories: Data Science
 tags: [analisis data, teknologi]
 published: true
 ---
