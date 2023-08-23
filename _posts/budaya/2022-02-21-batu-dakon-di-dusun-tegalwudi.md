@@ -1,6 +1,7 @@
 ---
 title: "Batu Dakon di Dusun Tegalwudi"
 date: 2022-02-21T00:00:00+00:00
+update: 2022-02-21T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /batu-dakon-di-dusun-tegalwudi/

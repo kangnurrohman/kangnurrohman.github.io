@@ -1,6 +1,7 @@
 ---
 title: "Perbedaan Data Analyst dan Data Scientist: Peran dan Skillset"
 date: 2022-12-13T00:00:00+00:00
+update: 2022-12-13T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /perbedaan-data-analyst-dan-data-scientist-peran-dan-skillset/

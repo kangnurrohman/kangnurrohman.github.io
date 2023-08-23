@@ -1,6 +1,7 @@
 ---
 title: "Berbagai Proses Analisis Data"
 date: 2022-12-05T00:00:00+00:00
+update: 2022-12-05T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /berbagai-proses-analisis-data/

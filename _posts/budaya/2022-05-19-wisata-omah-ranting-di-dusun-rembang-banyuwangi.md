@@ -1,6 +1,7 @@
 ---
 title: "Wisata Omah Ranting di Dusun Rembang Banyuwangi"
 date: 2022-05-19T00:00:00+00:00
+update: 2022-05-19T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /wisata-omah-ranting-di-dusun-rembang-banyuwangi/
