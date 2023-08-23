@@ -91,7 +91,7 @@ published: true
     # conda environments:
     #
     base                  *  C:\Users\Kang Nur\miniconda3
-    project_data_science     C:\Users\Kang Nur\miniconda3\envs\data_science_projects
+    data_science_projects     C:\Users\Kang Nur\miniconda3\envs\data_science_projects
 
   </code>
   </pre>
@@ -128,7 +128,7 @@ published: true
   <pre>
   <code id="code" class="bash">
 
-   conda activate project_data_science
+   conda activate data_science_projects
 
   </code>
   </pre>
@@ -154,7 +154,7 @@ published: true
   <pre>
   <code id="code" class="bash">
 
-    (project_data_science) C:\Users\Kang Nur&gt;
+    (data_science_projects) C:\Users\Kang Nur&gt;
 
   </code>
   </pre>
@@ -174,3 +174,204 @@ published: true
   </code>
   </pre>
 </div>
+
+</li>
+
+<li>
+
+<p><strong>Menginstall package pada virtual environment</strong></p>
+
+<p>Pada virtual environment yang barusan kita buat, masih belum ada package apapun yang terinstall. Oleh karena itu belum bisa dipakai untuk membuat sebuah proyek, kita harus menginstall packagenya terlebih dahulu, berikut kodenya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    conda install --name &lt;name_env&gt; &lt;package&gt;
+
+  </code>
+  </pre>
+</div>
+
+<p>Jika kita ingin menginstall beserta versi packagenya, berikut kodenya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    conda install --name &lt;name_env&gt; &lt;package&gt;=&lt;version&gt;
+
+  </code>
+  </pre>
+</div>
+
+<p>Mari kita praktikkan kedua kode tersebut, kita menginstall python dengan versi 3.5 terlebih dahulu, karena python adalah package yang paling penting.</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda install --name data_science_projects python=3.5
+
+  </code>
+  </pre>
+</div>
+
+<p>Setiap kita menginstall sebuah package, maka ada dependensi yang mengikuti, berikut dependensi dari python 3.5.</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+        package                |            build
+    ---------------------------|-----------------
+    certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
+    pip-10.0.1                 |           py35_0         1.6 MB
+    python-3.5.6               |       he025d50_0        14.5 MB
+    setuptools-40.2.0          |           py35_0         497 KB
+    wincertstore-0.2           |   py35hfebbdb8_0          14 KB
+    ------------------------------------------------------------
+                                          Total:        16.7 MB
+
+  </code>
+  </pre>
+</div>
+
+<p>Kemudian, kita praktikkan menginstall package tanpa versi. Katakan kita membutuhkan package untuk mengolah angka, maka kita membutuhkan numpy, berikut kodenya:</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda install --name data_science_projects numpy
+
+  </code>
+  </pre>
+</div>
+
+<p>Setelah mempraktikkan dua kode tersebut, kita mempunyai dua package, yaitu python dan numpy.</p>
+
+</li>
+
+<li>
+
+<p><strong>Melihat package yang terinstall pada virtual environment</strong></p>
+
+<p>Untuk memastikan bahwa dua package tersebut sudah terinstall di virtual environment kita, berikut kodenya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+   conda list --name &lt;name_env&gt;
+
+  </code>
+  </pre>
+</div>
+
+<p>Mari kita praktikkan kode tersebut:</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda list --name data_science_projects
+
+  </code>
+  </pre>
+</div>
+
+<p>Hasil dari kode tersebut adalah:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    # packages in environment at C:\Users\Kang Nur\miniconda3\envs\project_data_science:
+    #
+    # Name                    Version                   Build  Channel
+    blas                      1.0                         mkl
+    certifi                   2020.6.20          pyhd3eb1b0_3
+    icc_rt                    2022.1.0             h6049295_2
+    intel-openmp              2023.1.0         h59b6b97_46319
+    mkl                       2018.0.3                      1
+    mkl_fft                   1.0.6            py35hdbbee80_0
+    mkl_random                1.0.1            py35h77b88f5_1
+    numpy                     1.15.2           py35ha559c80_0
+    numpy-base                1.15.2           py35h8128ebf_0
+    pip                       10.0.1                   py35_0
+    python                    3.5.6                he025d50_0
+    setuptools                40.2.0                   py35_0
+    tbb                       2021.8.0             h59b6b97_0
+    tbb4py                    2018.0.5         py35he980bc4_0
+    vc                        14.2                 h21ff451_1
+    vs2015_runtime            14.27.29016          h5e58377_2
+    wheel                     0.37.1             pyhd3eb1b0_0
+    wincertstore              0.2              py35hfebbdb8_0
+
+  </code>
+  </pre>
+</div>
+
+<p>Pada list tersebut telah terinstall dua package yaitu numpy dan python, seperti yang sudah dibahas di nomor 4, selain dua package yang sudah diinstall adalah dependensi atau package pendukung.</p>
+
+</li>
+
+<li>
+
+<p><strong>Mengintegrasikan virtual environment dengan jupyter notebook</strong></p>
+
+<p>Untuk menulis kode pada conda environment, biasanya seorang data analyst/scientist menggunakan jupyter notebook. Namun, virtual environment yang sudah kita buat belum terintegrasi dengan jupyter notebook. Untuk mengintegrasikan, berikut kodenya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+   conda install --name &lt;name_env&gt; nb_conda_kernels
+
+  </code>
+  </pre>
+</div>
+
+<p>Mari kita praktikkan kode tersebut:</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda install --name data_science_projects nb_conda_kernels
+
+  </code>
+  </pre>
+</div>
+
+<p>Untuk memastikan package <code>nb_conda_kernels</code> sudah terinstall pada virtual environment kita, mari kita ulangi langkah nomor 5. Berikut hasilnya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+   nb_conda_kernels          2.3.1           py311haa95532_0
+
+  </code>
+  </pre>
+</div>
+
+<p>Kemudian kita cek juga di jupyter notebook:</p>
+
+<figure>
+<img src="/assets/images/post/batu-dakon-di-dusun-tegalwudi/gambar1.jpeg">
+<figcaption>Gambar 1. batu dakon di dusun tegalwudi </figcaption>
+</figure>
