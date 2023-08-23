@@ -1,5 +1,5 @@
 ---
-title: "Bekerja dengan Conda Environment"
+title: "Bekerja dengan Virtual Environment pada Conda Environment"
 date: 2023-08-23T00:00:00+00:00
 update: 2023-08-23T00:00:00+00:00
 author: Kang Nur
