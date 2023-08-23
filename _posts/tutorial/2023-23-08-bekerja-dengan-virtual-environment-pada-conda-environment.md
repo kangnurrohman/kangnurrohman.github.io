@@ -53,12 +53,124 @@ published: true
   <pre>
   <code id="code" class="bash">
 
-   conda create --name project_data_science
+   conda create --name data_science_projects
 
   </code>
   </pre>
 </div>
 
-<p>Dengan mempraktikkan kode tersebut, maka kita sudah mempunyai virtual environment dengan nama <code>project_data_science</code>.</p>
+<p>Dengan mempraktikkan kode tersebut, maka kita sudah mempunyai virtual environment dengan nama <code>data_science_projects</code>.</p>
 
 </li>
+
+<li>
+
+<p><strong>Mengecek virtual environment yang ada</strong></p>
+
+<p>Setelah membuat virtual environment, kita harus memastikan bahwa virtual environment berhasil kita buat, berikut kodenya:</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda env list
+
+  </code>
+  </pre>
+</div>
+
+<p>Hasil dari kode tersebut adalah:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    # conda environments:
+    #
+    base                  *  C:\Users\Kang Nur\miniconda3
+    project_data_science     C:\Users\Kang Nur\miniconda3\envs\data_science_projects
+
+  </code>
+  </pre>
+</div>
+
+<p>Nah, jika di list tersebut ada nama virtual environment yang kita buat, maka kita berhasil membuat virtual environment.</p>
+
+<p>Oh iya, disitu ada base. Lalu apakah base ini? Seperti yang kita analogikan di awal tadi, bahwa base ini adalah ruang utama di sebuah rumah dan selain base adalah ruang-ruang hobi anggota keluarga.</p>
+
+</li>
+
+<li>
+
+<p><strong>Menjadikan virtual environment tertentu sebagai default</strong></p>
+
+<p>Pada dasarnya, base adalah environment default. Namun,bagaimana caranya kita ingin menjadikan virtual environment tertentu menjadi default? Untuk menjadikan virtual environment tertentu sebagai default, berikut kodenya:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    conda activate &lt;name_env&gt;
+
+  </code>
+  </pre>
+</div>
+
+<p>Mari kita praktikkan kode tersebut:</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda activate project_data_science
+
+  </code>
+  </pre>
+</div>
+
+<p>Setelah kita praktikkan kodenya, maka virtual environment defaultnya berubah.</p>
+
+<p>Dari:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    (base) C:\Users\Kang Nur&gt;
+
+  </code>
+  </pre>
+</div>
+
+<p>Menjadi:</p>
+
+<div class="code-container">
+  <pre>
+  <code id="code" class="bash">
+
+    (project_data_science) C:\Users\Kang Nur&gt;
+
+  </code>
+  </pre>
+</div>
+
+<p>Jika ingin mengembalikan ke environment base, berikut kodenya:</p>
+
+<div class="code-container">
+  <button class="copy-button" onclick="copyToClipboard(this)">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code id="code" class="bash">
+
+   conda deactivate
+
+  </code>
+  </pre>
+</div>
