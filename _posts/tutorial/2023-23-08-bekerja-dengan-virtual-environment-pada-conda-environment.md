@@ -479,7 +479,7 @@ published: true
   </pre>
 </div>
 
-<p>Mari kita praktikkan kode tersebut dengan menghapus virtual environment <code>project_data_science</code>.</p>
+<p>Mari kita praktikkan kode tersebut dengan menghapus virtual environment <code>data_science_projects</code>.</p>
 
 <div class="code-container">
   <button class="copy-button" onclick="copyToClipboard(this)">
@@ -494,7 +494,7 @@ published: true
   </pre>
 </div>
 
-<p>Untuk memastikan bahwa virtual environment <code>project_data_science</code> sudah terhapus, mari ulangi kembali langkah nomor 2:</p>
+<p>Untuk memastikan bahwa virtual environment <code>data_science_projects</code> sudah terhapus, mari ulangi kembali langkah nomor 2:</p>
 
 <div class="code-container">
   <pre>
