@@ -107,7 +107,7 @@ published: true
 
 <p><strong>Menjadikan virtual environment tertentu sebagai default</strong></p>
 
-<p>Pada dasarnya, base adalah environment default. Namun,bagaimana caranya kita ingin menjadikan virtual environment tertentu menjadi default? Untuk menjadikan virtual environment tertentu sebagai default, berikut kodenya:</p>
+<p>Pada dasarnya, base adalah environment default. Namun, bagaimana caranya kita ingin menjadikan virtual environment tertentu menjadi default? Untuk menjadikan virtual environment tertentu sebagai default, berikut kodenya:</p>
 
 <div class="code-container">
   <pre>
@@ -453,7 +453,7 @@ published: true
     #
     base                  *  C:\Users\Kang Nur\miniconda3
     peramalan_harga_saham    C:\Users\Kang Nur\miniconda3\envs\peramalan_harga_saham
-    data_science_projects     C:\Users\Kang Nur\miniconda3\envs\data_science_projects
+    data_science_projects    C:\Users\Kang Nur\miniconda3\envs\data_science_projects
 
   </code>
   </pre>
