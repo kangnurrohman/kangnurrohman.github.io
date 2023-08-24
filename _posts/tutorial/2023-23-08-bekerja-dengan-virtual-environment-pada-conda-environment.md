@@ -6,7 +6,7 @@ author: Kang Nur
 layout: post
 image: "/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.png"
 permalink: /bekerja-dengan-virtual-environment-pada-conda-environment/
-description: ""
+description: "Ketika kita bekerja dengan tim, tidak semua orang pada tim kita menggunakan package dengan versi yang sama."
 categories: Tutorial
 tags: [conda, tutorial]
 published: true
