@@ -4,12 +4,17 @@ date: 2023-08-23T00:00:00+00:00
 update: 2023-08-23T00:00:00+00:00
 author: Kang Nur
 layout: post
+image: "/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.png"
 permalink: /bekerja-dengan-virtual-environment-pada-conda-environment/
 description: ""
 categories: Tutorial
 tags: [conda, tutorial]
 published: true
 ---
+
+<figure>
+<img src="/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.png">
+</figure>
 
 <h2>Mengapa menggunakan virtual environment?</h2>
 
