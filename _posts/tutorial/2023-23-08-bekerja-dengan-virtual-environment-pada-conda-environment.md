@@ -4,7 +4,7 @@ date: 2023-08-23T00:00:00+00:00
 update: 2023-08-23T00:00:00+00:00
 author: Kang Nur
 layout: post
-image: "/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.png"
+image: "/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.jpg"
 permalink: /bekerja-dengan-virtual-environment-pada-conda-environment/
 description: "Ketika kita bekerja dengan tim, tidak semua orang pada tim kita menggunakan package dengan versi yang sama."
 categories: Tutorial
@@ -13,7 +13,7 @@ published: true
 ---
 
 <figure>
-<img src="/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.png">
+<img src="/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.jpg">
 </figure>
 
 <h2>Mengapa menggunakan virtual environment?</h2>
