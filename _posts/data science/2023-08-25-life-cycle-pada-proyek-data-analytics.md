@@ -1,5 +1,5 @@
 ---
-title: "Life Cycles pada Proyek Data Analytics"
+title: "Life Cycle pada Proyek Data Analytics"
 date: 2023-08-25T00:00:00+00:00
 update: 2023-08-25T00:00:00+00:00
 author: Kang Nur
