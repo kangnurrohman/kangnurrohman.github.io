@@ -5,12 +5,16 @@ update: 2023-08-25T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /life-cycle-pada-proyek-data-analytics/
-image: "/assets/images/post/perbedaan-data-analyst-dan-data-scientist-peran-dan-skillset/gambar1.jpg"
+image: "/assets/images/post/life-cycle-pada-proyek-data-analytics/gambar0.png"
 description: "Life cycle pada proyek data analytics adalah serangkaian tahapan atau langkah-langkah untuk mengelola data dari data berbentuk raw (data mentah) hingga siap diimplementasikan."
 categories: Data Science
 tags: [analisis data, teknologi]
 published: true
 ---
+<figure>
+<img src="/assets/images/post/life-cycle-pada-proyek-data-analytics/gambar0.png">
+</figure>
+
 <h2>Apa itu life cycle pada proyek data analytics?</h2>
 <p>Life cycle pada proyek data analytics adalah serangkaian tahapan atau langkah-langkah untuk mengelola data dari data berbentuk <em>raw</em> (data mentah) hingga siap diimplementasikan. Tujuannya untuk membantu data analyst memastikan proses analisis data berjalan secara sistematis dan efektif. Ada empat tahap yang akan dibahas disini, yaitu:</p>
 <ol>
@@ -19,6 +23,10 @@ published: true
 <p>Pada tahap ini pula data analyst sering berkomunikasi dengan business analyst yang menjadi jembatan antara sisi bisnis dan teknis untuk memastikan bahwa analisis data yang dilakukan benar-benar sesuai dengan goal bisnis dan memberikan nilai tambah. Mengapa begitu? dikarenakan business analyst memiliki pemahaman yang mendalam tentang kebutuhan bisnis, tujuan, masalah, proses, dll.</p>
 </li>
 <li><h3>ETL Pipeline</h3>
+<figure>
+<img src="/assets/images/post/life-cycle-pada-proyek-data-analytics/gambar1.png">
+<figcaption>Gambar 1. ETL Pipeline </figcaption>
+</figure>
 <p>ETL merupakan singkatan dari <em>Extract</em>, <em>Transform</em>, dan <em>Load</em> yang mengacu pada serangkaian proses yang digunakan untuk mengambil data dari <em>resources</em> yang ada <em>(extract)</em>, mengubahnya menjadi bentuk sesuai kebutuhan bisnis <em>(transform)</em> dan mengekspor ke penyimpanan data <em>(load)</em> untuk dilakukan analisis lebih lanjut. Berikut detailnya:</p>
 <ol>
 <li><p><strong>Extract Data</strong></p>
