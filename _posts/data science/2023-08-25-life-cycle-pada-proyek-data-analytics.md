@@ -77,7 +77,7 @@ published: true
 </ol>
 </li>
 </ol>
-<h4>Penutup</h4>
+<h2>Penutup</h2>
 <p>Dalam mengerjakan proyek analisis data, <em>life cycle</em> ini memberikan sebuah langkah yang bagi seorang data analyst. Dan juga, seorang data analyst dapat membuat sebuah solusi untuk memecahkan masalah atau mencapai tujuan dengan sistematis, dari data didapat hingga disajikan.</p>
 
 
