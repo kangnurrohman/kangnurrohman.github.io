@@ -52,23 +52,6 @@ function toggleContent(id) {
       arrow.classList.toggle("collapsed");
     }
 
-// view count
- // Mendapatkan URL unik untuk posting saat ini
-  var postUrl = window.location.href;
-  // Cek apakah jumlah tampilan sudah ada dalam localStorage
-  if (!localStorage.getItem(postUrl)) {
-    // Jika belum ada, inisialisasi dengan 0
-    localStorage.setItem(postUrl, 0);
-  }
-  // Mendapatkan jumlah tampilan dari localStorage
-  var viewCount = parseInt(localStorage.getItem(postUrl));
-  // Meningkatkan jumlah tampilan
-  viewCount++;
-  // Menyimpan kembali jumlah tampilan yang sudah ditingkatkan
-  localStorage.setItem(postUrl, viewCount);
-  // Menampilkan jumlah tampilan di elemen HTML dengan ID 'countNumber'
-  document.getElementById('countNumber').innerHTML = viewCount;
-
 // Estimate Reading Time
   document.addEventListener("DOMContentLoaded", function() {
     var content = document.getElementsByClassName("blog-post-content")[0];
