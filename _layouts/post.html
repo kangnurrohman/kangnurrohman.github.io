@@ -61,13 +61,9 @@ layout: default
 </div>
 <div class="navigation">
   {% if page.previous %}
-  <a class="prev" href="{{ page.previous | relative_url }}"
-    >< {{ page.previous.title }}</a
-  >
+  <a class="prev" href="{{ page.previous | relative_url }}">< {{ page.previous.title }}</a>
   {% endif %} {% if page.next %}
-  <a class="next" href="{{ page.next | relative_url }}"
-    >{{ page.next.title }} ></a
-  >
+  <a class="next" href="{{ page.next | relative_url }}">{{ page.next.title }} ></a>
   {% endif %}
 </div>
 {% include disqus.html %} {% else %}
