@@ -52,6 +52,8 @@ function toggleContent(id) {
       arrow.classList.toggle("collapsed");
     }
 
+// view count
+
 // Estimate Reading Time
   document.addEventListener("DOMContentLoaded", function() {
     var content = document.getElementsByClassName("blog-post-content")[0];
