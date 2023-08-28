@@ -41,7 +41,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     conda create --name &lt;name_env&gt;
 
@@ -52,11 +52,11 @@ published: true
 <p>Mari kita praktikkan kode tersebut:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda create --name data_science_projects
 
@@ -91,7 +91,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     # conda environments:
     #
@@ -116,7 +116,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     conda activate &lt;name_env&gt;
 
@@ -127,11 +127,11 @@ published: true
 <p>Mari kita praktikkan kode tersebut:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda activate data_science_projects
 
@@ -145,7 +145,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     (base) C:\Users\Kang Nur&gt;
 
@@ -157,7 +157,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     (data_science_projects) C:\Users\Kang Nur&gt;
 
@@ -168,11 +168,11 @@ published: true
 <p>Jika ingin mengembalikan ke environment base, berikut kodenya:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda deactivate
 
@@ -190,7 +190,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     conda install --name &lt;name_env&gt; &lt;package&gt;
 
@@ -202,7 +202,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     conda install --name &lt;name_env&gt; &lt;package&gt;=&lt;version&gt;
 
@@ -213,11 +213,11 @@ published: true
 <p>Mari kita praktikkan kedua kode tersebut, kita menginstall python dengan versi 3.5 terlebih dahulu, karena python adalah package yang paling penting.</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda install --name data_science_projects python=3.5
 
@@ -229,7 +229,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
         package                |            build
     ---------------------------|-----------------
@@ -248,11 +248,11 @@ published: true
 <p>Kemudian, kita praktikkan menginstall package tanpa versi. Katakan kita membutuhkan package untuk mengolah angka, maka kita membutuhkan numpy, berikut kodenya:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda install --name data_science_projects numpy
 
@@ -272,7 +272,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda list --name &lt;name_env&gt;
 
@@ -283,11 +283,11 @@ published: true
 <p>Mari kita praktikkan kode tersebut:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda list --name data_science_projects
 
@@ -299,7 +299,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     # packages in environment at C:\Users\Kang Nur\miniconda3\envs\data_science_projects:
     #
@@ -339,7 +339,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda install --name &lt;name_env&gt; nb_conda_kernels
 
@@ -350,11 +350,11 @@ published: true
 <p>Mari kita praktikkan kode tersebut:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda install --name data_science_projects nb_conda_kernels
 
@@ -366,7 +366,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    nb_conda_kernels          2.3.1           py311haa95532_0
 
@@ -397,7 +397,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="yaml">
+  <code  class="yaml">
 
     name: peramalan_harga_saham
     channels:
@@ -424,7 +424,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda env create -f &lt;nama_file&gt;.yml
 
@@ -435,11 +435,11 @@ published: true
 <p>Mari kita praktikkan kode tersebut:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda env create -f environments.yml
 
@@ -451,7 +451,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     (base) C:\Users\Kang Nur> conda env list
     # conda environments:
@@ -476,7 +476,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda env remove --name &lt;nama_env&gt;
 
@@ -487,11 +487,11 @@ published: true
 <p>Mari kita praktikkan kode tersebut dengan menghapus virtual environment <code>data_science_projects</code>.</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda env remove --name data_science_projects
 
@@ -503,7 +503,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
     (base) C:\Users\Kang Nur> conda env list
     # conda environments:
