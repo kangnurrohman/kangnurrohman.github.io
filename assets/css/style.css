@@ -607,6 +607,14 @@ th {
   font-family: 'Courier New', monospace;
 }
 
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2b2b2b;
+  color: #f8f8f2;
+}
+
 /* Adjust styles for devices with width between 241px and 319px */
 @media (min-width: 241px) and (max-width: 319px) {
   .copy-button {
