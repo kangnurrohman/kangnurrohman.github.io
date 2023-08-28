@@ -574,16 +574,21 @@ th {
 }
 
 /* highlight code */
+/* Gaya khusus untuk elemen <pre> yang sudah ada */
 pre {
   margin: 0;
-  white-space: pre-wrap;
+  white-space: pre;
+  /* Menggunakan white-space: pre; untuk mencegah wrap */
   background-color: #10171E;
+  /* Ubah warna latar belakang ke #10171E */
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: auto;
+  overflow-x: auto;
+  /* Menggunakan overflow-x: auto; untuk scroll horizontal */
   font-family: "Courier New", monospace;
   color: white;
+  /* Ganti warna font menjadi putih */
 }
 
 /* Gaya untuk highlight.js di dalam elemen <pre> */
@@ -603,6 +608,7 @@ pre .hljs {
   display: none;
   position: absolute;
   background-color: #10171E;
+  /* Ubah warna latar belakang tombol */
   border: none;
   padding: 5px 10px;
   cursor: pointer;
