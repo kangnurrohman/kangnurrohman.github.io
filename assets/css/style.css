@@ -321,11 +321,11 @@ figure figcaption {
   font-size: 12px;
 }
 
-pre {
+/* pre {
   font-size: 14px;
   max-width: 90vw;
   overflow: auto;
-}
+} */
 
 .social-icon {
   height: 24px;
@@ -614,7 +614,7 @@ pre {
   font-family: "Courier New", monospace;
 }
 
-.hljs {
+pre .hljs {
   /* Atur ulang properti yang mungkin diubah oleh highlight.js */
   background: none;
   padding: 0;
