@@ -321,11 +321,11 @@ figure figcaption {
   font-size: 12px;
 }
 
-/* pre {
+pre {
   font-size: 14px;
   max-width: 90vw;
   overflow: auto;
-} */
+}
 
 .social-icon {
   height: 24px;
@@ -574,58 +574,37 @@ th {
 }
 
 /* highlight code */
-/* Gaya khusus untuk elemen <pre> yang sudah ada */
-pre {
-  margin: 0;
-  white-space: pre;
-  /* Menggunakan white-space: pre; untuk mencegah wrap */
-  background-color: #10171E;
-  /* Ubah warna latar belakang ke #10171E */
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow-x: auto;
-  /* Menggunakan overflow-x: auto; untuk scroll horizontal */
-  font-family: "Courier New", monospace;
-  color: white;
-  /* Ganti warna font menjadi putih */
-}
-
-/* Gaya untuk highlight.js di dalam elemen <pre> */
-pre .hljs {
-  /* Atur ulang properti yang mungkin diubah oleh highlight.js */
-  background: none;
-  padding: 0;
-}
-
-/* Gaya untuk elemen .code-container */
 .code-container {
   position: relative;
-  display: inline-block;
 }
 
 .copy-button {
   display: none;
   position: absolute;
-  background-color: #10171E;
-  /* Ubah warna latar belakang tombol */
+  background-color: #333;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: white;
-  border-radius: 4px;
-  right: 0;
-  top: 0;
-  transition: background-color 0.3s ease;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .code-container:hover .copy-button {
   display: block;
 }
 
-.copy-button:hover {
-  background-color: #0E141A;
-  /* Ubah warna tombol saat dihover */
+.code-container pre {
+  background-color: black;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.code-container code {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Courier New', monospace;
 }
 
 /* Adjust styles for devices with width between 241px and 319px */
