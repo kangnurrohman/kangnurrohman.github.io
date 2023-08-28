@@ -581,38 +581,16 @@ th {
 .copy-button {
   display: none;
   position: absolute;
-  background-color: #333;
+  background-color: #f0f0f0;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #666;
+  border-radius: 4px;
 }
 
 .code-container:hover .copy-button {
   display: block;
-}
-
-.code-container pre {
-  background-color: black;
-  padding: 10px;
-  border-radius: 8px;
-  margin: 0;
-}
-
-.code-container code {
-  color: #fff;
-  font-size: 14px;
-  font-family: 'Courier New', monospace;
-}
-
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #2b2b2b;
-  color: #f8f8f2;
 }
 
 /* Adjust styles for devices with width between 241px and 319px */
