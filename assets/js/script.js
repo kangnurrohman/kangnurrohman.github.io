@@ -66,17 +66,24 @@ function toggleContent(id) {
   });
 
 // highlight code
-function copyToClipboard(button) {
-  const codeElement = document.getElementById("code");
-  const codeText = codeElement.textContent.trim(); // Menghapus spasi dan indentasi tambahan
-  const textarea = document.createElement("textarea");
+document.querySelectorAll('.copy-button').forEach(button => {
+  button.addEventListener('click', copyToClipboard);
+});
+
+function copyToClipboard(event) {
+  const button = event.target;
+  const codeContainer = button.closest('.code-container');
+  const codeElement = codeContainer.querySelector('code');
+  const codeText = codeElement.textContent.trim();
+  const textarea = document.createElement('textarea');
   textarea.value = codeText;
   document.body.appendChild(textarea);
   textarea.select();
-  document.execCommand("copy");
+  document.execCommand('copy');
   document.body.removeChild(textarea);
   button.innerHTML = '<i class="fas fa-check"></i> Disalin!';
   setTimeout(() => {
     button.innerHTML = '<i class="fas fa-copy"></i> Salin';
   }, 2000);
 }
+

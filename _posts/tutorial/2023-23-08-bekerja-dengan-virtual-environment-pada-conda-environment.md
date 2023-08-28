@@ -75,11 +75,11 @@ published: true
 <p>Setelah membuat virtual environment, kita harus memastikan bahwa virtual environment berhasil kita buat, berikut kodenya:</p>
 
 <div class="code-container">
-  <button class="copy-button" onclick="copyToClipboard(this)">
+  <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code id="code" class="bash">
+  <code class="bash">
 
    conda env list
 
