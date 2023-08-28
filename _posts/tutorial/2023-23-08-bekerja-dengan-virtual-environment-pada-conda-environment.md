@@ -230,17 +230,15 @@ published: true
 <div class="code-container">
   <pre>
   <code class="bash">
-
-        package                |            build
-    ---------------------------|-----------------
-    certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
-    pip-10.0.1                 |           py35_0         1.6 MB
-    python-3.5.6               |       he025d50_0        14.5 MB
-    setuptools-40.2.0          |           py35_0         497 KB
-    wincertstore-0.2           |   py35hfebbdb8_0          14 KB
-    ------------------------------------------------------------
-                                          Total:        16.7 MB
-
+    package                |            build
+---------------------------|-----------------
+certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
+pip-10.0.1                 |           py35_0         1.6 MB
+python-3.5.6               |       he025d50_0        14.5 MB
+setuptools-40.2.0          |           py35_0         497 KB
+wincertstore-0.2           |   py35hfebbdb8_0          14 KB
+------------------------------------------------------------
+                                       Total:        16.7 MB
   </code>
   </pre>
 </div>
