@@ -614,6 +614,12 @@ pre {
   font-family: "Courier New", monospace;
 }
 
+.hljs {
+  /* Atur ulang properti yang mungkin diubah oleh highlight.js */
+  background: none;
+  padding: 0;
+}
+
 /* Adjust styles for devices with width between 241px and 319px */
 @media (min-width: 241px) and (max-width: 319px) {
   .copy-button {
