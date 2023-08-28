@@ -608,17 +608,19 @@ th {
 pre {
   margin: 0;
   white-space: pre-wrap;
-}
-
-.code-container code {
+  background-color: #10171E;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: auto;
   font-family: "Courier New", monospace;
 }
 
 pre .hljs {
-  /* Atur ulang properti yang mungkin diubah oleh highlight.js */
   background: none;
   padding: 0;
 }
+
 
 /* Adjust styles for devices with width between 241px and 319px */
 @media (min-width: 241px) and (max-width: 319px) {
