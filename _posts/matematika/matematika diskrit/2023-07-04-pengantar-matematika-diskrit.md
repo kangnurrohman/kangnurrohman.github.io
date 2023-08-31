@@ -12,10 +12,6 @@ tags: [matematika, matematika diskrit]
 published: true
 ---
 
-<figure>
-<img src="/assets/images/post/pengantar-matematika-diskrit/gambar0.png">
-</figure>
-
 <h2>Apa itu matematika diskrit?</h2>
 <p>Matematika diskrit adalah cabang matematika yang mempelajari objek-objek yang terpisah secara individual. Objek-objek yang terpisah tersebut merujuk pada entitas yang memiliki nilai-nilai terbatas, terpisah, diskrit, tidak memiliki tingkat kontinuitas dan bentuk angkanya adalah bilangan bulat. Sebagai contoh, kita memiliki bolah mata sejumlah dua, tidak mungkin kan kita bilang memiliki 1 1/2 mata?. Lalu di sebuah parkiran ada jumlah sepeda yang parkir sebanyak 10 sepeda, tidak mungkin kan ada 8 1/2 sepeda?. Dan masih banyak lagi contoh objek diskrit di sekitar kita.</p>
 <p>Lawan dari diskrit adalah kontinu, yaitu objek yang memiliki sifat bersambungan/kelanjutan dan bentuk angkanya adalah bilangan riil. Sebagai contoh, ketika kita mau melihat kecepatan kendaraan di speedometer kita, nah kecepatan kendaraan ini bersifat kontinu. Lalu kita ingin mengukur suhu saat ini, suhu ini juga dianggap kontinu karena berubah secara smooth dan berkelanjutan seiring waktu.</p>
