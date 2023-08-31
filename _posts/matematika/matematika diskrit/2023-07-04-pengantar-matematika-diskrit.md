@@ -6,7 +6,7 @@ author: Kang Nur
 layout: post
 permalink: /pengantar-matematika-diskrit/
 image: "/assets/images/post/pengantar-matematika-diskrit/gambar0.png"
-description: "Life cycle pada proyek data analytics adalah serangkaian tahapan atau langkah-langkah untuk mengelola data dari data berbentuk raw (data mentah) hingga siap diimplementasikan."
+description: "Matematika diskrit adalah cabang matematika yang mempelajari objek-objek yang terpisah secara individual."
 categories: Matematika
 tags: [matematika, matematika diskrit]
 published: true
