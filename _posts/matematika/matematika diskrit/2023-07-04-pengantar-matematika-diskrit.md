@@ -58,7 +58,7 @@ published: true
 <p>Sebenarnya masih banyak lagi bidang-bidang yang membutuhkan matematika diskrit, tapi kita cukupkan lima bidang saja.</p>
 <p>Oh iya, bahasan-bahasan kedepannya akan sering menggunakan/menerapkan pada bidang ilmu komputer/informatika ya, karena ini memang bidang saya. Namun, tidak menutup kemungkinan pada bidang lain. Untuk kode menggunakan bahasa pemrograman <code>python</code> dan <code>R</code>.</p>
 <h2>Siapa yang harus mempelajari?</h2>
-<p>Tentu, yang harus mempelajari matematika diskrit ini mahasiswa informatika/ilmu komputer , karena matematika diskrit adalah matematika yang khas informatika, singkatnya "matematikanya orang informatika". Dan juga, profesi-profesi orang yang berkecimpung di bidang-bidang yang sudah kita bahas tadi, seperti <em>electrical engineering</em>, kriptografi, ekonom, dan lain-lain.</p>
+<p>Tentu, yang harus mempelajari matematika diskrit ini mahasiswa informatika/ilmu komputer , karena matematika diskrit adalah matematika yang khas informatika, singkatnya "matematikanya orang informatika". Dan juga, profesi-profesi orang yang berkecimpung di bidang-bidang yang sudah kita bahas tadi, seperti <em>electrical engineer</em>, kriptolog, ekonom, dan lain-lain.</p>
 <h2>Apa saja persoalan matematika diskrit di kehidupan nyata?</h2>
 <p>Ada banyak sekali studi kasus yang ada di sekitar kita yang bisa dijawab dengan matematika diskrit, berikut contoh persoalan-persoalannya berbentuk pertanyaan:</p>
 <ol>
