@@ -52,8 +52,9 @@ published: true
 </li>
 </ol>
 </li>
-</ol>
+
 <p>  Oh iya, tahap ETL Pipeline adalah tahap yang paling banyak menghabiskan waktu dan <em>effort</em> diperkirakan 70% dari proyek analisis data atau 2/3.</p>
+</ol>
 <ol start="3">
 <li><h3>Exploratory Data Analysis</h3>
 <p>EDA atau <em>Exploratory Data Analysis</em> adalah tahap yang digunakan untuk mengeksplorasi, memahami, dan menggali informasi lebih dalam dari data. Tujuannya untuk mengidentifikasi distribusi data, menemukan pola dan korelasi, mendeteksi anomali, dan memilih metode analisis yang tepat.</p>

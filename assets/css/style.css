@@ -654,6 +654,10 @@ th {
   margin-top: 50px;
 }
 
+.formula span {
+  font-size: 14px;
+}
+
 .formula-container {
   text-align: center;
 }
