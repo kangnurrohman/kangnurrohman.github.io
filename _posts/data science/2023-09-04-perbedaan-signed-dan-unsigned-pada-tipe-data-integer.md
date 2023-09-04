@@ -21,7 +21,6 @@ published: true
 </li>
 </ul>
 </li>
-</ol>
 <p>  Sebagai contoh, kita memiliki data dengan tipe data <code>int8</code>, artinya tipe data tersebut dapat menyimpan nilai dari -127 hingga 127. Dari mana perhitungannya? Mari kita hitung.</p>
 <p>  Rumus untuk menghitung penyimpanan data tersebut adalah:</p>
 <div class="formula-container">
@@ -39,6 +38,7 @@ published: true
   <span class="formula">$$2^{8-1} -1 = 2^7-1=128-1=127$$</span>
 </div>
 <p>  Artinya, tipe data integer <code>int8</code> dapat menyimpan atau mepresentasikan bilangan bulat dari -127 hingga 127.</p>
+</ol>
 <ol start="2">
 <li><p><strong>Unsigned Integer</strong></p>
 <ul>
@@ -48,7 +48,6 @@ published: true
 </li>
 </ul>
 </li>
-</ol>
 <p>  Sebagai contoh, kita memiliki data dengan tipe data <code>uint8</code>, artinya tipe data tersebut dapat menyimpan nilai dari 0 hingga 255. Dari mana perhitungannya? Mari kita hitung.</p>
 <p>Rumus untuk menghitung penyimpanan data tersebut adalah:</p>
 <div class="formula-container">
@@ -66,4 +65,5 @@ published: true
   <span class="formula">$$2^{8} -1 = 256 -1 = 255$$</span>
 </div>
 <p>Artinya, tipe data integer <code>uint8</code> dapat menyimpan atau mepresentasikan bilangan bulat dari 0 hingga 255.</p>
+</ol>
 
