@@ -640,3 +640,20 @@ th {
     right: 5px;
   }
 }
+
+/* Block kode */
+.formula {
+  font-size: 24px;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.formula-container {
+  text-align: center;
+}
