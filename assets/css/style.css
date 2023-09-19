@@ -686,14 +686,3 @@ table.dataTable {
   background-color: #e0e0e0;
   color: #333;
 }
-
-/* Tabel responsif */
-.table-container {
-  overflow-x: auto;
-}
-
-/* Mengatur lebar kolom otomatis */
-.table-container table {
-  table-layout: auto;
-  width: 100%;
-}
