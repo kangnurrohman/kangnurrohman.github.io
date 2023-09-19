@@ -21,12 +21,12 @@ published: true
         </thead>
         <tbody>
             <tr>
-                <td>John Deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeoe</td>
                 <td>30</td>
+                <td>John Deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeoe</td>
             </tr>
             <tr>
-                <td>Janeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Smith</td>
                 <td>25</td>
+                <td>Janeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Smith</td>
             </tr>
             <!-- Tambahkan lebih banyak baris sesuai kebutuhan Anda -->
         </tbody>
