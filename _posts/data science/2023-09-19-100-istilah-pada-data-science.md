@@ -11,7 +11,7 @@ categories: Data Science
 tags: [analisis data, data science]
 published: true
 ---
-
+<div class="table-container">
 <table id="myTable" class="display">
         <thead>
             <tr>
@@ -31,3 +31,4 @@ published: true
             <!-- Tambahkan lebih banyak baris sesuai kebutuhan Anda -->
         </tbody>
     </table>
+</div>
