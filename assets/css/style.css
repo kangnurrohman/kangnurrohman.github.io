@@ -662,30 +662,27 @@ th {
 
 /* Datatable */
 
-/* Menghilangkan border default dan menggantinya dengan border tipis */
-#myDataTable {
-  border-collapse: collapse;
-  width: 100%;
+table.dataTable.no-footer {
+  border: none;
 }
 
-#myDataTable th,
-#myDataTable td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+table.dataTable {
+  background-color: #f7f7f7;
 }
 
-/* Memberikan warna latar belakang pada header tabel */
-#myDataTable thead th {
-  background-color: #f2f2f2;
+table.dataTable thead th {
+  background-color: #e0e0e0;
 }
 
-/* Mengubah warna latar belakang baris bergantian */
-#myDataTable tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
+table.dataTable {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Mengubah warna latar belakang saat hover pada baris */
-#myDataTable tbody tr:hover {
-  background-color: #ddd;
+.dt-buttons {
+  background-color: #f7f7f7;
+}
+
+.dt-button {
+  background-color: #e0e0e0;
+  color: #333;
 }

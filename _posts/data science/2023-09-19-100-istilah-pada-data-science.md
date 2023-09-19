@@ -12,19 +12,22 @@ tags: [analisis data, data science]
 published: true
 ---
 
-<table id="myDataTable">
-    <thead>
-        <tr>
-            <th>Nama</th>
-            <th>Usia</th>
-            <!-- Tambahkan lebih banyak kolom di sini sesuai kebutuhan Anda -->
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>John Doe</td>
-            <td>30</td>
-        </tr>
-        <!-- Tambahkan lebih banyak baris di sini -->
-    </tbody>
-</table>
+<table id="myTable" class="display">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Usia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>25</td>
+            </tr>
+            <!-- Tambahkan lebih banyak baris sesuai kebutuhan Anda -->
+        </tbody>
+    </table>
