@@ -1,60 +1,93 @@
 <!DOCTYPE html>
 <html lang="{{site.lang}}" data-theme="light">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</title>
-		<meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
-		<meta name="keywords" content="{% if page.tags %}{{page.tags}}{% else %}{{site.keywords}}{% endif %}">
-		<base href="{{ site.url }}" />
-		{% if page.date %}
-    	<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-    	<meta content="{{ site.url }}/tentang/" property="article:author">
-  		{% endif %}
-		<meta property="og:site_name" content="{{site.title}}">
-		<meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
-		<meta property="og:url" content="{{ site.url }}{{page.url}}"/>
-		<meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
-		<meta property="og:description" content="{% if page.description %}{{page.description}} {% else %}{{site.description}}{% endif %}" />
-		<meta property="og:image" content="{{ site.url }}/{% if page.image %}{{page.image}}{% else %}assets/images/favicon.png{% endif %}"/>
-		<meta name="twitter:card" content="summary"/>
-		<meta property="twitter:title" content="{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}" />
-		<meta property="twitter:description" content="{% if page.description %}{{page.description}} {% else %}{{site.description}}{% endif %}" />
-		<meta property="twitter:image" content="{{ site.url }}{% if page.image %}{{page.image}}{% else %}assets/images/favicon.png{% endif %}" />
-		<link rel="stylesheet" href="assets/css/highlight.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="shortcut icon" href="assets/images/favicon.png" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-		<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}/atom.xml">
-		<link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ site.url }}/feed.json" />
-		<link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}/sitemap.xml" />
-		<!-- Include the Highlight.js stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+    {% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}
+  </title>
+  <meta name="description"
+    content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}" />
+  <meta name="keywords" content="{% if page.tags %}{{page.tags}}{% else %}{{site.keywords}}{% endif %}" />
+  <base href="{{ site.url }}" />
+  {% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time" />
+  <meta content="{{ site.url }}/tentang/" property="article:author" />
+  {% endif %}
+  <meta property="og:site_name" content="{{site.title}}" />
+  <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
+  <meta property="og:url" content="{{ site.url }}{{page.url}}" />
+  <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
+  <meta property="og:description"
+    content="{% if page.description %}{{page.description}} {% else %}{{site.description}}{% endif %}" />
+  <meta property="og:image"
+    content="{{ site.url }}/{% if page.image %}{{page.image}}{% else %}assets/images/favicon.png{% endif %}" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title"
+    content="{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}" />
+  <meta property="twitter:description"
+    content="{% if page.description %}{{page.description}} {% else %}{{site.description}}{% endif %}" />
+  <meta property="twitter:image"
+    content="{{ site.url }}{% if page.image %}{{page.image}}{% else %}assets/images/favicon.png{% endif %}" />
+  <link rel="stylesheet" href="assets/css/highlight.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}/atom.xml" />
+  <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ site.url }}/feed.json" />
+  <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}/sitemap.xml" />
+  <!-- Include the Highlight.js stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" />
   <!-- Include the Highlight.js library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
   <!-- Initialize Highlight.js -->
-  <script>hljs.initHighlightingOnLoad();</script>
-		<meta name="google-site-verification" content="{{site.google_verify}}" />
-	{% if site.google_analytics and jekyll.environment == 'production' %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  <meta name="google-site-verification" content="{{site.google_verify}}" />
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag('config', '{{site.google_analytics}}');
-    </script>
-	{% endif %}
-	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5LPPMB7');</script>
-<!-- End Google Tag Manager -->
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+    gtag("config", "{{site.google_analytics}}");
+  </script>
+  {% endif %}
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-5LPPMB7");
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Mathjax -->
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <!-- End Mathjax -->
+  <!-- Datatable -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css" />
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap.min.css">
+
+  <!-- End Datatable -->
 </head>
-<body>
+
+<body></body>
+
+</html>

@@ -3,33 +3,29 @@ layout: default
 ---
 
 {% if page.published %} {% if page.mathjax %}
-<script
-  type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-></script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 <div class="post-header">
   <div class="post-date">
-    {{ page.date | date: "%A" | replace: "Monday", "Senin" | replace: "Tuesday", "Selasa" | replace: "Wednesday", "Rabu" | replace: "Thursday", "Kamis" | replace: "Friday", "Jumat" | replace: "Saturday", "Sabtu" | replace: "Sunday", "Minggu" }}, 
-    {{ page.date | date: "%d %B %Y" | replace: "January", "Jan" | replace: "February", "Feb" | replace: "March", "Mar" | replace: "April", "Apr" | replace: "May", "Mei" | replace: "June", "Jun" | replace: "July", "Jul" | replace: "August", "Agu" | replace: "September", "Sep" | replace: "October", "Okt" | replace: "November", "Nov" | replace: "December", "Des" }}
+    {{ page.date | date: "%A" | replace: "Monday", "Senin" | replace: "Tuesday",
+    "Selasa" | replace: "Wednesday", "Rabu" | replace: "Thursday", "Kamis" |
+    replace: "Friday", "Jumat" | replace: "Saturday", "Sabtu" | replace:
+    "Sunday", "Minggu" }}, {{ page.date | date: "%d %B %Y" | replace: "January",
+    "Jan" | replace: "February", "Feb" | replace: "March", "Mar" | replace:
+    "April", "Apr" | replace: "May", "Mei" | replace: "June", "Jun" | replace:
+    "July", "Jul" | replace: "August", "Agu" | replace: "September", "Sep" |
+    replace: "October", "Okt" | replace: "November", "Nov" | replace:
+    "December", "Des" }}
   </div>
   <div class="post-share">
     Share:&nbsp;
-    <a
-      href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/{{page.slug}}"
-      target="_blank"
-      ><img src="assets/images/icon/facebook.svg" class="social-icon"
-    /></a>
-    <a
-      href="https://twitter.com/intent/tweet?source=tweetbutton&amp;original_referer={{site.url}}/{{page.slug}}&amp;text={{page.title}} - {{site.url}}/{{page.slug}}"
-      target="_blank"
-      ><img src="assets/images/icon/twitter.svg" class="social-icon"
-    /></a>
-    <a
-      href="https://api.whatsapp.com/send?text={{site.url}}/{{page.slug}}"
-      target="_blank"
-      ><img src="assets/images/icon/whatsapp.svg" class="social-icon"
-    /></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/{{page.slug}}" target="_blank"><img
+        src="assets/images/icon/facebook.svg" class="social-icon" /></a>
+    <a href="https://twitter.com/intent/tweet?source=tweetbutton&amp;original_referer={{site.url}}/{{page.slug}}&amp;text={{page.title}} - {{site.url}}/{{page.slug}}"
+      target="_blank"><img src="assets/images/icon/twitter.svg" class="social-icon" /></a>
+    <a href="https://api.whatsapp.com/send?text={{site.url}}/{{page.slug}}" target="_blank"><img
+        src="assets/images/icon/whatsapp.svg" class="social-icon" /></a>
   </div>
 </div>
 
@@ -40,8 +36,15 @@ layout: default
   <div class="update-content">
     <p>
       <i class="fas fa-edit"></i>
-       Diperbarui {{ page.update | date: "%A" | replace: "Monday", "Senin" | replace: "Tuesday", "Selasa" | replace: "Wednesday", "Rabu" | replace: "Thursday", "Kamis" | replace: "Friday", "Jumat" | replace: "Saturday", "Sabtu" | replace: "Sunday", "Minggu" }}, 
-        {{ page.update | date: "%d %B %Y" | replace: "January", "Jan" | replace: "February", "Feb" | replace: "March", "Mar" | replace: "April", "Apr" | replace: "May", "Mei" | replace: "June", "Jun" | replace: "July", "Jul" | replace: "August", "Agu" | replace: "September", "Sep" | replace: "October", "Okt" | replace: "November", "Nov" | replace: "December", "Des" }}
+      Diperbarui {{ page.update | date: "%A" | replace: "Monday", "Senin" |
+      replace: "Tuesday", "Selasa" | replace: "Wednesday", "Rabu" | replace:
+      "Thursday", "Kamis" | replace: "Friday", "Jumat" | replace: "Saturday",
+      "Sabtu" | replace: "Sunday", "Minggu" }}, {{ page.update | date: "%d %B
+      %Y" | replace: "January", "Jan" | replace: "February", "Feb" | replace:
+      "March", "Mar" | replace: "April", "Apr" | replace: "May", "Mei" |
+      replace: "June", "Jun" | replace: "July", "Jul" | replace: "August", "Agu"
+      | replace: "September", "Sep" | replace: "October", "Okt" | replace:
+      "November", "Nov" | replace: "December", "Des" }}
     </p>
   </div>
   <div class="author-info">
@@ -52,23 +55,24 @@ layout: default
 </div>
 <div class="tags-container">
   {% for tag in page.tags %}
-  <a href="{{ site.url }}/topik/#{{tag | cgi_escape}}" class="post-tag"
-    >{{tag}}</a
-  >{% unless forloop.last %}, {% endunless %} {% endfor %}
+  <a href="{{ site.url }}/topik/#{{tag | cgi_escape}}" class="post-tag">{{tag}}</a>{% unless forloop.last %}, {%
+  endunless %} {% endfor %}
 </div>
 <div class="navigation">
   {% if page.previous %}
-  <a class="prev" href="{{ page.previous | relative_url }}">< {{ page.previous.title }}</a>
-  {% endif %} {% if page.next %}
-  <a class="next" href="{{ page.next | relative_url }}">{{ page.next.title }} ></a>
-  {% endif %}
+  <a class="prev" href="{{ page.previous | relative_url }}">
+    < {{ page.previous.title }}</a>
+      {% endif %} {% if page.next %}
+      <a class="next" href="{{ page.next | relative_url }}">{{ page.next.title }} ></a>
+      {% endif %}
 </div>
 {% include disqus.html %} {% else %}
 <div class="draft-message">
   <div class="draft-message-inner">
     <h2>Konten ini masih berupa draf dan belum dipublikasikan.</h2>
     <p>
-      Mohon maaf 🙏 postingan masih dalam proses perbaikan atau perubahan sebelum diterbitkan.
+      Mohon maaf 🙏 postingan masih dalam proses perbaikan atau perubahan
+      sebelum diterbitkan.
     </p>
   </div>
 </div>

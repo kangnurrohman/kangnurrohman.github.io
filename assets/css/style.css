@@ -659,3 +659,33 @@ th {
 .formula-container {
   text-align: center;
 }
+
+/* Datatable */
+
+/* Menghilangkan border default dan menggantinya dengan border tipis */
+#myDataTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#myDataTable th,
+#myDataTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Memberikan warna latar belakang pada header tabel */
+#myDataTable thead th {
+  background-color: #f2f2f2;
+}
+
+/* Mengubah warna latar belakang baris bergantian */
+#myDataTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Mengubah warna latar belakang saat hover pada baris */
+#myDataTable tbody tr:hover {
+  background-color: #ddd;
+}
