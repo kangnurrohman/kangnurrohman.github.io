@@ -88,6 +88,6 @@ function copyToClipboard(event) {
 }
 
 // DataTable
-// $(document).ready(function() {
-//   $('#tabel-interaktif').DataTable();
-// });
+$(document).ready(function() {
+  $('#tabel-interaktif').DataTable();
+});

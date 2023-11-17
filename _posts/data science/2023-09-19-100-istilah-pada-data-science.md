@@ -12,7 +12,7 @@ tags: [analisis data, data science]
 published: true
 ---
 <div class="tes">
-  <table id="tabel-interaddktif" class="display">
+  <table id="tabel-interaktif" class="display">
     <thead>
       <tr>
         <th>Kolom 1</th>
