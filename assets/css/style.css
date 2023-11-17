@@ -671,7 +671,7 @@ th {
   color: var(--primary-font-color);
 }
 
-#tabel-interaktif td {
+#tabel-interaktif tbody {
   background-color: var(--body-bg);
   color: var(--primary-font-color);
 }
