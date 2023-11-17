@@ -21,8 +21,8 @@ published: true
   </thead>
   <tbody>
     <tr>
-      <td>Data 1</td>
-      <td>Data 2</td>
+      <td>Data dddddddddddddddddddddddddddddddddddddddddddddddddddddd2</td>
+      <td>Data dddddddddddddddddddddddddddddddddddddddddddddddddddddd2</td>
       <!-- ... tambahkan data lainnya ... -->
     </tr>
   </tbody>
