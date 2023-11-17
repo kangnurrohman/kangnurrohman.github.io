@@ -662,34 +662,12 @@ th {
 
 /* Datatable */
 
-    #tabel-interaktif {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 20px;
-      font-size: 14px;
-      background-color: var(--body-bg);
-      /* Menyesuaikan dengan variabel body background */
-      color: var(--primary-font-color);
-      /* Menyesuaikan dengan variabel primary font color */
-    }
-  
-    #tabel-interaktif th,
-    #tabel-interaktif td {
-      border: 1px solid var(--border-color);
-      /* Menyesuaikan dengan variabel border color */
-      padding: 8px;
-      text-align: left;
-    }
-  
-    #tabel-interaktif th {
-      background-color: #3498db;
-      /* Tetap menggunakan warna header yang spesifik */
-      color: white;
-    }
-  
-    #tabel-interaktif tbody {
-      background-color: var(--bg-color);
-      /* Menyesuaikan dengan variabel bg color */
-      color: var(--primary-font-color);
-      /* Menyesuaikan dengan variabel primary font color */
-    }
+ #tabel-interaktif th,
+ #tabel-interaktif td {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: var(--body-bg);
+  color: var(--primary-font-color);
+}
