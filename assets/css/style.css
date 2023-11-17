@@ -662,7 +662,7 @@ th {
 
 /* Datatable */
 
-#tabel-interaktif th {
+#tabel-interaktif {
   border-collapse: collapse;
   width: 100%;
   margin-top: 20px;
