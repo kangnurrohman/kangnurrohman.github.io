@@ -24,7 +24,21 @@ published: true
       <tr>
         <td>Data 1</td>
         <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
-        <!-- ... tambahkan data lainnya ... -->
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        
       </tr>
     </tbody>
   </table>
