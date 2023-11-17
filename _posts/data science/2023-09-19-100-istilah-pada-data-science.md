@@ -11,32 +11,19 @@ categories: Data Science
 tags: [analisis data, data science]
 published: true
 ---
-<div class="table-container">
-<table id="myTable" class="display">
-        <thead>
-            <tr>
-                <th>Nama</th>
-                <th>Usia</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>30</td>
-                <td>John Deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeoe</td>
-            </tr>
-            <tr>
-                <td>25</td>
-                <td>Janeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Smith</td>
-            </tr>
-            <tr>
-                <td>25</td>
-                <td>Janeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Smith</td>
-            </tr>
-            <tr>
-                <td>25</td>
-                <td>Janeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Smith</td>
-            </tr>
-            <!-- Tambahkan lebih banyak baris sesuai kebutuhan Anda -->
-        </tbody>
-    </table>
-</div>
+<table id="tabel-interaktif" class="display">
+  <thead>
+    <tr>
+      <th>Kolom 1</th>
+      <th>Kolom 2</th>
+      <!-- ... tambahkan kolom lainnya ... -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <!-- ... tambahkan data lainnya ... -->
+    </tr>
+  </tbody>
+</table>

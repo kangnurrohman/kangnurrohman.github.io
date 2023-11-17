@@ -87,13 +87,7 @@ function copyToClipboard(event) {
   }, 2000);
 }
 
-// Datatable
-$(document).ready(function () {
-  var table = $('#myTable').DataTable({
-    dom: 'Bfrtip',
-    buttons: [
-      'csv', 'excel', 'pdf', 'print'
-    ]
-  });
+// DataTable
+$(document).ready(function() {
+    $('#tabel-interaktif').DataTable();
 });
-

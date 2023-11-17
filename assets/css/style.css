@@ -659,30 +659,3 @@ th {
 .formula-container {
   text-align: center;
 }
-
-/* Datatable */
-
-table.dataTable.no-footer {
-  border: none;
-}
-
-table.dataTable {
-  background-color: #f7f7f7;
-}
-
-table.dataTable thead th {
-  background-color: #e0e0e0;
-}
-
-table.dataTable {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.dt-buttons {
-  background-color: #f7f7f7;
-}
-
-.dt-button {
-  background-color: #e0e0e0;
-  color: #333;
-}
