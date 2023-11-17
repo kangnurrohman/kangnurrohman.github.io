@@ -662,12 +662,16 @@ th {
 
 /* Datatable */
 
- #tabel-interaktif th,
- #tabel-interaktif td {
+#tabel-interaktif th {
   border-collapse: collapse;
   width: 100%;
   margin-top: 20px;
   font-size: 14px;
+  background-color: var(--body-bg);
+  color: var(--primary-font-color);
+}
+
+#tabel-interaktif td {
   background-color: var(--body-bg);
   color: var(--primary-font-color);
 }
