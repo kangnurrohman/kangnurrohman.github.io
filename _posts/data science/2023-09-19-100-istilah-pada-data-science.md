@@ -11,8 +11,8 @@ categories: Data Science
 tags: [analisis data, data science]
 published: true
 ---
-<div class="table-responsive">
-  <table id="tabel-interaktif" class="display">
+<div class="tes">
+  <table id="tabel-interaddktif" class="display">
     <thead>
       <tr>
         <th>Kolom 1</th>
