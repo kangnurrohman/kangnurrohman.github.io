@@ -667,20 +667,6 @@ th {
   width: 100%;
   margin-top: 20px;
   font-size: 14px;
-}
-
-#tabel-interaktif th,
-#tabel-interaktif td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-#tabel-interaktif th {
-  background-color: #3498db;
-  color: white;
-}
-
-#tabel-interaktif tbody {
-  background-color: rgba(52, 152, 219, 0.3);
+  background-color: var(--body-bg);
+  color: var(--primary-font-color);
 }
