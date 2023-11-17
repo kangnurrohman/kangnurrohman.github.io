@@ -11,19 +11,21 @@ categories: Data Science
 tags: [analisis data, data science]
 published: true
 ---
-<table id="tabel-interaktif" class="display">
-  <thead>
-    <tr>
-      <th>Kolom 1</th>
-      <th>Kolom 2</th>
-      <!-- ... tambahkan kolom lainnya ... -->
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Data dddddddddddddddddddddddddddddddddddddddddddddddddddddd2</td>
-      <td>Data dddddddddddddddddddddddddddddddddddddddddddddddddddddd2</td>
-      <!-- ... tambahkan data lainnya ... -->
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table id="tabel-interaktif" class="display">
+    <thead>
+      <tr>
+        <th>Kolom 1</th>
+        <th>Kolom 2</th>
+        <!-- ... tambahkan kolom lainnya ... -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2 dengan teks panjang yang membssssssssssssssuatnya responsif</td>
+        <!-- ... tambahkan data lainnya ... -->
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -89,5 +89,5 @@ function copyToClipboard(event) {
 
 // DataTable
 $(document).ready(function() {
-    $('#tabel-interaktif').DataTable();
+  $('#tabel-interaktif').DataTable();
 });
