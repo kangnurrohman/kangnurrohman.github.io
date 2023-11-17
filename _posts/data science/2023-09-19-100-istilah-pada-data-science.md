@@ -11,7 +11,7 @@ categories: Data Science
 tags: [analisis data, data science]
 published: true
 ---
-<div class="tes">
+<div class="table-responsive">
   <table id="tabel-interaktif" class="display">
     <thead>
       <tr>
