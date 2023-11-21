@@ -96,8 +96,7 @@ published: true
 <ol>
  <li>
   <p><strong>Konjungsi $$(∧)$$</strong></p>
-  <p>Konjungsi digunakan untuk menggabungkan dua pernyataan dengan kata penghubung <code>dan</code>. Suatu pernyataan
-   p∧q dikatakan benar jika kedua pernyataan $$p$$ dan $$q$$ benar.</p>
+  <p>Konjungsi digunakan untuk menggabungkan dua pernyataan dengan kata penghubung <code>dan</code>. Suatu pernyataan $$p∧q$$ dikatakan benar jika kedua pernyataan $$p$$ dan $$q$$ benar.</p>
   <p>Contohnya:</p>
   <p>$$p$$ : "Hari ini adalah senin"</p>
   <p>$$q$$ : "cuaca hujan"</p>
