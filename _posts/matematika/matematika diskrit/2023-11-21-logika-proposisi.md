@@ -344,7 +344,7 @@ published: true
  <li>
   <p><strong>Jointdenial (Not OR/NOR) $$(¬∨)$$</strong></p>
   <p>Jointdenial atau yang sering dikenal dengan NOR (Not OR) digunakan untuk menegasikan dari pernyataan disjungsi
-   (OR). Dalam hal ini, kita menggunakan negasi $$(¬)$$ pada operasi OR. Misalnya, Misalnya, $$¬(p∨q)$$ akan menjadi hasil
+   (OR). Dalam hal ini, kita menggunakan negasi $$(¬)$$ pada operasi OR. Misalnya, $$¬(p∨q)$$ akan menjadi hasil
    negasi dari operasi $$p∨q$$.</p>
   <p>Contohnya:</p>
   <p>$$p$$ : "Hari ini hari minggu"</p>
