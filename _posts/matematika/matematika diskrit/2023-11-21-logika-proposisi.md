@@ -1,10 +1,10 @@
 ---
-title: "Logika Preposisi"
+title: "Logika Proposisi"
 date: 2023-11-21T00:00:00+00:00
 update: 2023-11-21T00:00:00+00:00
 author: Kang Nur
 layout: post
-permalink: /logika-preposisi/
+permalink: /logika-proposisi/
 image: "/assets/images/post/logika-preposisi/gambar0.png"
 description: "Matematika diskrit adalah cabang matematika yang mempelajari objek-objek yang terpisah secara individual."
 categories: Matematika
@@ -12,7 +12,31 @@ tags: [matematika, matematika diskrit]
 published: true
 ---
 
-<h2>Apa itu logika?</h2>
+<div class="w-100">
+  <div class="table-of-contents">
+    <h1 class="table-of-contents-title" onclick="toggleContent('daftar-isi')" style="cursor:pointer;"><i class="fas fa-list-ul table-of-contents-icon"></i></i><i id="arrow-daftar-isi" class="arrow arrow-right fas fa-chevron-right" style="float: right;"></i>Daftar Isi</h1>
+    <ul class="content table-of-contents-list" id="daftar-isi">
+      <li class="table-of-contents-item">
+        <a class="table-of-contents-link" href="logika-proposisi/#what-is-logic"
+          ><i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu Logika?
+        </a>
+        <ul>
+          <li class="table-of-contents-item">
+            <a class="table-of-contents-link" href="logika-proposisi/#what-is-propositional-logic">
+              Apa itu logika proposisi?
+            </a>
+          </li>
+          <li class="table-of-contents-item">
+            <a class="table-of-contents-link" href="logika-proposisi/#what-is-a-compound-statement">
+              Apa itu pernyataan gabungan?
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+<h2 id="what-is-logic">Apa itu logika?</h2>
 <p>Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
  mendengar kata "Logika" di kehidupan sehari-hari. Logika adalah ilmu yang mempelajari tentang cara berpikir dan
  bernalar yang benar. Logika membahas prinsip-prinsip dasar dalam membuat argumen yang valid dan memastikan kesesuaian
@@ -20,7 +44,7 @@ published: true
  untuk mengembangkan metode berpikir yang dapat digunakan untuk mencari kesimpulan yang benar berdasarkan informasi yang
  ada.</p>
 
-<h2>Apa itu logika proposisi?</h2>
+<h2 id="what-is-propositional-logic">Apa itu logika proposisi?</h2>
 <p>Setelah mengetahui definisi logika, selanjutnya kita bahas logika proposisi. Logika proposisi sering disebut logika
  matematika atau logika deduktif adalah matematika diskrit yang mempelajari tentang berkaitan pernyataan yang dapat
  dianggap benar <em>(true)</em> atau salah <em>(false)</em>, namun tidak keduanya. Pernyataan tersebut dapat berbentuk
@@ -63,7 +87,7 @@ published: true
  dan Kontradiksi, Kesetaraan Logis, Aljabar Proposisi, Implikasi dan Biimplikasi, Argumentasi, dan Kuantor Pernyataan.
 </p>
 <p>Selain itu, setiap pembahasan akan dipraktikkan menggunakan Python dan R.</p>
-<h2>Apa itu pernyataan gabungan?</h2>
+<h2 id="what-is-a-compound-statement">Apa itu pernyataan gabungan?</h2>
 <p>Pernyataan gabungan atau <em>compound statement</em> adalah penggabungan dua atau lebih pernyataan menggunakan kata
  hubung <code>dan</code>, <code>atau</code>, <code>tidak</code> dalam matematika/pemrograman sering disebut operator
  logika.</p>
