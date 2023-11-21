@@ -14,27 +14,26 @@ published: true
 
 <div class="w-100">
   <div class="table-of-contents">
-    <h1 class="table-of-contents-title" onclick="toggleContent('daftar-isi')" style="cursor:pointer;"><i class="fas fa-list-ul table-of-contents-icon"></i></i><i id="arrow-daftar-isi" class="arrow arrow-right fas fa-chevron-right" style="float: right;"></i>Daftar Isi</h1>
+    <h1 class="table-of-contents-title" onclick="toggleContent('daftar-isi')" style="cursor:pointer;">
+      <i class="fas fa-list-ul table-of-contents-icon"></i>
+      <i id="arrow-daftar-isi" class="arrow arrow-right fas fa-chevron-right" style="float: right;"></i>
+      Daftar Isi
+    </h1>
     <ul class="content table-of-contents-list" id="daftar-isi">
       <li class="table-of-contents-item">
-        <a class="table-of-contents-link" href="logika-proposisi/#what-is-logic"
-          ><i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu Logika?
+        <a class="table-of-contents-link" href="logika-proposisi/#what-is-logic">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu Logika?
         </a>
-        <ul>
-          <li class="table-of-contents-item">
-            <a class="table-of-contents-link" href="logika-proposisi/#what-is-propositional-logic">
-              Apa itu logika proposisi?
-            </a>
-          </li>
-          <li class="table-of-contents-item">
-            <a class="table-of-contents-link" href="logika-proposisi/#what-is-a-compound-statement">
-              Apa itu pernyataan gabungan?
-            </a>
-          </li>
-        </ul>
+        <a class="table-of-contents-link" href="logika-proposisi/#what-is-propositional-logic">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu logika proposisi?
+        </a>
+        <a class="table-of-contents-link" href="logika-proposisi/#what-is-a-compound-statement">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu pernyataan gabungan?
+        </a>
       </li>
     </ul>
   </div>
+</div>
 
 <h2 id="what-is-logic">Apa itu logika?</h2>
 <p>Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
