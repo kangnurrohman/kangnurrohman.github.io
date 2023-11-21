@@ -76,14 +76,16 @@ published: true
   <p>Konjungsi digunakan untuk menggabungkan dua pernyataan dengan kata penghubung <code>dan</code>. Suatu pernyataan
    p∧q dikatakan benar jika kedua pernyataan $$p$$ dan $$q$$ benar.</p>
   <p>Contohnya:</p>
-  <p>$$p$$ : "Hari ini adalah senin" dan $$q$$ : "cuaca hujan", maka $$p∧q$$ akan benar jika hari ini adalah hari senin dan cuaca hujan.</p>
+  <p>$$p$$ : "Hari ini adalah senin"</p>
+  <p>$$q$$ : "cuaca hujan"</p>
+  <p>$$p∧q$$ : akan benar jika hari ini adalah hari senin dan cuaca hujan.</p>
   <p>Dalam pemrograman, konjungsi $$(∧)$$ sering disebut dengan operator logika AND atau <code>&amp;&amp;</code>. Jika
    kondisi pada pernyataan dalam suatu blok kode tidak kondisi <code>True</code> maka kode tidak dijalankan.</p>
   <p>Contoh pada bahasa python:</p>
   
  <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     hari_senin = True
     cuaca_hujan = True
@@ -100,7 +102,7 @@ published: true
   <p>Contoh pada bahasa R:</p>
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     hari_senin &lt;- TRUE
     cuaca_hujan &lt;- TRUE
@@ -118,9 +120,9 @@ published: true
   <table>
    <thead>
     <tr>
-     <th>p</th>
-     <th>q</th>
-     <th>p∧q</th>
+     <th>$$p$$</th>
+     <th>$$q$$</th>
+     <th>$$p∧q$$</th>
     </tr>
    </thead>
    <tbody>
