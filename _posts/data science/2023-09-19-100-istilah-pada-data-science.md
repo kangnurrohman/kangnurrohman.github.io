@@ -9,7 +9,7 @@ image: ""
 description: ""
 categories: Data Science
 tags: [analisis data, data science]
-published: true
+published: false
 ---
 <div class="table-responsive">
   <table id="tabel-interaktif" class="display">
