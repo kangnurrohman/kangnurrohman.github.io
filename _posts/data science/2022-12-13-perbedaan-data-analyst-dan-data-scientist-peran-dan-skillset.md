@@ -14,7 +14,7 @@ published: true
 <p>Seperti yang kita ketahui masih banyak mispersepsi di masyarakat dalam membedakan Data analyst dan Data Scientist, terutama pemula. Memang jika kita mengacu pada industri antara istilah dan job desk-nya tergantung perusahaan masing-masing. Namun, pada artikel ini menjelaskan perbedaan Data analyst dan Data Scientist berdasarkan Peran dan Skillset-nya.</p>
 <p>Sebelum membahas perbedaan Data analyst dan Data Scientist kita harus tau dulu apa itu data analysis dan data science. Data analysis adalah proses mengeksplorasi data untuk menemukan pola dengan tujuan membantu membuat keputusan bisnis <em>(business decisions)</em>. Data analysis ini salah satu subdomain dari data science. Data analysis mengekstrak data dari berbagai sumber, memvisualisasikan data, membuat laporan, dan mempresentasikan kepada stakeholder/pembuat keputusan.</p>
 <p>Data science adalah bidang interdisipliner yang menggunakan pendekatan ilmiah <em>(scientific)</em> untuk mengekstrak <em>insight</em> dari data terstruktur maupun tidak terstruktur. Data science terdiri dari beberapa irisan seperti data analitik, data mining, machine learning dan domain terkait lainnya. Data science tidak sebatas menganalisis data, namun mengembangkan model dan algoritma, seperti klasifikasi, klasterisasi, asosiasi yang digunakan untuk prediksi harga saham, cuaca, penyakit, identifikasi penipuan dll.</p>
-<h2 class="atx" id="peran-data-analyst-dan-data-scientist"><strong>Peran Data analyst dan Data Scientist</strong></h2>
+<h2><strong>Peran Data analyst dan Data Scientist</strong></h2>
 <p>Berdasarkan peran, data analyst bertugas mengumpulkan, memfilter, memproses, dan menerapkan konsep statistik untuk mencari pola, tren, dan insight dari data untuk membuat suatu keputusan. Tujuan utamanya, membantu sebuah perusahaan atau organisasi memecahkan masalah bisnis menggunakan pola dan tren. Seorang data analyst diharuskan menguasai SQL query, <em>visualization tools</em>, dan menggunakan <em>reporting tool</em> seperti Microsoft Power BI, IBM Cognos, Tableau, dll. Data scientist sendiri lebih mengarah ke teknikal dan matematis. Tabel berikut menjelaskan perbedaan data analyst dan data scientist dari segi peran:</p>
 <table>
 <thead>
@@ -50,7 +50,7 @@ published: true
 <td>Excel, SQL, R, Tableau, dan Qlikview</td>
 </tr>
 </tbody></table>
-<h2 class="atx" id="skillset-data-analyst-dan-data-scientist"><strong>Skillset data analyst dan data scientist</strong></h2>
+<h2><strong>Skillset data analyst dan data scientist</strong></h2>
 <p>Data analyst adalah seseorang yang menemukan <em>insight</em> dan menghasilkan <em>value</em> dari data untuk membantu <em>decision-makers</em> membuat keputusan. Oleh karena itu skillset yang harus dikuasai seorang data analyst sebagai berikut:</p>
 <ul>
 <li><p><strong><em>Exploratory Data Analysis (EDA):</em></strong> EDA digunakan untuk membantu pengecekan data, menemukan pola, menguji hipotesis dan asumsi. Oleh karena itu skill EDA hal yang sangat krusial untuk seorang data analyst.</p>
@@ -81,7 +81,7 @@ published: true
 <li><p><strong><em>Teknologi Deep Learning:</em></strong> Deep learning tools seperti Tensorflow, PyTorch dan Keras digunakan dalam bidang NLP dan Computer Vision.</p>
 </li>
 </ul>
-<h2 class="atx" id="kesimpulan">Kesimpulan</h2>
+<h2>Kesimpulan</h2>
 <p>Melihat perbandingan antara data analyst dan data scientist berdasarkan peran dan skillset, didapatkan beberapa kesimpulan sebagai berikut:</p>
 <ul>
 <li><p>Data Scientist berorientasi pada ranah riset dan akademis (research-oriented) sedangkan data analyst lebih berorientasi pada penerapan (application-oriented).</p>
