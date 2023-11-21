@@ -1,5 +1,5 @@
 ---
-title: "Pengantar Matematika Diskrit"
+title: "Logika Preposisi"
 date: 2023-11-21T00:00:00+00:00
 update: 2023-11-21T00:00:00+00:00
 author: Kang Nur
