@@ -202,7 +202,7 @@ published: true
       if p &gt;= 80 or q &gt;= 80:
         print("Tim mendapatkan piala")
       else:
-      print("Tim tidak mendapatkan piala")
+        print("Tim tidak mendapatkan piala")
 
     </code>
     </pre>
