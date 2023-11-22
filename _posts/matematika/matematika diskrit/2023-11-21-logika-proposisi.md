@@ -5,7 +5,7 @@ update: 2023-11-21T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /logika-proposisi/
-image: "/assets/images/post/logika-preposisi/gambar0.png"
+image: "/assets/images/post/logika-proposisi/gambar0.png"
 description: "Matematika diskrit adalah cabang matematika yang mempelajari objek-objek yang terpisah secara individual."
 categories: Matematika
 tags: [matematika, matematika diskrit]
