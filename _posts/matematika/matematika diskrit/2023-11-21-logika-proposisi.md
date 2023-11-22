@@ -539,7 +539,7 @@ published: true
     <p>$$q$$ : "Mobil tersebut tidak berwarna putih"</p>
     <p>$$p⊕q$$ : keluaran dari $$p$$ dan $$q$$ akan bernilai <em>True</em>, karena salah satu pernyataan tersebut tidak bernilai
       <em>True.</em></p>
-    <p>Dalam pemrograman, $$XOR (⊕)$$ sering disebut dengan operator bitwise XOR, terkadang disimbolkan dengan
+    <p>Dalam pemrograman, XOR $$(⊕)$$ sering disebut dengan operator bitwise XOR, terkadang disimbolkan dengan
       <code>^</code>. Jika kondisi pada pernyataan dalam suatu blok kode salah satu kondisinya <code>True</code>, maka
       kode dijalankan.</p>
     <p>Contoh pada bahasa python:</p>
