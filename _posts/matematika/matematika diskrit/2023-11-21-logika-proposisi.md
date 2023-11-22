@@ -991,3 +991,66 @@ published: true
   </li>
 </ul>
 <p>Jadi, $$¬(p∨q)$$ ekuivalen $$(≡)$$ dengan $$¬p∨¬q$$</p>
+
+<h2 id="apa-itu-aljabar-preposisi">Apa itu aljabar preposisi?</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Hukum</th>
+      <th>Pernyataan Gabungan</th>
+      <th>Ekspresi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Idempoten</td>
+      <td>- Konjungsi&nbsp;(∧)&lt;br/&gt;- Disjungsi (∨)&nbsp;<br></td>
+      <td>-&nbsp;p ∧ p = p&lt;br/&gt;-&nbsp;p ∨ p = p</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
