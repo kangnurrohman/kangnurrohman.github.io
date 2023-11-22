@@ -33,6 +33,9 @@ published: true
         <a class="table-of-contents-link" href="logika-proposisi/#what-is-tautology-and-contradiction">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu tautologi dan kontradiksi?
         </a>
+        <a class="table-of-contents-link" href="logika-proposisi/#what-is-logical-equivalence">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kesetaraan logis?
+        </a>
       </li>
     </ul>
   </div>
@@ -197,7 +200,7 @@ published: true
   <p>Contoh pada bahasa python:</p>
   <div class="code-container">
     <pre>
-    <code class="bash">
+    <code class="python">
 
       p = 80 # nilai andi
       q = 70 # nilai lutfi
@@ -215,7 +218,7 @@ published: true
   <p>Contoh pada bahasa R:</p>
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     p &lt;- 80 # nilai andi
     q &lt;- 70 # nilai lutfi
@@ -284,7 +287,7 @@ published: true
   <p>Contoh pada bahasa python:</p>
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     p = True # hari ini adalah hari minggu
 
@@ -301,7 +304,7 @@ published: true
 
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     p &lt;- TRUE  # hari ini adalah hari minggu
 
@@ -357,7 +360,7 @@ published: true
 
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     p = True  # Hari ini hari minggu
     q = True  # Saya menonton gandrung
@@ -375,7 +378,7 @@ published: true
 
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     p &lt;- TRUE  # Hari ini hari minggu
     q &lt;- TRUE  # Saya menonton gandrung
@@ -448,7 +451,7 @@ published: true
   <p>Contoh pada bahasa python:</p>
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     p = True  # Hari ini adalah hari Minggu
     q = False  # Saya tidak menonton gandrung
@@ -466,7 +469,7 @@ published: true
 
   <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     p &lt;- TRUE  # Hari ini adalah hari Minggu
     q &lt;- FALSE  # Saya tidak menonton gandrung
@@ -546,7 +549,7 @@ published: true
 
     <div class="code-container">
       <pre>
-      <code class="bash">
+      <code class="python">
 
       p = True  # Mobil tersebut berwarna hitam
       q = False  # Mobil tersebut berwarna putih
@@ -563,7 +566,7 @@ published: true
     <p>Contoh pada bahasa R:</p>
     <div class="code-container">
       <pre>
-      <code class="bash">
+      <code class="r">
 
       p &lt;- TRUE  # Mobil tersebut berwarna hitam
       q &lt;- FALSE  # Mobil tersebut berwarna putih
@@ -633,7 +636,7 @@ published: true
     <p>Contoh pada bahasa python:</p>
     <div class="code-container">
       <pre>
-      <code class="bash">
+      <code class="python">
 
       p = True  # Kamar tidur ini dilengkapi dengan lampu tidur yang menyala
       q = True  # Suasana kamar tidur ini tenang
@@ -651,7 +654,7 @@ published: true
 
 <div class="code-container">
       <pre>
-      <code class="bash">
+      <code class="r">
 
       p &lt;- TRUE # Kamar tidur ini dilengkapi dengan lampu tidur yang menyala
       q &lt;- TRUE # Suasana kamar tidur ini tenang
@@ -728,7 +731,7 @@ published: true
       <p>Contoh pada bahasa python:</p>
       <div class="code-container">
       <pre>
-        <code class="bash">
+        <code class="python">
 
     x = 8 # variabelnya dirubah bentuk apapun akan selalu True nilainya
   
@@ -743,7 +746,7 @@ published: true
       <p>Contoh pada bahasa R:</p>
       <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     x &lt;- 8  # Variabelnya dirubah bentuk apapun akan selalu TRUE nilainya
   
@@ -779,10 +782,18 @@ published: true
         </tbody>
       </table>
       <p>Keterangan:</p>
-      <p>$$p$$ : adalah pernyataan</p>
-      <p>$$¬p$$ : adalah negasi dari p</p>
-      <p>$$(p∨¬p)$$ : adalah hasil dari disjungsi antara $$p$$ dan negasi $$p$$. Dapat kita lihat, tidak peduli pernyataannya
-        <em>True</em> atau <em>False</em>, nilainya selalu <em>True</em>.</p>
+      <ul>
+      <li>
+        <p>$$p$$ : adalah pernyataan</p>
+      </li>
+      <li>
+        <p>$$¬p$$ : adalah negasi dari $$p$$</p>
+      </li>
+      <li>
+        <p>$$(p∨¬p)$$ : adalah hasil dari disjungsi antara $$p$$ dan negasi $$p$$. Dapat kita lihat, tidak peduli pernyataannya
+          <em>True</em> atau <em>False</em>, nilainya selalu <em>True</em>.</p>
+      </li>
+    </ul>
     </li>
     <li>
       <p><strong>Kontradiksi $$(p∧¬p)$$</strong></p>
@@ -798,7 +809,7 @@ published: true
       <p>Contoh pada bahasa python:</p>
       <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     x = 6 # Variabelnya dirubah bentuk apapun akan selalu TRUE nilainya
   
@@ -813,7 +824,7 @@ published: true
       <p>Contoh pada bahasa R:</p>
       <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     x &lt;- 6 # Variabelnya dirubah bentuk apapun akan selalu FALSE nilainya
   
@@ -849,9 +860,133 @@ published: true
         </tbody>
       </table>
       <p>Keterangan:</p>
-      <p>$$p$$ : adalah pernyataan</p>
-      <p>$$¬p$$ : adalah negasi dari p</p>
-      <p>$$p∧¬p$$ : adalah hasil dari konjungsi antara $$p$$ dan negasi $$p$$. Dapat kita lihat, tidak peduli pernyataannya
-        <em>True</em> atau <em>False</em>, nilainya selalu <em>False</em>.</p>
+      <ul>
+      <li>
+        <p>$$p$$ : adalah pernyataan</p>
+      </li>
+      <li>
+        <p>$$¬p$$ : adalah negasi dari p</p>
+      </li>
+      <li>
+        <p>$$p∧¬p$$ : adalah hasil dari konjungsi antara $$p$$ dan negasi $$p$$. Dapat kita lihat, tidak peduli pernyataannya
+          <em>True</em> atau <em>False</em>, nilainya selalu <em>False</em>.</p>
+      </li>
+    </ul>
     </li>
   </ol>
+
+<h2 id="what-is-logical-equivalence">Apa itu kesetaraan logis?</h2>
+<p>Kesetaraan logis $$(≡)$$ adalah konsep dari logika proposisi yang merujuk pada dua pernyataan yang memiliki nilai/kondisi
+  yang setara/ekivalen.</p>
+<p>Contohnya:</p>
+<p>$$p$$ : "Nilai mahasiswa 60"</p>
+<p>$$q$$ : "Nilai lulus 85"</p>
+<p>$$p≡q$$ : "Mahasiswa tidak lulus karena nilainya tidak sama dengan nilai lulus", artinya kondisinya <em>False</em>.</p>
+<p>Dalam pemrograman, kesetaraan logis $$(≡)$$ sering digunakan untuk membandingkan dua ekspresi atau pernyataan apakah
+  keduanya memiliki nilai yang sama. Kesetaraan logis dalam pemrograman disimbolkan dengan <code>==</code> atau
+  <code>===</code>.</p>
+<p>Contoh pada bahasa python:</p>
+<div class="code-container">
+  <pre>
+  <code class="python">
+
+    p = 85 # nilai mahasiswa
+    q = 60 # nilai lulus
+
+    if p == q:
+        print("Mahasiswa lulus dengan nilai yang tepat.")
+    else:
+        print("Mahasiswa tidak lulus atau mendapat nilai yang berbeda.")
+
+  </code>
+  </pre>
+</div>
+
+<p>Contoh pada bahasa R:</p>
+<div class="code-container">
+  <pre>
+  <code class="r">
+
+    p &lt;- 85  # nilai mahasiswa
+    q &lt;- 60  # nilai lulus
+
+    if (p == q) {
+      print("Mahasiswa lulus dengan nilai yang tepat.")
+    } else {
+      print("Mahasiswa tidak lulus atau mendapat nilai yang berbeda.")
+    }
+
+  </code>
+  </pre>
+</div>
+
+<p><strong>Tabel kebenaran kesetaraan logis $$(≡)$$</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>$$p$$</th>
+      <th>$$q$$</th>
+      <th>$$¬p$$</th>
+      <th>$$¬q$$</th>
+      <th>$$(p∨q)$$</th>
+      <th>$$¬(p∨q)$$</th>
+      <th>$$¬p∨¬q$$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+    </tr>
+  </tbody>
+</table>
+<p>Keterangan:</p>
+<ul>
+  <li>
+    <p>$$p$$ dan $$q$$ :mewakili pernyataan</p>
+  </li>
+  <li>
+    <p>$$¬p$$ dan $$¬q$$ : negasi dari $$p$$ dan $$q$$</p>
+  </li>
+  <li>
+    <p>$$(p∨q)$$ : Disjungsi (atau) logis dari $$p$$ dan $$q$$</p>
+  </li>
+  <li>
+    <p>$$¬(p∨q)$$ : Negasi dari disjungsi $$p$$ dan $$q$$</p>
+  </li>
+  <li>
+    <p>$$¬p∨¬q$$ : Disjungsi dari negasi $$p$$ dan negasi $$q$$</p>
+  </li>
+</ul>
