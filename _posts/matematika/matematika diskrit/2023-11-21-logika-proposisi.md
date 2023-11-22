@@ -990,3 +990,4 @@ published: true
     <p>$$¬p∨¬q$$ : Disjungsi dari negasi $$p$$ dan negasi $$q$$</p>
   </li>
 </ul>
+<p>Jadi, $$¬(p∨q)$$ ekivalen dengan $$¬p∨¬q$$</p>
