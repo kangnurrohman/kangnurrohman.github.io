@@ -625,7 +625,7 @@ published: true
     <p>Contohnya:</p>
     <p>$$p$$ : "Kamar tidur ini dilengkapi dengan lampu tidur"</p>
     <p>$$q$$ : "Suasana kamar tidur ini tenang"</p>
-    <p>$$p≡q$$ : keluaran dari p dan q akan bernilai <em>True</em>, karena kedua pernyataan tersebut bernilai <em>True</em>.
+    <p>$$p≡q$$ : keluaran dari $$p$$ dan $$q$$ akan bernilai <em>True</em>, karena kedua pernyataan tersebut bernilai <em>True</em>.
     </p>
     <p>Contoh pada bahasa python:</p>
     <div class="code-container">
