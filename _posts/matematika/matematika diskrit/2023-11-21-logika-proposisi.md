@@ -88,7 +88,7 @@ published: true
 <p>Selain itu, setiap pembahasan akan dipraktikkan menggunakan Python dan R.</p>
 <h2 id="what-is-a-compound-statement">Apa itu pernyataan gabungan?</h2>
 <p>Pernyataan gabungan atau <em>compound statement</em> adalah penggabungan dua atau lebih pernyataan menggunakan kata
- hubung <code>dan</code>, <code>atau</code>, <code>tidak</code> dalam matematika/pemrograman sering disebut operator
+ hubung <code>dan</code>, <code>atau</code>, <code>tidak</code>. Pada matematika/pemrograman sering disebut operator
  logika.</p>
 <h3>Apa saja macam-macam pernyataan gabungan?</h3>
 <p>Ada banyak sekali macam-macam pernyataan gabungan, antara lain:</p>
