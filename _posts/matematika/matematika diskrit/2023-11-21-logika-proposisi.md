@@ -30,6 +30,9 @@ published: true
         <a class="table-of-contents-link" href="logika-proposisi/#what-is-a-compound-statement">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu pernyataan gabungan?
         </a>
+        <a class="table-of-contents-link" href="logika-proposisi/#what-is-tautology-and-contradiction">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu tautologi dan kontradiksi?
+        </a>
       </li>
     </ul>
   </div>
@@ -621,7 +624,7 @@ published: true
   <li>
     <p><strong>eXclusive NOR/XNOR $$(≡/↔)$$</strong></p>
     <p>eXclusive NOR (XNOR) digunakan untuk menegasikan dari pernyataan XOR. Dimana, XNOR bernilai <em>True</em> jika
-      kedua pernyataan nilainya sama (baik kedua pernyataan bernilai <em>True</em> atau <em>False</em>)</p>
+      kedua pernyataan nilainya sama (baik kedua pernyataan bernilai <em>True</em> atau <em>False</em>).</p>
     <p>Contohnya:</p>
     <p>$$p$$ : "Kamar tidur ini dilengkapi dengan lampu tidur"</p>
     <p>$$q$$ : "Suasana kamar tidur ini tenang"</p>
@@ -706,3 +709,149 @@ published: true
 </ul>
   </li>
 </ol>
+
+ <h2 id="what-is-tautology-and-contradiction">Apa itu tautologi dan kontradiksi?</h2>
+  <p>Tautologi dan kontradiksi adalah konsep dari logika proposisi yang merujuk pada dua jenis pernyataan khusus yang
+    dipandang dari nilai kebenarannya.</p>
+  <ol>
+    <li>
+      <p><strong>Tautologi $$(p∨¬p)$$</strong></p>
+      <p>Tautologi adalah konsep proposisi yang nilai/kondisinya selalu benar tidak peduli bagaimana nilai/kondisi
+        pernyatannya, intinya kayak cewek dah selalu benar 😂.</p>
+      <p>Contohnya:</p>
+      <p>$$p$$ : "Hari ini adalah hari kerja"</p>
+      <p>$$¬p$$ : "Hari ini bukan hari kerja"</p>
+      <p>$$p∨¬p$$ : keluarannya akan selalu bernilai <em>True</em> tidak peduli pernyataan tersebut <em>True</em> atau
+        <em>False</em>.</p>
+      <p>Dalam pemrograman, konsep tautologi dapat dijumpai pada ekspresi logika yang selalu benar, tidak peduli nilai
+        variabel-variabel yang ada.</p>
+      <p>Contoh pada bahasa python:</p>
+      <div class="code-container">
+      <pre>
+        <code class="bash">
+
+    x = 8 # variabelnya dirubah bentuk apapun akan selalu True nilainya
+  
+    if x &gt; 0 or x &lt;= 0:
+      print("Pernyataan ini selalu dijalankan.")
+    else:
+      print("Pernyataan ini tidak akan pernah dijalankan.")
+
+  </code>
+  </pre>
+</div>
+      <p>Contoh pada bahasa R:</p>
+      <div class="code-container">
+  <pre>
+  <code class="bash">
+
+    x &lt;- 8  # Variabelnya dirubah bentuk apapun akan selalu TRUE nilainya
+  
+    if (x &gt; 0 || x &lt;= 0) {
+      print("Pernyataan ini selalu dijalankan.")
+    } else {
+      print("Pernyataan ini tidak akan pernah dijalankan.")
+    }
+
+  </code>
+  </pre>
+</div>
+      <p><strong>Tabel kebenaran tautologi $$(p∨¬p)$$</strong></p>
+      <table>
+        <thead>
+          <tr>
+            <th>$$p$$</th>
+            <th>$$¬p$$</th>
+            <th>$$p∨¬p$$</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>T</td>
+            <td>F</td>
+            <td>T</td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Keterangan:</p>
+      <p>$$p$$ : adalah pernyataan</p>
+      <p>$$¬p$$ : adalah negasi dari p</p>
+      <p>$$(p∨¬p)$$ : adalah hasil dari disjungsi antara $$p$$ dan negasi $$p$$. Dapat kita lihat, tidak peduli pernyataannya
+        <em>True</em> atau <em>False</em>, nilainya selalu <em>True</em>.</p>
+    </li>
+    <li>
+      <p><strong>Kontradiksi $$(p∧¬p)$$</strong></p>
+      <p>Kebalikan dari tautologi, kontradiksi adalah konsep proposisi yang nilai/kondisinya selalu salah tidak peduli
+        bagaimana nilai/kondisi pernyatannya, ini seperti cowok yang selalu salah di mata cewek 😎🔥.</p>
+      <p>Contohnya:</p>
+      <p>$$p$$ : "Kamu baik hati"</p>
+      <p>$$¬p$$ : "Kamu tidak baik hati"</p>
+      <p>$$p∧¬p$$ : Pernyataan tersebut adalah kontradiksi. Karena sifat baik hati dan tidak baik hati saling bertentangan.
+      </p>
+      <p>Dalam pemrograman, konsep kontradiksi dapat dijumpai pada ekspresi logika yang selalu salah, tidak peduli nilai
+        variabel-variabel yang ada.</p>
+      <p>Contoh pada bahasa python:</p>
+      <div class="code-container">
+  <pre>
+  <code class="bash">
+
+    x = 6 # Variabelnya dirubah bentuk apapun akan selalu TRUE nilainya
+  
+    if x == 10 and x != 10:
+      print("Pernyataan ini selalu salah.")
+    else:
+      print("Pernyataan ini tidak akan pernah benar.")
+
+  </code>
+  </pre>
+</div>
+      <p>Contoh pada bahasa R:</p>
+      <div class="code-container">
+  <pre>
+  <code class="bash">
+
+    x &lt;- 6 # Variabelnya dirubah bentuk apapun akan selalu FALSE nilainya
+  
+    if (x == 10 &amp; x != 10) {
+      print("Pernyataan ini selalu salah.")
+    } else {
+      print("Pernyataan ini tidak akan pernah benar.")
+    }
+
+  </code>
+  </pre>
+</div>
+      <p><strong>Tabel kebenaran kontradiksi $$(p∧¬p)$$</strong></p>
+      <table>
+        <thead>
+          <tr>
+            <th>$$p$$</th>
+            <th>$$¬p$$</th>
+            <th>$$p∧¬p$$</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td>T</td>
+            <td>F</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Keterangan:</p>
+      <p>$$p$$ : adalah pernyataan</p>
+      <p>$$¬p$$ : adalah negasi dari p</p>
+      <p>$$p∧¬p$$ : adalah hasil dari konjungsi antara $$p$$ dan negasi $$p$$. Dapat kita lihat, tidak peduli pernyataannya
+        <em>True</em> atau <em>False</em>, nilainya selalu <em>False</em>.</p>
+    </li>
+  </ol>
