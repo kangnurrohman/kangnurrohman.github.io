@@ -968,7 +968,7 @@ published: true
       <td>T</td>
       <td>F</td>
       <td>T</td>
-      <td>F</td>
+      <td>T</td>
     </tr>
   </tbody>
 </table>
