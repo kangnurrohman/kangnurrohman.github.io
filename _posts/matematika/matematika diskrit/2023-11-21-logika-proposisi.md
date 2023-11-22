@@ -21,19 +21,19 @@ published: true
     </h1>
     <ul class="content table-of-contents-list" id="daftar-isi">
       <li class="table-of-contents-item">
-        <a class="table-of-contents-link" href="logika-proposisi/#what-is-logic">
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-logika">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu Logika?
         </a>
-        <a class="table-of-contents-link" href="logika-proposisi/#what-is-propositional-logic">
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-logika-proposisi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu logika proposisi?
         </a>
-        <a class="table-of-contents-link" href="logika-proposisi/#what-is-a-compound-statement">
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-pernyataan-gabungan">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu pernyataan gabungan?
         </a>
-        <a class="table-of-contents-link" href="logika-proposisi/#what-is-tautology-and-contradiction">
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-tautologi-dan-kontradiksi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu tautologi dan kontradiksi?
         </a>
-        <a class="table-of-contents-link" href="logika-proposisi/#what-is-logical-equivalence">
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-kesetaraan-logika">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kesetaraan logis?
         </a>
       </li>
@@ -41,7 +41,7 @@ published: true
   </div>
 </div>
 
-<h2 id="what-is-logic">Apa itu logika?</h2>
+<h2 id="apa-itu-logika">Apa itu logika?</h2>
 <p>Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
  mendengar kata "Logika" di kehidupan sehari-hari. Logika adalah ilmu yang mempelajari tentang cara berpikir dan
  bernalar yang benar. Logika membahas prinsip-prinsip dasar dalam membuat argumen yang valid dan memastikan kesesuaian
@@ -49,7 +49,7 @@ published: true
  untuk mengembangkan metode berpikir yang dapat digunakan untuk mencari kesimpulan yang benar berdasarkan informasi yang
  ada.</p>
 
-<h2 id="what-is-propositional-logic">Apa itu logika proposisi?</h2>
+<h2 id="apa-itu-logika-proposisi">Apa itu logika proposisi?</h2>
 <p>Setelah mengetahui definisi logika, selanjutnya kita bahas logika proposisi. Logika proposisi sering disebut logika
  matematika atau logika deduktif adalah matematika diskrit yang mempelajari tentang berkaitan pernyataan yang dapat
  dianggap benar <em>(true)</em> atau salah <em>(false)</em>, namun tidak keduanya. Pernyataan tersebut dapat berbentuk
@@ -92,7 +92,7 @@ published: true
  dan Kontradiksi, Kesetaraan Logis, Aljabar Proposisi, Implikasi dan Biimplikasi, Argumentasi, dan Kuantor Pernyataan.
 </p>
 <p>Selain itu, setiap pembahasan akan dipraktikkan menggunakan Python dan R.</p>
-<h2 id="what-is-a-compound-statement">Apa itu pernyataan gabungan?</h2>
+<h2 id="apa-itu-pernyataan-gabungan">Apa itu pernyataan gabungan?</h2>
 <p>Pernyataan gabungan atau <em>compound statement</em> adalah penggabungan dua atau lebih pernyataan menggunakan kata
  hubung <code>dan</code>, <code>atau</code>, <code>tidak</code>. Pada matematika/pemrograman sering disebut operator
  logika.</p>
@@ -713,7 +713,7 @@ published: true
   </li>
 </ol>
 
- <h2 id="what-is-tautology-and-contradiction">Apa itu tautologi dan kontradiksi?</h2>
+ <h2 id="apa-itu-tautologi-dan-kontradiksi">Apa itu tautologi dan kontradiksi?</h2>
   <p>Tautologi dan kontradiksi adalah konsep dari logika proposisi yang merujuk pada dua jenis pernyataan khusus yang
     dipandang dari nilai kebenarannya.</p>
   <ol>
@@ -875,7 +875,7 @@ published: true
     </li>
   </ol>
 
-<h2 id="what-is-logical-equivalence">Apa itu kesetaraan logis?</h2>
+<h2 id="apa-itu-kesetaraan-logika">Apa itu kesetaraan logis?</h2>
 <p>Kesetaraan logis $$(≡)$$ adalah konsep dari logika proposisi yang merujuk pada dua pernyataan yang memiliki nilai/kondisi
   yang setara/ekuivalen.</p>
 <p>Contohnya:</p>
