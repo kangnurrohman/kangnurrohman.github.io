@@ -701,7 +701,7 @@ published: true
 <p>$$p$$ dan $$q$$ merepresentasikan dua pernyataan yang ingin digabungkan.</p>
 </li>
 <li>
-<p>$$p≡q$$ adalah hasil dari XNOR. Kondisi $$(T)$$ jika pernyataan $$p$$ dan $$qv pernyataannya sama.</p>
+<p>$$p≡q$$ adalah hasil dari XNOR. Kondisi $$(T)$$ jika pernyataan $$p$$ dan $$q$$ pernyataannya sama.</p>
 </li>
 </ul>
   </li>
