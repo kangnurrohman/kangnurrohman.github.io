@@ -526,4 +526,183 @@ published: true
    </li>
   </ul>
  </li>
+<li>
+    <p><strong>eXclusive OR/XOR $$(⊕)$$</strong></p>
+    <p>eXclusive OR (XOR) adalah gabungan pernyataan yang bernilai <em>True</em> jika salah satu $$p$$ atau $$q$$ bernilai
+      <em>True</em> (tidak kedua-duanya). Dengan kata lain, XOR akan bernilai benar jika kondisi kedua pernyatan
+      berbeda.</p>
+    <p>Contohnya:</p>
+    <p>$$p$$ : "Mobil tersebut berwarna hitam"</p>
+    <p>$$q$$ : "Mobil tersebut tidak berwarna putih"</p>
+    <p>$$p⊕q$$ : keluaran dari $$p$$ dan $$q$$ akan bernilai <em>True</em>, karena salah satu pernyataan tersebut tidak bernilai
+      <em>True.</em></p>
+    <p>Dalam pemrograman, $$XOR (⊕)$$ sering disebut dengan operator bitwise XOR, terkadang disimbolkan dengan
+      <code>^</code>. Jika kondisi pada pernyataan dalam suatu blok kode salah satu kondisinya <code>True</code>, maka
+      kode dijalankan.</p>
+    <p>Contoh pada bahasa python:</p>
+
+    <div class="code-container">
+      <pre>
+      <code class="bash">
+
+      p = True  # Mobil tersebut berwarna hitam
+      q = False  # Mobil tersebut berwarna putih
+
+      if p ^ q:
+        print("Mobil tersebut dapat berwarna hitam ⊕ putih.")
+      else:
+        print("Mobil tersebut dapat berwarna hitam dan putih, atau mungkin tidak sama sekali.")
+
+      </code>
+      </pre>
+    </div>
+
+    <p>Contoh pada bahasa R:</p>
+    <div class="code-container">
+      <pre>
+      <code class="bash">
+
+      p &lt;- TRUE  # Mobil tersebut berwarna hitam
+      q &lt;- FALSE  # Mobil tersebut berwarna putih
+
+      if (xor(p, q)) {
+        print("Mobil tersebut dapat berwarna hitam ⊕ putih.")
+      } else {
+        print("Mobil tersebut dapat berwarna hitam dan putih, atau mungkin tidak sama sekali.")
+      }
+
+      </code>
+      </pre>
+    </div>
+
+    <p><strong>Tabel kebenaran eXclusive OR/XOR $$(⊕)$$</strong></p>
+    <table>
+      <thead>
+        <tr>
+          <th>$$p$$</th>
+          <th>$$q$$</th>
+          <th>$$p⊕q$$</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>T</td>
+          <td>T</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>T</td>
+          <td>F</td>
+          <td>T</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>T</td>
+          <td>T</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>F</td>
+          <td>F</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Keterangan:</p>
+    <ul>
+      <li>
+        <p>$$p$$ dan $$q$$ merepresentasikan dua pernyataan yang ingin digabungkan.</p>
+      </li>
+      <li>
+        <p>$$p⊕q$$ adalah hasil dari XOR. Kondisi $$(T)$$ jika salah satu dari $$p$$ dan $$q$$ (tidak keduanya) benar.</p>
+      </li>
+    </ul>
+
+  </li>
+  <li>
+    <p><strong>eXclusive NOR/XNOR $$(≡/↔)$$</strong></p>
+    <p>eXclusive NOR (XNOR) digunakan untuk menegasikan dari pernyataan XOR. Dimana, XNOR bernilai <em>True</em> jika
+      kedua pernyataan nilainya sama (baik kedua pernyataan bernilai <em>True</em> atau <em>False</em>)</p>
+    <p>Contohnya:</p>
+    <p>$$p$$ : "Kamar tidur ini dilengkapi dengan lampu tidur"</p>
+    <p>$$q$$ : "Suasana kamar tidur ini tenang"</p>
+    <p>$$p≡q$$ : keluaran dari p dan q akan bernilai <em>True</em>, karena kedua pernyataan tersebut bernilai <em>True</em>.
+    </p>
+    <p>Contoh pada bahasa python:</p>
+    <div class="code-container">
+      <pre>
+      <code class="bash">
+
+      p = True  # Kamar tidur ini dilengkapi dengan lampu tidur yang menyala
+      q = True  # Suasana kamar tidur ini tenang
+
+      if not (p ^ q):
+        print("Kamar tidur ini dilengkapi dengan lampu tidur yang menyala ↔ suasana tenang.")
+      else:
+        print("Kamar tidur ini mungkin dilengkapi dengan lampu tidur yang menyala dan suasana tenang, atau tidak sama sekali.")
+
+      </code>
+      </pre>
+    </div>
+
+<p>Contoh pada bahasa R:</p>
+
+<div class="code-container">
+      <pre>
+      <code class="bash">
+
+      p &lt;- TRUE # Kamar tidur ini dilengkapi dengan lampu tidur yang menyala
+      q &lt;- TRUE # Suasana kamar tidur ini tenang
+
+      if (!xor(p, q)) {
+        print("Kamar tidur ini dilengkapi dengan lampu tidur yang menyala ↔ suasana tenang.")
+      } else {
+        print("Kamar tidur ini mungkin dilengkapi dengan lampu tidur yang menyala dan suasana tenang, atau tidak sama sekali.")
+      }
+
+      </code>
+      </pre>
+    </div>
+
+<p><strong>Tabel kebenaran eXclusive NOR/XNOR $$(≡/↔)$$</strong></p>
+<table>
+<thead>
+<tr>
+<th>$$p$$</th>
+<th>$$q$$</th>
+<th>$$p≡q$$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>T</td>
+</tr>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>F</td>
+</tr>
+<tr>
+<td>F</td>
+<td>T</td>
+<td>F</td>
+</tr>
+<tr>
+<td>F</td>
+<td>F</td>
+<td>T</td>
+</tr>
+</tbody>
+</table>
+<p>Keterangan:</p>
+<ul>
+<li>
+<p>$$p$$ dan $$q$$ merepresentasikan dua pernyataan yang ingin digabungkan.</p>
+</li>
+<li>
+<p>$$p≡q$$ adalah hasil dari XNOR. Kondisi $$(T)$$ jika pernyataan $$p$$ dan $$qv pernyataannya sama.</p>
+</li>
+</ul>
+  </li>
 </ol>
