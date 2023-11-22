@@ -877,7 +877,7 @@ published: true
 
 <h2 id="what-is-logical-equivalence">Apa itu kesetaraan logis?</h2>
 <p>Kesetaraan logis $$(≡)$$ adalah konsep dari logika proposisi yang merujuk pada dua pernyataan yang memiliki nilai/kondisi
-  yang setara/ekivalen.</p>
+  yang setara/ekuivalen.</p>
 <p>Contohnya:</p>
 <p>$$p$$ : "Nilai mahasiswa 60"</p>
 <p>$$q$$ : "Nilai lulus 85"</p>
@@ -990,4 +990,4 @@ published: true
     <p>$$¬p∨¬q$$ : Disjungsi dari negasi $$p$$ dan negasi $$q$$</p>
   </li>
 </ul>
-<p>Jadi, $$¬(p∨q)$$ ekivalen $$(≡)$$ dengan $$¬p∨¬q$$</p>
+<p>Jadi, $$¬(p∨q)$$ ekuivalen $$(≡)$$ dengan $$¬p∨¬q$$</p>
