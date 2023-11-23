@@ -39,6 +39,9 @@ published: true
         <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-aljabar-proposisi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu aljabar proposisi?
         </a>
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-implikasi-dan-biimplikasi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu implikasi dan biimplikasi?
+        </a>
       </li>
     </ul>
   </div>
@@ -1412,5 +1415,124 @@ published: true
           kondisi logika yang melibatkan implikasi.</p>
       </li>
     </ul>
+  </li>
+</ol>
+
+<h2 id="apa-itu-implikasi-dan-biimplikasi">Apa itu implikasi dan biimplikasi?</h2>
+<p>Implikasi dan biimplikasi adalah dua konsep penting pada logika proposisi, berikut penjelasan secara detail:</p>
+<ol>
+  <li>
+    <p><strong>Implikasi</strong></p>
+    <p>Implikasi menyatakan hubungan antara dua proposisi, di mana satu proposisi disebut sebagai "konsekuensi" atau
+      "hasil" dari proposisi lainnya. Biasanya notasinya ditandai dengan $$(→)$$.</p>
+    <p><strong>Tabel kebenaran implikasi</strong></p>
+    <table>
+      <thead>
+        <tr>
+          <th>$$p$$</th>
+          <th>$$q$$</th>
+          <th>$$p→q$$</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>T</td>
+          <td>T</td>
+          <td>T</td>
+        </tr>
+        <tr>
+          <td>T</td>
+          <td>F</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>T</td>
+          <td>T</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>F</td>
+          <td>T</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Studi kasus:</p>
+    <p>$$p$$ : "Anda memiliki kartu anggota gym".</p>
+    <p>$$q$$ : "Anda dapat mengakses fasilitas olahraga di tempat gym"</p>
+    <ol>
+      <li>
+        <p>Jika anda memiliki kartu anggota gym $$(T)$$ dan anda dapat mengakses fasilitas olahraga di tempat gym $$(T)$$. Maka,
+          Implikasi $$p→q$$ $$(T)$$.</p>
+      </li>
+      <li>
+        <p>Jika anda memiliki kartu anggota gym $$(T)$$, namun anda tidak dapat mengakses fasilitas olahraga di tempat gym
+          $$(F)$$. Maka, Implikasi $$p→q$$ $$(F)$$. Harusnya sebagai member bebas mengakses fasilitas tempat olahraga gym.</p>
+      </li>
+      <li>
+        <p>Jika anda tidak memiliki kartu anggota gym $$(F)$$, tapi anda dapat mengakses fasilitas olahraga di tempat gym
+          $$(T)$$. Maka, implikasi $$p→q$$ $$(T)$$. Dapat mengakses sebagai pengguna biasa bukan sebagai anggota atau member.</p>
+      </li>
+      <li>
+        <p>Jika anda tidak memiliki kartu anggota gym $$(F)$$, dan anda tidak dapat mengakses fasilitas olahraga di tempat
+          gym $$(F)$$. Maka, implikasi $$p→q$$ $$(T)$$. Bisa jadi tempat gym tersebut dikhususkan untuk member.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>Biimplikasi</strong></p>
+    <p>Biimplikasi menyatakan hubungan timbal balik antara dua proposisi. Biasanya notasinya ditandai dengan $$(↔)$$.</p>
+    <p><strong>Tabel kebenaran biimplikasi</strong></p>
+    <table>
+      <thead>
+        <tr>
+          <th>$$p$$</th>
+          <th>$$q$$</th>
+          <th>$$p↔q$$</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>T</td>
+          <td>T</td>
+          <td>T</td>
+        </tr>
+        <tr>
+          <td>T</td>
+          <td>F</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>T</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>F</td>
+          <td>T</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Studi kasus:</p>
+    <p>$$p$$ : "Anda memiliki smartphone".</p>
+    <p>$$q$$ : "Anda mengirim whatsapp".</p>
+    <ol>
+      <li>
+        <p>Jika anda memiliki smartphone $$(T)$$ dan anda dapat mengirim whatshapp $$(T)$$. Maka, biimplikasi $$p↔q$$ benar.</p>
+      </li>
+      <li>
+        <p>Jika anda memiliki smartphone $$(T)$$, namun anda tidak dapat mengirim whatshapp $$(F)$$. Maka, biimplikasi $$p↔q$$
+          salah.</p>
+      </li>
+      <li>
+        <p>Jika anda tidak memiliki smartphone $$(F)$$, namun anda dapat mengirim whatshapp $$(T)$$. Maka, biimplikasi $$p↔q$$
+          salah.</p>
+      </li>
+      <li>
+        <p>Jika anda tidak memiliki smartphone $$(F)$$ dan anda tidak dapat mengirim whatshapp $$(F)$$. Maka, biimplikasi $$p↔q$$
+          benar.</p>
+      </li>
+    </ol>
   </li>
 </ol>
