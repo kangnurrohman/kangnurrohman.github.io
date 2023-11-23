@@ -1174,7 +1174,7 @@ published: true
         <p>Contoh pada bahasa python:</p>
         <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     p = 8
     q = 6
@@ -1208,7 +1208,7 @@ published: true
         <p>Contoh pada bahasa python:</p>
         <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     p = True
     q = False
@@ -1232,7 +1232,7 @@ published: true
 
 <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     p &lt;- TRUE
     q &lt;- FALSE
@@ -1281,7 +1281,7 @@ published: true
         <p>Contoh pada bahasa python:</p>
         <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     variable = True
     value = True
@@ -1309,7 +1309,7 @@ published: true
 <p>Contoh pada bahasa R:</p>
 <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="r">
 
     variable &lt;- TRUE
     value &lt;- TRUE
