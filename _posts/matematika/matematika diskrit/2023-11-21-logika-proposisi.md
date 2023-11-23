@@ -36,6 +36,9 @@ published: true
         <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-kesetaraan-logika">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kesetaraan logis?
         </a>
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-aljabar-proposisi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu aljabar proposisi?
+        </a>
       </li>
     </ul>
   </div>
@@ -734,7 +737,7 @@ published: true
         <code class="python">
 
     x = 8 # variabelnya dirubah bentuk apapun akan selalu True nilainya
-  
+
     if x &gt; 0 or x &lt;= 0:
       print("Pernyataan ini selalu dijalankan.")
     else:
@@ -749,7 +752,7 @@ published: true
   <code class="r">
 
     x &lt;- 8  # Variabelnya dirubah bentuk apapun akan selalu TRUE nilainya
-  
+
     if (x &gt; 0 || x &lt;= 0) {
       print("Pernyataan ini selalu dijalankan.")
     } else {
@@ -812,7 +815,7 @@ published: true
   <code class="python">
 
     x = 6 # Variabelnya dirubah bentuk apapun akan selalu TRUE nilainya
-  
+
     if x == 10 and x != 10:
       print("Pernyataan ini selalu salah.")
     else:
@@ -827,7 +830,7 @@ published: true
   <code class="r">
 
     x &lt;- 6 # Variabelnya dirubah bentuk apapun akan selalu FALSE nilainya
-  
+
     if (x == 10 &amp; x != 10) {
       print("Pernyataan ini selalu salah.")
     } else {
@@ -991,3 +994,423 @@ published: true
   </li>
 </ul>
 <p>Jadi, $$¬(p∨q)$$ ekuivalen $$(≡)$$ dengan $$¬p∨¬q$$</p>
+
+<h2 id="apa-itu-aljabar-proposisi">Apa itu aljabar proposisi?</h2>
+<p>Aljabar proposisi adalah serangkaian aturan atau hukum yang digunakan untuk menyederhanakan, menggabungkan, dan
+  memanipulasi ekspresi logika proposisi. Hukum-hukum pada aljabar proposisi ini mirip dengan hukum-hukum aljabar pada
+  matematika, namun diterapkan pada logika proposisi. Berikut hukum-hukum pada aljabar proposisi:</p>
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Hukum</th>
+      <th>Operator</th>
+      <th>Ekspresi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Idempoten</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$p ∧ p = p$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$p ∨ p = p$$</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Asosiatif</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$(p∧q)∧r=p∧(q∧r)$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$(p ∨ q) ∨ r = p ∨ (q ∨ r)$$</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Komutatif</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$p ∧ q = q ∧ p$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$p ∨ q = q ∨ p$$</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Distribusi</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r)$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$p ∨ (q ∧ r) = (p ∨ q) ∧ (p ∨ r)$$</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Identitas</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$p ∧ t = p$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$p ∨ t = p$$</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Komplemen</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$p ∧ ¬p = f$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$p ∨ ¬p = f$$</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Absorbsi</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$p ∧ (p ∨ q) = p$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$p ∨ (p ∧ q) = p$$</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>De morgans</td>
+      <td>Konjungsi $$(∧)$$</td>
+      <td>$$¬(p∧q)≡(¬p)∨(¬q)$$</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Disjungsi $$(∨)$$</td>
+      <td>$$¬(p∨q)≡(¬p)∧(¬q)$$</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Involution</td>
+      <td>Negasi $$(¬)$$</td>
+      <td>$$¬(¬p) = p$$</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Implikasi</td>
+      <td>$$→$$</td>
+      <td>$$p → q=¬p ∨ q$$</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Biimplikasi</td>
+      <td>$$↔$$</td>
+      <td>$$p ↔ q =(p → q) ∧ (q → p)$$</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Kontraposisi</td>
+      <td>$$→$$</td>
+      <td>$$p → q = ¬q → ¬p$$</td>
+    </tr>
+  </tbody>
+</table>
+<p>Penjelasan:</p>
+<ol>
+  <li>
+    <p><strong>Hukum Idempoten</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika melakukan operasi pada suatu proposisi yang sama, maka hasilnya akan tetap
+          sama dengan proposisi tersebut.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Menyederhanakan, mereduksi, mengurangi kompleksitas ekspresi logika dan
+          mempermudah analisis.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum Asosiatif</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika kita menggabungkan tiga proposisi, maka urutan pengelompokan dalam operasi
+          tersebut tidak memengaruhi hasil akhir dari operasi tersebut. Sehingga, kita dapat mengelompokkan
+          proposisi-proposisi tersebut sesuai keinginan tanpa mengubah kebenaran logis dari pernyataan tersebut.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Mempermudah analisis dan manipulasi ekspresi logika karena pengelompokkan yang
+          lebih fleksibel.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum Komutatif</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika menukar dua proposisi, maka tidak mengubah kebenaran logis dari pernyataan
+          tersebut.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk optimasi struktur data,
+          sehingga meningkatkan kinerja. Contohnya, operasi pertukaran nilai pada dua variabel dapat dioptimalkan dengan
+          menggunakan hukum komutatif.</p>
+        <p>Contoh pada bahasa python:</p>
+        <div class="code-container">
+  <pre>
+  <code class="bash">
+
+    p = 8
+    q = 6
+
+    # Sebelum menggunakan hukum komutatif
+    temp = p
+    p = q
+    q = temp
+
+    # Setelah menggunakan hukum komutatif
+    p, q = q, p
+
+  </code>
+  </pre>
+</div>
+
+</li>
+</ul>
+
+  </li>
+  <li>
+    <p><strong>Hukum Distribusi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika menukar atau mengelompokkan proposisi pada operasi konjungsi dan disjungsi,
+          maka tidak memengaruhi kebenaran logis dari pernyataan tersebut.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk optimasi kondisi logika atau
+          ekspresi. Ini dapat meningkatkan efisiensi dan <em>code readibility</em>.</p>
+        <p>Contoh pada bahasa python:</p>
+        <div class="code-container">
+  <pre>
+  <code class="bash">
+
+    p = True
+    q = False
+    r = True
+
+    # Sebelum menggunakan hukum distribusi
+    if (p and q) or (p and r):
+    # Blok kode
+    pass
+
+    # Setelah menggunakan hukum distribusi
+    if p and (q or r):
+    # Blok kode
+    pass
+
+  </code>
+  </pre>
+</div>
+
+<p>Contoh pada bahasa R:</p>
+
+<div class="code-container">
+  <pre>
+  <code class="bash">
+
+    p &lt;- TRUE
+    q &lt;- FALSE
+    r &lt;- TRUE
+
+    # Sebelum menggunakan hukum distribusi
+    if ((p &amp; q) | (p &amp; r)) {
+      # Blok kode
+    }
+
+    # Setelah menggunakan hukum distribusi
+    if (p &amp; (q | r)) {
+      # Blok kode
+    }
+
+  </code>
+  </pre>
+</div>
+
+</li>
+</ul>
+
+  </li>
+  <li>
+    <p><strong>Hukum Identitas</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika mengkonjungsikan/mendisjungsikan antara suatu proposisi dan proposisi yang
+          sama, maka akan selalu menghasilkan proposisi tersebut.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk optimasi pemilihan kondisi.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum Komplemen</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika menukar dua proposisi, yaitu proposisi dan negasi dari proposisi tersebut,
+          maka tidak mengubah kebenaran logis dari pernyataan tersebut.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk membantu memilih kondisi
+          alternatif.</p>
+        <p>Contoh pada bahasa python:</p>
+        <div class="code-container">
+  <pre>
+  <code class="bash">
+
+    variable = True
+    value = True
+
+    # Sebelum menggunakan hukum komplemen
+    if variable != value:
+      # Blok kode A
+      pass
+    else:
+      # Blok kode B jika variable == value
+      pass
+
+    # Setelah menggunakan hukum komplemen
+    if not variable != value:
+      # Blok kode B jika variable == value
+      pass
+    else:
+      # Blok kode A
+      pass
+
+  </code>
+  </pre>
+</div>
+
+<p>Contoh pada bahasa R:</p>
+<div class="code-container">
+  <pre>
+  <code class="bash">
+
+    variable &lt;- TRUE
+    value &lt;- TRUE
+
+    # Sebelum menggunakan hukum komplemen
+    if (variable != value) {
+      # Blok kode A
+    } else {
+      # Blok kode B jika variable == value
+    }
+
+    # Setelah menggunakan hukum komplemen
+    if (!(variable != value)) {
+      # Blok kode B jika variable == value
+    } else {
+      # Blok kode A
+    }
+
+  </code>
+  </pre>
+</div>
+
+</li>
+</ul>
+
+  </li>
+  <li>
+    <p><strong>Hukum Absorbsi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika menggabungkan suatu proposisi $$p$$ dengan hasil dari disjungsi/konjungsi antara
+          $$p$$ dan proposisi lain $$q$$, maka operasi tersebut akan menghasilkan proposisi $$p$$.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk optimasi pemilihan kondisi.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum De morgans</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika negasi dari konjungsi/disjungsi dua proposisi, maka sama dengan
+          konjungsi/disjungsi dari negasi masing-masing proposisi.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan manipulasi struktur data yang
+          melibatkan kondisi logika.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum Involution</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika menggunakan dua kali operasi negasi pada suatu proposisi, maka akan
+          mengembalikan proposisi aslinya.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk menyederhanakan operasi negasi
+          (not) pada suatu variabel boolean.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum Implikasi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika proposisi $$p$$ benar, maka proposisi $$q$$ juga benar; namun, jika $$p$$ salah, tidak
+          ada klaim yang dibuat tentang kebenaran atau ketidakbenaran $$q$$.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk mengevaluasi dan menyederhanakn
+          kondisi logika.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum Biimplikasi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika proposisi $$p$$ benar, maka proposisi $$q$$ juga benar. Dan jika proposisi $$p$$ salah,
+          maka proposisi $$q$$ juga salah.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk menyederhanakan dan memahami
+          kondisi logika.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum Kontraposisi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Berbunyi</strong> : Jika kesimpulan dari suatu implikasi salah $$¬q$$, maka hipotesisnya juga harus salah
+          $$¬p$$.</p>
+      </li>
+      <li>
+        <p><strong>Kegunaan</strong> : Dalam pemrograman komputer, dapat digunakan untuk menyederhanakan dan memahami
+          kondisi logika yang melibatkan implikasi.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
