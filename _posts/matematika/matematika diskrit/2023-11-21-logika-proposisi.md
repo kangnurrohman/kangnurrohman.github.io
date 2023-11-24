@@ -1968,8 +1968,7 @@ published: true
       </li>
       <li>
         <p><strong>Contoh</strong> :</p>
-      </li>
-      <ul>
+        <ul>
       <li>
         <p>$$(P→Q)$$ : "Jika hujan, maka saya membawa payung."</p>
       </li>
@@ -1977,6 +1976,7 @@ published: true
         <p>$$∴P→(P∧Q)$$ : "Jika hujan, maka hujan dan saya membawa payung."</p>
       </li>
       </ul>
+      </li>
     </ul>
   </li>
 </ol>
