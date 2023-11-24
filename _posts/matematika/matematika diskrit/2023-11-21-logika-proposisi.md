@@ -1519,8 +1519,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> <strong>Studi kasus</strong></p>
+  <p> <strong>Studi kasus</strong></p>
 <ul>
   <li>
     <p>Implikasi : "Jika anda memiliki kartu anggota gym $$(p)$$, maka anda dapat mengakses fasilitas olahraga di tempat gym
@@ -1531,6 +1530,7 @@ published: true
       tempat gym $$(¬q)$$."</p>
   </li>
 </ul>
+</ol>
 <ol start="3">
   <li>
     <p><strong>Kontraposisi</strong></p>
