@@ -7,7 +7,7 @@ layout: post
 permalink: /logika-proposisi/
 image: "/assets/images/post/logika-proposisi/gambar0.png"
 description: "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
- mendengar kata 'logika' di kehidupan sehari-hari."
+ mendengar kata 'Logika' di kehidupan."
 categories: Matematika
 tags: [matematika, matematika diskrit]
 published: true
