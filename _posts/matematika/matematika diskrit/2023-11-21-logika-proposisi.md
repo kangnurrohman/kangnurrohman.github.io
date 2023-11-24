@@ -43,6 +43,9 @@ published: true
         <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-implikasi-dan-biimplikasi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu implikasi dan biimplikasi?
         </a>
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-argumentasi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu argumentasi?
+        </a>
       </li>
     </ul>
   </div>
@@ -1679,5 +1682,299 @@ published: true
           benar.</p>
       </li>
     </ol>
+  </li>
+</ol>
+
+<h2 id="apa-itu-argumentasi">Apa itu argumentasi?</h2>
+<p>Argumentasi adalah serangkaian proposisi atau pernyataan yang disusun dengan cara tertentu. Serangkaian Proposisi ini
+  ada yang disebut dengan premis atau asumsi dan ada proposisi yang disebut dengan kesimpulan atau konklusi. Dalam
+  argumentasi, premis dan kesimpulan adalah dua komponen utama. Berikut detailnya:</p>
+<ol>
+  <li>
+    <p><strong>Premis</strong></p>
+    <p>Proposisi ini digunakan untuk sebagai dasar atau landasan dari argumen. Premis memberikan informasi awal yang
+      digunakan untuk mendukung kesimpulan.</p>
+  </li>
+  <li>
+    <p><strong>Kesimpulan</strong></p>
+    <p>Sedangkan proposisi ini dihasilkan atau disimpulkan dari premis-premis yang diberikan. Kesimpulan adalah inti
+      dari argumentasi. Argumentasi dianggap valid tergantung dari hubungan logis antara premis dan kesimpulan. Biasanya
+      kesimpulan dinotasikan menggunakan $$(∴)$$ dibaca maka/oleh karena itu.</p>
+  </li>
+</ol>
+<p>Contoh argumen dan menguji validitas argumen:</p>
+<ul>
+  <li>
+    <p>Premis 1 : "Jika hari ini adalah hari senin $$(P)$$, maka saya berangkat bekerja $$(Q)$$."</p>
+  </li>
+  <li>
+    <p>Premis 2 : "Hari ini adalah Senin $$(P)$$."</p>
+  </li>
+  <li>
+    <p>Kesimpulan: "Oleh karena itu, saya pergi bekerja $$(Q)$$."</p>
+  </li>
+</ul>
+<p>Mari kita buat notasinya:</p>
+<ul>
+  <li>
+    <p>$$P→Q$$</p>
+  </li>
+  <li>
+    <p>$$P$$</p>
+  </li>
+  <li>
+    <p>$$∴Q$$</p>
+  </li>
+</ul>
+<p>Mari kita buat tabel kebenarannya untuk menguji validitas argumen:</p>
+<table>
+  <thead>
+    <tr>
+      <th>$$P$$</th>
+      <th>$$Q$$</th>
+      <th>$$P→Q$$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+<p>Mari kita lihat validitas argumen ini:</p>
+<p>Argumen di atas tidak valid. Kenapa bisa begitu? Karena walaupun premisnya benar, kesimpulannya bisa benar dan bisa
+  juga salah.</p>
+
+<h3 id="apa-saja-cara-penarikan-kesimpulan">Apa saja cara penarikan kesimpulan?</h3>
+<p>Penarikan kesimpulan adalah pola argumentasi logis yang digunakan untuk mendapatkan kesimpulan dari premis yang
+  diberikan. Berikut teknik-teknik penarikan kesimpulan:</p>
+<ol>
+  <li>
+    <p><strong>Conjunction</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$P$$ dan $$Q$$, sehingga $$P∧Q$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> :</p>
+        <ul>
+          <li>
+            <p>$$P$$ : "Hari ini adalah hari senin"</p>
+          </li>
+          <li>
+            <p>$$Q$$ : "Cuacanya cerah"</p>
+          </li>
+          <li>
+            <p>$$∴ P∧Q$$ : "Hari ini adalah senin dan cuacanya cerah."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Addition</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$P$$, sehingga $$P∨Q$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong>:</p>
+        <ul>
+          <li>
+            <p>$$P$$ : "Saya suka teh."</p>
+          </li>
+          <li>
+            <p>$$∴P∨Q$$ : "Saya suka teh atau kopi."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Modus Ponens</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$P→Q$$ dan $$P$$, sehingga $$Q$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong>:</p>
+        <ul>
+          <li>
+            <p>$$P→Q$$ : "Jika hujan, maka jalanan menjadi basah."</p>
+          </li>
+          <li>
+            <p>$$P$$ : "Hujan"</p>
+          </li>
+          <li>
+            <p>$$∴ Q$$ : "Jalanan menjadi basah."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Constructive Dilemma</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$(P→Q)∧(R→S)$$ dan $$P∨R$$, sehingga $$Q∨S$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong>:</p>
+        <ul>
+          <li>
+            <p>$$(P→Q)∧(R→S)$$ : "Jika hujan, maka saya akan tetap dirumah." dan "Jika cuaca cerah, maka saya akan pergi
+              bersepeda."</p>
+          </li>
+          <li>
+            <p>$$P∨R$$ : "Hari ini hujan atau cuaca."</p>
+          </li>
+          <li>
+            <p>$$∴Q∨S$$ : "Hari ini saya akan tetap di rumah atau pergi bersepeda."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hypothetical syllogism</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$P→Q$$ dan $$Q→R$$, sehingga $$P→R$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> :</p>
+        <ul>
+          <li>
+            <p>$$P→Q$$ : "Jika saya belajar, maka saya akan lulus."</p>
+          </li>
+          <li>
+            <p>$$Q→R$$ : "Jika saya lulus, maka saya akan mendapatkan gelar."</p>
+          </li>
+          <li>
+            <p>$$∴P→R$$ : "Jika saya belajar, maka saya akan mendapatkan gelar."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Simplification</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$P∧Q$$, sehingga $$P$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> :</p>
+        <ul>
+          <li>
+            <p>$$P∧Q$$ : "Hari ini adalah senin dan cuacanya cerah."</p>
+          </li>
+          <li>
+            <p>$$∴P$$ : "Hari ini adalah hari senin."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Disjunctive syllogism</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong>: $$P∨Q$$ dan $$¬P$$, sehingga $$Q$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong>:</p>
+        <ul>
+          <li>
+            <p>$$P∨Q$$ : "Saya suka teh atau kopi."</p>
+          </li>
+          <li>
+            <p>$$¬P$$ : "Saya tidak suka teh."</p>
+          </li>
+          <li>
+            <p>$$∴Q$$ : "Saya suka kopi."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Modus tollens</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$P→Q$$ dan $$¬Q$$, sehingga $$¬P$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong>:</p>
+        <ul>
+          <li>
+            <p>$$P→Q$$ : "Jika saya belajar, maka saya akan lulus."</p>
+          </li>
+          <li>
+            <p>$$¬Q$$ : "Saya tidak lulus."</p>
+          </li>
+          <li>
+            <p>$$∴¬P$$ : "Saya tidak belajar."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Destrutive dilemma</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$(P→Q)∧(R→S)$$ dan $$¬Q∨¬S$$, sehingga $$¬P∨¬R$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> :</p>
+        <ul>
+          <li>
+            <p>$$(P→Q)∧(R→S)$$ : "Jika saya belajar, maka saya akan lulus ujian." dan "Jika saya hadir di kelas, maka saya
+              akan mendapatkan pemahaman yang baik."</p>
+          </li>
+          <li>
+            <p>$$¬Q∨¬S$$ : "Saya tidak akan lulus ujian atau saya tidak akan mendapatkan pemahaman yang baik."</p>
+          </li>
+          <li>
+            <p>$$∴¬P∨¬R$$ : "Saya tidak akan belajar atau saya tidak akan hadir di kelas."</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Absorption</strong></p>
+    <ul>
+      <li>
+        <p><strong>Aturan</strong> : $$(P→Q)$$, sehingga $$P→(P∧Q)$$.</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> :</p>
+      </li>
+      <li>
+        <p>$$(P→Q)$$ : "Jika hujan, maka saya membawa payung."</p>
+      </li>
+      <li>
+        <p>$$∴P→(P∧Q)$$ : "Jika hujan, maka hujan dan saya membawa payung."</p>
+      </li>
+    </ul>
   </li>
 </ol>
