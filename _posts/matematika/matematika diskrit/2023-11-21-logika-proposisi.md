@@ -1969,12 +1969,14 @@ published: true
       <li>
         <p><strong>Contoh</strong> :</p>
       </li>
+      <ul>
       <li>
         <p>$$(P→Q)$$ : "Jika hujan, maka saya membawa payung."</p>
       </li>
       <li>
         <p>$$∴P→(P∧Q)$$ : "Jika hujan, maka hujan dan saya membawa payung."</p>
       </li>
+      </ul>
     </ul>
   </li>
 </ol>
