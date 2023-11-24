@@ -1762,7 +1762,7 @@ published: true
 <p>Argumen di atas tidak valid. Kenapa bisa begitu? Karena walaupun premisnya benar, kesimpulannya bisa benar dan bisa
   juga salah.</p>
 
-<h3 id="apa-saja-cara-penarikan-kesimpulan">Apa saja cara penarikan kesimpulan?</h3>
+<h3>Apa saja cara penarikan kesimpulan?</h3>
 <p>Penarikan kesimpulan adalah pola argumentasi logis yang digunakan untuk mendapatkan kesimpulan dari premis yang
   diberikan. Berikut teknik-teknik penarikan kesimpulan:</p>
 <ol>
