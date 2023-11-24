@@ -1495,8 +1495,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> <strong>Studi kasus</strong></p>
+  <p> <strong>Studi kasus</strong></p>
 <ul>
   <li>
     <p>Implikasi : "Jika anda memiliki kartu anggota gym $$(p)$$, maka anda dapat mengakses fasilitas olahraga di tempat gym
@@ -1507,6 +1506,8 @@ published: true
       $$(p)$$."</p>
   </li>
 </ul>
+</ol>
+
 <ol start="2">
   <li>
     <p><strong>Invers</strong></p>
@@ -1543,8 +1544,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> <strong>Studi kasus</strong></p>
+  <p> <strong>Studi kasus</strong></p>
 <ul>
   <li>
     <p>Implikasi : "Jika anda memiliki kartu anggota gym $$(p)$$, maka anda dapat mengakses fasilitas olahraga di tempat gym
@@ -1555,6 +1555,8 @@ published: true
       kartu anggota gym $$(¬p)$$."</p>
   </li>
 </ul>
+</ol>
+
 <p> <strong>Tabel kebenaran konvers, invers, dan kontraposisi</strong></p>
 <table>
   <thead>
