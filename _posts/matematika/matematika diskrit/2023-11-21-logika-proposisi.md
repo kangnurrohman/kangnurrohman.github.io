@@ -1480,6 +1480,148 @@ published: true
       </li>
     </ol>
   </li>
+<p><strong>Konvers, invers, dan kontraposisi</strong></p>
+<p>Tiga konsep ini adalah konsep penting yang harus dipahami pada implikasi, mari kita bahas lebih dalam menggunakan
+  studi kasus di atas:</p>
+<ol>
+  <li>
+    <p><strong>Konvers</strong></p>
+    <ul>
+      <li>
+        <p>Konvers dari sebuah implikasi $$p→q$$ adalah $$q→p$$.</p>
+      </li>
+      <li>
+        <p>Artinya, jika kita memiliki pernyataan "Jika $$p,$$ maka $$q$$" maka konversnya adalah "jika $$q$$, maka $$p$$".</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p> <strong>Studi kasus</strong></p>
+<ul>
+  <li>
+    <p>Implikasi : "Jika anda memiliki kartu anggota gym $$(p)$$, maka anda dapat mengakses fasilitas olahraga di tempat gym
+      $$(q)$$."</p>
+  </li>
+  <li>
+    <p>Konvers : "Jika Anda dapat mengakses fasilitas olahraga di tempat gym $$(q)$$, maka Anda memiliki kartu anggota gym
+      $$(p)$$."</p>
+  </li>
+</ul>
+<ol start="2">
+  <li>
+    <p><strong>Invers</strong></p>
+    <ul>
+      <li>
+        <p>Invers dari sebuah implikasi $$p→q$$ adalah $$¬p→¬q$$.</p>
+      </li>
+      <li>
+        <p>Artinya, jika kita memiliki pernyataan "Jika $$p$$, maka $$q$$" maka inversnya adalah "jika buka $$p$$, maka buka $$q$$".</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p> <strong>Studi kasus</strong></p>
+<ul>
+  <li>
+    <p>Implikasi : "Jika anda memiliki kartu anggota gym $$(p)$$, maka anda dapat mengakses fasilitas olahraga di tempat gym
+      $$(q)$$."</p>
+  </li>
+  <li>
+    <p>Invers : "Jika anda tidak memiliki kartu anggota gym $$(¬p)$$, maka anda tidak dapat mengakses fasilitas olahraga di
+      tempat gym $$(¬q)$$."</p>
+  </li>
+</ul>
+<ol start="3">
+  <li>
+    <p><strong>Kontraposisi</strong></p>
+    <ul>
+      <li>
+        <p>Kontraposisi dari sebuah implikasi $$p→q$$ adalah $$¬q→¬p$$.</p>
+      </li>
+      <li>
+        <p>Artinya, jika kita memiliki pernyataan "Jika $$p$$, maka $$q$$" maka konversnya adalah "jika $$¬q$$, maka $$¬p$$".</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p> <strong>Studi kasus</strong></p>
+<ul>
+  <li>
+    <p>Implikasi : "Jika anda memiliki kartu anggota gym $$(p)$$, maka anda dapat mengakses fasilitas olahraga di tempat gym
+      $$(q)$$."</p>
+  </li>
+  <li>
+    <p>Kontraposisi : "Jika anda tidak dapat mengakses fasilitas olahraga di tempat gym $$(¬q)$$, maka Anda tidak memiliki
+      kartu anggota gym $$(¬p)$$."</p>
+  </li>
+</ul>
+<p> <strong>Tabel kebenaran konvers, invers, dan kontraposisi</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>$$p$$</th>
+      <th>$$q$$</th>
+      <th>$$¬p$$</th>
+      <th>$$¬q$$</th>
+      <th>$$p→q$$</th>
+      <th>$$q→p$$</th>
+      <th>$$¬p→¬q$$</th>
+      <th>$$¬q→¬p$$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+<p> Jadi dapat disimpulkan dari tabel kebenaran diatas bahwa:</p>
+<ul>
+  <li>
+    <p>Konvers dan invers tidak selalu memiliki nilai kebenaran yang sama dengan implikasi.</p>
+  </li>
+  <li>
+    <p>Sedangkan kontraposisi menunjukkan bahwa nilai kebenarannya selalu sama dengan implikasi (ekuivalen).</p>
+  </li>
+</ul>
+
   <li>
     <p><strong>Biimplikasi</strong></p>
     <p>Biimplikasi menyatakan hubungan timbal balik antara dua proposisi. Biasanya notasinya ditandai dengan $$(↔)$$.</p>
