@@ -1,22 +1,33 @@
-	<script src="assets/js/script.js"></script>
-	 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.10/css/jquery.dataTables.min.css">
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.10/js/jquery.dataTables.min.js"></script>
-	<script type="text/javascript">
+<script src="assets/js/script.js"></script>
+<!-- Datatables -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.10/css/jquery.dataTables.min.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.10/js/jquery.dataTables.min.js"></script>
+<!-- End datatables -->
+<!-- Include dark mode -->
+<script type="text/javascript">
 		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
 			document.documentElement.setAttribute('data-theme', 'dark');
 			document.getElementById('mode-switcher').classList.add('active');
 		}
 	</script>
+	<!-- End dark mode -->
+	<!-- Include SweetAlert JS from CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<!-- End SweetAlert -->
+	<!-- Include Mathjax -->
 	<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: { inlineMath: [['$$','$$']], displayMath: [['\[\[','\]\]']] }
     });
 </script>
-	<!-- Google Tag Manager (noscript) -->
+<!-- End Mathjax -->
+<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LPPMB7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<!-- Back to top -->
 	<a href="javascript:void(0);" class="back-to-top" id="backToTop" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></a>
-	<div class="footer">
+<!-- End Back to top -->
+<div class="footer">
 </body>
 </html>

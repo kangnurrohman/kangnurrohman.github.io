@@ -91,3 +91,33 @@ function copyToClipboard(event) {
 $(document).ready(function() {
   $('#tabel-interaktif').DataTable();
 });
+
+// SweetAlert
+document.addEventListener('DOMContentLoaded', function () {
+      // Select all ordered lists (ol)
+      var orderedLists = document.querySelectorAll('ol');
+
+      orderedLists.forEach(function (ol) {
+        // Select all list items (li) within the ordered list
+        var listItems = ol.querySelectorAll('li');
+
+        listItems.forEach(function (li) {
+          // Select the anchor tag within the list item
+          var link = li.querySelector('a[href="javascript:void(0);"]');
+
+          if (link) {
+            link.addEventListener('click', function (event) {
+              // Prevent the default action (e.g., navigating to "#")
+              event.preventDefault();
+
+              // Show SweetAlert with a message
+              Swal.fire({
+                icon: 'info',
+                title: 'Info',
+                text: 'Tulisan masih tahap proses 🙏',
+              });
+            });
+          }
+        });
+      });
+    });
