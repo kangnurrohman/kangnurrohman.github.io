@@ -154,9 +154,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var isDarkMode = toggleDarkMode();
 
     if (isDarkMode) {
-      progressBar.style.backgroundColor = "#363636"; // Ganti dengan warna untuk dark mode
+      progressBar.style.backgroundColor = "var(--primary-font-color)"; // Ganti dengan variabel CSS untuk dark mode
     } else {
-      progressBar.style.backgroundColor = "var(--primary-font-color)"; // Ganti dengan variabel CSS untuk light mode
+      progressBar.style.backgroundColor = "#4caf50"; // Ganti dengan warna untuk light mode
     }
   };
 
@@ -166,4 +166,3 @@ document.addEventListener("DOMContentLoaded", function () {
   // Pembaruan warna progress bar saat halaman dimuat
   updateProgressBarColor();
 });
-
