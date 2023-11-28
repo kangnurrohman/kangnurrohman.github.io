@@ -688,6 +688,6 @@ th {
   left: 0;
   height: 5px;
   width: 0;
-  background-color: #4caf50;
+  background-color: var(--primary-font-color);
   transition: width 0.3s;
 }

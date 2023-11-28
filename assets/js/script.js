@@ -123,7 +123,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 //  Reading progress bar
-
 document.addEventListener("DOMContentLoaded", function () {
   var progressContainer = document.getElementById("reading-progress-container");
   var progressBar = document.createElement("div");
@@ -147,5 +146,21 @@ document.addEventListener("DOMContentLoaded", function () {
     progressBar.style.width = scrollPercentage + "%";
   };
 
+  var toggleDarkMode = function () {
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  };
+
+  var updateProgressBarColor = function () {
+    if (toggleDarkMode()) {
+      progressBar.style.backgroundColor = "#ffffff"; // Ganti dengan warna untuk dark mode
+    } else {
+      progressBar.style.backgroundColor = "#4caf50"; // Ganti dengan warna untuk light mode
+    }
+  };
+
   document.addEventListener("scroll", updateProgressBar);
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateProgressBarColor);
+
+  // Pembaruan warna progress bar saat halaman dimuat
+  updateProgressBarColor();
 });
