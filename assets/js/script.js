@@ -113,8 +113,8 @@ document.addEventListener('DOMContentLoaded', function () {
               // Show SweetAlert with a message
               Swal.fire({
                 icon: 'info',
-                title: 'Info',
-                text: 'Tulisan masih tahap proses 🙏',
+                title: 'Maaf 🙏',
+                text: 'Tulisan masih tahap proses pengerjaan. Mohon bersabar ya 😊',
               });
             });
           }
