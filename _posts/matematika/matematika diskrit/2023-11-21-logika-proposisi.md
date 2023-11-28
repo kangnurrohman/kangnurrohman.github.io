@@ -6,8 +6,9 @@ author: Kang Nur
 layout: post
 permalink: /logika-proposisi/
 image: "/assets/images/post/logika-proposisi/gambar0.png"
-description: "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
- mendengar kata 'Logika' di kehidupan sehari-hari."
+description:
+  "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
+  mendengar kata 'Logika' di kehidupan sehari-hari."
 categories: Matematika
 tags: [matematika, matematika diskrit]
 published: true
@@ -2186,7 +2187,7 @@ published: true
     <ul>
       <li>
         <p><strong>Kalimat</strong> : "Ada seorang siswa yang jago matematika jika dan hanya jika mereka mengikuti
-          kursus khusus".</p>
+          kursus kursus".</p>
       </li>
       <li>
         <p><strong>Kalimat matematisnya</strong> : $$∃x,(S(x)↔K(x))$$</p>
