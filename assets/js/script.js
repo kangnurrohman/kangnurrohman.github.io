@@ -125,9 +125,8 @@ document.addEventListener('DOMContentLoaded', function () {
 //  Reading progress bar
 document.addEventListener("DOMContentLoaded", function () {
   var progressContainer = document.getElementById("reading-progress-container");
-  var progressBar = document.createElement("div");
-  progressBar.id = "reading-progress";
-  progressContainer.appendChild(progressBar);
+  var progressBar = document.getElementById("reading-progress");
+  var disqusContainer = document.getElementById("disqus-comments-container");
 
   var getMaxScroll = function () {
     var documentHeight = Math.max(
@@ -165,4 +164,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Pembaruan warna progress bar saat halaman dimuat
   updateProgressBarColor();
+
+  // Menyembunyikan Disqus pada awalnya
+  disqusContainer.style.display = "none";
+
+  // Menampilkan Disqus ketika pengguna mencapai akhir artikel
+  var showDisqusOnScrollEnd = function () {
+    if (window.scrollY >= getMaxScroll() * 0.9) {
+      disqusContainer.style.display = "block";
+      // Berhenti mendengarkan scroll event setelah Disqus ditampilkan
+      window.removeEventListener("scroll", showDisqusOnScrollEnd);
+    }
+  };
+
+  window.addEventListener("scroll", showDisqusOnScrollEnd);
 });
