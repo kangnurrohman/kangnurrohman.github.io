@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (toggleDarkMode()) {
       progressBar.style.backgroundColor = "#ffffff"; // Ganti dengan warna untuk dark mode
     } else {
-      progressBar.style.backgroundColor = "#4caf50"; // Ganti dengan warna untuk light mode
+      progressBar.style.backgroundColor = "#10171e"; // Ganti dengan warna untuk light mode
     }
   };
 
