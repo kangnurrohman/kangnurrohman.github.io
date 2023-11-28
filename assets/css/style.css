@@ -675,3 +675,19 @@ th {
   background-color: var(--body-bg);
   color: var(--primary-font-color);
 }
+
+/* Reading progress bar */
+
+#reading-progress-container {
+  position: relative;
+}
+
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0;
+  background-color: #4caf50;
+  transition: width 0.3s;
+}

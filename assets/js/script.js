@@ -121,3 +121,31 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       });
     });
+
+//  Reading progress bar
+
+document.addEventListener("DOMContentLoaded", function () {
+  var progressContainer = document.getElementById("reading-progress-container");
+  var progressBar = document.createElement("div");
+  progressBar.id = "reading-progress";
+  progressContainer.appendChild(progressBar);
+
+  var getMaxScroll = function () {
+    var documentHeight = Math.max(
+      document.body.scrollHeight,
+      document.body.offsetHeight,
+      document.documentElement.clientHeight,
+      document.documentElement.scrollHeight,
+      document.documentElement.offsetHeight
+    );
+
+    return documentHeight - window.innerHeight;
+  };
+
+  var updateProgressBar = function () {
+    var scrollPercentage = (window.scrollY / getMaxScroll()) * 100;
+    progressBar.style.width = scrollPercentage + "%";
+  };
+
+  document.addEventListener("scroll", updateProgressBar);
+});
