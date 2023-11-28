@@ -53,6 +53,7 @@ layout: default
   <h1>{{page.title}}</h1>
   {{ content }}
 </div>
+
 <div class="tags-container">
   {% for tag in page.tags %}
   <a href="{{ site.url }}/topik/#{{tag | cgi_escape}}" class="post-tag">{{tag}}</a>{% unless forloop.last %}, {%
@@ -66,7 +67,14 @@ layout: default
       <a class="next" href="{{ page.next | relative_url }}">{{ page.next.title }} ></a>
       {% endif %}
 </div>
-{% include disqus.html %} {% else %}
+
+<!-- Disqus comments -->
+<div id="disqus-comments-container">
+  {% include disqus.html %}
+</div>
+
+<script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+{% else %}
 <div class="draft-message">
   <div class="draft-message-inner">
     <h2>Konten ini masih berupa draf dan belum dipublikasikan.</h2>
