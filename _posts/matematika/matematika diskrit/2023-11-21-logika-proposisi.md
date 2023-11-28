@@ -2182,7 +2182,7 @@ published: true
     </ul>
   </li>
   <li>
-    <p><strong>Biimplikasi ($$↔)$$</strong></p>
+    <p><strong>Biimplikasi $$(↔)$$</strong></p>
     <ul>
       <li>
         <p><strong>Kalimat</strong> : "Ada seorang siswa yang jago matematika jika dan hanya jika mereka mengikuti
