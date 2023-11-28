@@ -46,6 +46,9 @@ published: true
         <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-argumentasi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu argumentasi?
         </a>
+        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-kuantor-logika">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kuantor logika?
+        </a>
       </li>
     </ul>
   </div>
@@ -1976,6 +1979,225 @@ published: true
         <p>$$∴P→(P∧Q)$$ : "Jika hujan, maka hujan dan saya membawa payung."</p>
       </li>
       </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="apa-itu-kuantor-logika">Apa itu kuantor logika?</h2>
+<p>Kuantor logika adalah konsep dalam logika matematika yang digunakan untuk menyatakan sejumlah elemen dalam suatu
+  himpunan atau domain tertentu. Ada dua jenis kuantor, yaitu kuantor universal dan kuantor eksistensial.</p>
+<ol>
+  <li>
+    <p><strong>Kuantor Universal $$(∀)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Konsep</strong> : Kuantor ini digunakan untuk menyatakan bahwa suatu penyataan berlaku untuk semua
+          elemen dalam suatu himpunan atau domain tertentu.</p>
+      </li>
+      <li>
+        <p><strong>Dalam bahasa sehari-hari</strong> : "Untuk setiap" atau "Bagi semua".</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : "Untuk setiap siswa, mereka suka belajar". Artinya, semua siswa tanpa terkecuali
+          suka belajar.</p>
+      </li>
+      <li>
+        <p><strong>Kalimat matematisnya</strong> : $$∀x,P(x)$$</p>
+        <ul>
+          <li>
+            <p>$$∀$$ adalah simbol kuantor universal yang berarti "untuk setiap".</p>
+          </li>
+          <li>
+            <p>$$x$$ adalah variabel yang mewakili setiap siswa.</p>
+          </li>
+          <li>
+            <p>$$P(x)$$ adalah predikat yang menyatakan bahwa siswa $$x$$ suka belajar.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Kuantor Eksistensial $$(∃)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Konsep</strong> : Kuantor ini digunakan untuk menyatakan bahwa setidaknya satu elemen dalam suatu
+          himpunan atau domain tertentu.</p>
+      </li>
+      <li>
+        <p><strong>Dalam bahasa sehari-hari</strong> : "Ada" atau "Terdapat".</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : "Ada siswa yang suka bermain sepak bola". Artinya, setidaknya ada satu siswa yang
+          suka bermain sepak bola.</p>
+      </li>
+      <li>
+        <p><strong>Kalimat matematisnya</strong> : $$∃x,P(x)$$</p>
+        <ul>
+          <li>
+            <p>$$∃$$ adalah simbol kuantor eksistensial yang berarti "ada" atau "terdapat".</p>
+          </li>
+          <li>
+            <p>$$x$$ adalah variabel yang mewakili setiap siswa.</p>
+          </li>
+          <li>
+            <p>$$P(x)$$ adalah predikat yang menyatakan bahwa siswa $$x$$ suka bermain sepak bola.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p><strong>Negasi Kuantor</strong></p>
+<p>Negasi dari kuantor dapat diartikan sebagai ingkaran dari pernyataan kuantor tersebut. Berikut adalah cara
+  menegasikan untuk kuantor universal $$(∀)$$ dan kuantor eksistensial $$(∃)$$:</p>
+<ol>
+  <li>
+    <p><strong>Negasi Kuantor Universal $$(∀)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Pernyataan</strong> : $$∀x,P(x)$$</p>
+      </li>
+      <li>
+        <p><strong>Negasi</strong> : $$¬∀x,P(x)$$ / $$∃x,¬P(x)$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> :</p>
+        <ul>
+          <li>
+            <p><strong>Pernyataan awal</strong> : "Semua siswa suka matematika." $$∀x,P(x)$$</p>
+          </li>
+          <li>
+            <p><strong>Pernyataan negasi</strong> :"Ada seorang siswa yang tidak suka matematika." $$∃x,¬P(x)$$</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Negasi Kuantor Eksistensial $$(∃)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Pernyataan</strong> : $$∃x,P(x)$$</p>
+      </li>
+      <li>
+        <p><strong>Negasi</strong> : $$¬∃x,P(x)$$ / $$∀x,¬P(x)$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong>:</p>
+        <ul>
+          <li>
+            <p><strong>Pernyataan awal</strong> : "Ada mahasiswa yang belajar fisika." $$∃x,P(x)$$</p>
+          </li>
+          <li>
+            <p><strong>Pernyataan negasi</strong> : "Semua mahasiswa tidak belajar fisika." $$∀x,¬P(x)$$</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p><strong>Mengkombinasikan kuantor dengan simbol lain</strong></p>
+<p>Kuantor ini dapat juga dikombinasikan dengan simbol lain, seperti konjungsi, disjungsi, negasi, implikasi, dan
+  biimplikasi. Mari kita buat kalimat menggunakan kuantor logika dengan mengkombinasikan simbol lain.</p>
+<ol>
+  <li>
+    <p><strong>Konjungsi $$(∧)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Kalimat</strong> : "Siswa laki-laki dan siswa perempuan mengikuti pelajaran matematika".</p>
+      </li>
+      <li>
+        <p><strong>Kalimat matematisnya</strong> : $$∀x,(L(x)∧P(x)∧M(x))$$</p>
+        <ul>
+          <li>
+            <p>$$L(x)$$ : $$x$$ adalah siswa laki-laki.</p>
+          </li>
+          <li>
+            <p>$$P(x)$$ : $$x$$ adalah siswa perempuan.</p>
+          </li>
+          <li>
+            <p>$$M(x)$$ : $$x$$ mengikuti pelajaran matematika.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Disjungsi $$(∨)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Kalimat</strong> : "Siswa dapat memilih untuk belajar fisika atau kimia".</p>
+      </li>
+      <li>
+        <p><strong>Kalimat matematisnya</strong> : $$∀x,(F(x)∨K(x))$$</p>
+        <ul>
+          <li>
+            <p>$$F(x)$$ : $$x$$ belajar fisika.</p>
+          </li>
+          <li>
+            <p>$$K(x)$$ : $$x$$ belajar kimia.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Negasi $$(¬)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Kalimat</strong> : "Tidak ada siswa yang tidak menyukai olahraga".</p>
+      </li>
+      <li>
+        <p><strong>Kalimat matematisnya</strong> : $$¬∃x,(¬S(x)∧O(x))$$</p>
+        <ul>
+          <li>
+            <p>$$S(x)$$ : $$x$$ adalah siswa.</p>
+          </li>
+          <li>
+            <p>$$O(x)$$ : $$x$$ menyukai olahraga.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Implikasi $$(→)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Kalimat</strong> : "Jika semua siswa belajar dengan giat, maka hasilnya akan baik".</p>
+      </li>
+      <li>
+        <p><strong>Kalimat matematisnya</strong> : $$∀x,(B(x)→H(x))$$</p>
+        <ul>
+          <li>
+            <p>$$B(x)$$ : Siswa $$x$$ belajar dengan giat.</p>
+          </li>
+          <li>
+            <p>$$H(x)$$ : Hasil belajar siswa $$x$$ baik.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Biimplikasi ($$↔)$$</strong></p>
+    <ul>
+      <li>
+        <p><strong>Kalimat</strong> : "Ada seorang siswa yang jago matematika jika dan hanya jika mereka mengikuti
+          kursus khusus".</p>
+      </li>
+      <li>
+        <p><strong>Kalimat matematisnya</strong> : $$∃x,(S(x)↔K(x))$$</p>
+        <ul>
+          <li>
+            <p>$$S(x)$$ : $$x$$ adalah siswa.</p>
+          </li>
+          <li>
+            <p>$$K(x)$$ : $$x$$ mengikuti kursus.</p>
+          </li>
+        </ul>
       </li>
     </ul>
   </li>
