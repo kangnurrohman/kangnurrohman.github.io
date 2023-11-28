@@ -1,10 +1,10 @@
 # Site settings
-site: Kang Nur Rohman
+site: kangnurrohman
 title: Kang Nur
 keywords: kangnurrohman, blog
 description: >-
   suka main, suka njajan
-lang: en-US
+lang: id
 timezone: Asia/Jakarta
 repo: https://github.com/kangnurrohman # site repo [optional]
 google_verify: KiDrA9nVZ1mhCQ9V-KW7sbO4OH5qnbgh8cTgztXbwag # Put your Google Verification here
