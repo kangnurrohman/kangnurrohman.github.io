@@ -177,8 +177,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Konfigurasi opsi
     var optionsIntersect = {
-      width: 350,
-      height: 350
+      width: 150,
+      height: 150
     };
 
     // Gambar diagram Venn
@@ -198,8 +198,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Konfigurasi opsi
     var optionsDisjoint = {
-      width: 500,
-      height: 500
+      width: 200,
+      height: 200
     };
 
     // Gambar diagram Venn
@@ -224,8 +224,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Konfigurasi opsi
     var optionsIntersectThree = {
-      width: 350,
-      height: 350
+      width: 150,
+      height: 150
     };
 
     // Gambar diagram Venn
