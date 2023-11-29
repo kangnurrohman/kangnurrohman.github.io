@@ -64,12 +64,12 @@ published: true
       </li>
       <li>
         <p><strong>Himpunan makanan Banyuwangi</strong></p>
-        <p>$$B = \{Rujak\space Soto, Sego\space Tempong, Sego\space Cawuk\}$$</p>
+        <p>$$B = \{Rujak \space Soto, Sego\space Tempong, Sego\space Cawuk\}$$</p>
       </li>
     </ul>
     <p> Keanggotaan</p>
-    <p>$$ x \in A : x anggota dari himpunan A$$</p>
-    <p>$$ x \notin A : x bukan anggota dari himpunan A$$</p>
+    <p>$$ x \in A : x \space anggota \space dari \space himpunan A$$</p>
+    <p>$$ x \notin A : x \space bukan \space anggota \space dari \space himpunan \space A$$</p>
   </li>
 </ol>
 
@@ -85,15 +85,15 @@ published: true
       </li>
       <li>
         <p><strong>Himpunan bilangan rasional</strong></p>
-        <p>$$\mathbb{Z} = \{\frac{a}{b}|a\in\mathbb{Z},b\notin\mathbb{Z},b\neq0\}$$</p>
+        <p>$$\mathbb{Z} = \{\frac{a}{b}|a \in \mathbb{Z},b \notin \mathbb{Z} ,b \neq 0 \}$$</p>
       </li>
       <li>
         <p><strong>Himpunan bilangan real</strong></p>
-        <p>$$\mathbb{R}^+=\{\mathnormal{x}\in\mathbb{R}|\mathnormal{x}\geq0\}$$</p>
+        <p>$$\mathbb{R}^+=\{ \mathnormal{x} \in \mathbb{R} | \mathnormal{x} \geq 0 \}$$</p>
       </li>
       <li>
         <p><strong>Himpunan bilangan kompleks</strong></p>
-        <p>$$\mathbb{C}=\{\mathnormal{a}+\mathnormal{bi}|\mathnormal{a},\mathnormal{b}\in\mathbb{R}\}$$</p>
+        <p>$$\mathbb{C}=\{ \mathnormal{a} + \mathnormal{bi} | \mathnormal{a},\mathnormal{b} \in \mathbb{R} \}$$</p>
       </li>
     </ul>
   </li>
