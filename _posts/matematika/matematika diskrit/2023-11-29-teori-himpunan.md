@@ -143,17 +143,35 @@ published: true
       antar himpunan.</p>
     <ul>
       <li>
-        <p><strong>Himpunan A dan B dengan interseksi</strong></p>
+        <p><strong>Himpunan A dan B dengan <em>intersect</em></strong></p>
         <p>Misalkan $$A=\{1,2,3,4\}$$ dan $$B=\{3,4,5,6\}$$.</p>
         <p>Diagram venn akan memiliki dua lingkaran yang tumpang tindih masing-masing.</p>
-        <p>Elemen yang tumpang tindih merupakan elemen yang ada di kedua himpunan (interseksi).</p>
+        <p>Elemen yang tumpang tindih merupakan elemen yang ada di kedua himpunan <em>(intersect)</em>.</p>
+        <figure>
+        <div id="venn-diagram-intersect"></div>
+        <figcaption>Gambar 1. diagram venn berbentuk <em>intersect</em> </figcaption>
+        </figure>
       </li>
       <li>
-        <p><strong>Himpunan A dan B yang saling lepas</strong></p>
+        <p><strong>Himpunan A dan B dengan <em>disjoint</em></strong></p>
         <p>Misalkan $$A=\{1,2,3\}$$ dan $$B=\{4,5,6\}$$.</p>
-        <p>Diagram venn akan memiliki dua lingkaran yang tidak tumpang tindih.</p>
+        <p>Diagram venn akan memiliki dua lingkaran yang tidak tumpang tindih <em>(disjoint)</em>.</p>
         <p>Elemen yang berada di dalam satu lingkaran tetapi tidak di lingkaran lain adalah elemen unik dari
           masing-masing himpunan.</p>
+        <figure>
+          <div id="venn-diagram-disjoint"></div>
+          <figcaption>Gambar 2. diagram venn berbentuk <em>disjoint</em> </figcaption>
+        </figure>
+      </li>
+      <li>
+        <p><strong>Himpunan A, B, dan C dengan <em>intersect</em> tiga himpunan:</strong></p>
+        <p>Misalkan $$A={1,2,3}$$, $$B={3,4,5}$$, dan $$C={5,6,7}$$.</p>
+        <p>Diagram Venn akan memiliki tiga lingkaran yang tumpang tindih.</p>
+        <p>Elemen yang tumpang tindih bagian utama merupakan elemen yang ada di semua himpunan.</p>
+        <figure>
+          <div id="venn-diagram-intersect-three"></div>
+          <figcaption>Gambar 3. diagram venn berbentuk <em>intersect</em> tiga himpunan </figcaption>
+        </figure>
       </li>
     </ul>
   </li>

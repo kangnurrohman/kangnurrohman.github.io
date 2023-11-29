@@ -166,3 +166,73 @@ document.addEventListener("DOMContentLoaded", function () {
   // Pembaruan warna progress bar saat halaman dimuat
   updateProgressBarColor();
 });
+
+// Venn Diagram
+    // Data untuk diagram Venn dengan Interseksi A dan B
+    var setsIntersect = [
+      { sets: ['A'], size: 4 },
+      { sets: ['B'], size: 4 },
+      { sets: ['A', 'B'], size: 2 }
+    ];
+
+    // Konfigurasi opsi
+    var optionsIntersect = {
+      width: 350,
+      height: 350
+    };
+
+    // Gambar diagram Venn
+    var diagramIntersect = venn.VennDiagram()
+      .width(optionsIntersect.width)
+      .height(optionsIntersect.height);
+
+    d3.select("#venn-diagram-intersect")
+      .datum(setsIntersect)
+      .call(diagramIntersect);
+
+    // Data untuk diagram Venn yang Saling Lepas
+    var setsDisjoint = [
+      { sets: ['A'], size: 3 },
+      { sets: ['B'], size: 3 }
+    ];
+
+    // Konfigurasi opsi
+    var optionsDisjoint = {
+      width: 500,
+      height: 500
+    };
+
+    // Gambar diagram Venn
+    var diagramDisjoint = venn.VennDiagram()
+      .width(optionsDisjoint.width)
+      .height(optionsDisjoint.height);
+
+    d3.select("#venn-diagram-disjoint")
+      .datum(setsDisjoint)
+      .call(diagramDisjoint);
+
+    // Data untuk diagram Venn dengan Interseksi Tiga Himpunan
+    var setsIntersectThree = [
+      { sets: ['A'], size: 3 },
+      { sets: ['B'], size: 3 },
+      { sets: ['C'], size: 3 },
+      { sets: ['A', 'B'], size: 1 },
+      { sets: ['A', 'C'], size: 1 },
+      { sets: ['B', 'C'], size: 1 },
+      { sets: ['A', 'B', 'C'], size: 1 }
+    ];
+
+    // Konfigurasi opsi
+    var optionsIntersectThree = {
+      width: 350,
+      height: 350
+    };
+
+    // Gambar diagram Venn
+    var diagramIntersectThree = venn.VennDiagram()
+      .width(optionsIntersectThree.width)
+      .height(optionsIntersectThree.height);
+
+    d3.select("#venn-diagram-intersect-three")
+      .datum(setsIntersectThree)
+      .call(diagramIntersectThree);
