@@ -41,7 +41,7 @@ published: true
 <p>Contoh pada bahasa python:</p>
 <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
     A = {1, 2, 3} # Himpunan A
     B = {3, 4, 5} # Himpunan B
