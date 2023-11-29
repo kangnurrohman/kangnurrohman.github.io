@@ -68,8 +68,12 @@ published: true
       </li>
     </ul>
     <p> Keanggotaan</p>
-    <p>$$ x \in A : x \space anggota \space dari \space himpunan A$$</p>
-    <p>$$ x \notin A : x \space bukan \space anggota \space dari \space himpunan \space A$$</p>
+    <ul>
+      <li><p>$$x \in A$$ : $$x$$ anggota dari himpunan $$A$$</p>
+    </li>
+      <li><p>$$x \notin A $$: $$x$$ bukan anggota dari himpunan $$A$$</p>
+    </li>
+    </ul>
   </li>
 </ol>
 
@@ -115,14 +119,14 @@ published: true
         <p>$$B=\{z|z \space adalah \space huruf \space konsonan\}$$</p>
         <p>Cara membacanya: "Himpunan $$B$$ adalah himpunan semua huruf $$z$$, dimana $$z$$ merupakan huruf konsonan."</p>
         <p>Atau: $$B=\{z|z\in \space Huruf \space Konsonan\}$$</p>
-        <p>Atau: $$B=\{2,3,5,7,...\}$$</p>
+        <p>Atau: $$B=\{b,c,d,f,...\}$$</p>
       </li>
       <li>
         <p><strong>Himpunan angka prima</strong></p>
         <p>$$C=\{p|p \space adalah \space angka \space prima\}$$</p>
         <p>Cara membacanya: "Himpunan $$C$$ adalah himpunan semua angka $$p$$, dimana $$p$$ merupakan bilangan prima."</p>
         <p>Atau: $$C=\{p|p\in \mathbb{N},p \space adalah \space angka \space prima\}$$</p>
-        <p>Atau: $$C=\{b,c,d,f,...\}$$</p>
+        <p>Atau: $$C=\{2,3,5,7,...\}$$</p>
       </li>
       <li>
         <p><strong>Himpunan bilangan genap</strong></p>
@@ -130,7 +134,7 @@ published: true
         <p>Cara membacanya: "Himpunan $$D$$ adalah himpunan semua bilangan bulat $$y$$, dimana $$y$$ merupakan bilangan genap dan
           kurang dari 0."</p>
         <p>Atau: $$D=\{y|y\in \mathbb{Z} , y \space genap, y&lt;0\}$$</p>
-        <p>Atau: $$D=\{2,3,5,7,...\}$$</p>
+        <p>Atau: $$D=\{-2,-4,-6,-8,...\}$$</p>
       </li>
     </ul>
   </li>
