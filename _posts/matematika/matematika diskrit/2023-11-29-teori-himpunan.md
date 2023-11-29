@@ -1,5 +1,5 @@
 ---
-title: "Himpunan"
+title: "Teori Himpunan"
 date: 2023-11-29T00:00:00+00:00
 update: 2023-11-29T00:00:00+00:00
 author: Kang Nur
