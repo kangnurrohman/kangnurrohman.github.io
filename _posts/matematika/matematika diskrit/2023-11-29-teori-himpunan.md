@@ -49,3 +49,109 @@ published: true
   </code>
   </pre>
 </div>
+
+<h3>Cara penulisan himpunan</h3>
+<p>Ada berbagai macam cara ketika kita mau menyajikan atau menuliskan himpunan. Berikut cara-caranya:</p>
+<ol>
+  <li>
+    <p><strong>Enumerasi</strong></p>
+    <p>Penulisan himpunan dengan enumerasi adalah dengan menyebutkan elemen-elemen himpunan tersebut secara eksplisit.
+    </p>
+    <ul>
+      <li>
+        <p><strong>Himpunan tradisi Banyuwangi</strong></p>
+        <p>$$A = \{Kebo-Keboan, Seblang, Puter\space Kayun\}$$</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<ul>
+  <li>
+    <p><strong>Himpunan makanan Banyuwangi</strong></p>
+    <p>$$B = \{Rujak\space Soto, Sego\space Tempong, Sego\space Cawuk\}$$</p>
+  </li>
+</ul>
+<p> Keanggotaan</p>
+<p>$$ x \in A : x anggota dari himpunan A$$</p>
+<p>$$ x \notin A : x bukan anggota dari himpunan A$$</p>
+<ol start="2">
+  <li>
+    <p><strong>Simbol-simbol Baku</strong></p>
+    <p>Penulisan himpunan dengan simbol baku adalah dengan melibatkan beberapa notasi standar.</p>
+    <ul>
+      <li>
+        <p><strong>Himpunan bilangan bulat</strong></p>
+        <p>$$\mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\}$$</p>
+      </li>
+      <li>
+        <p><strong>Himpunan bilangan rasional</strong></p>
+        <p>$$\mathbb{Z} = \{\frac{a}{b}|a\in\mathbb{Z},b\notin\mathbb{Z},b\neq0\}$$</p>
+      </li>
+      <li>
+        <p><strong>Himpunan bilangan real</strong></p>
+        <p>$$\mathbb{R}^+=\{\mathnormal{x}\in\mathbb{R}|\mathnormal{x}\geq0\}$$</p>
+      </li>
+      <li>
+        <p><strong>Himpunan bilangan kompleks</strong></p>
+        <p>$$\mathbb{C}=\{\mathnormal{a}+\mathnormal{bi}|\mathnormal{a},\mathnormal{b}\in\mathbb{R}\}$$</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Deskripsi</strong></p>
+    <p>Penulisan himpunan dengan deskripsi dilakukan dengan memberikan kriteria atau kondisi yang harus dipenuhi oleh
+      elemen-elemen himpunan. Bentuk ini juga dikenal dengan notasi predikat.</p>
+    <ul>
+      <li>
+        <p><strong>Himpunan bilangan ganjil</strong></p>
+        <p>$$A=\{x|x \space adalah \space bilangan \space ganjil \space dan \space x&lt;10\}$$</p>
+        <p>Cara membacanya: "Himpunan $$A$$ adalah himpunan semua bilangan bulat $$x$$, dimana $$x$$ merupakan bilangan ganjil dan
+          kurang dari 10."</p>
+        <p>Atau : $$A=\{x|x\in\mathbb{Z},x\in P,x&lt;10\}$$</p>
+        <p>Atau: $$A=\{1,3,5,7,9\}$$</p>
+      </li>
+      <li>
+        <p><strong>Himpunan huruf konsonan</strong></p>
+        <p>$$B=\{z|z \space adalah \space huruf \space konsonan\}$$</p>
+        <p>Cara membacanya: "Himpunan $$B$$ adalah himpunan semua huruf $$z$$, dimana $$z$$ merupakan huruf konsonan."</p>
+        <p>Atau: $$B=\{z|z\in \space Huruf \space Konsonan\}$$</p>
+        <p>Atau: $$B=\{2,3,5,7,...\}$$</p>
+      </li>
+      <li>
+        <p><strong>Himpunan angka prima</strong></p>
+        <p>$$C=\{p|p \space adalah \space angka \space prima\}$$</p>
+        <p>Cara membacanya: "Himpunan $$C$$ adalah himpunan semua angka $$p$$, dimana $$p$$ merupakan bilangan prima."</p>
+        <p>Atau: $$C=\{p|p\in \mathbb{N},p \space adalah \space angka \space prima\}$$</p>
+        <p>Atau: $$C=\{b,c,d,f,...\}$$</p>
+      </li>
+      <li>
+        <p><strong>Himpunan bilangan genap</strong></p>
+        <p>$$D=\{y|y \space adalah \space bilangan \space genap \space dan \space y&lt;0\}$$</p>
+        <p>Cara membacanya: "Himpunan $$D$$ adalah himpunan semua bilangan bulat $$y$$, dimana $$y$$ merupakan bilangan genap dan
+          kurang dari 0."</p>
+        <p>Atau: $$D=\{y|y\in \mathbb{Z} , y \space genap, y&lt;0\}$$</p>
+        <p>Atau: $$D=\{2,3,5,7,...\}$$</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Diagram Venn</strong></p>
+    <p>Diagram venn adalah representasi grafis dari himpunan yang menggunakan lingkaran untuk memperlihatkan hubungan
+      antar himpunan.</p>
+    <ul>
+      <li>
+        <p><strong>Himpunan A dan B dengan interseksi</strong></p>
+        <p>Misalkan $$A=\{1,2,3,4\}$$ dan $$B=\{3,4,5,6\}$$.</p>
+        <p>Diagram venn akan memiliki dua lingkaran yang tumpang tindih masing-masing.</p>
+        <p>Elemen yang berada di tumpang tindih merupakan elemen yang ada di kedua himpunan (interseksi).</p>
+      </li>
+      <li>
+        <p><strong>Himpunan A dan B yang saling lepas</strong></p>
+        <p>Misalkan $$A=\{1,2,3\}$$ dan $$B=\{4,5,6\}$$.</p>
+        <p>Diagram venn akan memiliki dua lingkaran yang tidak tumpang tindih.</p>
+        <p>Elemen yang berada di dalam satu lingkaran tetapi tidak di lingkaran lain adalah elemen unik dari
+          masing-masing himpunan.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
