@@ -1,13 +1,12 @@
 ---
 title: "Logika Proposisi"
 date: 2023-11-21T00:00:00+00:00
-update: 2023-11-24T00:00:00+00:00
+update: 2023-11-28T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /logika-proposisi/
 image: "/assets/images/post/logika-proposisi/gambar0.png"
-description:
-  "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
+description: "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
   mendengar kata 'Logika' di kehidupan sehari-hari."
 categories: Matematika
 tags: [matematika, matematika diskrit]
@@ -24,7 +23,7 @@ published: true
     <ul class="content table-of-contents-list" id="daftar-isi">
       <li class="table-of-contents-item">
         <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-logika">
-          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu Logika?
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu logika?
         </a>
         <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-logika-proposisi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu logika proposisi?
