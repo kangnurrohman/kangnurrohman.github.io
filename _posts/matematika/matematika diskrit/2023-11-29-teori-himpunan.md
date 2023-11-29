@@ -6,7 +6,8 @@ author: Kang Nur
 layout: post
 permalink: /teori-himpunan/
 image: "/assets/images/post/teori-himpunan/gambar0.png"
-description: "Mungkin kita sudah pernah belajar himpunan sejak bangku SMP, namun tahukah kamu himpunan ini adalah teori yang
+description:
+  "Mungkin kita sudah pernah belajar himpunan sejak bangku SMP, namun tahukah kamu himpunan ini adalah teori yang
   fundamental di bidang Ilmu Komputer."
 categories: Matematika
 tags: [matematika, matematika diskrit]
@@ -29,7 +30,6 @@ published: true
     </ul>
   </div>
 </div>
-
 
 <h2 id="apa-itu-himpunan">Apa itu himpunan?</h2>
 <p>Mungkin kita sudah pernah belajar himpunan sejak bangku SMP, namun tahukah kamu himpunan ini adalah teori yang
@@ -76,7 +76,6 @@ published: true
     </ul>
   </li>
 </ol>
-
 
 <ol start="2">
   <li>
@@ -147,7 +146,7 @@ published: true
         <p><strong>Himpunan A dan B dengan interseksi</strong></p>
         <p>Misalkan $$A=\{1,2,3,4\}$$ dan $$B=\{3,4,5,6\}$$.</p>
         <p>Diagram venn akan memiliki dua lingkaran yang tumpang tindih masing-masing.</p>
-        <p>Elemen yang berada di tumpang tindih merupakan elemen yang ada di kedua himpunan (interseksi).</p>
+        <p>Elemen yang tumpang tindih merupakan elemen yang ada di kedua himpunan (interseksi).</p>
       </li>
       <li>
         <p><strong>Himpunan A dan B yang saling lepas</strong></p>
