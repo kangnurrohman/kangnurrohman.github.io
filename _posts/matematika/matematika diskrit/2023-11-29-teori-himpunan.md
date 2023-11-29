@@ -89,11 +89,11 @@ published: true
       </li>
       <li>
         <p><strong>Himpunan bilangan real</strong></p>
-        <p>$$\mathbb{R}^+=\{ \mathnormal{x} \in \mathbb{R} | \mathnormal{x} \geq 0 \}$$</p>
+        <p>$$\mathbb{R}^+=\{ x \in \mathbb{R} | x \geq 0 \}$$</p>
       </li>
       <li>
         <p><strong>Himpunan bilangan kompleks</strong></p>
-        <p>$$\mathbb{C}=\{ \mathnormal{a} + \mathnormal{bi} | \mathnormal{a},\mathnormal{b} \in \mathbb{R} \}$$</p>
+        <p>$$\mathbb{C}=\{ a + bi | a,b \in \mathbb{R} \}$$</p>
       </li>
     </ul>
   </li>
