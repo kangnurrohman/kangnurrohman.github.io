@@ -36,7 +36,7 @@ published: true
   fundamental di bidang Ilmu Komputer. Himpunan adalah kumpulan objek atau elemen yang memiliki karakteristik tertentu.
   Setiap objek atau elemen dalam himpunan bersifat unik; artinya, tidak ada duplikasi elemen dalam himpunan. Objek atau
   elemen dalam himpunan juga tidak memiliki urutan tertentu; artinya, tidak peduli dalam urutan mana elemen-elemen
-  tersebut ditulis. Himpunan biasanya dinotasikan dengan kurung kurawal \{\}. Dalam pemrograman komputer, himpunan
+  tersebut ditulis. Himpunan biasanya dinotasikan dengan kurung kurawal $\{\}$. Dalam pemrograman komputer, himpunan
   sering disebut struktur data <strong><em>set</em></strong>.</p>
 <p>Contoh pada bahasa python:</p>
 <div class="code-container">
