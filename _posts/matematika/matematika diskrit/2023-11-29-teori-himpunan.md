@@ -129,7 +129,7 @@ published: true
         <p>Atau: $$C=\{2,3,5,7,...\}$$</p>
       </li>
       <li>
-        <p><strong>Himpunan bilangan genap</strong></p>
+        <p><strong>Himpunan bilangan genap negatif</strong></p>
         <p>$$D=\{y|y \space adalah \space bilangan \space genap \space dan \space y&lt;0\}$$</p>
         <p>Cara membacanya: "Himpunan $$D$$ adalah himpunan semua bilangan bulat $$y$$, dimana $$y$$ merupakan bilangan genap dan
           kurang dari 0."</p>
