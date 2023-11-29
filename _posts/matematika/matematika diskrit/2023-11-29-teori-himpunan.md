@@ -118,7 +118,7 @@ published: true
         <p>$$B=\{z|z \space adalah \space huruf \space konsonan\}$$</p>
         <p>Cara membacanya: "Himpunan $$B$$ adalah himpunan semua huruf $$z$$, dimana $$z$$ merupakan huruf konsonan."</p>
         <p>Atau: $$B=\{z|z\in \space Huruf \space Konsonan\}$$</p>
-        <p>Atau: $$B=\{b,c,d,f,...\}$$</p>
+        <p>Atau: $$B=\{b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z\}$$</p>
       </li>
       <li>
         <p><strong>Himpunan angka prima</strong></p>
