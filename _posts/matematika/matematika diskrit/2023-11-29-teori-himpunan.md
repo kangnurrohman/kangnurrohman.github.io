@@ -22,7 +22,7 @@ published: true
     </h1>
     <ul class="content table-of-contents-list" id="daftar-isi">
       <li class="table-of-contents-item">
-        <a class="table-of-contents-link" href="logika-proposisi/#apa-itu-himpunan">
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-himpunan">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu himpunan?
         </a>
       </li>
