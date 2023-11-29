@@ -308,6 +308,7 @@ img {
 figure {
   margin: 0;
   padding: 15px;
+  text-align: center;
 }
 
 figure img {
