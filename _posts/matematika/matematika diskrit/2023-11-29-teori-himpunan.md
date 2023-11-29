@@ -148,8 +148,8 @@ published: true
         <p>Diagram venn akan memiliki dua lingkaran yang tumpang tindih masing-masing.</p>
         <p>Elemen yang tumpang tindih merupakan elemen yang ada di kedua himpunan <em>(intersect)</em>.</p>
         <figure>
-        <div id="venn-diagram-intersect"></div>
-        <figcaption>Gambar 1. diagram venn berbentuk <em>intersect</em> </figcaption>
+          <div id="venn-diagram-intersect"></div>
+          <figcaption>Gambar 1. diagram venn berbentuk <em>intersect</em> </figcaption>
         </figure>
       </li>
       <li>
