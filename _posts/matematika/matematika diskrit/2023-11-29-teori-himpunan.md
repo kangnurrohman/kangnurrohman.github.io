@@ -62,18 +62,18 @@ published: true
         <p><strong>Himpunan tradisi Banyuwangi</strong></p>
         <p>$$A = \{Kebo-Keboan, Seblang, Puter\space Kayun\}$$</p>
       </li>
+      <li>
+        <p><strong>Himpunan makanan Banyuwangi</strong></p>
+        <p>$$B = \{Rujak\space Soto, Sego\space Tempong, Sego\space Cawuk\}$$</p>
+      </li>
     </ul>
+    <p> Keanggotaan</p>
+    <p>$$ x \in A : x anggota dari himpunan A$$</p>
+    <p>$$ x \notin A : x bukan anggota dari himpunan A$$</p>
   </li>
 </ol>
-<ul>
-  <li>
-    <p><strong>Himpunan makanan Banyuwangi</strong></p>
-    <p>$$B = \{Rujak\space Soto, Sego\space Tempong, Sego\space Cawuk\}$$</p>
-  </li>
-</ul>
-<p> Keanggotaan</p>
-<p>$$ x \in A : x anggota dari himpunan A$$</p>
-<p>$$ x \notin A : x bukan anggota dari himpunan A$$</p>
+
+
 <ol start="2">
   <li>
     <p><strong>Simbol-simbol Baku</strong></p>
