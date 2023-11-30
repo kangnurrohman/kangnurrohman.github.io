@@ -1,7 +1,7 @@
 ---
 title: "Teori Himpunan"
 date: 2023-11-29T00:00:00+00:00
-update: 2023-11-29T00:00:00+00:00
+update: 2023-11-30T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /teori-himpunan/
@@ -191,18 +191,18 @@ published: true
     <p><strong>Contoh</strong> :</p>
     <ul>
       <li>
-        <p>$$A = \{1,2,3,4\}$$, maka $$|A|=4$$</p>
+        <p>A = \{1,2,3,4\}, maka |A|=4</p>
       </li>
       <li>
-        <p>$$P = \{p|p \in \mathbb{N},1
+        <p>$$P = \{p|p \in \mathbb{N},1<p\leq20,p \space prima\}$$ atau $$P=\{2,3,5,7,11,13,17,19\}$$ , maka $$|A|=8$$
         </p>
       </li>
       <li>
-        <p>G=\{g|g\in \mathbb{Z}, -10
+        <p>$$G=\{g|g\in \mathbb{Z}, -10<g\leq10, g \space genap\}$$ atau $$G=\{-10,-8,-6,-4,-2,0,2,4,6,8,10\}$$, maka $$|G|=11$$
         </p>
       </li>
       <li>
-        <p>R=\{r|r\in \mathbb{Q}, 0
+        <p>$$R=\{r|r\in \mathbb{Q}, 0<r\leq1\}$$, maka $$|A|=tak \ hingga$$
         </p>
       </li>
     </ul>
