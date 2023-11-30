@@ -26,6 +26,9 @@ published: true
         <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-himpunan">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu himpunan?
         </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-kardinalitas">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kardinalitas?
+        </a>
       </li>
     </ul>
   </div>
@@ -176,3 +179,32 @@ published: true
     </ul>
   </li>
 </ol>
+
+<h2 id="apa-itu-kardinalitas">Apa itu kardinalitas?</h2>
+<p>Kardinalitas adalah ukuran atau jumlah elemen dalam sebuah himpunan.</p>
+<ul>
+  <li>
+    <p><strong>Notasi</strong> : Jika $$A$$ adalah suatu himpunan, maka kardinalitasnya dinotasikan dengan $$|A|$$ atau $$n(A)$$, di
+      mana $$|A|$$ menyatakan jumlah elemen dalam himpunan $$A$$.</p>
+  </li>
+  <li>
+    <p><strong>Contoh</strong> :</p>
+    <ul>
+      <li>
+        <p>$$A = \{1,2,3,4\}$$, maka $$|A|=4$$</p>
+      </li>
+      <li>
+        <p>$$P = \{p|p \in \mathbb{N},1
+        </p>
+      </li>
+      <li>
+        <p>G=\{g|g\in \mathbb{Z}, -10
+        </p>
+      </li>
+      <li>
+        <p>R=\{r|r\in \mathbb{Q}, 0
+        </p>
+      </li>
+    </ul>
+  </li>
+</ul>
