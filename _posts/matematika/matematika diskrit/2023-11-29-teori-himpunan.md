@@ -63,11 +63,11 @@ published: true
     <ul>
       <li>
         <p><strong>Himpunan tradisi Banyuwangi</strong></p>
-        <p>$$A = \{Kebo-Keboan, Seblang, Puter\space Kayun\}$$</p>
+        <p>$$A = \{Kebo-Keboan, Seblang, Puter\ Kayun\}$$</p>
       </li>
       <li>
         <p><strong>Himpunan makanan Banyuwangi</strong></p>
-        <p>$$B = \{Rujak \space Soto, Sego\space Tempong, Sego\space Cawuk\}$$</p>
+        <p>$$B = \{Rujak \ Soto, Sego\ Tempong, Sego\ Cawuk\}$$</p>
       </li>
     </ul>
     <p> Keanggotaan</p>
@@ -110,7 +110,7 @@ published: true
     <ul>
       <li>
         <p><strong>Himpunan bilangan ganjil</strong></p>
-        <p>$$A=\{x|x \space adalah \space bilangan \space ganjil \space dan \space x&lt;10\}$$</p>
+        <p>$$A=\{x|x \ adalah \ bilangan \ ganjil \ dan \ x&lt;10\}$$</p>
         <p>Cara membacanya: "Himpunan $$A$$ adalah himpunan semua bilangan bulat $$x$$, dimana $$x$$ merupakan bilangan ganjil dan
           kurang dari 10."</p>
         <p>Atau : $$A=\{x|x\in\mathbb{Z},x\in P,x&lt;10\}$$</p>
@@ -118,24 +118,24 @@ published: true
       </li>
       <li>
         <p><strong>Himpunan huruf konsonan</strong></p>
-        <p>$$B=\{z|z \space adalah \space huruf \space konsonan\}$$</p>
+        <p>$$B=\{z|z \ adalah \ huruf \ konsonan\}$$</p>
         <p>Cara membacanya: "Himpunan $$B$$ adalah himpunan semua huruf $$z$$, dimana $$z$$ merupakan huruf konsonan."</p>
-        <p>Atau: $$B=\{z|z\in \space Huruf \space Konsonan\}$$</p>
+        <p>Atau: $$B=\{z|z\in \ Huruf \ Konsonan\}$$</p>
         <p>Atau: $$B=\{b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z\}$$</p>
       </li>
       <li>
         <p><strong>Himpunan angka prima</strong></p>
-        <p>$$C=\{p|p \space adalah \space angka \space prima\}$$</p>
+        <p>$$C=\{p|p \ adalah \ angka \ prima\}$$</p>
         <p>Cara membacanya: "Himpunan $$C$$ adalah himpunan semua angka $$p$$, dimana $$p$$ merupakan bilangan prima."</p>
-        <p>Atau: $$C=\{p|p\in \mathbb{N},p \space adalah \space angka \space prima\}$$</p>
+        <p>Atau: $$C=\{p|p\in \mathbb{N},p \ adalah \ angka \ prima\}$$</p>
         <p>Atau: $$C=\{2,3,5,7,...\}$$</p>
       </li>
       <li>
         <p><strong>Himpunan bilangan genap negatif</strong></p>
-        <p>$$D=\{y|y \space adalah \space bilangan \space genap \space dan \space y&lt;0\}$$</p>
+        <p>$$D=\{y|y \ adalah \ bilangan \ genap \ dan \ y&lt;0\}$$</p>
         <p>Cara membacanya: "Himpunan $$D$$ adalah himpunan semua bilangan bulat $$y$$, dimana $$y$$ merupakan bilangan genap dan
           kurang dari 0."</p>
-        <p>Atau: $$D=\{y|y\in \mathbb{Z} , y \space genap, y&lt;0\}$$</p>
+        <p>Atau: $$D=\{y|y\in \mathbb{Z} , y \ genap, y&lt;0\}$$</p>
         <p>Atau: $$D=\{-2,-4,-6,-8,...\}$$</p>
       </li>
     </ul>
@@ -191,14 +191,14 @@ published: true
     <p><strong>Contoh</strong> :</p>
     <ul>
       <li>
-        <p>A = \{1,2,3,4\}, maka |A|=4</p>
+        <p>$$A = \{1,2,3,4\}$$, maka $$|A|=4$$</p>
       </li>
       <li>
-        <p>$$P = \{p|p \in \mathbb{N},1<p\leq20,p \space prima\}$$ atau $$P=\{2,3,5,7,11,13,17,19\}$$ , maka $$|A|=8$$
+        <p>$$P = \{p|p \in \mathbb{N},1<p\leq20,p \ prima\}$$ atau $$P=\{2,3,5,7,11,13,17,19\}$$ , maka $$|A|=8$$
         </p>
       </li>
       <li>
-        <p>$$G=\{g|g\in \mathbb{Z}, -10<g\leq10, g \space genap\}$$ atau $$G=\{-10,-8,-6,-4,-2,0,2,4,6,8,10\}$$, maka $$|G|=11$$
+        <p>$$G=\{g|g\in \mathbb{Z}, -10<g\leq10, g \ genap\}$$ atau $$G=\{-10,-8,-6,-4,-2,0,2,4,6,8,10\}$$, maka $$|G|=11$$
         </p>
       </li>
       <li>
