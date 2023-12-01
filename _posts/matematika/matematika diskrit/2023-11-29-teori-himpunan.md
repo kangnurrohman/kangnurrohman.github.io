@@ -298,7 +298,7 @@ published: true
           elemen dari $$B$$ dan sebaliknya.</p>
       </li>
       <li>
-        <p><strong>Notasi</strong> : $$A=B\leftrightarrow A\subseteq \ dan \ B \subseteq A$$</p>
+        <p><strong>Notasi</strong> : $$A=B\leftrightarrow A\subseteq B \ dan \ B \subseteq A$$</p>
       </li>
       <li>
         <p><strong>Contoh</strong> : Jika $$A=\{1,2,2,3,3\}$$ dan $$B=\{3,2,1,1\}$$, maka $$A=B$$, karena keduanya memiliki elemen
