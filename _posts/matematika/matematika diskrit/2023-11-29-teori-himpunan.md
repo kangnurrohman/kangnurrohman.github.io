@@ -243,7 +243,7 @@ published: true
     <p><strong>Contoh</strong> : $$P=\{2\}$$, maka $$|P|=1$$</p>
   </li>
   <li>
-    <p><strong>Himpunan bagian (<em>subset</em>)</strong></p>
+    <p><strong>Himpunan bagian <em>(subset)</em></strong></p>
     <ul>
       <li>
         <p><strong>Definisi</strong> : Himpunan B dikatakan sebagai <em>subset</em> dari $$A$$ jika setiap elemen dari $$B$$
@@ -263,7 +263,7 @@ published: true
 <ul>
   <li>
     <p><strong>Definisi</strong> : Himpunan $$B$$ dikatakan sebagai <em>proper subset</em> dari $$A$$ jika setiap elemen dari $$B$$
-      juga elemen dari $$A$$, dan $$B$$ bukalah himpunan yang sama dengan $$A$$.</p>
+      juga elemen dari $$A$$, dan $$B$$ bukanlah himpunan yang sama dengan $$A$$.</p>
   </li>
   <li>
     <p><strong>Notasi</strong> : $$B\subset A$$ dengan $$B\ne A$$</p>
@@ -276,7 +276,7 @@ published: true
 <p> <strong>Improper subset</strong></p>
 <ul>
   <li>
-    <p><strong>Definisi</strong> : Himpunan $$B$$ dikatakan sebagai <em>imporper subset</em> dari $$A$$ jika setiap elemen dari
+    <p><strong>Definisi</strong> : Himpunan $$B$$ dikatakan sebagai <em>improper subset</em> dari $$A$$ jika setiap elemen dari
       $$B$$ juga terdapat di $$A$$. Dalam hal ini, $$B$$ memang setara dengan $$A$$.</p>
   </li>
   <li>
@@ -317,7 +317,7 @@ published: true
         <p><strong>Notasi</strong> : $$|A| = |B|$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : Jika $$X=\{1,2,3\}$$ dan $$Y=\{a,b,c\}$$, maka $$|A|=|B|$$, karena keduanya memiliki jumlah
+        <p><strong>Contoh</strong> : Jika $$X=\{1,2,3\}$$ dan $$Y=\{a,b,c\}$$, maka $$|X|=|Y|$$, karena keduanya memiliki jumlah
           elemen yang sama.</p>
       </li>
     </ul>
@@ -333,7 +333,7 @@ published: true
         <p><strong>Notasi</strong> : $$A\cup B=\phi$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : Jika $$X=\{1,2,3\}$$ dan $$Y=\{4,5,6\}$$, maka $$A\cup B=\phi$$, karena keduanya tidak memiliki
+        <p><strong>Contoh</strong> : Jika $$X=\{1,2,3\}$$ dan $$Y=\{4,5,6\}$$, maka $$X\cup Y=\phi$$, karena keduanya tidak memiliki
           elemen yang sama.</p>
       </li>
     </ul>
@@ -342,7 +342,7 @@ published: true
     <p><strong>Himpunan kuasa <em>(powerset)</em></strong></p>
     <ul>
       <li>
-        <p><strong>Definisi</strong>: Himpunan kuasa $$(\mathcal{P}(A))$$ dari suatu himpunan A adalah himpunan dari semua
+        <p><strong>Definisi</strong>: Himpunan kuasa $$(\mathcal{P}(A))$$ dari suatu himpunan $$A$$ adalah himpunan dari semua
           himpunan bagian yang mungkin dari $$A$$, termasuk himpunan kosong dan $$A$$ itu sendiri. Dan untuk jumlah elemennya
           $$2^{|A|}$$, di mana $$|A|$$ adalah kardinalitas atau jumlah elemen dari $$A$$.</p>
       </li>
