@@ -258,8 +258,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> Ada dua jenis himpunan bagian, <em>proper subset</em> dan <em>improper subset</em> :</p>
+  <p> Ada dua jenis himpunan bagian, <em>proper subset</em> dan <em>improper subset</em> :</p>
 <p> <strong>Proper subset</strong></p>
 <ul>
   <li>
@@ -288,6 +287,8 @@ published: true
       terdapat di $$A$$. Dalam hal ini, $$B$$ adalah himpunan yang sama dengan $$A$$.</p>
   </li>
 </ul>
+</ol>
+
 <ol start="5">
   <li>
     <p><strong>Himpunan yang sama</strong></p>
