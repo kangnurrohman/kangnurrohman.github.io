@@ -29,6 +29,9 @@ published: true
         <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-kardinalitas">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kardinalitas?
         </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-saja-jenis-himpunan">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja jenis himpunan?
+        </a>
       </li>
     </ul>
   </div>
@@ -208,3 +211,148 @@ published: true
     </ul>
   </li>
 </ul>
+
+<h2 id="apa-saja-jenis-himpunan">Apa saja jenis himpunan?</h2>
+<p>Ada beberapa jenis himpunan, dan masing-masing memiliki karakteristik. Berikut adalah beberapa jenis himpunan:</p>
+<ol>
+  <li>
+    <p><strong>Himpunan semesta</strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Merupakan himpunan dari semua objek yang berbeda.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$U$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : $$U=\{1,2,3,4,5\}$$</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Himpunan kosong</strong></p>
+    <p><strong>Definisi</strong> : Merupakan himpunan yang tidak memiliki elemen.</p>
+    <p><strong>Notasi</strong> : $$\phi$$ atau $$\{\}$$</p>
+    <p><strong>Contoh</strong> : $$P=\{y|y<y\}$$, maka $$|P|=0$$
+    </p>
+  </li>
+  <li>
+    <p><strong>Himpunan singleton</strong></p>
+    <p><strong>Definisi</strong> : Merupakan himpunan yang hanya memiliki satu elemen.</p>
+    <p><strong>Notasi</strong> : $$\{a\}$$</p>
+    <p><strong>Contoh</strong> : $$P=\{2\}$$, maka $$|P|=1$$</p>
+  </li>
+  <li>
+    <p><strong>Himpunan bagian (<em>subset</em>)</strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Himpunan B dikatakan sebagai <em>subset</em> dari $$A$$ jika setiap elemen dari $$B$$
+          juga merupakan elemen dari $$A$$.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$B\subseteq A$$ atau $$B \subset A$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{1,2\}$$, maka $$B \subseteq A$$, karena setiap elemen di $$B$$ (1
+          dan 2) juga terdapat di $$A$$.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p> Ada dua jenis himpunan bagian, <em>proper subset</em> dan <em>improper subset</em> :</p>
+<p> <strong>Proper subset</strong></p>
+<ul>
+  <li>
+    <p><strong>Definisi</strong> : Himpunan $$B$$ dikatakan sebagai <em>proper subset</em> dari $$A$$ jika setiap elemen dari $$B$$
+      juga elemen dari $$A$$, dan $$B$$ bukalah himpunan yang sama dengan $$A$$.</p>
+  </li>
+  <li>
+    <p><strong>Notasi</strong> : $$B\subset A$$ dengan $$B\ne A$$</p>
+  </li>
+  <li>
+    <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{1,2\}$$, maka $$B\subset A$$, karena $$B$$ adalah subset dari $$A$$ dan $$B$$
+      tidak sama dengan $$A$$.</p>
+  </li>
+</ul>
+<p> <strong>Improper subset</strong></p>
+<ul>
+  <li>
+    <p><strong>Definisi</strong> : Himpunan $$B$$ dikatakan sebagai <em>imporper subset</em> dari $$A$$ jika setiap elemen dari
+      $$B$$ juga terdapat di $$A$$. Dalam hal ini, $$B$$ memang setara dengan $$A$$.</p>
+  </li>
+  <li>
+    <p><strong>Notasi</strong> : $$B\subseteq A$$</p>
+  </li>
+  <li>
+    <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{1,2,3\}$$, maka $$B\subseteq A$$, karena setiap elemen di $$B$$ juga
+      terdapat di $$A$$. Dalam hal ini, $$B$$ adalah himpunan yang sama dengan $$A$$.</p>
+  </li>
+</ul>
+<ol start="5">
+  <li>
+    <p><strong>Himpunan yang sama</strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Dua himpunan $$A$$ dan $$B$$ dianggap setara jika setiap elemen dari $$A$$ juga merupakan
+          elemen dari $$B$$ dan sebaliknya.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$A=B\leftrightarrow A\subseteq \ dan \ B \subseteq A$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,2,3,3\}$$ dan $$B=\{3,2,1,1\}$$, maka $$A=B$$, karena keduanya memiliki elemen
+          yang sama, meskipun urutannya berbeda dan jumlah elemennya tidak sama.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Himpunan yang ekuivalen</strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Dua himpunan $$A$$ dan $$B$$ dikatakan ekuivalen, jika dan hanya jika jumlah elemennya
+          sama.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$|A| = |B|$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$X=\{1,2,3\}$$ dan $$Y=\{a,b,c\}$$, maka $$|A|=|B|$$, karena keduanya memiliki jumlah
+          elemen yang sama.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Himpunan saling lepas <em>(disjoint)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Dua himpunan $$A$$ dan $$B$$ dikatakan saling lepas <em>(disjoint)</em> jika tidak
+          memiliki elemen yang sama.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cup B=\phi$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$X=\{1,2,3\}$$ dan $$Y=\{4,5,6\}$$, maka $$A\cup B=\phi$$, karena keduanya tidak memiliki
+          elemen yang sama.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Himpunan kuasa <em>(powerset)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong>: Himpunan kuasa $$(\mathcal{P}(A))$$ dari suatu himpunan A adalah himpunan dari semua
+          himpunan bagian yang mungkin dari $$A$$, termasuk himpunan kosong dan $$A$$ itu sendiri. Dan untuk jumlah elemennya
+          $$2^{|A|}$$, di mana $$|A|$$ adalah kardinalitas atau jumlah elemen dari $$A$$.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$\mathcal{P}(A)$$ atau $$2^A$$. Jika $$|A|=n$$, maka $$|\mathcal{P}(A)|=n(\mathcal{P}(A))=2^n$$
+        </p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$A=\{a,b\}$$, maka $$\mathcal{P}(A)=2^A=\{\phi,\{a\},\{b\},\{a,b\}\}$$, dan
+          $$|\mathcal{P}(A)|=2^2=4$$</p>
+      </li>
+    </ul>
+  </li>
+</ol>
