@@ -1,7 +1,7 @@
 ---
 title: "Logika Proposisi"
 date: 2023-11-21T00:00:00+00:00
-update: 2023-11-28T00:00:00+00:00
+update: 2023-12-02T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /logika-proposisi/
