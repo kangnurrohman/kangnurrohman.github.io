@@ -6,7 +6,8 @@ author: Kang Nur
 layout: post
 permalink: /logika-proposisi/
 image: "/assets/images/post/logika-proposisi/gambar0.png"
-description: "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
+description:
+  "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
   mendengar kata 'Logika' di kehidupan sehari-hari."
 categories: Matematika
 tags: [matematika, matematika diskrit]
@@ -1563,7 +1564,7 @@ published: true
 </ul>
 </ol>
 
-<p> <strong>Tabel kebenaran konvers, invers, dan kontraposisi</strong></p>
+<p><strong>Tabel kebenaran konvers, invers, dan kontraposisi</strong></p>
 <table>
   <thead>
     <tr>
@@ -1595,7 +1596,7 @@ published: true
       <td>T</td>
       <td>F</td>
       <td>T</td>
-      <td>F</td>
+      <td>T</td>
       <td>F</td>
     </tr>
     <tr>
@@ -1605,7 +1606,7 @@ published: true
       <td>F</td>
       <td>T</td>
       <td>F</td>
-      <td>T</td>
+      <td>F</td>
       <td>T</td>
     </tr>
     <tr>
@@ -1620,7 +1621,7 @@ published: true
     </tr>
   </tbody>
 </table>
-<p> Jadi dapat disimpulkan dari tabel kebenaran diatas bahwa:</p>
+<p>Jadi dapat disimpulkan dari tabel kebenaran diatas bahwa:</p>
 <ul>
   <li>
     <p>Konvers dan invers tidak selalu memiliki nilai kebenaran yang sama dengan implikasi.</p>
@@ -1701,7 +1702,8 @@ published: true
   <li>
     <p><strong>Kesimpulan</strong></p>
     <p>Sedangkan proposisi ini dihasilkan atau disimpulkan dari premis-premis yang diberikan. Kesimpulan adalah inti
-      dari argumentasi. Argumentasi dianggap valid tergantung dari hubungan logis antara premis dan kesimpulan. Biasanya
+      dari argumentasi. Argumentasi dianggap valid jika implikasi dari premis-premisnya terhadap konklusi atau
+      kesimpulannya merupakan suatu tautologi. Semua hipotesa benar maka kesimpulan juga benar. Biasanya
       kesimpulan dinotasikan menggunakan $$(∴)$$ dibaca maka/oleh karena itu.</p>
   </li>
 </ol>
@@ -1717,18 +1719,6 @@ published: true
     <p>Kesimpulan: "Oleh karena itu, saya pergi bekerja $$(Q)$$."</p>
   </li>
 </ul>
-<p>Mari kita buat notasinya:</p>
-<ul>
-  <li>
-    <p>$$P→Q$$</p>
-  </li>
-  <li>
-    <p>$$P$$</p>
-  </li>
-  <li>
-    <p>$$∴Q$$</p>
-  </li>
-</ul>
 <p>Mari kita buat tabel kebenarannya untuk menguji validitas argumen:</p>
 <table>
   <thead>
@@ -1736,6 +1726,8 @@ published: true
       <th>$$P$$</th>
       <th>$$Q$$</th>
       <th>$$P→Q$$</th>
+      <th>$$(P→Q)∧P$$</th>
+      <th>$$∴Q$$</th>
     </tr>
   </thead>
   <tbody>
@@ -1743,27 +1735,34 @@ published: true
       <td>T</td>
       <td>T</td>
       <td>T</td>
+      <td>T</td>
+      <td>T</td>
     </tr>
     <tr>
       <td>T</td>
       <td>F</td>
       <td>F</td>
+      <td>F</td>
+      <td>T</td>
     </tr>
     <tr>
       <td>F</td>
       <td>T</td>
       <td>T</td>
+      <td>F</td>
+      <td>T</td>
     </tr>
     <tr>
       <td>F</td>
+      <td>F</td>
+      <td>T</td>
       <td>F</td>
       <td>T</td>
     </tr>
   </tbody>
 </table>
 <p>Mari kita lihat validitas argumen ini:</p>
-<p>Argumen di atas tidak valid. Kenapa bisa begitu? Karena walaupun premisnya benar, kesimpulannya bisa benar dan bisa
-  juga salah.</p>
+<p>Karena tabel kebenaran yang dihasilkan berupa tautologi, maka argumen tersebut <strong>valid</strong>.</p>
 
 <h3>Apa saja cara penarikan kesimpulan?</h3>
 <p>Penarikan kesimpulan adalah pola argumentasi logis yang digunakan untuk mendapatkan kesimpulan dari premis yang
