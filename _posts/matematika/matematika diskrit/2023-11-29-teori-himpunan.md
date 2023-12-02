@@ -32,6 +32,9 @@ published: true
         <a class="table-of-contents-link" href="teori-himpunan/#apa-saja-jenis-himpunan">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja jenis himpunan?
         </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-saja-operasi-himpunan">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja operasi himpunan?
+        </a>
       </li>
     </ul>
   </div>
@@ -353,6 +356,100 @@ published: true
       <li>
         <p><strong>Contoh</strong> : Jika $$A=\{a,b\}$$, maka $$\mathcal{P}(A)=2^A=\{\phi,\{a\},\{b\},\{a,b\}\}$$, dan
           $$|\mathcal{P}(A)|=2^2=4$$</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="apa-saja-operasi-himpunan">Apa saja operasi himpunan?</h2>
+<ol>
+  <li>
+    <p><strong>Gabungan <em>(union)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Gabungan dari dua himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi semua elemen yang
+          termasuk dalam $$A$$ atau $$B$$ atau keduanya.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cup B=\{x|x\in A \ atau\ x\in B\}$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A\cup B=\{1,2,3,4,5\}$$.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Irisan <em>(intersection)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Irisan dari dua himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi semua elemen yang
+          dimiliki oleh kedua himpunan $$A$$ dan $$B$$.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap B= \{x|x\in A \ dan \ x\in B\}$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A\cap B = \{3\}$$.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Komplemen <em>(complement)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Komplemen dari himpunan $$A$$ adalah himpunan yang berisi semua elemen di himpunan
+          semesta $$U$$ tetapi tidak termasuk di dalam $$A$$.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$\bar{A}=\{x|x\in U, x\notin A\}$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$U=\{1,2,3,4,5\}$$ dan $$A=\{1,2,3\}$$, maka $$\bar{A}=\{4,5\}$$.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Selisih <em>(difference)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Selisih dari himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi elemen-elemen yang
+          terdapat di $$A$$ tetapi tidak ada di $$B$$.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$A-B=\{x|x\in A\ dan\ x\notin B\}$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A-B=\{1,2\}$$.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Beda setangkup <em>(symmetric difference)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Beda setangkup dari dua himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi
+          elemen-elemen yang hanya terdapat di $$A$$ atau hanya terdapat di $$B$$, tetapi tidak keduanya.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$A\oplus B=(A\cup B)-(A\cap B)=(A-B)\cup(B-A)$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A\oplus B=\{1,2,4,5\}$$.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Perkalian kastesian <em>(cartesian product)</em></strong></p>
+    <ul>
+      <li>
+        <p><strong>Definisi</strong> : Perkalian kartesian dari dua himpunan $$A$$ dan $$B$$ adalah himpunan dari semua pasangan
+          terurut, di mana $$a\in A$$ dan $$b\in B$$.</p>
+      </li>
+      <li>
+        <p><strong>Notasi</strong> : $$A\times b=\{(a,b)|a\in A\ dan\ b\in B\}$$</p>
+      </li>
+      <li>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2\}$$ dan $$B=\{a,b\}$$, maka $$A\times B=\{(1,a),(1,b),(2,a),(2,b)\}$$.</p>
       </li>
     </ul>
   </li>
