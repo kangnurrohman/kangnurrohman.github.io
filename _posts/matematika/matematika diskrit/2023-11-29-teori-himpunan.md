@@ -1,7 +1,7 @@
 ---
 title: "Teori Himpunan"
 date: 2023-11-29T00:00:00+00:00
-update: 2023-11-30T00:00:00+00:00
+update: 2023-12-02T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /teori-himpunan/
@@ -34,6 +34,9 @@ published: true
         </a>
         <a class="table-of-contents-link" href="teori-himpunan/#apa-saja-operasi-himpunan">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja operasi himpunan?
+        </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-saja-hukum-hukum-himpunan">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja hukum-hukum himpunan?
         </a>
       </li>
     </ul>
@@ -450,6 +453,138 @@ published: true
       </li>
       <li>
         <p><strong>Contoh</strong> : Jika $$A=\{1,2\}$$ dan $$B=\{a,b\}$$, maka $$A\times B=\{(1,a),(1,b),(2,a),(2,b)\}$$.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="apa-saja-hukum-hukum-himpunan">Apa saja hukum-hukum himpunan?</h2>
+<ol>
+  <li>
+    <p><strong>Identitas</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cup \phi=A$$ dan $$A\cap U=A$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Gabungan dengan himpunan kosong adalah himpunan itu sendiri, dan irisan dengan
+          himpunan universal adalah himpunan itu sendiri.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Null/Dominasi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap \phi=\phi$$ dan $$A\cup U=U$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Irisan dengan himpunan kosong adalah himpunan kosong, dan gabungan dengan himpunan
+          universal adalah himpunan universal.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Komplemen</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap \bar{A}= \phi$$ dan $$A\cup \bar{A}=U$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Irisan dengan komplemen adalah himpunan kosong, dan gabungan dengan komplemen adalah
+          himpunan universal.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Idempoten</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap A=A$$ dan $$A\cup A=A$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Irisan atau gabungan dengan dirinya sendiri adalah himpunan itu sendiri.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Involusi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$\bar{(\bar{A})} = A$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Komplemen dari komplemen adalah himpunan itu sendiri.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Absorpsi</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap (A\cup B)=A$$ dan $$A\cap (A\cup B)=A$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Irisan dengan gabungan atau gabungan dengan irisan menghasilkan himpunan yang lebih
+          besar.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Komutatif</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap B=B\cap A$$ dan $$A\cup B=B\cup A$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Urutan himpunan dalam operasi irisan atau gabungan tidak mempengaruhi hasil.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Asosiatif</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap (B\cap C)=(A\cap B)\cap C$$ dan $$A\cup (B\cup C)=(A\cup B)\cup C$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Hubungan antara tiga himpunan dalam operasi irisan atau gabungan tidak bergantung
+          pada cara pengelompokan.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>De Morgan</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$\bar{(A\cap B)}= \bar{A}\cup \bar{B}$$ dan $$\bar{(A\cup B)}= \bar{A}\cap \bar{B}$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Komplemen dari irisan adalah gabungan dari komplemen, dan sebaliknya.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Distributif</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap (B\cup C)=(A\cap B)\cup (A\cap C)$$ dan A\cup $$(B\cap C)=(A\cup B)\cap(A\cup C)$$
+        </p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Distribufitas irisan terhadap gabungan dan sebaliknya.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Hukum 0\1</strong></p>
+    <ul>
+      <li>
+        <p><strong>Notasi</strong> : $$A\cap \phi=\phi$$ dan $$A\cup U = U$$</p>
+      </li>
+      <li>
+        <p><strong>Arti</strong> : Irisan dengan himpunan kosong adalah himpunan kosong, dan gabungan dengan himpunan
+          universal adalah himpunan universal. (Mirip dengan Null/Dominasi, namu disebut sebagai hukum 0\1)</p>
       </li>
     </ul>
   </li>
