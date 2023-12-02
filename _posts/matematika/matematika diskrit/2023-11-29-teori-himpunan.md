@@ -577,13 +577,13 @@ published: true
     </ul>
   </li>
   <li>
-    <p><strong>Hukum 0\1</strong></p>
+    <p><strong>Hukum 0/1</strong></p>
     <ul>
       <li>
-        <p><strong>Notasi</strong> : $$A\cap \bar{A}=\phi$$ dan $$A\cup \bar{A} = U$$</p>
+        <p><strong>Notasi</strong> : $$\bar{\phi}=U$$ dan $$\bar{U}=\phi$$</p>
       </li>
       <li>
-        <p><strong>Arti</strong> : Irisan antara himpunan $$A$$ dan komplemennya adalah himpunan kosong, dan gabungan antara himpunan $$A$$ dan komplemennya adalah himpunan universal.</p>
+        <p><strong>Arti</strong> : komplemen himpunan kosong adalah himpunan semesta, dan komplemen himpunan semesta adalah himpunan kosong.</p>
       </li>
     </ul>
   </li>
