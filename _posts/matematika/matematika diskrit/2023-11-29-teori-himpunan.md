@@ -580,11 +580,10 @@ published: true
     <p><strong>Hukum 0\1</strong></p>
     <ul>
       <li>
-        <p><strong>Notasi</strong> : $$A\cap \phi=\phi$$ dan $$A\cup U = U$$</p>
+        <p><strong>Notasi</strong> : $$A\cap \bar{A}=\phi$$ dan $$A\cup \bar{A} = U$$</p>
       </li>
       <li>
-        <p><strong>Arti</strong> : Irisan dengan himpunan kosong adalah himpunan kosong, dan gabungan dengan himpunan
-          universal adalah himpunan universal. (Mirip dengan Null/Dominasi, namu disebut sebagai hukum 0\1)</p>
+        <p><strong>Arti</strong> : Irisan antara himpunan $$A$$ dan komplemennya adalah himpunan kosong, dan gabungan antara himpunan $$A$$ dan komplemennya adalah himpunan universal.</p>
       </li>
     </ul>
   </li>
