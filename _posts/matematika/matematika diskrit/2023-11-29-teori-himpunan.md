@@ -568,7 +568,7 @@ published: true
     <p><strong>Distributif</strong></p>
     <ul>
       <li>
-        <p><strong>Notasi</strong> : $$A\cap (B\cup C)=(A\cap B)\cup (A\cap C)$$ dan $$ A\cup (B\cap C)=(A\cup B)\cap(A\cup C)$$
+        <p><strong>Notasi</strong> : $$A\cap (B\cup C)=(A\cap B)\cup (A\cap C)$$ dan $$A\cup (B\cap C)=(A\cup B)\cap(A\cup C)$$
         </p>
       </li>
       <li>
