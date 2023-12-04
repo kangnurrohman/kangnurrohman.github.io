@@ -778,7 +778,7 @@ published: true
   <p><strong>Dijawab</strong></p>
   <ul>
    <li>
-    <p>$$|M\cup E|=|M|+|E|+|M\cap E|$$</p>
+    <p>$$|M\cup E|=|M|+|E|-|M\cap E|$$</p>
    </li>
    <li>
     <p>$$|M\cup E|=30+25-20$$</p>
