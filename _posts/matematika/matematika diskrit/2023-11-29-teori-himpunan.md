@@ -988,7 +988,7 @@ published: true
  elemen. Berbeda dengan himpunan konvensional yang tidak memperhatikan pengulangan, multiset mencatat berapa kali setiap
  elemen muncul.</p>
 <p>Untuk menghitung kardinalitas sebuah <em>multiset</em>, kita cukup menjumlahkan jumlah kemunculan setiap elemen dalam
- multiset tersebut. Misalkan |A| menyatakan kardinalitas multiset $$A$$, dan $$n(a)$$ menyatakan jumlah kemunculan elemen $$a$$
+ multiset tersebut. Misalkan $$|A|$$ menyatakan kardinalitas multiset $$A$$, dan $$n(a)$$ menyatakan jumlah kemunculan elemen $$a$$
  dalam <em>multiset</em>. Maka,</p>
 <p>$$|A|=\sum_{a\in A^{n(a)}}$$</p>
 <p>Kita cukup menjumlahkan jumlah kemunculan masing-masing elemen dalam multiset untuk mendapatkan kardinalitas total.
