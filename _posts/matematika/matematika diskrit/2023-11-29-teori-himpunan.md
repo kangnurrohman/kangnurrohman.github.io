@@ -41,6 +41,9 @@ published: true
         <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-prinsip-dualitas">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu prinsip dualitas?
         </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-prinsip-inklusi-eksklusi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu prinsip inklusi-eksklusi?
+        </a>
       </li>
     </ul>
   </div>
@@ -723,3 +726,163 @@ published: true
     </ul>
   </li>
 </ol>
+
+<h2 id="apa-itu-prinsip-inklusi-eksklusi">Apa itu prinsip inklusi-eksklusi?</h2>
+<p>Prinsip inklusi-eksklusi adalah suatu metode dalam teori himpunan yang digunakan untuk menghitung jumlah elemen
+ digabungkan beberapa himpunan dengan mempertimbangkan pengulangan elemen-elemen tersebut. Metode ini berguna ketika
+ kita memiliki beberapa himpunan yang tumpang tindih <em>(overlapping)</em> dan ingin menghitung total elemen unik dalam
+ gabungan semua himpunan tersebut.</p>
+<p>Prinsip inklusi-eksklusi dapat dinyatakan dengan rumus sebagai berikut:</p>
+<p>$$|A_{1}\cup A_{2}\cup \cdots\cup A_{n}|=\sum_{i=1}^{n}|A_{i}|-\sum_{1\leq i<j\leq n} |A_{i}\cap A_{j}|+ \sum_{1\leq i<j<k\leq n}|A_{i}\cap A_{j}\cap A_{k}|+\cdots+(-1)^{n+1}|A_{1}\cap A_{2}\cap\cdots\cap A_{n}|$$
+</p>
+<p>Dimana:</p>
+<ul>
+ <li>
+  <p>$$|A_{i}|$$ adalah jumlah elemen himpunan $$A_{i}$$.</p>
+ </li>
+ <li>
+  <p>$$|A_{i}\cap A_{j}|$$ adalah jumlah elemen yang terdapat dalam irisan himpunan $$A_{i}$$ dan $$A_{j}$$.</p>
+ </li>
+ <li>
+  <p>$$|A_{i}\cap A_{j}\cap A_{k}|$$ adalah jumlah elemen yang terdapat dalam irisan himpunan $$A_{i}, A_{j}, A_{k},$$ dan
+   seterusnya.</p>
+ </li>
+ <li>
+  <p>Simbol $$\cup$$ menunjukkan gabungan, dan simbol $$\cap$$ menunjukkan irisan.</p>
+ </li>
+</ul>
+<p><strong>Studi kasus</strong>:</p>
+<p>Sebuah kelas memiliki 30 siswa yang mengambil mata pelajaran Matematika, 25 siswa yang mengambil mata pelajaran
+ Bahasa Inggris, dan 20 siswa yang mengambil keduanya. Jika setiap siswa mengambil setidaknya satu mata pelajaran,
+ berapa jumlah total siswa yang ada di kelas tersebut?</p>
+<ul>
+ <li>
+  <p><strong>Ditanya</strong></p>
+  <p>Berapa jumlah total siswa yang ada di kelas tersebut $$(|M\cup E|)$$ ?</p>
+ </li>
+ <li>
+  <p><strong>Diketahui</strong></p>
+  <ul>
+   <li>
+    <p>$$|M|$$ = Jumlah siswa yang mengambil matematika 30 siswa.</p>
+   </li>
+   <li>
+    <p>$$|E|$$ = Jumlah siswa yang mengambil bahasa inggris 25 siswa.</p>
+   </li>
+   <li>
+    <p>$$|M\cap E|$$ = Jumlah siswa yang mengambil keduanya 20 siswa.</p>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <p><strong>Dijawab</strong></p>
+  <ul>
+   <li>
+    <p>$$|M\cup E|=|M|+|E|+|M\cap E|$$</p>
+   </li>
+   <li>
+    <p>$$|M\cup E|=30+25-20$$</p>
+   </li>
+   <li>
+    <p>$$|M\cup E|=35$$</p>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p>Jadi, terdapat 35 siswa secara total di kelas tersebut.</p>
+<p>Di sebuah sekolah, terdapat 80 siswa yang mengikuti klub Matematika, 60 siswa yang mengikuti klub Sains, dan 40 siswa
+ yang mengikuti kedua-duanya. Jika jumlah total siswa di sekolah tersebut adalah 150, berapa banyak siswa yang tidak
+ mengikuti klub Matematika atau Sains?</p>
+<ul>
+ <li>
+  <p><strong>Ditanya</strong></p>
+  <p>Berapa banyak siswa yang tidak mengikuti klub Matematika atau Sains $$(|\bar{M}\cup \bar{S}|)$$ ?</p>
+ </li>
+ <li>
+  <p><strong>Diketahui</strong></p>
+  <ul>
+   <li>
+    <p>$$|M|$$ = Jumlah siswa yang mengikuti klub matematika 80 siswa.</p>
+   </li>
+   <li>
+    <p>$$|S|$$ = Jumlah siswa yang mengikuti klub sains 60 siswa.</p>
+   </li>
+   <li>
+    <p>$$|M\cap S|$$ = Jumlah siswa yang mengikuti keduanya 40 siswa.</p>
+   </li>
+   <li>
+    <p>$$|U|$$ = Jumlah total siswa di sekolah 150 siswa.</p>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <p><strong>Dijawab</strong></p>
+  <ul>
+   <li>
+    <p>$$|\bar{M}\cup \bar{S}|=|U|-|M\cup S|$$</p>
+   </li>
+   <li>
+    <p>$$|M\cup S|=|M|+|S|-|M\cap S|$$</p>
+   </li>
+   <li>
+    <p>$$|M\cup S|=80+60-40=100$$</p>
+   </li>
+   <li>
+    <p>$$|\bar{M}\cup \bar{S}|=150-100=50$$</p>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p>Jadi, terdapat 50 siswa yang tidak mengikuti klub matematika atau sains.</p>
+<p>Di suatu sekolah, terdapat 120 siswa yang mengambil pelajaran Matematika, 90 siswa yang mengambil pelajaran Fisika,
+ 60 siswa yang mengambil pelajaran Kimia, 40 siswa yang mengambil Matematika dan Fisika, 30 siswa yang mengambil
+ Matematika dan Kimia, 20 siswa yang mengambil Fisika dan Kimia, dan 10 siswa yang mengambil ketiga pelajaran sekaligus.
+ Berapa jumlah total siswa yang mengambil salah satu atau ketiganya dari pelajaran Matematika, Fisika, atau Kimia?</p>
+<ul>
+ <li>
+  <p><strong>Ditanya</strong></p>
+  <p>Berapa jumlah total siswa yang mengambil salah satu atau ketiganya dari pelajaran Matematika, Fisika, atau Kimia
+   $$(|M\cup F\cup K\cup|)$$ ?</p>
+ </li>
+ <li>
+  <p><strong>Diketahui</strong></p>
+  <ul>
+   <li>
+    <p>$$|M|$$ = Jumlah siswa yang mengambil pelajaran matematika 120 siswa.</p>
+   </li>
+   <li>
+    <p>$$|F|$$ = Jumlah siswa yang mengambil pelajaran fisika 90 siswa.</p>
+   </li>
+   <li>
+    <p>$$|K|$$ = Jumlah siswa yang mengambil pelajaran kimia 60 siswa.</p>
+   </li>
+   <li>
+    <p>$$|M\cap F|$$ = Jumlah siswa yang mengambil matematika dan fisika 40 siswa.</p>
+   </li>
+   <li>
+    <p>$$|M\cap K|$$ = Jumlah siswa yang mengambil matematika dan kimia 30 siswa.</p>
+   </li>
+   <li>
+    <p>$$|F\cap K|$$ = Jumlah siswa yang mengambil fisika dan kimia 20 siswa.</p>
+   </li>
+   <li>
+    <p>$$|M\cap F\cap K|$$ = Jumlah siswa yang mengambil ketiga pelajaran sekaligus 10 siswa.</p>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <p><strong>Dijawab</strong></p>
+  <ul>
+   <li>
+    <p>$$|M\cup F\cup K\cup| = |M|+|F|+|K|-|M\cap F|-|M\cap K|-|F\cap K|+|M\cap F\cap K|$$</p>
+   </li>
+   <li>
+    <p>$$|M\cup F\cup K\cup|=20+90+60-40-30-20+10$$</p>
+   </li>
+   <li>
+    <p>$$|M\cup F\cup K\cup|=190$$</p>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p>Jadi, terdapat 190 siswa yang mengambil salah satu atau ketiganya dari pelajaran matematika, fisika, atau kimia.</p>
