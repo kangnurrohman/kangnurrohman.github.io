@@ -738,19 +738,30 @@ published: true
 <p>Dimana:</p>
 <ul>
  <li>
-  <p>$$|A_{i}|$$ adalah jumlah elemen himpunan $$A_{i}$$.</p>
+  <p>$$|A_{1}\cup A_{2}\cup \cdots\cup A_{n}|$$ = Jumlah elemen dalam gabungan dari n himpunan.</p>
  </li>
  <li>
-  <p>$$|A_{i}\cap A_{j}|$$ adalah jumlah elemen yang terdapat dalam irisan himpunan $$A_{i}$$ dan $$A_{j}$$.</p>
+  <p>$$\sum_{i=1}^{n}|A_{i}|$$ = Jumlah elemen dalam setiap himpunan A_{i} secara individual.</p>
  </li>
  <li>
-  <p>$$|A_{i}\cap A_{j}\cap A_{k}|$$ adalah jumlah elemen yang terdapat dalam irisan himpunan $$A_{i}, A_{j}, A_{k},$$ dan
-   seterusnya.</p>
+  <p>$$\sum_{1\leq i<j\leq n}|A_{i}\cap A_{j}|$$=Pengurangan elemen-elemen yang tumpang tindih antara setiap pasangan
+    himpunan. </p>
+ </li>
+ <li>
+  <p>$$\sum_{1\leq i<j<k\leq n} |A_{i}\cap A_{j}\cap A_{k}|$$=Penjumlahan elemen-elemen yang tumpang tindih antara
+    setiap kombinasi dari tiga himpunan yang terlibat dalam operasi irisan (triplet himpunan). </p>
+ </li>
+ <li>
+  <p>$$\cdots$$ = Melanjutkan pola untuk himpunan-himpunan yang lebih banyak.</p>
  </li>
  <li>
   <p>Simbol $$\cup$$ menunjukkan gabungan, dan simbol $$\cap$$ menunjukkan irisan.</p>
  </li>
 </ul>
+<p>Pola ini dilanjutkan hingga $$n-$$himpunan dengan menggunakan aturan inklusi-eksklusi, dengan tanda positif dan
+ negatif
+ secara bergantian. Tanda negatif digunakan untuk meperhitungkan pengurangan elemen yang tumpang tindih, dan tanda
+ positif digunakan untuk menambahkan elemen-elemen yang mungkin telah dikurangkan berlebihan.</p>
 <p><strong>Studi kasus</strong>:</p>
 <p>Sebuah kelas memiliki 30 siswa yang mengambil mata pelajaran Matematika, 25 siswa yang mengambil mata pelajaran
  Bahasa Inggris, dan 20 siswa yang mengambil keduanya. Jika setiap siswa mengambil setidaknya satu mata pelajaran,
