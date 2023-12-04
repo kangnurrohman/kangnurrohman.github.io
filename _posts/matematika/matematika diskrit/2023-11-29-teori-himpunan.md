@@ -44,6 +44,9 @@ published: true
         <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-prinsip-inklusi-eksklusi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu prinsip inklusi-eksklusi?
         </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-partisi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu partisi?
+        </a>
       </li>
     </ul>
   </div>
@@ -897,3 +900,65 @@ published: true
  </li>
 </ul>
 <p>Jadi, terdapat 190 siswa yang mengambil salah satu atau ketiganya dari pelajaran matematika, fisika, atau kimia.</p>
+
+<h2 id="apa-itu-partisi">Apa itu partisi?</h2>
+<p>Partisi pada himpunan adalah pembagian himpunan ke dalam beberapa sub-himpunan yang disebut bagian, sedemikian
+ sehingga setiap elemen himpunan terletak tepat dalam satu bagian. Dengan kata lain, partisi mengelompokkan
+ elemen-elemen himpunan sedemikian rupa sehingga setiap elemen hanya terdapat dalam satu kelompok (bagian).</p>
+<p>Secara formal, partisi dari himpunan $$A$$ adalah himpunan bagian $$P$$ dari $$A$$ sedemikian sehingga:</p>
+<ol>
+ <li>
+  <p>$$P$$ tidak boleh kosong, artinya tidak ada bagian yang kosong.</p>
+ </li>
+ <li>
+  <p>Gabungan dari semua bagian $$P$$ sama dengan himpunan asal $$A$$, yaitu $$\cup_{B\in P}B=A$$.</p>
+ </li>
+ <li>
+  <p>Setiap dua bagian yang berbeda harus saling lepas (tidak ada irisan), artinya jika $$B_{1}$$ dan $$B_{2}$$ adalah dua
+   bagian yang berbeda, maka $$B_{1}\cap B_{2}=\phi$$.</p>
+ </li>
+</ol>
+<p><strong>Contoh</strong>:</p>
+<p>Partisi dari himpunan $$A=\{1,2,3,4\}$$ dapat diberikan sebagai berikut:</p>
+<ol>
+ <li>
+  <p>$$P_{1}=\{\{1,2\},\{3\},\{4\}\}$$</p>
+ </li>
+ <li>
+  <p>$$P_{2}=\{\{1,2,3\},\{4\}\}$$</p>
+ </li>
+ <li>
+  <p>$$P_{3}=\{\{1\},\{2,3\},\{4\}\}$$</p>
+ </li>
+</ol>
+<p>Contoh di atas adalah partisi dari himpunan $$A$$ karena memenuhi syarat-syarat di atas. Pada setiap kasus, setiap elemen
+ dari himpunan $$A$$ terdapat dalam satu dan hanya satu bagian dari partisi tersebut.</p>
+<p><strong>Studi kasus sehari-hari</strong></p>
+<p>Misalkan kita memiliki himpunan $$X$$ yang berisi semua buku-buku yang tersedia di perpustakaan suatu sekolah. Kita ingin
+ mengorganisir buku-buku tersebut ke dalam beberapa kategori sehingga setiap buku hanya terletak di satu kategori. Ini
+ adalah contoh penerapan konsep partisi.</p>
+<p><strong>Himpunan asal</strong>:</p>
+<p>$$X=\{Buku\ 1, Buku\ 2, Buku\ 3,\cdots,Buku\ N\}$$</p>
+<p><strong>Partisi berdasarkan kategori</strong></p>
+<p>Kita dapat membuat partisi berdasarkan kategori buku, misalnya:</p>
+<p>$$P_{1}=\{Buku-buku\ Matematika\},$$</p>
+<p>$$P_{2}=\{Buku-buku\ Fisika\},$$</p>
+<p>$$P_{3}=\{Buku-buku\ Sejarah\},$$</p>
+<p>$$\vdots$$</p>
+<p>$$P_{k}=\{Buku-buku\ kategori\ ke-k\}$$</p>
+<p>Setiap buku akan masuk ke dalam satu kategori, Gabungan dari semua kategori akan mencakup semua buku di perpustakaan.
+</p>
+<p><strong>Manfaat konsep partisi</strong>:</p>
+<ul>
+ <li>
+  <p>Memudahkan pencarian buku karena buku-buku yang sejenis ditempatkan bersama.</p>
+ </li>
+ <li>
+  <p>Meningkatkan keteraturan perpustakaan.</p>
+ </li>
+ <li>
+  <p>Memfasilitasi manajemen dan pemeliharaan koleksi buku.</p>
+ </li>
+</ul>
+<p>Dengan menerapkan konsep partisi, perpustakaan dapat diorganisir dengan lebih baik dan pengunjung dapat dengan mudah
+ menemukan buku-buku yang mereka cari.</p>
