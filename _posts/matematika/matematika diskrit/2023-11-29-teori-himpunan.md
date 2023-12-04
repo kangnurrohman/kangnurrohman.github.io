@@ -741,7 +741,7 @@ published: true
   <p>$$|A_{1}\cup A_{2}\cup \cdots\cup A_{n}|$$ = Jumlah elemen dalam gabungan dari n himpunan.</p>
  </li>
  <li>
-  <p>$$\sum_{i=1}^{n}|A_{i}|$$ = Jumlah elemen dalam setiap himpunan A_{i} secara individual.</p>
+  <p>$$\sum_{i=1}^{n}|A_{i}|$$ = Jumlah elemen dalam setiap himpunan $$A_{i}$$ secara individual.</p>
  </li>
  <li>
   <p>$$\sum_{1\leq i<j\leq n}|A_{i}\cap A_{j}|$$=Pengurangan elemen-elemen yang tumpang tindih antara setiap pasangan
