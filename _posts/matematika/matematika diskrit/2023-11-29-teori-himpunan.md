@@ -738,7 +738,7 @@ published: true
 <p>Dimana:</p>
 <ul>
  <li>
-  <p>$$|A_{1}\cup A_{2}\cup \cdots\cup A_{n}|$$ = Jumlah elemen dalam gabungan dari n himpunan.</p>
+  <p>$$|A_{1}\cup A_{2}\cup \cdots\cup A_{n}|$$ = Jumlah elemen dalam gabungan dari $$n$$ himpunan.</p>
  </li>
  <li>
   <p>$$\sum_{i=1}^{n}|A_{i}|$$ = Jumlah elemen dalam setiap himpunan $$A_{i}$$ secara individual.</p>
