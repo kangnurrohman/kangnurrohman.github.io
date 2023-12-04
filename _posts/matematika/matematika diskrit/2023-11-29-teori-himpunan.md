@@ -47,6 +47,9 @@ published: true
         <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-partisi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu partisi?
         </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-himpunan-ganda-multiset">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu himpunan ganda <em>(multiset)</em>?
+        </a>
       </li>
     </ul>
   </div>
@@ -962,3 +965,35 @@ published: true
 </ul>
 <p>Dengan menerapkan konsep partisi, perpustakaan dapat diorganisir dengan lebih baik dan pengunjung dapat dengan mudah
  menemukan buku-buku yang mereka cari.</p>
+
+ <h2 id="apa-itu-himpunan-ganda-multiset">Apa itu himpunan ganda <em>(multiset)</em>?</h2>
+<p>Himpunan ganda, atau yang lebih dikenal sebagai <em>multiset</em>, adalah bentuk khusus dari himpunan di mana
+ elemen-elemen tertentu dapat muncul lebih dari satu kali. Dalam himpunan konvensional, setiap elemen hanya dapat muncul
+ sekali atau tidak muncul sama sekali, tetapi dalam <em>multiset</em>, elemen-elemen dapat memiliki
+ <strong>multiplisitas</strong> yang berbeda, artinya elemen-elemen tersebut dapat muncul lebih dari satu kali.</p>
+<p>Sebagai contoh <em>multiset</em> berikut:</p>
+<p>$$\{1,2,2,3,3,3,4\}$$</p>
+<p>Di sini, elemen 2 muncul dua kali, elemen 3 muncul tiga kali, dan elemen- elemen lain muncul satu kali. Dalam
+ <em>multiset</em>, urutan elemen tidak penting; yang penting adalah jumlah kemunculan masing-masing elemen.</p>
+<p>Sifat-sifat <em>multiset</em> melibatkan penghitungan berdasarkan kemunculan elemen, dan operasi-operasi seperti
+ penambahan, pengurangan, dan penggabungan multiset memperhitungkan jumlah elemen yang sama. Sebagai contoh, jika kita
+ mengurangkan <em>multiset</em> $$\{1,2,2,3,3,3,4\}$$ dengan multiset $$\{2,3,3,5\}$$, hasilnya akan menjadi $$\{1,2,3,4\}$$.</p>
+<p><em>Multiset</em> sering digunakan dalam konteks di mana kita perlu melacak jumlah kemunculan setiap elemen, seperti
+ dalam analisis statistik, pengolahan kata, atau struktur data tertentu. <em>Multiset</em> dapat diimplementasikan
+ menggunakan berbagai struktur data, seperti <em>list</em> atau tabel hash.</p>
+
+<h3>Bagaimana menghitung kardinalitas pada
+ <em>multiset</em>?</h3>
+<p>Kardinalitas pada <em>multiset</em> mengacu pada jumlah elemen yang ada dalam himpunan tersebut, termasuk pengulangan
+ elemen. Berbeda dengan himpunan konvensional yang tidak memperhatikan pengulangan, multiset mencatat berapa kali setiap
+ elemen muncul.</p>
+<p>Untuk menghitung kardinalitas sebuah <em>multiset</em>, kita cukup menjumlahkan jumlah kemunculan setiap elemen dalam
+ multiset tersebut. Misalkan |A| menyatakan kardinalitas multiset $$A$$, dan $$n(a)$$ menyatakan jumlah kemunculan elemen $$a$$
+ dalam <em>multiset</em>. Maka,</p>
+<p>$$|A|=\sum_{a\in A^{n(a)}}$$</p>
+<p>Kita cukup menjumlahkan jumlah kemunculan masing-masing elemen dalam multiset untuk mendapatkan kardinalitas total.
+</p>
+<p><strong>Contoh</strong></p>
+<p>Misalkan $$A={a,a,b,c,b,a}$$</p>
+<p>∣$$A∣=n(a)+n(b)+n(c)=3+2+1=6$$</p>
+<p>Jadi, kardinalitas <em>multiset</em> $$A$$ adalah 6.</p>
