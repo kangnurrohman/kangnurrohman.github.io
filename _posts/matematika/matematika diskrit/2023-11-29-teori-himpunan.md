@@ -733,7 +733,7 @@ published: true
  kita memiliki beberapa himpunan yang tumpang tindih <em>(overlapping)</em> dan ingin menghitung total elemen unik dalam
  gabungan semua himpunan tersebut.</p>
 <p>Prinsip inklusi-eksklusi dapat dinyatakan dengan rumus sebagai berikut:</p>
-<p>$$|A_{1}\cup A_{2}\cup \cdots\cup A_{n}|=\sum_{i=1}^{n}|A_{i}|-\sum_{1\leq i<j\leq n} |A_{i}\cap A_{j}|+ \sum_{1\leq i<j<k\leq n}|A_{i}\cap A_{j}\cap A_{k}|+\cdots+(-1)^{n+1}|A_{1}\cap A_{2}\cap\cdots\cap A_{n}|$$
+<p>$$|A_{1}\cup A_{2}\cup \cdots\cup A_{n}|=\sum_{i=1}^{n}|A_{i}|-\sum_{1\leq i<j\leq n} |A_{i}\cap A_{j}|+ \sum_{1\leq i<j<k\leq n}|A_{i}\cap A_{j}\cap A_{k}|+\cdots+(-1)^{n-1}|A_{1}\cap A_{2}\cap\cdots\cap A_{n}|$$
 </p>
 <p>Dimana:</p>
 <ul>
