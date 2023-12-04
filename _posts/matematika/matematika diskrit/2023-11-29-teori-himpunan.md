@@ -994,6 +994,6 @@ published: true
 <p>Kita cukup menjumlahkan jumlah kemunculan masing-masing elemen dalam multiset untuk mendapatkan kardinalitas total.
 </p>
 <p><strong>Contoh</strong></p>
-<p>Misalkan $$A={a,a,b,c,b,a}$$</p>
+<p>Misalkan $$A=\{a,a,b,c,b,a\}$$</p>
 <p>∣$$A∣=n(a)+n(b)+n(c)=3+2+1=6$$</p>
 <p>Jadi, kardinalitas <em>multiset</em> $$A$$ adalah 6.</p>
