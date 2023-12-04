@@ -760,7 +760,7 @@ published: true
 </ul>
 <p>Pola ini dilanjutkan hingga $$n-$$himpunan dengan menggunakan aturan inklusi-eksklusi, dengan tanda positif dan
  negatif
- secara bergantian. Tanda negatif digunakan untuk meperhitungkan pengurangan elemen yang tumpang tindih, dan tanda
+ secara bergantian. Tanda negatif digunakan untuk memperhitungkan pengurangan elemen yang tumpang tindih, dan tanda
  positif digunakan untuk menambahkan elemen-elemen yang mungkin telah dikurangkan berlebihan.</p>
 <p><strong>Studi kasus</strong>:</p>
 <p>Sebuah kelas memiliki 30 siswa yang mengambil mata pelajaran Matematika, 25 siswa yang mengambil mata pelajaran
