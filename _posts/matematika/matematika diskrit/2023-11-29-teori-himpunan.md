@@ -744,11 +744,11 @@ published: true
   <p>$$\sum_{i=1}^{n}|A_{i}|$$ = Jumlah elemen dalam setiap himpunan $$A_{i}$$ secara individual.</p>
  </li>
  <li>
-  <p>$$\sum_{1\leq i<j\leq n}|A_{i}\cap A_{j}|$$=Pengurangan elemen-elemen yang tumpang tindih antara setiap pasangan
+  <p>$$\sum_{1\leq i<j\leq n}|A_{i}\cap A_{j}|$$ = Pengurangan elemen-elemen yang tumpang tindih antara setiap pasangan
     himpunan. </p>
  </li>
  <li>
-  <p>$$\sum_{1\leq i<j<k\leq n} |A_{i}\cap A_{j}\cap A_{k}|$$=Penjumlahan elemen-elemen yang tumpang tindih antara
+  <p>$$\sum_{1\leq i<j<k\leq n} |A_{i}\cap A_{j}\cap A_{k}|$$ = Penjumlahan elemen-elemen yang tumpang tindih antara
     setiap kombinasi dari tiga himpunan yang terlibat dalam operasi irisan (triplet himpunan). </p>
  </li>
  <li>
