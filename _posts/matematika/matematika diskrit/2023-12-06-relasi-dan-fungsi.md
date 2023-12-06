@@ -10,7 +10,7 @@ description:
   ""
 categories: Matematika
 tags: [matematika, matematika diskrit]
-published: true
+# published: true
 ---
 
 <div class="w-100">
