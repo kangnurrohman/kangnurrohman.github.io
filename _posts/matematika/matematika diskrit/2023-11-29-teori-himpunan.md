@@ -50,6 +50,12 @@ published: true
         <a class="table-of-contents-link" href="teori-himpunan/#apa-itu-himpunan-ganda-multiset">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu himpunan ganda <em>(multiset)</em>?
         </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#bagaimana-membuktikan-proposisi-perihal-himpunan">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Bagaimana membuktikan proposisi perihal himpunan?
+        </a>
+        <a class="table-of-contents-link" href="teori-himpunan/#penggunaan-himpunan-pada-teori-bahasa-formal">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Penggunaan himpunan pada teori bahasa formal
+        </a>
       </li>
     </ul>
   </div>
@@ -377,67 +383,159 @@ published: true
 </ol>
 
 <h2 id="apa-saja-operasi-himpunan">Apa saja operasi himpunan?</h2>
+<p>Sebelum membahas lebih lanjut, setiap pembahasan pada operasi himpunan, akan dipraktikkan menggunakan kode python.
+  Oleh karena itu, silakan dicoba pada kode editor masing-masing untuk melihat keluarannya.</p>
+
+  <div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+    # Himpunan Semesta
+    universal_set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+    # Himpunan A dan B
+    set_a = {1, 2, 3, 4, 5}
+    set_b = {3, 4, 5, 6, 7}
+
+  </code>
+  </pre>
+</div>
 <ol>
   <li>
     <p><strong>Gabungan <em>(union)</em></strong></p>
     <ul>
       <li>
         <p><strong>Definisi</strong> : Gabungan dari dua himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi semua elemen yang
-          termasuk dalam $$A$$ atau $$B$$ atau keduanya.</p>
+          termasuk dalam A atau B atau keduanya.</p>
       </li>
       <li>
         <p><strong>Notasi</strong> : $$A\cup B=\{x|x\in A \ atau\ x\in B\}$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A\cup B=\{1,2,3,4,5\}$$.</p>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3,4,5\}$$ dan $$B=\{3,4,5,6,7\},$$ maka $$A\cup B=\{1,2,3,4,5,6,7\}.$$</p>
       </li>
     </ul>
   </li>
+</ol>
+<p> Kode python:</p>
+  <div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+    # Union (gabungan) dari A dan B
+    union_result = set_a.union(set_b)
+    print("Union (A ∪ B):", union_result)
+
+  </code>
+  </pre>
+</div>
+<ol start="2">
   <li>
     <p><strong>Irisan <em>(intersection)</em></strong></p>
     <ul>
       <li>
         <p><strong>Definisi</strong> : Irisan dari dua himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi semua elemen yang
-          dimiliki oleh kedua himpunan $$A$$ dan $$B$$.</p>
+          dimiliki oleh kedua himpunan $$A$$ dan $$B.$$</p>
       </li>
       <li>
         <p><strong>Notasi</strong> : $$A\cap B= \{x|x\in A \ dan \ x\in B\}$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A\cap B = \{3\}$$.</p>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3,4,5\}$$ dan $$B=\{3,4,5,6,7\},$$ maka $$A\cap B = \{3,4,5\}.$$</p>
       </li>
     </ul>
   </li>
+</ol>
+<p> Kode python:</p>
+  <div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+    # Intersection (irisan) dari A dan B
+    intersection_result = set_a.intersection(set_b)
+    print("Intersection (A ∩ B):", intersection_result)
+
+  </code>
+  </pre>
+</div>
+
+<ol start="3">
   <li>
     <p><strong>Komplemen <em>(complement)</em></strong></p>
     <ul>
       <li>
         <p><strong>Definisi</strong> : Komplemen dari himpunan $$A$$ adalah himpunan yang berisi semua elemen di himpunan
-          semesta $$U$$ tetapi tidak termasuk di dalam $$A$$.</p>
+          semesta $$U$$ tetapi tidak termasuk di dalam $$A.$$</p>
       </li>
       <li>
         <p><strong>Notasi</strong> : $$\bar{A}=\{x|x\in U, x\notin A\}$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : Jika $$U=\{1,2,3,4,5\}$$ dan $$A=\{1,2,3\}$$, maka $$\bar{A}=\{4,5\}$$.</p>
+        <p><strong>Contoh</strong> : Jika $$U=\{1,2,3,4,5,6,7,8,9,10\}$$ dan $$A=\{1,2,3,4,5\},$$ maka $$\bar{A}=\{6,7,8,9,10\}.$$
+        </p>
       </li>
     </ul>
   </li>
+</ol>
+<p> Kode python:</p>
+  <div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+    # Complement (komplemen) dari A terhadap himpunan semesta
+    complement_a = universal_set.difference(set_a)
+    print("Complement (A'): ", complement_a)
+
+  </code>
+  </pre>
+</div>
+
+<ol start="4">
   <li>
     <p><strong>Selisih <em>(difference)</em></strong></p>
     <ul>
       <li>
         <p><strong>Definisi</strong> : Selisih dari himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi elemen-elemen yang
-          terdapat di $$A$$ tetapi tidak ada di $$B$$.</p>
+          terdapat di $$A$$ tetapi tidak ada di $$B.$$</p>
       </li>
       <li>
         <p><strong>Notasi</strong> : $$A-B=\{x|x\in A\ dan\ x\notin B\}$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A-B=\{1,2\}$$.</p>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3,4,5\}$$ dan $$B=\{3,4,5,6,7\},$$ maka $$A-B=\{1,2\}.$$</p>
       </li>
     </ul>
   </li>
+</ol>
+<p> Kode python:</p>
+  <div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+    # Difference (selisih dengan setiap elemen dalam set_a) dari A terhadap B
+    difference_result = set_a.difference(set_b)
+    print("Difference (A - B):", difference_result)
+
+  </code>
+  </pre>
+</div>
+
+<ol start="5">
   <li>
     <p><strong>Beda setangkup <em>(symmetric difference)</em></strong></p>
     <ul>
@@ -449,26 +547,61 @@ published: true
         <p><strong>Notasi</strong> : $$A\oplus B=(A\cup B)-(A\cap B)=(A-B)\cup(B-A)$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : $$A=\{1,2,3\}$$ dan $$B=\{3,4,5\}$$, maka $$A\oplus B=\{1,2,4,5\}$$.</p>
+        <p><strong>Contoh</strong> : $$A=\{1,2,3,4,5\}$$ dan $$B=\{3,4,5,6,7\},$$ maka $$A\oplus B=\{1,2,6,7\}.$$</p>
       </li>
     </ul>
   </li>
+</ol>
+<p> Kode python:</p>
+  <div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+    # Symmetric Difference (elemen yang hanya ada di satu himpunan) dari A dan B
+    symmetric_difference_result = set_a.symmetric_difference(set_b)
+    print("Symmetric Difference (A Δ B):", symmetric_difference_result)
+
+  </code>
+  </pre>
+</div>
+
+<ol start="6">
   <li>
     <p><strong>Perkalian kastesian <em>(cartesian product)</em></strong></p>
     <ul>
       <li>
         <p><strong>Definisi</strong> : Perkalian kartesian dari dua himpunan $$A$$ dan $$B$$ adalah himpunan dari semua pasangan
-          terurut, di mana $$a\in A$$ dan $$b\in B$$.</p>
+          terurut, di mana $$a\in A$$ dan $$b\in B.$$</p>
       </li>
       <li>
         <p><strong>Notasi</strong> : $$A\times b=\{(a,b)|a\in A\ dan\ b\in B\}$$</p>
       </li>
       <li>
-        <p><strong>Contoh</strong> : Jika $$A=\{1,2\}$$ dan $$B=\{a,b\}$$, maka $$A\times B=\{(1,a),(1,b),(2,a),(2,b)\}$$.</p>
+        <p><strong>Contoh</strong> : Jika $$A=\{1,2,3,4,5\}$$ dan $$B=\{3,4,5,6,7\},$$ maka $$A\times B=\{(1, 3), (1, 4), (1, 5),
+          (1, 6), (1, 7), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (4, 3), (4,
+          4), (4, 5), (4, 6), (4, 7), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)\}.$$</p>
       </li>
     </ul>
   </li>
 </ol>
+<p> Kode python:</p>
+  <div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+    # Cartesian Product (perkalian kartesian) dari A dan B
+    cartesian_product_result = [(x, y) for x in set_a for y in set_b]
+    print("Cartesian Product (A × B):", cartesian_product_result)
+
+  </code>
+  </pre>
+</div>
 
 <h2 id="apa-saja-hukum-hukum-himpunan">Apa saja hukum-hukum himpunan?</h2>
 <ol>
@@ -997,3 +1130,195 @@ published: true
 <p>Misalkan $$A=\{a,a,b,c,b,a\}$$</p>
 <p>∣$$A∣=n(a)+n(b)+n(c)=3+2+1=6$$</p>
 <p>Jadi, kardinalitas <em>multiset</em> $$A$$ adalah 6.</p>
+
+<h2 id="bagaimana-membuktikan-proposisi-perihal-himpunan">Bagaimana membuktikan proposisi perihal himpunan?
+</h2>
+
+<p>Pembuktian proposisi perihal himpunan melibatkan langkah-langkah logis dan argumentasi yang benar untuk menunjukkan
+  kebenaran pernyataan tersebut. Berikut adalah beberapa metode yang dapat digunakan dalam pembuktian proposisi:</p>
+<ol>
+  <li>
+    <p><strong>Pembuktian dengan tabel kebenaran</strong></p>
+    <p>Pada metode ini, kita menggunakan tabel kebenaran untuk menguji kebenaran proposisi dengan memeriksa semua
+      kemungkinan nilai kebenaran dari elemen tersebut yang terlibat.</p>
+    <p><strong>Contoh</strong> :</p>
+    <p><strong>Proposisi</strong> : $$A\cap (B\cup C)=(A\cap B)\cup(A\cap C)$$</p>
+    <p><strong>Pembuktian</strong> :</p>
+    <table>
+      <thead>
+        <tr>
+          <th>$$A$$</th>
+          <th>$$B$$</th>
+          <th>$$C$$</th>
+          <th>$$B\cup C$$</th>
+          <th>$$A\cap(B\cup C)$$</th>
+          <th>$$A\cap B$$</th>
+          <th>$$A\cap C$$</th>
+          <th>$$(A\cap B)\cup(A\cap C)$$</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Di mana:</p>
+    <ul>
+      <li>
+        <p>$$1\in dari\ himpunan\ ini$$</p>
+      </li>
+      <li>
+        <p>$$0\notin himpunan\ ini$$</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p> <strong>Hasil</strong> :</p>
+<p> Pada contoh di atas, kita membuktikan bahwa kedua proposisi tersebut sama. Karena kolom $$A\cap(B\cup C)$$ dan kolom
+  $$(A\cap B)\cup(A\cap C)$$ sama, maka $$A\cap (B\cup C)=(A\cap B)\cup(A\cap C).$$</p>
+<ol start="2">
+  <li>
+    <p><strong>Pembuktian dengan aljabar himpunan</strong></p>
+    <p>Pada metode ini, kita menggunakan hukum-hukum aljabar himpunan untuk membuktikan proposisi.</p>
+    <p><strong>Contoh</strong> :</p>
+    <p><strong>Proposisi</strong> : $$A\cap (B\cup C)=(A\cap B)\cup(A\cap C)$$</p>
+    <p><strong>Pembuktian (hukum distributif)</strong> :</p>
+    <p>$$A\cap (B\cup C)=(A\cap B)\cup(A\cap C)$$</p>
+    <p>Misal : $$A=\{1,2,3\},$$ $$B=\{2,3,4\},$$ dan $$C=\{3,4,5\}$$</p>
+    <p>$$A\cap (B\cup C)=\{1,2,3\}\cap(\{2,3,4\}\cup\{3,4,5\})$$</p>
+    <p>$$A\cap (B\cup C) = \{1,2,3\}\cap \{2,3,4,5\}$$</p>
+    <p>$$A\cap (B\cup C) = \{2,3\}$$</p>
+    <p>$$(A\cap B)\cup(A\cap C)=(\{1,2,3\}\cap\{2,3,4\})\cup(\{1,2,3\}\cap\{3,4,5\})$$</p>
+    <p>$$(A\cap B)\cup(A\cap C)=\{2,3\}\cup\{3\}$$</p>
+    <p>$$(A\cap B)\cup(A\cap C)=\{2,3\}$$</p>
+    <p><strong>Hasil</strong> :</p>
+    <p>Pada contoh di atas, kita membuktikan bahwa kedua proposisi tersebut sama. Karena hasil dari $$A\cap(B\cup C)$$ dan
+      $$(A\cap B)\cup(A\cap C)$$ sama, maka $$A\cap (B\cup C)=(A\cap B)\cup(A\cap C).$$</p>
+  </li>
+  <li>
+    <p><strong>Pembuktian dengan definisi</strong></p>
+    <p>Pada metode ini, kita menggunakan definisi formal dari himpunan dan operasi-operasi himpunan.</p>
+    <p><strong>Contoh</strong> :</p>
+    <p><strong>Proposisi</strong> : $$A\cup \phi=A$$</p>
+    <p><strong>Pembuktian</strong> :</p>
+    <p>$$A\cup \phi=\{x|x\in A\ atau\ x\in \phi\}$$</p>
+    <p><strong>Hasil</strong> :</p>
+    <p>Karena $$\phi$$ adalah himpunan kosong, maka elemen-elemen dalam $$A\cup \phi$$ hanya akan menjadi elemen-elemen dalam $$A$$.
+      Oleh karena itu, $$A\cup \phi=A.$$</p>
+  </li>
+</ol>
+
+<h2 id="penggunaan-himpunan-pada-teori-bahasa-formal">Penggunaan himpunan pada teori bahasa formal</h2>
+<p>Teori himpunan memiliki aplikasi yang luas, termasuk dalam teori bahasa. Dalam konteks ini, alfabet, string, dan
+  bahasa dapat direpresentasikan menggunakan konsep-konsep himpunan. Berikut contoh penggunaan himpunan dalam teori
+  bahasa:</p>
+<ol>
+  <li>
+    <p><strong>Alfabet</strong></p>
+    <p>Alfabet dalam teori bahasa adalah himpunan simbol-simbol atau karakter yang dapat digunakan untuk membentuk
+      string atau kata. Misalnya, jika kita memiliki alfabet bahasa Inggris, kita dapat menggambarkan sebagai himpunan:
+    </p>
+    <p>$$\sum=\{a,b,c,d,\cdots,z\}$$</p>
+    <p>Pada <em>Natural Language Processing</em> (NLP), alfabet dapat berupa himpunan huruf latin, angka, atau karakter
+      khusus yang digunakan dalam suatu bahasa.</p>
+  </li>
+  <li>
+    <p><strong>String</strong></p>
+    <p>String dalam bahasa dapat direpresentasikan sebagai himpunan substring atau urutan simbol dari alfabet. Misalnya,
+      kita memiliki string "cat", kita dapat menggambarkannya sebagai himpunan substring:</p>
+    <p>$$\{c,a,t,ca,at,cat\}$$</p>
+    <p>Pada <em>Natural Language Processing</em> (NLP), himpunan string dapat digunakan untuk merepresentasikan kumpulan
+      kata atau kalimat dalam suatu teks. Misalnya, himpunan string yang berisi kalimat-kalimat dari dokumen.</p>
+  </li>
+  <li>
+    <p><strong>Bahasa</strong></p>
+    <p>Bahasa dalam teori bahasa adalah himpunan string atau kata-kata yang dapat dihasilkan oleh suatu aturan atau tata
+      bahasa. Misalnya, jika kita memiliki bahasa yang terdiri dari string-string yang hanya mengandung huruf "a" dan
+      "b" dengan panjang tertentu, kita dapat menggambarkannya sebagai himpunan:</p>
+    <p>$$L\{\in,a,b,aa,ab,ba,b,aaa,\cdots\}$$</p>
+    <p>Di sini, $$\in$$ adalah himpunan kosong.</p>
+    <p>Pada <em>Natural Language Processing</em> (NLP), Sebuah bahasa dapat direpresentasikan sebagai himpunan string
+      yang valid dalam bahasa tersebut. Contohnya, himpunan kalimat-kalimat yang valid dalam bahasa Inggris.</p>
+  </li>
+</ol>
+<p>Dalam teori bahasa, operasi himpunan seperti gabungan, irisan, dan komplemen dapat diaplikasikan untuk string atau
+  bahasa. Misalnya, jika $$L_{1}$$​ dan $$L_{2}$$​ adalah dua bahasa, kita dapat membentuk gabungan $$L_{1}\cup L_{2}$$​, irisan
+  $$L_{1}\cap L_{2}$$​, atau komplemen $$\bar{L_{1}}$$ dari bahasa $$L_{1}​.$$</p>
