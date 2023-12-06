@@ -419,8 +419,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> Kode python:</p>
+  <p> Kode python:</p>
   <div class="code-container">
   <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
@@ -435,6 +434,8 @@ published: true
   </code>
   </pre>
 </div>
+</ol>
+
 <ol start="2">
   <li>
     <p><strong>Irisan <em>(intersection)</em></strong></p>
