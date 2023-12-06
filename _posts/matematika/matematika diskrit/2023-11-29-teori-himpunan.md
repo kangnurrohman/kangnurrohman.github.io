@@ -1251,10 +1251,11 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> <strong>Hasil</strong> :</p>
+  <p> <strong>Hasil</strong> :</p>
 <p> Pada contoh di atas, kita membuktikan bahwa kedua proposisi tersebut sama. Karena kolom $$A\cap(B\cup C)$$ dan kolom
   $$(A\cap B)\cup(A\cap C)$$ sama, maka $$A\cap (B\cup C)=(A\cap B)\cup(A\cap C).$$</p>
+</ol>
+
 <ol start="2">
   <li>
     <p><strong>Pembuktian dengan aljabar himpunan</strong></p>
