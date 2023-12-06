@@ -1247,7 +1247,7 @@ published: true
         <p>$$1\in dari\ himpunan\ ini$$</p>
       </li>
       <li>
-        <p>$$0\notin himpunan\ ini$$</p>
+        <p>$$0\notin dari\ himpunan\ ini$$</p>
       </li>
     </ul>
   </li>
