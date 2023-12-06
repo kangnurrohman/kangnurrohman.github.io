@@ -1,7 +1,7 @@
 ---
 title: "Teori Himpunan"
 date: 2023-11-29T00:00:00+00:00
-update: 2023-12-03T00:00:00+00:00
+update: 2023-12-06T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /teori-himpunan/
@@ -391,7 +391,7 @@ published: true
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code class="bash">
+  <code class="python">
 
     # Himpunan Semesta
     universal_set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -426,7 +426,7 @@ published: true
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code class="bash">
+  <code class="python">
 
     # Union (gabungan) dari A dan B
     union_result = set_a.union(set_b)
@@ -458,7 +458,7 @@ published: true
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code class="bash">
+  <code class="python">
 
     # Intersection (irisan) dari A dan B
     intersection_result = set_a.intersection(set_b)
@@ -492,7 +492,7 @@ published: true
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code class="bash">
+  <code class="python">
 
     # Complement (komplemen) dari A terhadap himpunan semesta
     complement_a = universal_set.difference(set_a)
@@ -525,7 +525,7 @@ published: true
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code class="bash">
+  <code class="python">
 
     # Difference (selisih dengan setiap elemen dalam set_a) dari A terhadap B
     difference_result = set_a.difference(set_b)
@@ -558,7 +558,7 @@ published: true
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code class="bash">
+  <code class="python">
 
     # Symmetric Difference (elemen yang hanya ada di satu himpunan) dari A dan B
     symmetric_difference_result = set_a.symmetric_difference(set_b)
@@ -593,7 +593,7 @@ published: true
     <i class="fas fa-copy"></i> Salin
   </button>
   <pre>
-  <code class="bash">
+  <code class="python">
 
     # Cartesian Product (perkalian kartesian) dari A dan B
     cartesian_product_result = [(x, y) for x in set_a for y in set_b]
