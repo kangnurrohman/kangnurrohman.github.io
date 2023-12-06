@@ -409,7 +409,7 @@ published: true
     <ul>
       <li>
         <p><strong>Definisi</strong> : Gabungan dari dua himpunan $$A$$ dan $$B$$ adalah himpunan yang berisi semua elemen yang
-          termasuk dalam A atau B atau keduanya.</p>
+          termasuk dalam $$A$$ atau $$B$$ atau keduanya.</p>
       </li>
       <li>
         <p><strong>Notasi</strong> : $$A\cup B=\{x|x\in A \ atau\ x\in B\}$$</p>
