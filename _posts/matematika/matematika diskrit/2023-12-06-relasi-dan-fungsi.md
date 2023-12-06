@@ -25,6 +25,7 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-himpunan">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa relasi?
         </a>
+      </li>
     </ul>
   </div>
 </div>
