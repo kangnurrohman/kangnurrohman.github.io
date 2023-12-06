@@ -452,8 +452,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> Kode python:</p>
+  <p> Kode python:</p>
   <div class="code-container">
   <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
@@ -468,6 +467,7 @@ published: true
   </code>
   </pre>
 </div>
+</ol>
 
 <ol start="3">
   <li>
@@ -486,8 +486,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> Kode python:</p>
+  <p> Kode python:</p>
   <div class="code-container">
   <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
@@ -502,6 +501,7 @@ published: true
   </code>
   </pre>
 </div>
+</ol>
 
 <ol start="4">
   <li>
@@ -519,8 +519,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> Kode python:</p>
+  <p> Kode python:</p>
   <div class="code-container">
   <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
@@ -535,6 +534,7 @@ published: true
   </code>
   </pre>
 </div>
+</ol>
 
 <ol start="5">
   <li>
@@ -552,8 +552,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> Kode python:</p>
+  <p> Kode python:</p>
   <div class="code-container">
   <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
@@ -568,6 +567,7 @@ published: true
   </code>
   </pre>
 </div>
+</ol>
 
 <ol start="6">
   <li>
@@ -587,8 +587,7 @@ published: true
       </li>
     </ul>
   </li>
-</ol>
-<p> Kode python:</p>
+  <p> Kode python:</p>
   <div class="code-container">
   <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
@@ -603,6 +602,7 @@ published: true
   </code>
   </pre>
 </div>
+</ol>
 
 <h2 id="apa-saja-hukum-hukum-himpunan">Apa saja hukum-hukum himpunan?</h2>
 <ol>
