@@ -112,6 +112,6 @@ published: true
 <p>Dalam hal ini, setiap pasangan terurut $$(a,b)$$ dalam $$R$$ memenuhi kriteria bahwa $$a−b$$ adalah bilangan genap. Misalnya,
  pasangan $$(1,3)$$ dipilih karena $$1−3=−2$$, yang merupakan bilangan genap.</p>
 <p>Notasi matematis yang lebih formal dapat ditulis sebagai berikut:</p>
-<p>$$R=\{(a,b)\in A\times A ∣ a−b&nbsp;adalah&nbsp;bilangan&nbsp;genap\}$$</p>
+<p>$$R=\{(a,b)\in A\times A ∣ a−b\ adalah\ bilangan\ genap\}$$</p>
 <p>Definisi ini mengindikasikan bahwa $$R$$ adalah himpunan pasangan terurut dari $$A\times A$$ di mana selisih antara
  elemen-elemen dalam pasangan tersebut adalah bilangan genap.</p>
