@@ -571,7 +571,7 @@ published: true
 
 <ol start="6">
   <li>
-    <p><strong>Perkalian kastesian <em>(cartesian product)</em></strong></p>
+    <p><strong>Perkalian kartesian <em>(cartesian product)</em></strong></p>
     <ul>
       <li>
         <p><strong>Definisi</strong> : Perkalian kartesian dari dua himpunan $$A$$ dan $$B$$ adalah himpunan dari semua pasangan
