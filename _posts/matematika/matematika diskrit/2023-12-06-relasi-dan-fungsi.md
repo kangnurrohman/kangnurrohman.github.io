@@ -96,6 +96,7 @@ published: true
 
 <figure>
 <img src="/assets/images/post/relasi-dan-fungsi/gambar1.png">
+<figcaption>Gambar 1. Hubungan antara himpunan $$A$$ dan $$B$$ </figcaption>
 </figure>
 
 <h3>Relasi pada sebuah himpunan</h3>
