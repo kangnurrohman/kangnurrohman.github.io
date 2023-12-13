@@ -8,7 +8,7 @@ permalink: /relasi-dan-fungsi/
 image: "/assets/images/post/relasi-dan-fungsi/gambar0.png"
 description:
   "Sebelum membahas tentang relasi dan fungsi, di sini kita akan belajar sedikit tentang matriks yang nantinya digunakan
- untuk salah satu representasi matriks."
+  untuk salah satu representasi matriks."
 categories: Matematika
 tags: [matematika, matematika diskrit]
 published: true
@@ -80,7 +80,7 @@ published: true
 </ol>
 
 <h2 id="apa-itu-relasi">Apa itu relasi?</h2>
-<p>Relasi adalah hubungan antara dua himpunan, di mana setiap elemen dari himpunan pertama (domain) dikaitkan dengan
+<p>Relasi adalah hubungan antara dua himpunan, di mana setiap elemen dari himpunan pertama (domain) dihubungkan dengan
  satu atau lebih elemen dari himpunan kedua (kodomain). Secara formal, dinotasikan dengan:</p>
 <p>$$R\subseteq (A\times B)$$</p>
 <p>Dimana, relasi $$R$$ dari himpunan $$A$$ ke himpunan $$B$$ dinyatakan sebagai subset dari $$A\times B$$, yang berisi
