@@ -312,7 +312,6 @@ figure {
 }
 
 figure img {
-  display: flex;
   justify-content: center;
   border-radius: 1%;
 }
