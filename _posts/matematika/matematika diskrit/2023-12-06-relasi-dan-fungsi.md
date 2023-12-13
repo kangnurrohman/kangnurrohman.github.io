@@ -29,6 +29,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-saja-jenis-representasi-relasi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja jenis representasi relasi?
+        </a>
       </li>
     </ul>
   </div>
@@ -115,3 +118,124 @@ published: true
 <p>$$R=\{(a,b)\in A\times A ∣ a−b\ adalah\ bilangan\ genap\}$$</p>
 <p>Definisi ini mengindikasikan bahwa $$R$$ adalah himpunan pasangan terurut dari $$A\times A$$ di mana selisih antara
  elemen-elemen dalam pasangan tersebut adalah bilangan genap.</p>
+
+<h2 id="apa-saja-jenis-representasi-relasi">Apa saja jenis representasi relasi?</h2>
+<ol>
+  <li>
+    <p><strong>Diagram panah <em>(arrow diagram)</em></strong></p>
+    <p>Representasi relasi menggunakan diagram panah adalah representasi visual yang menunjukkan hubungan antar
+      elemen-elemen dari dua himpunan dengan menggunakan panah.</p>
+    <p>Jika R adalah relasi dari himpunan $$A$$ ke $$B$$ dengan pasangan terurut $$(a,b),$$ maka setiap panah dari $$a$$ ke $$b$$ dalam
+      diagram panah mewakili elemen $$R.$$</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Himpunan: $$A=\{1,2,3\}$$ dan $$B=\{2,3,4\}$$</p>
+    <p>Relasi: $$R=\{(1,2),(2,3),(1,4)\}$$</p>
+    <p>Maka diagram panahnya:</p>
+    <figure>
+      <img src="/assets/images/post/relasi-dan-fungsi/gambar2.png">
+      <figcaption>Gambar 2. Representasi relasi dengan diagram panah </figcaption>
+    </figure>
+  </li>
+  <li>
+    <p><strong>Tabel <em>(table)</em></strong></p>
+    <p>Representasi relasi menggunakan tabel adalah representasi tabular yang menunjukkan pasangan-pasangan terurut dari
+      suatu relasi.</p>
+    <p>Jika $$R$$ adalah relasi dari himpunan $$A$$ ke $$B$$ dengan pasangan terurut $$(a,b),$$ maka tabel $$R$$ akan memiliki dua kolom,
+      satu untuk elemen $$A$$ dan satu untuk elemen $$B$$, dengan setiap baris berisi pasangan terurut $$a$$ dan $$b.$$</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Himpunan: $$A=\{1,2,3\}$$ dan $$B=\{2,3,4\}$$</p>
+    <p>Relasi: $$R=\{(1,2),(2,3),(1,4)\}$$</p>
+    <p>Maka tabelnya:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Elemen $$A$$</th>
+          <th>Elemen $$B$$</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p><strong>Matriks <em>(matrix)</em></strong></p>
+    <p>Representasi relasi menggunakan matriks relasi adalah representasi tabel dalam bentuk matriks, di mana baris dan
+      kolom mewakili elemen-elemen dari himpunan, dan elemen di posisi $$(i,j)$$ menunjukkan apakah terdapat relasi antara
+      $$a_{i}$$​ dan $$b_{j}​.$$</p>
+    <p>Jika $$R$$ adalah relasi dari himpunan $$A$$ ke $$B$$ dengan pasangan terurut $$(a,b),$$ maka matriks $$R$$ akan memiliki $$1$$ di posisi
+      $$(i,j)$$ jika $$a_{i}$$ terhubung dengan $$b_{j}$$ dan $$0$$ sebaliknya.</p>
+    <p><strong>Notasinya:</strong></p>
+    <p>$$M =\begin{array}{c c}
+      &amp; \begin{array}{c c c} b_{1} &amp; b_{2} &amp; \cdots &amp; b_{n} \\ \end{array} \\
+      \begin{array}{c c c}a_{1}\\a_{2}\\\vdots\\ \ a_{m} \end{array} &amp;
+      \left[
+      \begin{array}{c c c}
+      m_{11} &amp; m_{12} &amp; \cdots &amp; m_{1n}\\
+      m_{21} &amp; m_{22} &amp; \cdots &amp; m_{2n} \\
+      \vdots &amp; \vdots &amp; \vdots &amp; \vdots \\
+      m_{m1} &amp; m_{m1} &amp; \cdots &amp; m_{mn}
+      \end{array}
+      \right]
+      \end{array} \longrightarrow m_{ij} = \Biggl\{_{0,\ (a_{i},b_{j}) \ \notin \ R}^{1,\:(a_{i},b_{j}) \ \in \ R}$$</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Himpunan: $$A=\{1,2,3\}$$ dan $$B=\{2,3,4\}$$</p>
+    <p>Relasi: $$R=\{(1,2),(2,3),(1,4),(3,2)\}$$</p>
+    <p>Maka matriksnya:</p>
+    <p>$$M =\begin{array}{c c}
+      &amp; \begin{array}{c c c} 2 &amp; 3 &amp; 4 \\ \end{array} \\
+      \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
+      \left[
+      \begin{array}{c c c}
+      1 &amp; 0 &amp; 1 \\
+      0 &amp; 1 &amp; 0 \\
+      1 &amp; 0 &amp; 0 \\
+      \end{array}
+      \right]
+      \end{array}$$</p>
+  </li>
+  <li>
+    <p><strong>Graf berarah <em>(directed graph)</em></strong></p>
+    <p>Graf berarah adalah representasi visual yang menggunakan simpul/vertex dan panah untuk menunjukkan hubungan arah
+      antar elemen-elemen dari himpunan.</p>
+    <p>Jika $$R$$ adalah relasi dari himpunan $$A$$ ke $$B$$ dengan pasangan terurut $$(a,b),$$ maka setiap simpul akan mewakili elemen
+      dari $$A$$ dan $$B$$, dan setiap panah akan menunjukkan arah hubungan antar mereka.</p>
+    <p>Dan pada graf berarah pada sebuah himpunan: Jika $$R$$ adalah relasi dari himpunan $$A$$ dengan pasangan terurut $$(a,b),$$
+      maka setiap simpul pada graf berarah mewakili elemen $$a$$ dari $$A,$$ dan panah mengindikasikan arah hubungan antara $$a$$
+      dan $$b$$ sesuai dengan pasangan terurut dalam relasi $$R.$$</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Himpunan: $$A=\{1,2,3\}$$</p>
+    <p>Relasi: $$R=\{(1,1),(1,2),(2,3),(3,1)\}$$</p>
+    <p>Maka graf berarahnya:</p>
+    <figure>
+      <img src="/assets/images/post/relasi-dan-fungsi/gambar3.png">
+      <figcaption>Gambar 3. Representasi relasi dengan graf berarah </figcaption>
+    </figure>
+  </li>
+  <li>
+    <p><strong>Diagram kartesian <em>(cartesian diagram)</em></strong></p>
+    <p>Representasi relasi menggunakan diagram kartesian adalah representasi visual dari pasangan terurut pada koordinat
+      kartesian.</p>
+    <p>Jika $$R$$ adalah relasi dari himpunan $$A$$ ke $$B$$ dengan pasangan terurut $$(a,b),$$ maka setiap titik pada diagram kartesian
+      mewakili pasangan terurut $$a$$ dan $$b.$$</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Himpunan: $$A=\{1,2,3\}$$ dan $$B=\{2,3,4\}$$</p>
+    <p>Relasi: $$R=\{(1,2),(2,3),(1,4)\}$$</p>
+    <p>Maka diagram kartesiannya:</p>
+    <figure>
+      <img src="/assets/images/post/relasi-dan-fungsi/gambar4.png">
+      <figcaption>Gambar 4. Representasi relasi dengan diagram kartesian </figcaption>
+    </figure>
+  </li>
+</ol>
