@@ -1307,7 +1307,7 @@ published: true
     <p>String dalam bahasa dapat direpresentasikan sebagai himpunan substring atau urutan simbol dari alfabet. Misalnya,
       kita memiliki string "cat", kita dapat menggambarkannya sebagai himpunan substring:</p>
     <p>$$\{c,a,t,ca,at,cat\}$$</p>
-    <p>Pada <em>Natural Language Processing</em> (NLP), himpunan string dapat digunakan untuk merepresentasikan kumpulan
+    <p>Pada NLP, himpunan string dapat digunakan untuk merepresentasikan kumpulan
       kata atau kalimat dalam suatu teks. Misalnya, himpunan string yang berisi kalimat-kalimat dari dokumen.</p>
   </li>
   <li>
@@ -1317,7 +1317,7 @@ published: true
       "b" dengan panjang tertentu, kita dapat menggambarkannya sebagai himpunan:</p>
     <p>$$L\{\in,a,b,aa,ab,ba,b,aaa,\cdots\}$$</p>
     <p>Di sini, $$\in$$ adalah himpunan kosong.</p>
-    <p>Pada <em>Natural Language Processing</em> (NLP), Sebuah bahasa dapat direpresentasikan sebagai himpunan string
+    <p>Pada NLP, Sebuah bahasa dapat direpresentasikan sebagai himpunan string
       yang valid dalam bahasa tersebut. Contohnya, himpunan kalimat-kalimat yang valid dalam bahasa Inggris.</p>
   </li>
 </ol>
