@@ -26,6 +26,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#pengantar-matriks">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Pengantar matriks
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi?
+        </a>
       </li>
     </ul>
   </div>
@@ -75,3 +78,39 @@ published: true
    koneksi atau relasi biner antara objek atau simpul dalam suatu sistem.</p>
  </li>
 </ol>
+
+<h2 id="apa-itu-relasi">Apa itu relasi?</h2>
+<p>Relasi adalah hubungan antara dua himpunan, di mana setiap elemen dari himpunan pertama (domain) dikaitkan dengan
+ satu atau lebih elemen dari himpunan kedua (kodomain). Secara formal, dinotasikan dengan:</p>
+<p>$$R\subseteq (A\times B)$$</p>
+<p>Dimana, relasi $$R$$ dari himpunan $$A$$ ke himpunan $$B$$ dinyatakan sebagai subset dari $$A\times B$$, yang berisi
+ pasangan-pasangan terurut $$(a,b)$$ di mana $$a$$ adalah elemen dari $$A$$ dan $$b$$ adalah elemen dari $$B$$ $$((a,b)\in R).$$</p>
+<p>Contoh:</p>
+<p>Misalkan kita memiliki dua himpunan:</p>
+<p>$$A=\{1,2,3\}$$ dan $$B=\{x,y,z\}$$</p>
+<p>Kita bisa mendefinisikan relasi $$R$$ dari $$A$$ ke $$B$$ sebagai berikut:</p>
+<p>$$R=\{(1,x),(2,y),(2,z),(3,x)\}$$</p>
+<p>Dalam hal ini, setiap elemen dari $$A$$ memiliki hubungan dengan elemen-elemen tertentu dari $$B$$. Sebagai contoh, $$1$$
+ terhubung dengan $$x$$, $$2$$ terhubung dengan $$y$$ dan $$z$$, dan $$3$$ terhubung dengan $$x.$$</p>
+<p>Jika digambarkan dengan diagram panah sebagai berikut:</p>
+
+<figure>
+<img src="/assets/images/post/relasi-dan-fungsi/gambar1.png">
+</figure>
+
+<h3>Relasi pada sebuah himpunan</h3>
+<p>Relasi pada sebuah himpunan adalah relasi yang khusus, di mana melibatkan hubungan antar elemen-elemen dalam himpunan
+ tersebut. Dalam notasi matematis :</p>
+<p>$$R\subseteq A\times A$$</p>
+<p>Dimana, Relasi $$R$$ pada himpunan $$A$$ adalah suatu himpunan bagian dari $$A\times A.$$ Dengan kata lain, $$R$$ terdiri dari
+ pasangan terurut $$(a,b)$$ di mana $$a$$ dan $$b$$ adalah elemen-elemen dari $$A.$$</p>
+<p>Contoh:</p>
+<p>Misalkan $$A=\{1,2,3\}$$, dan kita ingin mendefinisikan relasi $$R$$ yang menunjukkan bahwa dua elemen dalam $$A$$ memiliki
+ selisih yang merupakan bilangan genap. Maka, $$R$$ dapat didefinisikan sebagai berikut:</p>
+<p>$$R=\{(1,3),(2,2),(3,1)\}$$</p>
+<p>Dalam hal ini, setiap pasangan terurut $$(a,b)$$ dalam $$R$$ memenuhi kriteria bahwa $$a−b$$ adalah bilangan genap. Misalnya,
+ pasangan $$(1,3)$$ dipilih karena $$1−3=−2$$, yang merupakan bilangan genap.</p>
+<p>Notasi matematis yang lebih formal dapat ditulis sebagai berikut:</p>
+<p>$$R=\{(a,b)\in A\times A ∣ a−b&nbsp;adalah&nbsp;bilangan&nbsp;genap\}$$</p>
+<p>Definisi ini mengindikasikan bahwa $$R$$ adalah himpunan pasangan terurut dari $$A\times A$$ di mana selisih antara
+ elemen-elemen dalam pasangan tersebut adalah bilangan genap.</p>
