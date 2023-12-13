@@ -125,7 +125,7 @@ published: true
     <p><strong>Diagram panah <em>(arrow diagram)</em></strong></p>
     <p>Representasi relasi menggunakan diagram panah adalah representasi visual yang menunjukkan hubungan antar
       elemen-elemen dari dua himpunan dengan menggunakan panah.</p>
-    <p>Jika R adalah relasi dari himpunan $$A$$ ke $$B$$ dengan pasangan terurut $$(a,b),$$ maka setiap panah dari $$a$$ ke $$b$$ dalam
+    <p>Jika $$R$$ adalah relasi dari himpunan $$A$$ ke $$B$$ dengan pasangan terurut $$(a,b),$$ maka setiap panah dari $$a$$ ke $$b$$ dalam
       diagram panah mewakili elemen $$R.$$</p>
     <p><strong>Contoh:</strong></p>
     <p>Himpunan: $$A=\{1,2,3\}$$ dan $$B=\{2,3,4\}$$</p>
