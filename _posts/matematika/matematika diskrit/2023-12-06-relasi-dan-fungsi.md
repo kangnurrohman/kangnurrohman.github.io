@@ -444,7 +444,7 @@ published: true
   </li>
   <li>
     <p><strong>Tolak setangkup <em>(Antisymmetric)</em></strong></p>
-    <p><strong>Definisi;</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan antisimetris jika dari $$aRb$$ dan $$bRa$$ selalu
+    <p><strong>Definisi:</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan antisimetris jika dari $$aRb$$ dan $$bRa$$ selalu
       menghasilkan $$a=b.$$</p>
     <p><strong>Notasi:</strong> $$\forall a,b\in A: (aRb \land bRa) \to a=b$$</p>
     <p><strong>Contoh:</strong></p>
