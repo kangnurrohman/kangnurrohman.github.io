@@ -103,6 +103,23 @@ published: true
     <p>Matriks identitas memiliki peran penting dalam berbagai bidang matematika, terutama dalam operasi matriks dan
       dalam sistem persamaan linier.</p>
   </li>
+  <li>
+      <p><strong>Matriks simetris</strong></p>
+      <p>Matriks simetris adalah jenis matriks yang sama dengan transpose-nya. Dengan kata lain, sebuah matriks
+        dikatakan simetris jika elemen-elemen yang terletak di sepanjang diagonal utama dan di atas diagonal utama sama
+        dengan elemen-elemen yang berada di bawah diagonal utama.</p>
+      <p>Secara formal, matriks $$A$$ dikatakan simetris jika $$A=A^{T},$$ di mana $$A^{T}$$ adalah matriks transpose dari $$A$$. Untuk
+        matriks simetris, elemen-elemen pada posisi $$(i,j)$$ dan $$(j,i)$$ akan sama untuk setiap $$i$$ dan $$j.$$</p>
+      <p>Contoh matrix simetris dengan ordo $$3\times 3:$$</p>
+      <p>$$A = \left[\begin{array}{rrr}
+        1 &amp; 2 &amp; 3 \\
+        2 &amp; 4 &amp; 5 \\
+        3 &amp; 5 &amp; 6
+        \end{array}\right]$$</p>
+      <p>Dalam matriks ini, $$A^{T}$$ juga sama dengan $$A$$, sehingga matriks ini dikategorikan sebagai matriks simetris.</p>
+      <p>Matriks simetris memiliki sifat-sifat khusus dan sering muncul dalam berbagai konteks matematika dan aplikasi
+        ilmu pengetahuan, seperti dalam teori matriks, analisis numerik, dan mekanika struktur.</p>
+    </li>
 </ol>
 
 <h2 id="apa-itu-relasi">Apa itu relasi?</h2>
