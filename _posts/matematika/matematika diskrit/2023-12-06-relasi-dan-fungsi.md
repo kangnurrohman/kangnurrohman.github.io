@@ -287,7 +287,8 @@ published: true
 <ol>
   <li>
     <p><strong>Refleksif <em>(Reflexive)</em></strong></p>
-    <p><strong>Definisi:</strong> Suatu relasi $$R$$ pada himpunan $$A$$ dikatakan refleksif jika setiap elemen $$a$$ dari $$A$$ berada
+    <p><strong>Definisi:</strong> Suatu relasi $$R$$ pada himpunan $$A$$ dikatakan refleksif jika setiap elemen $$a$$
+      dari $$A$$ berada
       dalam relasi dengan dirinya sendiri, yaitu $$aRa$$.</p>
     <p><strong>Notasi:</strong> $$\forall a\in A:aRa$$</p>
     <p><strong>Contoh</strong>:</p>
@@ -321,13 +322,15 @@ published: true
   </li>
   <li>
     <p><strong>Menghantar <em>(Transitive)</em></strong></p>
-    <p><strong>Definisi:</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan transitif jika dari $$aRb$$ dan $$bRc$$ selalu menghasilkan
+    <p><strong>Definisi:</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan transitif jika dari $$aRb$$ dan $$bRc$$
+      selalu menghasilkan
       $$aRc.$$</p>
     <p><strong>Notasi:</strong> $$\forall a,b,c\in A: (aRb\land bRc)\to aRc$$</p>
     <p><strong>Contoh:</strong></p>
     <ul>
       <li>
-        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,3),(1,3)\},$$ relasi ini dikatakan transitif. Mari kita buktikan dengan
+        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,3),(1,3)\},$$ relasi ini dikatakan transitif. Mari kita buktikan
+          dengan
           tabel.</p>
       </li>
       <li>
@@ -371,7 +374,8 @@ published: true
           <figcaption>Gambar 6. Representasi relasi graf berarah dari transitif </figcaption>
         </figure>
       <li>
-        <p>Relasi $$R=\{(1,1),(2,2),(3,3),(4,4)\}$$ Juga dianggap transitif karena tidak ada hubungan 2 relasi elemen yang
+        <p>Relasi $$R=\{(1,1),(2,2),(3,3),(4,4)\}$$ Juga dianggap transitif karena tidak ada hubungan 2 relasi elemen
+          yang
           saling terhubung</p>
       </li>
       <li>
@@ -384,12 +388,14 @@ published: true
   </li>
   <li>
     <p><strong>Setangkup <em>(Symmetric)</em></strong></p>
-    <p><strong>Definisi:</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan simetris jika dari $$aRb$$ menghasilkan $$bRa.$$</p>
+    <p><strong>Definisi:</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan simetris jika dari $$aRb$$ menghasilkan
+      $$bRa.$$</p>
     <p><strong>Notasi:</strong> $$\forall a,b\in A: aRb \to bRa$$</p>
     <p><strong>Contoh:</strong></p>
     <ul>
       <li>
-        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,1),(3,4),(4,3)\},$$ relasi ini dikatakan simetris. Karena $$(1,2)$$ dan $$(2,1)\in R$$, begitu juga $$(3,4)$$ dan $$(4,3)\in R.$$</p>
+        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,1),(3,4),(4,3)\},$$ relasi ini dikatakan simetris. Karena
+          $$(1,2)$$ dan $$(2,1)\in R$$, begitu juga $$(3,4)$$ dan $$(4,3)\in R.$$</p>
       </li>
       <li>
         <p>Tabel pasangan berbentuk:</p>
@@ -442,13 +448,16 @@ published: true
   </li>
   <li>
     <p><strong>Tolak setangkup <em>(Antisymmetric)</em></strong></p>
-    <p><strong>Definisi;</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan antisimetris jika dari $$aRb$$ dan $$bRa$$ selalu
+    <p><strong>Definisi;</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan antisimetris jika dari $$aRb$$ dan $$bRa$$
+      selalu
       menghasilkan $$a=b.$$</p>
     <p><strong>Notasi:</strong> $$\forall a,b\in A: (aRb \land bRa) \to a=b$$</p>
     <p><strong>Contoh:</strong></p>
     <ul>
-      <li>Jika $$A=\{1,2,3,4\}$$ dan $$R=\{(1,1),(1,2),(1,3)\},$$ relasi ini bersifat antisimetris, karena $$(1,1)\in R$$ dan $$1=1.$$ Relasi ini
-        dikatakan juga tidak simetris karena $$(1,2)\in R$$ namun $$(2,1)\notin R$$, begitu juga $$(1,3)\in R$$ namun $$(3,1)\notin R.$$
+      <li>Jika $$A=\{1,2,3,4\}$$ dan $$R=\{(1,1),(1,2),(1,3)\},$$ relasi ini bersifat antisimetris, karena $$(1,1)\in
+        R$$ dan $$1=1.$$ Relasi ini
+        dikatakan juga tidak simetris karena $$(1,2)\in R$$ namun $$(2,1)\notin R$$, begitu juga $$(1,3)\in R$$ namun
+        $$(3,1)\notin R.$$
       </li>
       <li>
         <p>Matriks R:</p>
