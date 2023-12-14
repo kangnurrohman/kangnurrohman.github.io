@@ -296,7 +296,7 @@ published: true
         <p>Misal $$A=\{1,2,3\}$$ dan $$R=\{(1,1),(2,2),(3,3)\},$$ relasi ini dikatakan refleksif.</p>
       </li>
       <li>
-        <p>Matriks R:</p>
+        <p>Matriks $$R$$:</p>
         <p>$$M =\begin{array}{c c}
           &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 \\ \end{array} \\
           \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
@@ -350,7 +350,7 @@ published: true
         </table>
       </li>
       <li>
-        <p>Matrix R:</p>
+        <p>Matrix $$R$$:</p>
         <p>$$M =\begin{array}{c c}
           &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 &amp; 4 \\ \end{array} \\
           \begin{array}{c c c} 1 \\ 2 \\ 3 \\ 4 \\ \end{array} &amp;
@@ -415,7 +415,7 @@ published: true
         </table>
       </li>
       <li>
-        <p>Matrix R:</p>
+        <p>Matrix $$R$$:</p>
         <p>$$M =\begin{array}{c c}
           &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 &amp; 4\\ \end{array} \\
           \begin{array}{c c c} 1 \\ 2 \\ 3 \\ 4 \\ \end{array} &amp;
@@ -455,7 +455,7 @@ published: true
           $$(3,1)\notin R.$$</p>
       </li>
       <li>
-        <p>Matriks R:</p>
+        <p>Matriks $$R$$:</p>
         <p>$$M =\begin{array}{c c}
           &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 &amp; 4\\ \end{array} \\
           \begin{array}{c c c} 1 \\ 2 \\ 3 \\ 4 \\ \end{array} &amp;
