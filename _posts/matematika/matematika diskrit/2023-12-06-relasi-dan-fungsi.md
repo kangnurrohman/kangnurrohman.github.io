@@ -1,7 +1,7 @@
 ---
 title: "Relasi dan Fungsi"
 date: 2023-12-06T00:00:00+00:00
-update: 2023-12-13T00:00:00+00:00
+update: 2023-12-14T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /relasi-dan-fungsi/
@@ -287,7 +287,7 @@ published: true
 <ol>
   <li>
     <p><strong>Refleksif <em>(Reflexive)</em></strong></p>
-    <p><strong>Definisi:</strong> Suatu relasi R pada himpunan $$A$$ dikatakan refleksif jika setiap elemen $$a$$ dari $$A$$ berada
+    <p><strong>Definisi:</strong> Suatu relasi $$R$$ pada himpunan $$A$$ dikatakan refleksif jika setiap elemen $$a$$ dari $$A$$ berada
       dalam relasi dengan dirinya sendiri, yaitu $$aRa$$.</p>
     <p><strong>Notasi:</strong> $$\forall a\in A:aRa$$</p>
     <p><strong>Contoh</strong>:</p>
