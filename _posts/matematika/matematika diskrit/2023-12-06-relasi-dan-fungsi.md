@@ -438,7 +438,7 @@ published: true
         </figure>
       </li>
       <li>
-        <p>Relasi $$R=\{(1,1),(2,2),(3,3),(4,4)\} Juga dianggap simetris.$$</p>
+        <p>Relasi $$R=\{(1,1),(2,2),(3,3),(4,4)\}$$ Juga dianggap simetris.</p>
       </li>
     </ul>
   </li>
