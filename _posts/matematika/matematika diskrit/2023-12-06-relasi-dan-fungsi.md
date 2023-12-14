@@ -384,7 +384,6 @@ published: true
       <li>
         <p>Relasi $$R=\{(3,4)\}$$ Juga dianggap selalu transitif karena cuman berisi satu relasi.</p>
       </li>
-    </ul>
   </li>
   <li>
     <p><strong>Setangkup <em>(Symmetric)</em></strong></p>
