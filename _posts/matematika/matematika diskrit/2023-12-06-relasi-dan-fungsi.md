@@ -80,6 +80,29 @@ published: true
   <p>Dalam matriks ini, setiap elemen hanya bisa berisi 0 atau 1, dan matriks tersebut dapat digunakan untuk menyajikan
    koneksi atau relasi biner antara objek atau simpul dalam suatu sistem.</p>
  </li>
+ <li>
+    <p><strong>Matriks satuan</strong></p>
+    <p>Matriks satuan, juga dikenal sebagai matriks identitas, adalah suatu jenis matriks yang memiliki elemen 1 di
+      sepanjang diagonal utama dan elemen 0 di luar diagonal utama. Matriks identitas sering disimbolkan dengan $$I$$ atau
+      $$I_{n}$$​, tergantung pada konteks ordo matriks tersebut. Dalam notasi umum, matriks identitas ordo $$n$$ adalah sebagai
+      berikut:</p>
+    <p>$$I_{n} = \left[\begin{array}{rrrr}
+      1 &amp; 0 &amp; \cdots &amp; 0 \\
+      0&amp; 1 &amp; \cdots &amp; 0 \\
+      \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+      0 &amp; 0 &amp; \cdots &amp; 1
+      \end{array}\right]$$</p>
+    <p>Misalnya, jika kita bicara tentang matriks identitas ordo 3, itu akan terlihat seperti ini:</p>
+    <p>$$I_{3} = \left[\begin{array}{rrr}
+      1 &amp; 0 &amp; 0 \\
+      0&amp; 1 &amp; 0 \\
+      0 &amp; 0 &amp; 1
+      \end{array}\right]$$</p>
+    <p>Matriks identitas memiliki sifat khusus yang penting. Jika $$A$$ adalah matriks ordo $$m\times n,$$ maka $$A⋅I_{n}=A$$ dan
+      $$I_{m}​⋅A=A$$. Artinya, perkalian matriks identitas dengan matriks lain tidak mengubah matriks tersebut.</p>
+    <p>Matriks identitas memiliki peran penting dalam berbagai bidang matematika, terutama dalam operasi matriks dan
+      dalam sistem persamaan linier.</p>
+  </li>
 </ol>
 
 <h2 id="apa-itu-relasi">Apa itu relasi?</h2>
