@@ -129,7 +129,7 @@ published: true
       diagram panah mewakili elemen $$R.$$</p>
     <p><strong>Contoh:</strong></p>
     <p>Himpunan: $$A=\{1,2,3\}$$ dan $$B=\{2,3,4\}$$</p>
-    <p>Relasi: $$R=\{(1,2),(2,3),(1,4)\}$$</p>
+    <p>Relasi: $$R=\{(1,2),(2,3),(1,4),(2,4)\}$$</p>
     <p>Maka diagram panahnya:</p>
     <figure>
       <img src="/assets/images/post/relasi-dan-fungsi/gambar2.png">
