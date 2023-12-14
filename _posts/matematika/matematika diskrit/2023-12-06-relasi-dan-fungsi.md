@@ -32,6 +32,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-saja-jenis-representasi-relasi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja jenis representasi relasi?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-saja-sifat-sifat-relasi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja sifat-sifat relasi?
+        </a>
       </li>
     </ul>
   </div>
@@ -277,5 +280,177 @@ published: true
       <img src="/assets/images/post/relasi-dan-fungsi/gambar4.png">
       <figcaption>Gambar 4. Representasi relasi dengan diagram kartesian </figcaption>
     </figure>
+  </li>
+</ol>
+
+<h2 id="apa-saja-sifat-sifat-relasi">Apa saja sifat-sifat relasi?</h2>
+<ol>
+  <li>
+    <p><strong>Refleksif <em>(Reflexive)</em></strong></p>
+    <p><strong>Definisi:</strong> Suatu relasi R pada himpunan $$A$$ dikatakan refleksif jika setiap elemen $$a$$ dari $$A$$ berada
+      dalam relasi dengan dirinya sendiri, yaitu $$aRa$$.</p>
+    <p><strong>Notasi:</strong> $$\forall a\in A:aRa$$</p>
+    <p><strong>Contoh</strong>:</p>
+    <ul>
+      <li>
+        <p>Misal $$A=\{1,2,3\}$$ dan $$R=\{(1,1),(2,2),(3,3)\},$$ relasi ini dikatakan refleksif.</p>
+      </li>
+      <li>
+        <p>Matriks R:</p>
+        <p>$$M =\begin{array}{c c}
+          &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 \\ \end{array} \\
+          \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
+          \left[
+          \begin{array}{c c c}
+          1 &amp; 0 &amp; 0 \\
+          0 &amp; 1 &amp; 0 \\
+          0 &amp; 0 &amp; 1 \\
+          \end{array}
+          \right]
+          \end{array}$$</p>
+        <p>Jika direpresentasikan relasi menggunakan matriks, membentuk matriks satuan.</p>
+      </li>
+      <li>
+        <p>Graf berarah:</p>
+        <figure>
+          <img src="/assets/images/post/relasi-dan-fungsi/gambar5.png">
+          <figcaption>Gambar 5. Representasi relasi graf berarah dari refleksif </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Menghantar <em>(Transitive)</em></strong></p>
+    <p><strong>Definisi:</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan transitif jika dari $$aRb$$ dan $$bRc$$ selalu menghasilkan
+      $$aRc.$$</p>
+    <p><strong>Notasi:</strong> $$\forall a,b,c\in A: (aRb\land bRc)\to aRc$$</p>
+    <p><strong>Contoh:</strong></p>
+    <ul>
+      <li>
+        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,3),(1,3)\},$$ relasi ini dikatakan transitif. Mari kita buktikan dengan
+          tabel.</p>
+      </li>
+      <li>
+        <p>Tabel pasangan berbentuk:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>$$(a,b)$$</th>
+              <th>$$(b,c)$$</th>
+              <th>$$(a,c)$$</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$$(1,2)$$</td>
+              <td>$$(2,3)$$</td>
+              <td>$$(1,3)$$</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <p>Matrix R:</p>
+        <p>$$M =\begin{array}{c c}
+          &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 &amp; 4 \\ \end{array} \\
+          \begin{array}{c c c} 1 \\ 2 \\ 3 \\ 4 \\ \end{array} &amp;
+          \left[
+          \begin{array}{c c c c}
+          0 &amp; 1 &amp; 1 &amp; 0 \\
+          0 &amp; 0 &amp; 1 &amp; 0 \\
+          0 &amp; 0 &amp; 0 &amp; 0 \\
+          0 &amp; 0 &amp; 0 &amp; 0 \\
+          \end{array}
+          \right]
+          \end{array}$$</p>
+      </li>
+      <li>
+        <p>Graf berarah</p>
+        <figure>
+          <img src="/assets/images/post/relasi-dan-fungsi/gambar6.png">
+          <figcaption>Gambar 6. Representasi relasi graf berarah dari transitif </figcaption>
+        </figure>
+      <li>
+        <p>Relasi $$R=\{(1,1),(2,2),(3,3),(4,4)\}$$ Juga dianggap transitif karena tidak ada hubungan 2 relasi elemen yang
+          saling terhubung</p>
+      </li>
+      <li>
+        <p>Relasi $$R=\{(1,2),(3,4)\}$$ Juga dianggap transitif karena tidak bisa dihubungkan.</p>
+      </li>
+      <li>
+        <p>Relasi $$R=\{(3,4)\}$$ Juga dianggap selalu transitif karena cuman berisi satu relasi.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Setangkup <em>(Symmetric)</em></strong></p>
+    <p><strong>Definisi:</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan simetris jika dari $$aRb$$ menghasilkan $$bRa.$$</p>
+    <p><strong>Notasi:</strong> $$\forall a,b\in A: aRb \to bRa$$</p>
+    <p><strong>Contoh:</strong></p>
+    <ul>
+      <li>
+        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,1),(3,4),(4,3)\},$$ relasi ini dikatakan simetris. Mari kita buktikan
+          dengan tabel.</p>
+      </li>
+      <li>
+        <p>Tabel pasangan berbentuk:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>$$(a,b)$$</th>
+              <th>$$(b,a)$$</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$$(1,2)$$</td>
+              <td>$$(2,1)$$</td>
+            </tr>
+            <tr>
+              <td>$$(3,4)$$</td>
+              <td>$$(4,3)$$</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <p>Matrix R:</p>
+        <p>$$M =\begin{array}{c c}
+          &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 &amp; 4\\ \end{array} \\
+          \begin{array}{c c c} 1 \\ 2 \\ 3 \\ 4 \\ \end{array} &amp;
+          \left[
+          \begin{array}{c c c}
+          0 &amp; 1 &amp; 0 &amp; 0 \\
+          1 &amp; 0 &amp; 0 &amp; 0 \\
+          0 &amp; 0 &amp; 0 &amp; 1 \\
+          0 &amp; 0 &amp; 1 &amp; 0 \\
+          \end{array}
+          \right]
+          \end{array}$$</p>
+        <p>Jika direpresentasikan relasi menggunakan matriks, membentuk matriks simetris.</p>
+      </li>
+      <li>
+        <p>Graf berarah</p>
+        <figure>
+          <img src="/assets/images/post/relasi-dan-fungsi/gambar7.png">
+          <figcaption>Gambar 7. Representasi relasi graf berarah dari setangkup/simetris </figcaption>
+        </figure>
+      </li>
+      <li>
+        <p>Relasi $$R=\{(1,1),(2,2),(3,3),(4,4)\}$$ Juga dianggap simetris.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Tolak setangkup <em>(Antisymmetric)</em></strong></p>
+    <p><strong>Definisi;</strong> Relasi $$R$$ pada himpunan $$A$$ dikatakan antisimetris jika dari $$aRb$$ dan $$bRa$$ selalu
+      menghasilkan $$a=b.$$</p>
+    <p><strong>Notasi:</strong> $$\forall a,b\in A: (aRb \land bRa) \to a=b$$</p>
+    <p><strong>Contoh:</strong></p>
+    <ul>
+      <li>Jika $$A=\{1,2,3,4\}$$ dan $$R=\{(1,1),(1,2),(1,3)\},$$ relasi ini antisimetris, karena $$(1,1)\in R$$ dan $$1=1.$$ Relasi ini
+        dikatakan juga tidak simetris karena $$(1,2)\in R$$ namun $$(2,1)\notin R$$, begitu juga $$(1,3)\in R$$ namun $$(3,1)\notin R.$$
+      </li>
+    </ul>
   </li>
 </ol>
