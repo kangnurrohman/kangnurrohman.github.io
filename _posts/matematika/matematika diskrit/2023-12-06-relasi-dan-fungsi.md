@@ -389,8 +389,7 @@ published: true
     <p><strong>Contoh:</strong></p>
     <ul>
       <li>
-        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,1),(3,4),(4,3)\},$$ relasi ini dikatakan simetris. Mari kita buktikan
-          dengan tabel.</p>
+        <p>Misal $$A=\{1,2,3,4\}$$ dan $$R=\{(1,2),(2,1),(3,4),(4,3)\},$$ relasi ini dikatakan simetris. Karena $$(1,2)$$ dan $$(2,1)\in R$$, begitu juga $$(3,4)$$ dan $$(4,3)\in R.$$</p>
       </li>
       <li>
         <p>Tabel pasangan berbentuk:</p>
@@ -448,8 +447,30 @@ published: true
     <p><strong>Notasi:</strong> $$\forall a,b\in A: (aRb \land bRa) \to a=b$$</p>
     <p><strong>Contoh:</strong></p>
     <ul>
-      <li>Jika $$A=\{1,2,3,4\}$$ dan $$R=\{(1,1),(1,2),(1,3)\},$$ relasi ini antisimetris, karena $$(1,1)\in R$$ dan $$1=1.$$ Relasi ini
+      <li>Jika $$A=\{1,2,3,4\}$$ dan $$R=\{(1,1),(1,2),(1,3)\},$$ relasi ini bersifat antisimetris, karena $$(1,1)\in R$$ dan $$1=1.$$ Relasi ini
         dikatakan juga tidak simetris karena $$(1,2)\in R$$ namun $$(2,1)\notin R$$, begitu juga $$(1,3)\in R$$ namun $$(3,1)\notin R.$$
+      </li>
+      <li>
+        <p>Matriks R:</p>
+        <p>$$M =\begin{array}{c c}
+          &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 &amp; 4\\ \end{array} \\
+          \begin{array}{c c c} 1 \\ 2 \\ 3 \\ 4 \\ \end{array} &amp;
+          \left[
+          \begin{array}{c c c}
+          1 &amp; 1 &amp; 1 &amp; 0 \\
+          0 &amp; 0 &amp; 0 &amp; 0 \\
+          0 &amp; 0 &amp; 0 &amp; 0 \\
+          0 &amp; 0 &amp; 0 &amp; 0 \\
+          \end{array}
+          \right]
+          \end{array}$$</p>
+      </li>
+      <li>
+        <p>Graf berarah</p>
+        <figure>
+          <img src="/assets/images/post/relasi-dan-fungsi/gambar8.png">
+          <figcaption>Gambar 8. Representasi relasi graf berarah dari tolak setangkup/antisimetris </figcaption>
+        </figure>
       </li>
     </ul>
   </li>
