@@ -1,7 +1,7 @@
 ---
 title: "Relasi dan Fungsi"
 date: 2023-12-06T00:00:00+00:00
-update: 2023-12-14T00:00:00+00:00
+update: 2023-12-15T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /relasi-dan-fungsi/
@@ -37,6 +37,9 @@ published: true
         </a>
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-inversi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi inversi?
+        </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-kombinasi-relasi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kombinasi relasi?
         </a>
       </li>
     </ul>
@@ -529,3 +532,80 @@ published: true
       terdapat relasi invers dari elemen $$a_{i}$$ di himpunan A ke elemen $$b_{j}$$ di himpunan $$B$$.</p>
   </li>
 </ul>
+
+<h2 id="apa-itu-kombinasi-relasi">Apa itu kombinasi relasi?</h2>
+<p>Kombinasi relasi melibatkan penggabungan, irisan, selisih, dan perbedaan simetris dari dua relasi. Mari kita gunakan
+  notasi matematis untuk setiap operasi:</p>
+<p>Misal kita mempunyai himpunan $$A=\{1,2,3\}$$ dan himpunan $$B=\{x,y,z\}$$, serta relasi $$R$$ sebagai berikut:</p>
+<p>$$R_{1}=\{(1,x),(2,y),(3,z)\}$$</p>
+<p>$$R_{2}=\{(3,z),(1,y)\}$$</p>
+<ul>
+  <li>
+    <p><strong>Gabungan $$(\cup)$$</strong></p>
+    <p><strong>Notasi:</strong> $$R_{1}\cup R_{2}=\{(a,b)|(a,b)\in R_{1}\ atau\ (a,b)\in R_{2}\}$$</p>
+    <p><strong>Contoh:</strong> $$R_{1}\cup R_{2}=\{(1,x),(2,y),(3,z),(1,y)\}$$</p>
+  </li>
+  <li>
+    <p><strong>Irisan $$(\cap)$$</strong></p>
+    <p><strong>Notasi:</strong> $$R_{1}\cap R_{2}=\{(a,b)|(a,b)\in R_{1}\ dan\ (a,b)\in R_{2}\}$$</p>
+    <p><strong>Contoh:</strong> $$R_{1}\cap R_{2}=\{(3,z)\}$$</p>
+  </li>
+  <li>
+    <p><strong>Selisih $$(-)$$</strong></p>
+    <p><strong>Notasi:</strong> $$R_{1}-R_{2}=\{(a,b)|(a,b)\in R_{1}\ atau\ (a,b)\notin R_{2}\}$$</p>
+    <p><strong>Contoh:</strong> $$R_{1}-R_{2}=\{(1,x),(2,y)\}$$</p>
+  </li>
+  <li>
+    <p><strong>Beda setangkup $$(\bigoplus)$$</strong></p>
+    <p><strong>Notasi:</strong> $$R_{1}\bigoplus R_{2}=(R_{1}-R_{2})\cup(R_{2}-R{1})$$</p>
+    <p><strong>Contoh:</strong> $$R_{1}\bigoplus R_{2}=\{(1,x),(2,y),(1,y)\}$$</p>
+  </li>
+</ul>
+<p>Mari dua relasi di atas kita buat matriksnya, kemudian kita melakukan gabungan dan irisan dengan notasi sebagai
+  berikut:</p>
+<p>$$M_{R_{1}\cup R_{2}}=M_{R_{1}\lor R_{2}}$$ dan $$M_{R_{1}\cap R_{2}}=M_{R_{1}\land R_{2}}$$</p>
+<p>$$M_{R^{1}} =\begin{array}{c c}
+  &amp; \begin{array}{c c c} x &amp; y &amp; z \\ \end{array} \\
+  \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
+  \left[
+  \begin{array}{c c c}
+  1 &amp; 0 &amp; 0 \\
+  0 &amp; 1 &amp; 0 \\
+  0 &amp; 0 &amp; 1 \\
+  \end{array}
+  \right]
+  \end{array}$$</p>
+<p>$$M_{R^{2}} =\begin{array}{c c}
+  &amp; \begin{array}{c c c} x &amp; y &amp; z \\ \end{array} \\
+  \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
+  \left[
+  \begin{array}{c c c}
+  0 &amp; 1 &amp; 0 \\
+  0 &amp; 0 &amp; 0 \\
+  0 &amp; 0 &amp; 1 \\
+  \end{array}
+  \right]
+  \end{array}$$</p>
+<p>Maka:</p>
+<p>$$M_{R_{1}\cup R_{2}}=M_{R_{1}\lor R_{2}} =\begin{array}{c c}
+  &amp; \begin{array}{c c c} x &amp; y &amp; z \\ \end{array} \\
+  \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
+  \left[
+  \begin{array}{c c c}
+  1 &amp; 1 &amp; 0 \\
+  0 &amp; 1 &amp; 0 \\
+  0 &amp; 0 &amp; 1 \\
+  \end{array}
+  \right]
+  \end{array}$$</p>
+<p>$$M_{R_{1}\cap R_{2}}=M_{R_{1}\land R_{2}} =\begin{array}{c c}
+  &amp; \begin{array}{c c c} x &amp; y &amp; z \\ \end{array} \\
+  \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
+  \left[
+  \begin{array}{c c c}
+  0 &amp; 0 &amp; 0 \\
+  0 &amp; 0 &amp; 0 \\
+  0 &amp; 0 &amp; 1 \\
+  \end{array}
+  \right]
+  \end{array}$$</p>
