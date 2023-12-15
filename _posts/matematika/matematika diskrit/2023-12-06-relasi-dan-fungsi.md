@@ -534,7 +534,7 @@ published: true
 </ul>
 
 <h2 id="apa-itu-kombinasi-relasi">Apa itu kombinasi relasi?</h2>
-<p>Kombinasi relasi melibatkan penggabungan, irisan, selisih, dan perbedaan simetris dari dua relasi. Mari kita gunakan
+<p>Kombinasi relasi melibatkan penggabungan, irisan, selisih, dan beda setangkup dari dua relasi. Mari kita gunakan
   notasi matematis untuk setiap operasi:</p>
 <p>Misal kita mempunyai himpunan $$A=\{1,2,3\}$$ dan himpunan $$B=\{x,y,z\}$$, serta relasi $$R$$ sebagai berikut:</p>
 <p>$$R_{1}=\{(1,x),(2,y),(3,z)\}$$</p>
