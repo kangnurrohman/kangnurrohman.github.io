@@ -35,6 +35,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-saja-sifat-sifat-relasi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja sifat-sifat relasi?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-inversi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi inversi?
+        </a>
       </li>
     </ul>
   </div>
@@ -479,3 +482,50 @@ published: true
     </ul>
   </li>
 </ol>
+
+<h2 id="apa-itu-relasi-inversi">Apa itu relasi inversi?</h2>
+<p>Relasi invers dari suatu relasi R pada himpunan $$A$$ dan $$B$$ adalah relasi yang membalik arah panah dari $$R$$. Jika $$(a,b)$$
+  adalah anggota dari $$R$$ dengan $$a$$ berasal dari $$A$$ dan $$b$$ berasal dari $$B$$, maka $$(b,a)$$ adalah anggota dari relasi inversnya,
+  disimbolkan sebagai $$R^{-1}$$.</p>
+<p><strong>Notasi:</strong></p>
+<p>Jika $$R$$ adalah relasi pada himpunan $$A$$ dan $$B$$, maka relasi invers $$R^{-1}$$ dinotasikan sebagai:</p>
+<p>$$R^{-1}=\{(b,a)|(a,b)\in R\}$$</p>
+<p><strong>Contoh:</strong></p>
+<ul>
+  <li>
+    <p>Misalkan kita memiliki himpunan $$A=\{1,2,3\}$$ dan himpunan $$B=\{a,b\}$$, serta relasi $$R$$ sebagai berikut:</p>
+    <p>$$R=\{(1,a),(2,b),(3,a)\}$$</p>
+    <p>Maka, relasi inversnya $$R^{-1}$$ adalah:</p>
+    <p>$$R^{-1}=\{(a,1),(b,3),(a,3)\}$$</p>
+  </li>
+  <li>
+    <p><strong>Representasi relasi dengan matriks</strong></p>
+    <p>Jika kita menyajikan $$R$$ dan $$R^{-1}$$ dalam bentuk matriks, dengan baris mewakili himpunan $$A$$ dan kolom mewakili
+      himpunan $$B$$, maka dapat ditulis sebagai berikut:</p>
+    <p>$$M_{R} =\begin{array}{c c}
+      &amp; \begin{array}{c c c} a &amp; b \\ \end{array} \\
+      \begin{array}{c c c} 1 \\ 2 \\ 3 \\ \end{array} &amp;
+      \left[
+      \begin{array}{c c c}
+      1 &amp; 0 \\
+      0 &amp; 1 \\
+      1 &amp; 0 \\
+      \end{array}
+      \right]
+      \end{array}$$</p>
+    <p>Sekarang, untuk mendapatkan matriks $$M_{R^{-1}}$$ yang merepresentasikan invers $$R^{-1}$$, kita membalikkan posisi
+      baris dan kolom pada matriks $$M_{R}$$. Maka, matriks $$R^{-1}$$ akan menjadi:</p>
+    <p>$$M_{R^{-1}} =\begin{array}{c c}
+      &amp; \begin{array}{c c c} 1 &amp; 2 &amp; 3 \\ \end{array} \\
+      \begin{array}{c c c} a \\ b \\ \end{array} &amp;
+      \left[
+      \begin{array}{c c c}
+      1 &amp; 0 &amp; 1 \\
+      0 &amp; 1 &amp; 0 \\
+      \end{array}
+      \right]
+      \end{array}$$</p>
+    <p>Dengan matriks $$M_{R^{-1}}$$, kita dapat melihat bahwa elemen di kolom ke-$$i$$ dan baris ke-$$j$$ menunjukkan apakah
+      terdapat relasi invers dari elemen $$a_{i}$$ di himpunan A ke elemen $$b_{j}$$ di himpunan $$B$$.</p>
+  </li>
+</ul>
