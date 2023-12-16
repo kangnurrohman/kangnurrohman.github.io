@@ -41,6 +41,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-kombinasi-relasi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu kombinasi relasi?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-komposisi-relasi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu komposisi relasi?
+        </a>
       </li>
     </ul>
   </div>
@@ -609,3 +612,96 @@ published: true
   \end{array}
   \right]
   \end{array}$$</p>
+
+<h2 id="apa-itu-komposisi-relasi">Apa itu komposisi relasi?</h2>
+<p>Komposisi relasi adalah operasi gabungan dua relasi untuk membentuk relasi baru. Jika $$R$$ adalah relasi dari $$A$$ ke $$B$$ dan
+  $$S$$ adalah relasi dari $$B$$ ke $$C$$, maka komposisi relasi $$R$$ dan $$S$$ adalah relasi $$T$$ dari $$A$$ ke $$C$$.</p>
+<p><strong>Notasi:</strong></p>
+<p>$$T=R\circ S$$</p>
+<p>$$T=\{(a,c)|a\in A, c\in C, untuk\ beberapa\ b\in B,(a,b)\in R,dan\ (b,c)\in S\}$$</p>
+<p><strong>Contoh:</strong></p>
+<ul>
+  <li>
+    <p>Misalkan kita mempunyai himpunan:</p>
+    <p>$$A=\{1,2,3\},\ B=\{x,y,z\},\ C=\{p,q\}$$</p>
+    <p>Relasi $$R$$ dari $$A$$ ke $$B$$:</p>
+    <p>$$R=\{(1,x),(2,y),(3,z)\}$$</p>
+    <p>Serta relasi $$S$$ dari $$B$$ ke $$C$$:</p>
+    <p>$$S=\{(x,p),(y,q),(z,p)\}$$</p>
+    <p>Maka, komposisi relasi $$T=R\circ S$$ adalah:</p>
+    <p>$$T=\{(1,p),(2,q),(3,p)\}$$</p>
+  </li>
+  <li>
+    <p>Jika kita ingin mengkomposisikan dua matriks relasi $$R_{1}$$ dan $$R_{2}$$, kita menggunakan aturan perkalian matriks.
+      Berikut notasinya:</p>
+    <p>$$M_{R_{2}\circ R_{1}}=M_{R_{1}}\cdot M_{R_{2}}$$</p>
+    <p>Misal kita mempunyai matriks sebagai berikut:</p>
+    <p>$$M_{R_{1}} = \left[\begin{array}{rrr}
+      0 &amp; 0 &amp; 1 \\
+      1 &amp; 1 &amp; 0 \\
+      0 &amp; 0 &amp; 0
+      \end{array}\right]$$</p>
+    <p>$$M_{R_{2}} = \left[\begin{array}{rrr}
+      0 &amp; 1 &amp; 0 \\
+      1 &amp; 0 &amp; 1 \\
+      1 &amp; 0 &amp; 0 \\
+      \end{array}\right]$$</p>
+    <p>$$M_{R_{2}\circ R_{1}} = \left[\begin{array}{rrr}
+      0 &amp; 0 &amp; 1 \\
+      1 &amp; 1 &amp; 0 \\
+      0 &amp; 0 &amp; 0 \\
+      \end{array}\right] \times \left[\begin{array}{rrr}
+      0 &amp; 1 &amp; 0 \\
+      1 &amp; 0 &amp; 1 \\
+      1 &amp; 0 &amp; 0 \\
+      \end{array}\right]$$</p>
+    <p>$$M_{R_{2}\circ R_{1}} = \left[\begin{array}{rrr}
+      (0∧0)∨(0∧1)∨(1∧1) &amp; (0∧1)∨(0∧0)∨(1∧0) &amp; (0∧0)∨(0∧1)∨(1∧0) \\
+      (1∧0)∨(1∧1)∨(0∧1) &amp; (1∧1)∨(1∧0)∨(0∧0) &amp; (1∧0)∨(1∧1)∨(0∧0) \\
+      (0∧0)∨(0∧1)∨(0∧0) &amp; (0∧1)∨(0∧0)∨(0∧0) &amp; (0∧0)∨(0∧1)∨(0∧0)
+      \end{array}\right]$$</p>
+    <p>$$M_{R_{2}\circ R_{1}} = \left[\begin{array}{rrr}
+      0∨0∨1 &amp; 0∨0∨0 &amp; 0∨0∨0 \\
+      0∨1∨0 &amp; 1∨0∨0 &amp; 0∨1∨0 \\
+      0∨0∨0 &amp; 0∨0∨0 &amp; 0∨0∨0 \\
+      \end{array}\right]$$</p>
+    <p>$$M_{R_{2}\circ R_{1}} = \left[\begin{array}{rrr}
+      1 &amp; 0 &amp; 0 \\
+      1 &amp; 1 &amp; 1 \\
+      0 &amp; 0 &amp; 0 \\
+      \end{array}\right]$$</p>
+    <p>Untuk kode pythonnya:</p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
+
+      import numpy as np
+
+      # Matriks R1
+      R1 = np.array([[0, 0, 1],
+                    [1, 1, 0],
+                    [0, 0, 0]])
+
+      # Matriks R2
+      R2 = np.array([[0, 1, 0],
+                    [1, 0, 1],
+                    [1, 0, 0]])
+
+      # Komposisi matriks R1 dan R2
+      result_matrix = np.dot(R1, R2)
+
+      print("Matriks R1:")
+      print(R1)
+      print("\nMatriks R2:")
+      print(R2)
+      print("\nHasil Komposisi (R1 ∘ R2):")
+      print(result_matrix)
+
+    </code>
+    </pre>
+  </div>
+  </li>
+</ul>
