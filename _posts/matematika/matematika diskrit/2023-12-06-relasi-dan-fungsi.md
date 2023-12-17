@@ -548,7 +548,7 @@ published: true
                     [0, 1],
                     [1, 0]])
 
-      # Matriks Invers
+      # Matriks Invers (transpose)
       MR_T = np.transpose(MR)
 
       print("Matriks MR:")
@@ -718,14 +718,14 @@ published: true
                     [1, 0, 0]])
 
       # Komposisi matriks R1 dan R2
-      result_matrix = np.dot(R1, R2)
+      komposisi_matriks = np.dot(R1, R2)
 
       print("Matriks R1:")
       print(R1)
       print("\nMatriks R2:")
       print(R2)
       print("\nHasil Komposisi (R1 ∘ R2):")
-      print(result_matrix)
+      print(komposisi_matriks)
 
     </code>
     </pre>
