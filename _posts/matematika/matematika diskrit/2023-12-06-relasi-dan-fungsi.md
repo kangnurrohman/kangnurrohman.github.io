@@ -533,6 +533,33 @@ published: true
       \end{array}$$</p>
     <p>Dengan matriks $$M_{R^{-1}}$$, kita dapat melihat bahwa elemen di kolom ke-$$i$$ dan baris ke-$$j$$ menunjukkan apakah
       terdapat relasi invers dari elemen $$a_{i}$$ di himpunan A ke elemen $$b_{j}$$ di himpunan $$B$$.</p>
+    <p>Untuk kode pythonnya:</p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
+
+      import numpy as np
+
+      # Matriks MR
+      MR = np.array([[1, 0],
+                    [0, 1],
+                    [1, 0]])
+
+      # Transposenya
+      MR_T = np.transpose(MR)
+
+      print("Matriks MR:")
+      print(MR)
+      print("\nTransposenya (MR_T):")
+      print(MR_T)
+
+    </code>
+    </pre>
+
+  </div>      
   </li>
 </ul>
 
@@ -702,6 +729,7 @@ published: true
 
     </code>
     </pre>
+
   </div>
   </li>
 </ul>
