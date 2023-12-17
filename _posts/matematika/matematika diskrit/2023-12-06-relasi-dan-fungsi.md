@@ -543,12 +543,12 @@ published: true
 
       import numpy as np
 
-      # Matriks MR
+      # Matriks Relasi
       MR = np.array([[1, 0],
                     [0, 1],
                     [1, 0]])
 
-      # Transposenya
+      # Matriks Invers
       MR_T = np.transpose(MR)
 
       print("Matriks MR:")
