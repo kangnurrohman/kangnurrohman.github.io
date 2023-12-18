@@ -490,7 +490,7 @@ published: true
 </ol>
 
 <h2 id="apa-itu-relasi-inversi">Apa itu relasi inversi?</h2>
-<p>Relasi invers dari suatu relasi R pada himpunan $$A$$ dan $$B$$ adalah relasi yang membalik arah panah dari $$R$$. Jika $$(a,b)$$
+<p>Relasi invers dari suatu relasi $$R$$ pada himpunan $$A$$ dan $$B$$ adalah relasi yang membalik arah panah dari $$R$$. Jika $$(a,b)$$
   adalah anggota dari $$R$$ dengan $$a$$ berasal dari $$A$$ dan $$b$$ berasal dari $$B$$, maka $$(b,a)$$ adalah anggota dari relasi inversnya,
   disimbolkan sebagai $$R^{-1}$$.</p>
 <p><strong>Notasi:</strong></p>
