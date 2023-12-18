@@ -44,6 +44,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-komposisi-relasi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu komposisi relasi?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-n-ray">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi n-ray?
+        </a>
       </li>
     </ul>
   </div>
@@ -733,3 +736,74 @@ published: true
   </div>
   </li>
 </ul>
+
+<h2 id="apa-itu-relasi-n-ray">Apa itu relasi n-ray?</h2>
+<p>Relasi n-ray <em>(baca: ener)</em> adalah jenis relasi matematika yang melibatkan lebih dari dua himpunan, biasanya
+  terdiri dari $$n$$ himpunan, dengan $$n$$ lebih besar dari 2 $$(n&gt;2)$$. Relasi ini dapat didefinisikan sebagai himpunan tupel
+  nilai yang diambil dari himpunan-himpunan tersebut. Secara formal, relasi n-ary dapat direpresentasikan sebagai
+  himpunan tupel $$(a_{1},a_{2},\dots,a_{n})$$, di mana setiap $$a_{i}$$ adalah elemen dari himpunan yang sesuai.</p>
+<p><strong>Notasi:</strong></p>
+<p>Jika $$A_{1},A_{2},\dots,A_{n}$$ adalah himpunan-himpunan, maka relasi n-ray $$R$$ dapat diwakili sebagai himpunan semua
+  n-tuple $$(a_{1},a_{2},\dots,a_{n})$$ di mana $$a_{i}\in A_{i}$$ untuk $$i=1,2,\dots,n$$. Notasi matematisnya:</p>
+<p>$$R\subseteq A_{1}\times A_{2}\times\dots\times A_{n}$$</p>
+<p><strong>Contoh:</strong></p>
+<p>Misal kita mempunyai himpunan:</p>
+<p>$$Nama=\{Ainur,Badrus,Caca,Danang,Anwar\}$$</p>
+<p>$$Mata\ Kuliah=\{Matematika, Fisika, Biologi\}$$</p>
+<p>$$ilai=\{A,B,C\}$$</p>
+<p>$$Semester =\{Ganjil, Genap\}$$</p>
+<p>$$Tahun\ Ajaran=\{2021,2022\}$$</p>
+<p>Mari kita buat relasi 5-ray Mahasiswa:</p>
+<p>$$Mahasiswa\subseteq Nama\times Mata\ Kuliah\times Nilai\times Semester\times Tahun\ Ajaran$$</p>
+<p>
+  $$Mahasiswa=\{\\(Ainur,Matematika,A,Ganjil,2021),\\(Badrus,Fisika,B,Genap,2021),\\(Caca,Biologi,C,Ganjil,2022),\\(Danang,Matematika,B,Genap,2021),\\
+  (Anwar,Biologi,B,Genap,2022)\\\}$$</p>
+<p>Relasi Mahasiswa di atas juga dapat disajikan dalam bentuk tabel:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th>Mata Kuliah</th>
+      <th>Nilai</th>
+      <th>Semester</th>
+      <th>Tahun Ajaran</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ainur</td>
+      <td>Matematika</td>
+      <td>A</td>
+      <td>Ganjil</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Badrus</td>
+      <td>Fisika</td>
+      <td>B</td>
+      <td>Genap</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Caca</td>
+      <td>Biologi</td>
+      <td>C</td>
+      <td>Ganjil</td>
+      <td>2022</td>
+    </tr>
+    <tr>
+      <td>Danang</td>
+      <td>Matematika</td>
+      <td>B</td>
+      <td>Genap</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Anwar</td>
+      <td>Biologi</td>
+      <td>B</td>
+      <td>Genap</td>
+      <td>2022</td>
+    </tr>
+  </tbody>
+</table>
