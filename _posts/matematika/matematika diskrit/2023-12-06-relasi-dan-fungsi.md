@@ -920,7 +920,18 @@ published: true
       </tbody>
     </table>
     <p>Untuk kode SQL nya:</p>
-    <pre><code class="fenced-code-block language-sql">SELECT * FROM Mahasiswa WHERE Nilai &gt; 80;</code></pre>
+     <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="sql">
+
+      SELECT * FROM Mahasiswa WHERE Nilai &gt; 80;
+
+    </code>
+    </pre>
+
+  </div>    
   </li>
   <li>
     <p><strong>Proyeksi $$(\pi)$$</strong></p>
@@ -962,7 +973,7 @@ published: true
     <p><strong>Join $$(\tau)$$</strong></p>
     <p>Join digunakan untuk menggabungkan baris dari dua atau lebih tabel berdasarkan kondisi tertentu.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai query seperti ini: $$\tau NIM^{(Mahasiswa, Mahasiswa_Info)}$$</p>
+    <p>Misal kita mempunyai query seperti ini: $$\tau NIM^{(Mahasiswa, Mahasiswa\_Info)}$$</p>
     <p>Query tersebut dibaca: "Gabungkan tabel Mahasiswa dan Mahasiswa_Info berdasarkan NIM". Hasilnya:</p>
     <table>
       <thead>
