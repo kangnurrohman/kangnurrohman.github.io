@@ -925,7 +925,7 @@ published: true
       <i class="fas fa-copy"></i> Salin
     </button>
     <pre>
-    <code class="python">
+    <code class="sql">
 
       SELECT * FROM Mahasiswa WHERE Nilai &gt; 80;
 
@@ -968,7 +968,19 @@ published: true
       </tbody>
     </table>
     <p>Untuk kode SQL nya:</p>
-    <pre><code class="fenced-code-block language-sql">SELECT NIM, NAMA, Nilai FROM Mahasiswa;</code></pre>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="sql">
+
+      SELECT NIM, NAMA, Nilai FROM Mahasiswa;
+
+    </code>
+    </pre>
+
+  </div>
   </li>
   <li>
     <p><strong>Join $$(\tau)$$</strong></p>
@@ -1015,6 +1027,18 @@ published: true
       </tbody>
     </table>
     <p>Untuk kode SQL nya:</p>
-    <pre><code class="fenced-code-block language-sql">SELECT * FROM Mahasiswa JOIN Mahasiswa_Info ON Mahasiswa.NIM = Mahasiswa_Info.NIM;</code></pre>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="sql">
+
+      SELECT * FROM Mahasiswa JOIN Mahasiswa_Info ON Mahasiswa.NIM = Mahasiswa_Info.NIM;
+
+    </code>
+    </pre>
+
+  </div>
   </li>
 </ol>
