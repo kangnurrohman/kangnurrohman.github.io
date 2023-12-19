@@ -47,6 +47,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-n-ray">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi n-ray?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-basis-data">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu basis data?
+        </a>
       </li>
     </ul>
   </div>
@@ -807,3 +810,234 @@ published: true
     </tr>
   </tbody>
 </table>
+
+<h2 id="apa-itu-basis-data">Apa itu basis data?</h2>
+<p>Basis Data adalah kumpulan informasi yang terorganisir secara terstruktur untuk diakses, dikelola, dan diperbarui
+  dengan efisien. Basis data biasanya terdiri dari tabel-tabel yang saling terhubung. Dalam basis data, n-ray digunakan
+  pada relasi atau hubungan antara tabel. Misalnya, n-ray 1 (one-to-one) jika setiap baris di tabel pertama berhubungan
+  dengan satu baris di tabel kedua, n-ray $$n$$ (many-to-many) jika satu baris di tabel pertama dapat berhubungan dengan
+  banyak baris di tabel kedua.</p>
+<h3>Operator dalam basis data</h3>
+<p>Operator dalam basis data mengacu pada berbagai operasi yang dapat dilakukan pada data atau tabel dalam suatu sistem
+  manajemen basis data (DBMS). Beberapa operator umum dalam basis data melibatkan manipulasi, penyaringan, dan
+  penggabungan data. Di bawah ini merupakan jenis-jenis operator dalam basis data. Sebelum menjelaskan lebih detail,
+  mari kita buat dahulu dua tabel untuk dipraktikkan di setiap contoh operator.</p>
+<p><strong>Tabel Mahasiswa</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>NIM</th>
+      <th>Nama</th>
+      <th>Mata_Kuliah</th>
+      <th>Nilai</th>
+      <th>Semester</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>361551</td>
+      <td>Ainur</td>
+      <td>Matematika</td>
+      <td>85</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>361552</td>
+      <td>Ika</td>
+      <td>Fisika</td>
+      <td>78</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>361553</td>
+      <td>Novi</td>
+      <td>Kimia</td>
+      <td>92</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Tabel Mahasiswa_Info</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>NIM</th>
+      <th>Nama</th>
+      <th>Jenis_Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>361551</td>
+      <td>Ainur</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <td>361552</td>
+      <td>Ika</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <td>361553</td>
+      <td>Novi</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+<ol>
+  <li>
+    <p><strong>Seleksi $$(\sigma)$$</strong></p>
+    <p>Seleksi digunakan untuk memilih baris tertentu berdasarkan kondisi tertentu.</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misal kita mempunyai query seperti ini: $$\sigma Nilai&gt;80^{(Mahasiswa)}$$</p>
+    <p>Query tersebut dibaca: "Pilih semua mahasiswa yang mendapatkan nilai di atas 80 dari tabel Mahasiswa". Hasilnya:
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th><strong>NIM</strong></th>
+          <th><strong>Nama</strong></th>
+          <th><strong>Mata_Kuliah</strong></th>
+          <th><strong>Nilai</strong></th>
+          <th><strong>Semester</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>361551</td>
+          <td>Ainur</td>
+          <td>Matematika</td>
+          <td>85</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>361553</td>
+          <td>Novi</td>
+          <td>Kimia</td>
+          <td>92</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Untuk kode SQL nya:</p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
+
+      SELECT * FROM Mahasiswa WHERE Nilai &gt; 80;
+
+    </code>
+    </pre>
+
+  </div>
+    <pre><code class="fenced-code-block language-sql"></code></pre>
+  </li>
+  <li>
+    <p><strong>Proyeksi (\pi)</strong></p>
+    <p>Proyeksi digunakan untuk memilih kolom tertentu dari sebuah tabel. Jika ada baris yang nilainya sama, maka yang
+      diambil hanya satu data.</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misal kita mempunyai query seperti ini: \pi NIM, Nama, Nilai^{(Mahasiswa)}</p>
+    <p>Query tersebut dibaca: "Pilih hanya kolom NIM, Nama, dan Nilai dari tabel Mahasiswa". Hasilnya:</p>
+    <table>
+      <thead>
+        <tr>
+          <th><strong>NIM</strong></th>
+          <th><strong>Nama</strong></th>
+          <th><strong>Nilai</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>361551</td>
+          <td>Ainur</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>361552</td>
+          <td>Ika</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>361553</td>
+          <td>Novi</td>
+          <td>92</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Untuk kode SQL nya:</p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
+
+      SELECT NIM, NAMA, Nilai FROM Mahasiswa;
+
+    </code>
+    </pre>
+
+  </li>
+  <li>
+    <p><strong>Join (\tau)</strong></p>
+    <p>Join digunakan untuk menggabungkan baris dari dua atau lebih tabel berdasarkan kondisi tertentu.</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misal kita mempunyai query seperti ini: \tau NIM^{(Mahasiswa, Mahasiswa_Info)}</p>
+    <p>Query tersebut dibaca: "Gabungkan tabel Mahasiswa dan Mahasiswa_Info berdasarkan NIM". Hasilnya:</p>
+    <table>
+      <thead>
+        <tr>
+          <th><strong>NIM</strong></th>
+          <th><strong>Nama</strong></th>
+          <th><strong>Mata_Kuliah</strong></th>
+          <th><strong>Nilai</strong></th>
+          <th><strong>Semester</strong></th>
+          <th><strong>Jenis_Kelamin</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>361551</td>
+          <td>Ainur</td>
+          <td>Matematika</td>
+          <td>85</td>
+          <td>2</td>
+          <td>Laki-laki</td>
+        </tr>
+        <tr>
+          <td>361552</td>
+          <td>Ika</td>
+          <td>Fisika</td>
+          <td>78</td>
+          <td>2</td>
+          <td>Perempuan</td>
+        </tr>
+        <tr>
+          <td>361553</td>
+          <td>Novi</td>
+          <td>Kimia</td>
+          <td>92</td>
+          <td>1</td>
+          <td>Perempuan</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Untuk kode SQL nya:</p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
+
+      SELECT * FROM Mahasiswa JOIN Mahasiswa_Info ON Mahasiswa.NIM = Mahasiswa_Info.NIM;
+
+    </code>
+    </pre>
+
+  </li>
+</ol>
