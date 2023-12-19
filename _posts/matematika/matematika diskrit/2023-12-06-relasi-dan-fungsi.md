@@ -981,10 +981,10 @@ published: true
     </pre>
   </li>
   <li>
-    <p><strong>Join (\tau)</strong></p>
+    <p><strong>Join $$(\tau)$$</strong></p>
     <p>Join digunakan untuk menggabungkan baris dari dua atau lebih tabel berdasarkan kondisi tertentu.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai query seperti ini: \tau NIM^{(Mahasiswa, Mahasiswa_Info)}</p>
+    <p>Misal kita mempunyai query seperti ini: $$\tau NIM^{(Mahasiswa, Mahasiswa_Info)}$$</p>
     <p>Query tersebut dibaca: "Gabungkan tabel Mahasiswa dan Mahasiswa_Info berdasarkan NIM". Hasilnya:</p>
     <table>
       <thead>
