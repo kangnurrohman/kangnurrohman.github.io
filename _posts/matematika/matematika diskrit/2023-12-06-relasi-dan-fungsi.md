@@ -935,11 +935,11 @@ published: true
   </div>
   </li>
   <li>
-    <p><strong>Proyeksi (\pi)</strong></p>
+    <p><strong>Proyeksi $$(\pi)$$</strong></p>
     <p>Proyeksi digunakan untuk memilih kolom tertentu dari sebuah tabel. Jika ada baris yang nilainya sama, maka yang
       diambil hanya satu data.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai query seperti ini: \pi NIM, Nama, Nilai^{(Mahasiswa)}</p>
+    <p>Misal kita mempunyai query seperti ini: $$\pi NIM, Nama, Nilai^{(Mahasiswa)}$$</p>
     <p>Query tersebut dibaca: "Pilih hanya kolom NIM, Nama, dan Nilai dari tabel Mahasiswa". Hasilnya:</p>
     <table>
       <thead>
