@@ -920,11 +920,12 @@ published: true
       </tbody>
     </table>
     <p>Untuk kode SQL nya:</p>
-     <button class="copy-button">
+    <div class="code-container">
+    <button class="copy-button">
       <i class="fas fa-copy"></i> Salin
     </button>
     <pre>
-    <code class="sql">
+    <code class="python">
 
       SELECT * FROM Mahasiswa WHERE Nilai &gt; 80;
 
