@@ -925,7 +925,7 @@ published: true
       <i class="fas fa-copy"></i> Salin
     </button>
     <pre>
-    <code class="python">
+    <code class="sql">
 
       SELECT * FROM Mahasiswa WHERE Nilai &gt; 80;
 
@@ -933,7 +933,6 @@ published: true
     </pre>
 
   </div>
-    <pre><code class="fenced-code-block language-sql"></code></pre>
   </li>
   <li>
     <p><strong>Proyeksi (\pi)</strong></p>
@@ -974,13 +973,12 @@ published: true
       <i class="fas fa-copy"></i> Salin
     </button>
     <pre>
-    <code class="python">
+    <code class="sql">
 
       SELECT NIM, NAMA, Nilai FROM Mahasiswa;
 
     </code>
     </pre>
-
   </li>
   <li>
     <p><strong>Join (\tau)</strong></p>
@@ -1032,7 +1030,7 @@ published: true
       <i class="fas fa-copy"></i> Salin
     </button>
     <pre>
-    <code class="python">
+    <code class="sql">
 
       SELECT * FROM Mahasiswa JOIN Mahasiswa_Info ON Mahasiswa.NIM = Mahasiswa_Info.NIM;
 
