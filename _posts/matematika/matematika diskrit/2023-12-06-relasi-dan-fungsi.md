@@ -815,7 +815,7 @@ published: true
 <p>Basis Data adalah kumpulan informasi yang terorganisir secara terstruktur untuk diakses, dikelola, dan diperbarui
   dengan efisien. Basis data biasanya terdiri dari tabel-tabel yang saling terhubung. Dalam basis data, n-ray digunakan
   pada relasi atau hubungan antara tabel. Misalnya, n-ray 1 (one-to-one) jika setiap baris di tabel pertama berhubungan
-  dengan satu baris di tabel kedua, n-ray n (many-to-many) jika satu baris di tabel pertama dapat berhubungan dengan
+  dengan satu baris di tabel kedua, n-ray $$n$$ (many-to-many) jika satu baris di tabel pertama dapat berhubungan dengan
   banyak baris di tabel kedua.</p>
 <h3>Operator dalam basis data</h3>
 <p>Operator dalam basis data mengacu pada berbagai operasi yang dapat dilakukan pada data atau tabel dalam suatu sistem
@@ -886,10 +886,10 @@ published: true
 </table>
 <ol>
   <li>
-    <p><strong>Seleksi (\sigma)</strong></p>
+    <p><strong>Seleksi $$(\sigma)$$</strong></p>
     <p>Seleksi digunakan untuk memilih baris tertentu berdasarkan kondisi tertentu.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai query seperti ini: \sigma Nilai&gt;80^{(Mahasiswa)}</p>
+    <p>Misal kita mempunyai query seperti ini: $$\sigma Nilai&gt;80^{(Mahasiswa)}$$</p>
     <p>Query tersebut dibaca: "Pilih semua mahasiswa yang mendapatkan nilai di atas 80 dari tabel Mahasiswa". Hasilnya:
     </p>
     <table>
@@ -923,11 +923,11 @@ published: true
     <pre><code class="fenced-code-block language-sql">SELECT * FROM Mahasiswa WHERE Nilai &gt; 80;</code></pre>
   </li>
   <li>
-    <p><strong>Proyeksi (\pi)</strong></p>
+    <p><strong>Proyeksi $$(\pi)$$</strong></p>
     <p>Proyeksi digunakan untuk memilih kolom tertentu dari sebuah tabel. Jika ada baris yang nilainya sama, maka yang
       diambil hanya satu data.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai query seperti ini: \pi NIM, Nama, Nilai^{(Mahasiswa)}</p>
+    <p>Misal kita mempunyai query seperti ini: $$\pi NIM, Nama, Nilai^{(Mahasiswa)}$$</p>
     <p>Query tersebut dibaca: "Pilih hanya kolom NIM, Nama, dan Nilai dari tabel Mahasiswa". Hasilnya:</p>
     <table>
       <thead>
@@ -959,10 +959,10 @@ published: true
     <pre><code class="fenced-code-block language-sql">SELECT NIM, NAMA, Nilai FROM Mahasiswa;</code></pre>
   </li>
   <li>
-    <p><strong>Join (\tau)</strong></p>
+    <p><strong>Join $$(\tau)$$</strong></p>
     <p>Join digunakan untuk menggabungkan baris dari dua atau lebih tabel berdasarkan kondisi tertentu.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai query seperti ini: \tau NIM^{(Mahasiswa, Mahasiswa_Info)}</p>
+    <p>Misal kita mempunyai query seperti ini: $$\tau NIM^{(Mahasiswa, Mahasiswa_Info)}$$</p>
     <p>Query tersebut dibaca: "Gabungkan tabel Mahasiswa dan Mahasiswa_Info berdasarkan NIM". Hasilnya:</p>
     <table>
       <thead>
