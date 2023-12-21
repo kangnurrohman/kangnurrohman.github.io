@@ -1154,6 +1154,9 @@ published: true
           <img src="/assets/images/post/relasi-dan-fungsi/gambar9.png">
           <figcaption>Gambar 9. Grafik kartesian dari fungsi kuadrat </figcaption>
         </figure>
+    <p>Oh iya,
+      grafik ini saya buat dengan bahasa python dengan bantuan library <code>numpy</code> dan <code>matplotlib</code>,
+      berikut kodenya:</p>
 <div class="code-container">
 <button class="copy-button">
     <i class="fas fa-copy"></i> Salin
