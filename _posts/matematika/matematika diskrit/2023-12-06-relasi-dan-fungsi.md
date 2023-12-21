@@ -47,8 +47,8 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-n-ray">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi n-ray?
         </a>
-        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-basis-data">
-          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu basis data?
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-fungsi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu fungsi?
         </a>
       </li>
     </ul>
@@ -1042,3 +1042,52 @@ published: true
   </div>
   </li>
 </ol>
+
+<h2 id="apa-itu-fungsi">Apa itu fungsi?</h2>
+<p>Fungsi disebut juga pemetaan atau transformasi adalah relasi khusus di antara dua himpunan, di mana setiap elemen
+  dari himpunan pertama (domain) dihubungkan/dipetakan dengan satu elemen di himpunan kedua (kodomain). Dengan kata
+  lain, jika $$(a,b)\in f$$ dan $$(a,c)\in f$$, maka $$b=c$$. Jika satu elemen dari himpunan pertama memiliki lebih dari satu relasi
+  ke elemen kedua, itu bukanlah fungsi.</p>
+<p><strong>Notasi:</strong></p>
+<p>$$f:A\to B$$</p>
+<p>Di mana:</p>
+<ul>
+  <li>
+    <p>$$f$$ adalah simbol fungsi.</p>
+  </li>
+  <li>
+    <p>$$A$$ adalah himpunan pertama yang disebut sebagai domain fungsi.</p>
+  </li>
+  <li>
+    <p>$$B$$ adalah himpunan kedua, yang disebut sebagai kodomain fungsi.</p>
+  </li>
+</ul>
+<p>Notasi di atas menjelaskan bahwa setiap elemen di himpunan $$A$$ memiliki nilai yang unik di himpunan $$B$$. Inilah yang
+  membuat fungsi dikatakan sebagai relasi yang khusus. Selain itu dapat dinotasikan $$f(a)=b$$, di mana $$a$$ adalah elemen dari
+  himpunan $$A$$ yang dihubungkan dengan elemen $$b$$ dari himpunan $$B$$. Sebagai catatan, $$b$$ disebut bayangan <em>(image)</em> dari
+  $$a$$, sedangkan $$a$$ disebut pra-bayangan <em>(pre-image)</em> dari $$b$$.</p>
+<p><strong>Contoh:</strong></p>
+<ul>
+  <li>
+    <p>Misal kita mempunyai himpunan:</p>
+    <p>$$A=\{1,2,3\}$$, $$B=\{x,y,z\}$$</p>
+    <p>Relasi $$f$$ dari $$A$$ ke $$B$$:</p>
+    <p>$$f=\{(1,x),(2,y),(3,z)\}$$</p>
+    <p>Relasi $$f$$ dari $$A$$ ke $$B$$ di atas disebut fungsi, karena setiap elemen dari $$A$$ dipetakan secara unik ke $$B$$.</p>
+    <p>Oh iya, dalam fungsi ada yang dinamakan dengan jelajah <em>(range)</em> dari $$f$$, yaitu himpunan yang berisi semua
+      nilai pemetaan $$f$$ atau himpunan bagian <em>(proper subset)</em> dari $$B$$. Pada contoh di atas jelajah dari $$f$$ adalah
+      $$\{x,y,z\}$$.</p>
+  </li>
+  <li>
+    <p>Kita buat relasi $$f$$ dari $$A$$ ke $$B$$ lagi pakai himpunan di atas:</p>
+    <p>$$f=\{(1,x),(2,z)\}$$</p>
+    <p>Relasi $$f$$ dari $$A$$ ke $$B$$ di atas tidak bisa disebut fungsi. Karena, tidak semua elemen $$A$$ dipetakan ke $$B$$. Ingat
+      baik-baik definisi fungsi ya 😁.</p>
+  </li>
+  <li>
+    <p>Kita buat relasi $$f$$ dari $$A$$ ke $$B$$ lagi pakai himpunan di atas:</p>
+    <p>$$f=\{(1,x),(1,y),(2,z),(3,x)\}$$</p>
+    <p>Relasi $$f$$ dari $$A$$ ke $$B$$ di atas tidak bisa disebut fungsi. Karena, pada elemen $$A$$ dipetakan lebih dari satu ke elemen
+      $$B$$. Pahami baik-baik konsep fungsi 😎.</p>
+  </li>
+</ul>
