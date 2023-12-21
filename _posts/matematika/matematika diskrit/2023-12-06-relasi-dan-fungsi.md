@@ -1199,3 +1199,78 @@ published: true
 </div>
   </li>
 </ol>
+
+<h3>Sifat-sifat fungsi</h3>
+<ol>
+  <li>
+    <p><strong>Satu ke satu atau injektif <em>(injective)</em></strong></p>
+    <p>Suatu fungsi dikatakan bersifat injektif jika setiap elemen dalam domain dipetakan ke elemen yang berbeda dalam
+      kodomain. Dengan kata lain, tidak ada dua atau lebih elemen berbeda dalam domain yang dipetakan ke elemen yang
+      sama dalam kodomain.</p>
+    <p><strong>Notasi:</strong> $$a,b\in A, f(a)\neq f(b)\ hanya\ jika\ a\neq b; f(a)=f(b)\ hanya\ jika\ a=b$$</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misal kita mempunyai himpunan:</p>
+    <p>$$A=\{1,2,3\}$$, $$B=\{x,y,z\}$$</p>
+    <ul>
+      <li>
+        <p>Relasi $$f$$ dari $$A$$ ke $$B$$</p>
+        <p>$$f=\{(1,x),(2,y),(3,z)\}$$</p>
+        <p>Relasi ini dikatakan fungsi yang bersifat injektif, dikarenakan tidak ada elemen yang sama yang dipetakan
+          dalam himpunan $$B$$.</p>
+      </li>
+      <li>
+        <p>Relasi $$f$$ dari $$A$$ ke $$B$$</p>
+        <p>$$f=\{(1,x),(2,x),(3,z)\}$$</p>
+        <p>Relasi ini dikatakan fungsi yang tidak bersifat injektif, dikarenakan ada elemen yang sama yang dipetakan
+          dalam himpunan $$B$$, yaitu elemen $$(x)$$.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Pada <em>(onto)</em> atau surjektif <em>(surjective)</em></strong></p>
+    <p>Suatu fungsi dikatakan bersifat surjektif jika setiap elemen dalam kodomain memiliki setidaknya satu elemen dalam
+      domain yang dipetakan.</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misal kita mempunyai himpunan:</p>
+    <p>$$A=\{1,2,3\}, B=\{x,y,z\}$$</p>
+    <ul>
+      <li>
+        <p>Relasi $$f$$ dari $$A$$ ke $$B$$</p>
+        <p>$$f=\{(1,x),(2,y),(3,z)\}$$</p>
+        <p>Relasi ini dikatakan fungsi yang bersifat surjektif, dikarenakan semua elemen dari himpunan $$B$$ dipetakan pada
+          elemen dari himpunan $$A$$.</p>
+      </li>
+      <li>
+        <p>Relasi $$f$$ dari $$A$$ ke $$B$$</p>
+        <p>$$f=\{(1,x),(2,x),(3,z)\}$$</p>
+        <p>Relasi ini dikatakan fungsi yang tidak bersifat surjektif, dikarenakan ada elemen pada himpunan $$B$$ yang tidak
+          dipetakan pada elemen dari himpunan $$A$$, yaitu elemen $$(z)$$.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Berkoresponden satu ke satu atau bijeksi <em>(bijection)</em></strong></p>
+    <p>Suatu fungsi dikatakan bersifat bijeksi jika fungsi tersebut bersifat injektif <strong>dan</strong> surjektif.
+    </p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misal kita mempunyai himpunan:</p>
+    <p>$$A=\{1,2,3\}$$, $$B=\{x,y,z\}$$</p>
+    <p>Relasi $$f$$ dari $$A$$ ke $$B$$</p>
+    <p>$$f=\{(1,x),(2,y),(3,z)\}$$</p>
+    <p>Relasi ini dikatakan fungsi yang bersifat bijeksi, karena bersifat injektif dan surjektif.</p>
+  </li>
+  <li>
+    <p><strong>Fungsi inversi</strong></p>
+    <p>Fungsi inversi adalah fungsi yang memetakan setiap elemen dalam kodomain ke elemen yang sesuai dalam domain.
+      Dengan kata lain, jika $$f$$ memetakan $$a$$ ke $$b$$, maka fungsi invers $$f^{-1}$$ memetakan $$b$$ kembali ke $$a$$. Oh iya, fungsi
+      invers hanya ada jika fungsi $$f$$ bersifat injektif <strong>dan</strong> surjektif ya.</p>
+    <p><strong>Notasi:</strong> $$a\in A,b\in B,f(a)=b\to f^{-1}(b)=(a)$$</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misal kita mempunyai himpunan:</p>
+    <p>$$A=\{1,2,3\}$$, $$B=\{x,y,z\}$$</p>
+    <p>Relasi $$f$$ dari $$A$$ ke $$B$$</p>
+    <p>$$f=\{(1,x),(2,y),(3,z)\}$$</p>
+    <p>Maka relasi inversnya adalah</p>
+    <p>$$f^{-1}=\{(x,1),(y,2),(z,3)\}$$</p>
+  </li>
+</ol>
