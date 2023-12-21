@@ -1274,3 +1274,27 @@ published: true
     <p>$$f^{-1}=\{(x,1),(y,2),(z,3)\}$$</p>
   </li>
 </ol>
+
+<h3>Apa itu komposisi fungsi?</h3>
+<p>Komposisi fungsi adalah operasi matematika yang digunakan untuk menggabungkan dua atau lebih fungsi untuk membentuk
+  fungsi baru.</p>
+<p><strong>Notasi:</strong></p>
+<p>Jika $$g:A\to B$$ dan $$f:B\to C$$, maka komposisi fungsi $$f$$ dengan $$g$$ dinyatakan sebagai: $$(f\circ g)(x)=f(g(x))$$</p>
+<p><strong>Contoh:</strong></p>
+<p>Misal kita punya himpunan:</p>
+<p>$$A=\{1,2,3\}$$, $$B=\{x,y,z\}$$, $$C=\{i,j,k\}$$</p>
+<p>relasi $$g$$ dari $$A$$ ke $$B$$: $$g=\{(1,x),(2,y),(3,z)\}$$</p>
+<p>relasi $$f$$ dari $$B$$ ke $$C$$: $$f=\{(x,i),(y,j),(z,k)\}$$</p>
+<p>Maka, $$f\circ g=\{(1,i),(2,j),(3,k)\}$$</p>
+<p>Komposisi fungsi sendiri tidak komutatif. Artinya, urutan fungsi dalam komposisi mempengaruhi hasilnya. Secara
+  formal, jika $$g:A\to B$$ dan $$f:B\to C$$, maka:</p>
+<p>$$(f\circ g)(x)\neq(f\circ g)(x)$$</p>
+<p>Artinya, $$f\circ g$$ tidak sama dengan $$g\circ f$$.</p>
+<p><strong>Contoh:</strong></p>
+<p>Misal kita memiliki dua fungsi:</p>
+<p>$$f(x)=2x$$ dan $$g(x)=x^{2}$$</p>
+<p>Kemudian kita bentuk komposisi $$f\circ g$$ dan $$g\circ f$$:</p>
+<p>$$(f\circ g)(x)=f(g(x))=f(x^{2})=2x^{2}$$</p>
+<p>$$g\circ f(x)=g(f(x))=g(2x)=(2x)^{2}=4x^{2}$$</p>
+<p>Dengan demikian, $$f\circ g$$ tidak sama dengan $$g\circ f$$ dalam contoh ini. Oleh karena itu, komposisi fungsi tidak
+  bersifat komutatif secara umum.</p>
