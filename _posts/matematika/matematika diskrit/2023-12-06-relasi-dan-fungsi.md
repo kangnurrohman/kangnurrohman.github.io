@@ -1091,3 +1091,88 @@ published: true
       $$B$$. Pahami baik-baik konsep fungsi 😎.</p>
   </li>
 </ul>
+
+<h3 id="spesifikasi-fungsi">Spesifikasi fungsi</h3>
+<ol>
+  <li>
+    <p><strong>Himpunan pasangan terurut</strong></p>
+    <p>Fungsi dapat direpresentasikan dalam bentuk himpunan pasangan terurut, di mana setiap pasangan terdiri dari
+      elemen-elemen dari dua himpunan, yaitu domain dan kodomain. Setiap elemen domain dipetakan ke elemen dalam
+      kodomain secara unik.</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Jika f adalah fungsi yang memetakan bilangan bulat (\mathbb{Z}) ke bilangan genap (\mathbb{E}), maka
+      f=\{(1,2),(2,4),(3,6),\cdots\} adalah himpunan pasangan terurut yang merepresentasikan fungsi tersebut.</p>
+  </li>
+  <li>
+    <p><strong>Formula pengisian nilai <em>(assignment)</em></strong></p>
+    <p>Fungsi dapat direpresentasikan dengan cara formula pengisian nilai atau <em>assignment</em>, di mana diberikan
+      formula matematis yang menggambarkan bagaimana nilai <em>output</em> muncul berdasarkan nilai <em>input</em>.</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Pada fungsi linear f(x)=mx+b memiliki formula pengisian nilai f(x), dimana m adalah kemiringan garis dan b adalah
+      perpotongan sumbu y.</p>
+  </li>
+  <li>
+    <p><strong>Kata-kata/deskripsi</strong></p>
+    <p>Fungsi dapat dijabarkan menggunakan kata-kata, yaitu dengan mendeskripsikan secara verbal hubungan antara
+      elemen-elemen dalam domain dan kodomain.</p>
+    <p><strong>Contoh:</strong></p>
+    <p>Misalkan g adalah fungsi yang menggambarkan peningkatan gaji berdasarkan pengalam kerja. Deskripsi atau kata-kata
+      fungsinya adalah: "Fungsi g memetakan setiap tahun pengalaman kerja (x) ke gaji (g(x)), di mana gaji meningkat
+      seiring dengan bertambahnya pengalaman."</p>
+  </li>
+  <li>
+    <p><strong>Kode program</strong></p>
+    <p>Fungsi dapat diimplementasikan ke dalam bahasa pemrograman. Kode program ini menjelaskan cara nilai
+      <em>output</em> keluar berdasarkan nilai <em>input</em>.
+    </p>
+    <p><strong>Contoh:</strong></p>
+    <p>Mari kita gunakan bahasa pemrogaman Python untuk membuat fungsi kuadrat:</p>
+    <pre><code class="fenced-code-block language-python">def kuadrat(x):
+   return x**2</code></pre>
+    <p>Fungsi ini mengambil x dan mengembalikan x^{2} sebagai <em>output</em>.</p>
+  </li>
+  <li>
+    <p><strong>Kurva/grafik kartesian</strong></p>
+    <p>Fungsi dapat direpresentasikan secara visual menggunakan grafik kartesian dalam bentuk kurva atau garis pada
+      sistem koordinat kartesian. Setiap titik pada grafik merepresentasikan pasangan nilai <em>input</em> dan
+      <em>output</em> fungsi.
+    </p>
+    <p><strong>Contoh:</strong></p>
+    <p>Grafik fungsi kuadrat f(x)=x^{2} membentuk parabola yang membuka ke atas pada bidang kartesian. Titik-titik pada
+      parabola ini merepresentasikan pasangan <em>input</em> dan <em>output</em> dari fungsi kuadrat.</p>
+    <p>Berikut grafik kartesian dari f(x)=x^{2}</p>
+    <p><img alt=""
+        src="file:///D:/Experiment/content-blog/image/Relasi%20dan%20Fungsi/gambar9.png?msec=1703130473206">Oh iya,
+      grafik ini saya buat dengan bahasa python dengan bantuan library <code>numpy</code> dan <code>matplotlib</code>,
+      berikut kodenya:</p>
+    <pre><code class="fenced-code-block language-python">import matplotlib.pyplot as plt
+import numpy as np
+
+# Fungsi kuadrat
+def quadratic_function(x):
+   return x**2
+
+# Generate nilai x dari -10 hingga 10 dengan selang 0.1
+x_values = np.arange(-10, 10.1, 0.1)
+
+# Hitung nilai y untuk setiap x menggunakan fungsi kuadrat
+y_values = quadratic_function(x_values)
+
+# Plot grafik
+plt.plot(x_values, y_values, label='f(x) = x^2')
+
+# Menambahkan label dan judul
+plt.xlabel('Nilai x')
+plt.ylabel('Nilai f(x)')
+plt.title('Grafik Fungsi Kuadrat')
+
+# Menambahkan grid
+plt.grid(True)
+
+# Menampilkan legenda
+plt.legend()
+
+# Menampilkan grafik
+plt.show()</code></pre>
+  </li>
+</ol>
