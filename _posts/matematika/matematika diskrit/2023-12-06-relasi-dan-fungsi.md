@@ -1100,24 +1100,24 @@ published: true
       elemen-elemen dari dua himpunan, yaitu domain dan kodomain. Setiap elemen domain dipetakan ke elemen dalam
       kodomain secara unik.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Jika f adalah fungsi yang memetakan bilangan bulat (\mathbb{Z}) ke bilangan genap (\mathbb{E}), maka
-      f=\{(1,2),(2,4),(3,6),\cdots\} adalah himpunan pasangan terurut yang merepresentasikan fungsi tersebut.</p>
+    <p>Jika $$f$$ adalah fungsi yang memetakan bilangan bulat $$(\mathbb{Z})$$ ke bilangan genap $$(\mathbb{E})$$, maka
+      $$f=\{(1,2),(2,4),(3,6),\cdots\}$$ adalah himpunan pasangan terurut yang merepresentasikan fungsi tersebut.</p>
   </li>
   <li>
     <p><strong>Formula pengisian nilai <em>(assignment)</em></strong></p>
     <p>Fungsi dapat direpresentasikan dengan cara formula pengisian nilai atau <em>assignment</em>, di mana diberikan
       formula matematis yang menggambarkan bagaimana nilai <em>output</em> muncul berdasarkan nilai <em>input</em>.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Pada fungsi linear f(x)=mx+b memiliki formula pengisian nilai f(x), dimana m adalah kemiringan garis dan b adalah
-      perpotongan sumbu y.</p>
+    <p>Pada fungsi linear $$f(x)=mx+b$$ memiliki formula pengisian nilai $$f(x)$$, di mana $$m$$ adalah kemiringan garis dan $$b$$ adalah
+      perpotongan sumbu $$y$$.</p>
   </li>
   <li>
     <p><strong>Kata-kata/deskripsi</strong></p>
     <p>Fungsi dapat dijabarkan menggunakan kata-kata, yaitu dengan mendeskripsikan secara verbal hubungan antara
       elemen-elemen dalam domain dan kodomain.</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misalkan g adalah fungsi yang menggambarkan peningkatan gaji berdasarkan pengalam kerja. Deskripsi atau kata-kata
-      fungsinya adalah: "Fungsi g memetakan setiap tahun pengalaman kerja (x) ke gaji (g(x)), di mana gaji meningkat
+    <p>Misalkan $$g$$ adalah fungsi yang menggambarkan peningkatan gaji berdasarkan pengalaman kerja. Deskripsi atau kata-kata
+      fungsinya adalah: "Fungsi $$g$$ memetakan setiap tahun pengalaman kerja $$(x)$$ ke gaji $$(g(x))$$, di mana gaji meningkat
       seiring dengan bertambahnya pengalaman."</p>
   </li>
   <li>
@@ -1138,7 +1138,7 @@ published: true
     </pre>
 
   </div>
-    <p>Fungsi ini mengambil x dan mengembalikan x^{2} sebagai <em>output</em>.</p>
+    <p>Fungsi ini mengambil $$x$$ dan mengembalikan $$x^{2}$$ sebagai <em>output</em>.</p>
   </li>
   <li>
     <p><strong>Kurva/grafik kartesian</strong></p>
@@ -1147,12 +1147,12 @@ published: true
       <em>output</em> fungsi.
     </p>
     <p><strong>Contoh:</strong></p>
-    <p>Grafik fungsi kuadrat f(x)=x^{2} membentuk parabola yang membuka ke atas pada bidang kartesian. Titik-titik pada
+    <p>Grafik fungsi kuadrat $$f(x)=x^{2}$$ membentuk parabola yang membuka ke atas pada bidang kartesian. Titik-titik pada
       parabola ini merepresentasikan pasangan <em>input</em> dan <em>output</em> dari fungsi kuadrat.</p>
-    <p>Berikut grafik kartesian dari f(x)=x^{2}</p>
+    <p>Berikut grafik kartesian dari $$f(x)=x^{2}$$</p>
     <figure>
           <img src="/assets/images/post/relasi-dan-fungsi/gambar9.png">
-          <figcaption>Gambar 7. Grafik kartesian dari fungsi kuadrat </figcaption>
+          <figcaption>Gambar 9. Grafik kartesian dari fungsi kuadrat </figcaption>
         </figure>
 <div class="code-container">
 <button class="copy-button">
