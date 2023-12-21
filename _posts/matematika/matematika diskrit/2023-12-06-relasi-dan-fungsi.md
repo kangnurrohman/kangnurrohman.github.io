@@ -1092,7 +1092,7 @@ published: true
   </li>
 </ul>
 
-<h3 id="spesifikasi-fungsi">Spesifikasi fungsi</h3>
+<h3>Spesifikasi fungsi</h3>
 <ol>
   <li>
     <p><strong>Himpunan pasangan terurut</strong></p>
@@ -1127,8 +1127,17 @@ published: true
     </p>
     <p><strong>Contoh:</strong></p>
     <p>Mari kita gunakan bahasa pemrogaman Python untuk membuat fungsi kuadrat:</p>
-    <pre><code class="fenced-code-block language-python">def kuadrat(x):
-   return x**2</code></pre>
+    <div class="code-container">
+    <pre>
+    <code class="python">
+
+      def kuadrat(x):
+        return x**2
+
+    </code>
+    </pre>
+
+  </div>
     <p>Fungsi ini mengambil x dan mengembalikan x^{2} sebagai <em>output</em>.</p>
   </li>
   <li>
@@ -1141,38 +1150,49 @@ published: true
     <p>Grafik fungsi kuadrat f(x)=x^{2} membentuk parabola yang membuka ke atas pada bidang kartesian. Titik-titik pada
       parabola ini merepresentasikan pasangan <em>input</em> dan <em>output</em> dari fungsi kuadrat.</p>
     <p>Berikut grafik kartesian dari f(x)=x^{2}</p>
-    <p><img alt=""
-        src="file:///D:/Experiment/content-blog/image/Relasi%20dan%20Fungsi/gambar9.png?msec=1703130473206">Oh iya,
-      grafik ini saya buat dengan bahasa python dengan bantuan library <code>numpy</code> dan <code>matplotlib</code>,
-      berikut kodenya:</p>
-    <pre><code class="fenced-code-block language-python">import matplotlib.pyplot as plt
-import numpy as np
+    <figure>
+          <img src="/assets/images/post/relasi-dan-fungsi/gambar9.png">
+          <figcaption>Gambar 7. Grafik kartesian dari fungsi kuadrat </figcaption>
+        </figure>
+<div class="code-container">
+<button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="python">
 
-# Fungsi kuadrat
-def quadratic_function(x):
-   return x**2
+    import matplotlib.pyplot as plt
+    import numpy as np
 
-# Generate nilai x dari -10 hingga 10 dengan selang 0.1
-x_values = np.arange(-10, 10.1, 0.1)
+    # Fungsi kuadrat
+    def quadratic_function(x):
+      return x**2
 
-# Hitung nilai y untuk setiap x menggunakan fungsi kuadrat
-y_values = quadratic_function(x_values)
+    # Generate nilai x dari -10 hingga 10 dengan selang 0.1
+    x_values = np.arange(-10, 10.1, 0.1)
 
-# Plot grafik
-plt.plot(x_values, y_values, label='f(x) = x^2')
+    # Hitung nilai y untuk setiap x menggunakan fungsi kuadrat
+    y_values = quadratic_function(x_values)
 
-# Menambahkan label dan judul
-plt.xlabel('Nilai x')
-plt.ylabel('Nilai f(x)')
-plt.title('Grafik Fungsi Kuadrat')
+    # Plot grafik
+    plt.plot(x_values, y_values, label='f(x) = x^2')
 
-# Menambahkan grid
-plt.grid(True)
+    # Menambahkan label dan judul
+    plt.xlabel('Nilai x')
+    plt.ylabel('Nilai f(x)')
+    plt.title('Grafik Fungsi Kuadrat')
 
-# Menampilkan legenda
-plt.legend()
+    # Menambahkan grid
+    plt.grid(True)
 
-# Menampilkan grafik
-plt.show()</code></pre>
+    # Menampilkan legenda
+    plt.legend()
+
+    # Menampilkan grafik
+    plt.show()
+
+  </code>
+  </pre>
+</div>
   </li>
 </ol>
