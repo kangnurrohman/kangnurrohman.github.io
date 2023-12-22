@@ -1335,10 +1335,21 @@ print(hasil)</code></pre>
     <p><strong>Notasi:</strong> a\ mod\ b=a-b\lfloor\frac{a}{b}\rfloor</p>
     <p><strong>Contoh:</strong> 17\ mod\ 5=2,\ -14\ mod\ 3=1</p>
     <p><strong>Kode python:</strong></p>
-    <pre><code class="fenced-code-block language-python">a = 17
-b = 5
-hasil = a % b
-print(hasil)</code></pre>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+      <pre>
+      <code class="python">
+
+        a = 17
+        b = 5
+        result = a % b
+        print(result)
+
+      </code>
+      </pre>
+    </div>
   </li>
   <li>
     <p><strong>Faktorial</strong></p>
@@ -1347,11 +1358,23 @@ print(hasil)</code></pre>
     <p><strong>Notasi:</strong> n!=n\times (n-1)\times\cdots\times2\times1</p>
     <p><strong>Contoh:</strong> 5!=5\times4\times3\times2\times1=120</p>
     <p><strong>Kode python:</strong></p>
-    <pre><code class="fenced-code-block language-python">import math
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+      <pre>
+      <code class="python">
 
-n = 5
-hasil = math.factorial(n)
-print(hasil)</code></pre>
+        import math
+
+        n = 5
+        result = math.factorial(n)
+        print(result)
+
+      </code>
+      </pre>
+    </div>
+
   </li>
   <li>
     <p><strong>Eksponensial</strong></p>
