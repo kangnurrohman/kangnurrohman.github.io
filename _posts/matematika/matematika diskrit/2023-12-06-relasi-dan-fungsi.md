@@ -1310,8 +1310,8 @@ published: true
   <li>
     <p><strong>Floor</strong></p>
     <p>Fungsi <em>floor</em> digunakan untuk membulatkan nilai ke bawah.</p>
-    <p><strong>Notasi:</strong> \lfloor x\rfloor=max\{n\in \mathbb{Z}|n\le x\}</p>
-    <p><strong>Contoh:</strong> \lfloor3.8 \rfloor=3,\ \lfloor-2.5\rfloor=-3</p>
+    <p><strong>Notasi:</strong> $$\lfloor x\rfloor=max\{n\in \mathbb{Z}|n\le x\}$$</p>
+    <p><strong>Contoh:</strong> $$\lfloor3.8 \rfloor=3,\ \lfloor-2.5\rfloor=-3$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1333,8 +1333,8 @@ published: true
   <li>
     <p><strong>Ceiling</strong></p>
     <p>Fungsi <em>ceiling</em> digunakan untuk membulatkan nilai ke atas.</p>
-    <p><strong>Notasi:</strong> \lceil x\rceil=min\{n\in \mathbb{Z}|n\ge x\}</p>
-    <p><strong>Contoh:</strong> \lceil 3.2\rceil=4,\ \lceil -1.6 \rceil=-1</p>
+    <p><strong>Notasi:</strong> $$\lceil x\rceil=min\{n\in \mathbb{Z}|n\ge x\}$$</p>
+    <p><strong>Contoh:</strong> $$\lceil 3.2\rceil=4,\ \lceil -1.6 \rceil=-1$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1356,8 +1356,8 @@ published: true
   <li>
     <p><strong>Modulo</strong></p>
     <p>Fungsi <em>modulo</em> digunakan untuk menghitung sisa bagi.</p>
-    <p><strong>Notasi:</strong> a\ mod\ b=a-b\lfloor\frac{a}{b}\rfloor</p>
-    <p><strong>Contoh:</strong> 17\ mod\ 5=2,\ -14\ mod\ 3=1</p>
+    <p><strong>Notasi:</strong> $$a\ mod\ b=a-b\lfloor\frac{a}{b}\rfloor$$</p>
+    <p><strong>Contoh:</strong> $$17\ mod\ 5=2,\ -14\ mod\ 3=1$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1377,10 +1377,10 @@ published: true
   </li>
   <li>
     <p><strong>Faktorial</strong></p>
-    <p>Faktorial dari suatu bilangan n(n!) adalah hasil perkalian semua bilangan positif dari 1 hinggan n. Penerapan
+    <p>Faktorial dari suatu bilangan $$n(n!)$$ adalah hasil perkalian semua bilangan positif dari $$1$$ hinggan $$n$$. Penerapan
       pada bidang komputer, digunakan dalam perhitungan kombinatorika, algoritma</p>
-    <p><strong>Notasi:</strong> n!=n\times (n-1)\times\cdots\times2\times1</p>
-    <p><strong>Contoh:</strong> 5!=5\times4\times3\times2\times1=120</p>
+    <p><strong>Notasi:</strong> $$n!=n\times (n-1)\times\cdots\times2\times1$$</p>
+    <p><strong>Contoh:</strong> $$5!=5\times4\times3\times2\times1=120$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1402,25 +1402,25 @@ published: true
   </li>
   <li>
     <p><strong>Eksponensial</strong></p>
-    <p>Eksponensial adalah fungsi matematika yang menghitung pertumbuhan eksponesial. Nilai e adalah konstanta Euler.
-      Apa itu konstanta euler?. Konstanta euler adalah suatu bilangan irrasional yang memiliki nilai kira-kira 2.71828.
+    <p>Eksponensial adalah fungsi matematika yang menghitung pertumbuhan eksponesial. Nilai $$e$$ adalah konstanta Euler.
+      Apa itu konstanta euler?. Konstanta euler adalah suatu bilangan irrasional yang memiliki nilai kira-kira $$2.71828$$.
       Konstanta ini memiliki peran penting dalam banyak cabang matematika, fisika, dan rekayasa.</p>
     <p><strong>Notasi:</strong></p>
     <ul>
       <li>
-        <p>Eksponen positif: a_{n}=a\times a\times \cdots\times a</p>
+        <p>Eksponen positif: $$a_{n}=a\times a\times \cdots\times a$$</p>
       </li>
       <li>
-        <p>Eksponen negatif: a^{-n}=\frac{1}{a^{n}}</p>
+        <p>Eksponen negatif: $$a^{-n}=\frac{1}{a^{n}}$$</p>
       </li>
     </ul>
     <p> <strong>Contoh</strong></p>
 <ul>
   <li>
-    <p>Eksponen positif: 2^{3}=2\times 2\times 2=8</p>
+    <p>Eksponen positif: $$2^{3}=2\times 2\times 2=8$$</p>
   </li>
   <li>
-    <p>Eksponen negatif: 2^{-3}=\frac{1}{2^{3}}=\frac{1}{8}</p>
+    <p>Eksponen negatif: $$2^{-3}=\frac{1}{2^{3}}=\frac{1}{8}$$</p>
   </li>
 </ul>
 <p> <strong>Kode python:</strong></p>
@@ -1467,8 +1467,8 @@ published: true
     <p><strong>Logaritmik</strong></p>
     <p>Fungsi logaritma adalah kebalikan dari fungsi eksponensial. Logaritma sering digunakan dalam analisis
       kompleksitas algoritma.</p>
-    <p><strong>Notasi:</strong> ^{b}log\ x=y\leftrightarrow b^{y}=x</p>
-    <p><strong>Contoh:</strong> ^{2}log(8)=3 \leftrightarrow 2^{3} = 8</p>
+    <p><strong>Notasi:</strong> $$^{b}log\ x=y\leftrightarrow b^{y}=x$$</p>
+    <p><strong>Contoh:</strong> $$^{2}log(8)=3 \leftrightarrow 2^{3} = 8$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
