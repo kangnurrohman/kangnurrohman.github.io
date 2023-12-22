@@ -1313,10 +1313,22 @@ published: true
     <p><strong>Notasi:</strong> \lfloor x\rfloor=max\{n\in \mathbb{Z}|n\le x\}</p>
     <p><strong>Contoh:</strong> \lfloor3.8 \rfloor=3,\ \lfloor-2.5\rfloor=-3</p>
     <p><strong>Kode python:</strong></p>
-    <pre><code class="fenced-code-block language-python">import math
-x = 3.8
-hasil = math.floor(x)
-print(hasil)</code></pre>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+      <pre>
+      <code class="python">
+
+        import math
+
+        x = 3.8
+        result = math.floor(x)
+        print(result)
+
+      </code>
+      </pre>
+    </div>
   </li>
   <li>
     <p><strong>Ceiling</strong></p>
@@ -1324,10 +1336,22 @@ print(hasil)</code></pre>
     <p><strong>Notasi:</strong> \lceil x\rceil=min\{n\in \mathbb{Z}|n\ge x\}</p>
     <p><strong>Contoh:</strong> \lceil 3.2\rceil=4,\ \lceil -1.6 \rceil=-1</p>
     <p><strong>Kode python:</strong></p>
-    <pre><code class="fenced-code-block language-python">import math
-x = 3.2
-hasil = math.ceil(x)
-print(hasil)</code></pre>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+      <pre>
+      <code class="python">
+
+        import math
+
+        x = 3.2
+        result = math.ceil(x)
+        print(result)
+
+      </code>
+      </pre>
+    </div>
   </li>
   <li>
     <p><strong>Modulo</strong></p>
