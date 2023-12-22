@@ -50,6 +50,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-fungsi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu fungsi?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-komposisi-fungsi">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu komposisi fungsi?
+        </a>
       </li>
     </ul>
   </div>
@@ -1275,7 +1278,7 @@ published: true
   </li>
 </ol>
 
-<h3>Apa itu komposisi fungsi?</h3>
+<h2 id="apa-itu-komposisi-fungsi">Apa itu komposisi fungsi?</h2>
 <p>Komposisi fungsi adalah operasi matematika yang digunakan untuk menggabungkan dua atau lebih fungsi untuk membentuk
   fungsi baru.</p>
 <p><strong>Notasi:</strong></p>
@@ -1297,4 +1300,4 @@ published: true
 <p>$$(f\circ g)(x)=f(g(x))=f(x^{2})=2x^{2}$$</p>
 <p>$$g\circ f(x)=g(f(x))=g(2x)=(2x)^{2}=4x^{2}$$</p>
 <p>Dengan demikian, $$f\circ g$$ tidak sama dengan $$g\circ f$$ dalam contoh ini. Oleh karena itu, komposisi fungsi tidak
-  bersifat komutatif secara umum.</p>
+  bersifat komutatif secara umum, kecuali jika $f$ = $g$.</p>
