@@ -53,6 +53,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-komposisi-fungsi">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu komposisi fungsi?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-saja-beberapa-fungsi-khusus">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja beberapa fungsi khusus?
+        </a>
       </li>
     </ul>
   </div>
@@ -1301,3 +1304,126 @@ published: true
 <p>$$g\circ f(x)=g(f(x))=g(2x)=(2x)^{2}=4x^{2}$$</p>
 <p>Dengan demikian, $$f\circ g$$ tidak sama dengan $$g\circ f$$ dalam contoh ini. Oleh karena itu, komposisi fungsi tidak
   bersifat komutatif secara umum, kecuali jika $$f$$ = $$g$$.</p>
+
+<h2 id="apa-saja-beberapa-fungsi-khusus">Apa saja beberapa fungsi khusus?</h2>
+<ol>
+  <li>
+    <p><strong>Floor</strong></p>
+    <p>Fungsi <em>floor</em> digunakan untuk membulatkan nilai ke bawah.</p>
+    <p><strong>Notasi:</strong> \lfloor x\rfloor=max\{n\in \mathbb{Z}|n\le x\}</p>
+    <p><strong>Contoh:</strong> \lfloor3.8 \rfloor=3,\ \lfloor-2.5\rfloor=-3</p>
+    <p><strong>Kode python:</strong></p>
+    <pre><code class="fenced-code-block language-python">import math
+x = 3.8
+hasil = math.floor(x)
+print(hasil)</code></pre>
+  </li>
+  <li>
+    <p><strong>Ceiling</strong></p>
+    <p>Fungsi <em>ceiling</em> digunakan untuk membulatkan nilai ke atas.</p>
+    <p><strong>Notasi:</strong> \lceil x\rceil=min\{n\in \mathbb{Z}|n\ge x\}</p>
+    <p><strong>Contoh:</strong> \lceil 3.2\rceil=4,\ \lceil -1.6 \rceil=-1</p>
+    <p><strong>Kode python:</strong></p>
+    <pre><code class="fenced-code-block language-python">import math
+x = 3.2
+hasil = math.ceil(x)
+print(hasil)</code></pre>
+  </li>
+  <li>
+    <p><strong>Modulo</strong></p>
+    <p>Fungsi <em>modulo</em> digunakan untuk menghitung sisa bagi.</p>
+    <p><strong>Notasi:</strong> a\ mod\ b=a-b\lfloor\frac{a}{b}\rfloor</p>
+    <p><strong>Contoh:</strong> 17\ mod\ 5=2,\ -14\ mod\ 3=1</p>
+    <p><strong>Kode python:</strong></p>
+    <pre><code class="fenced-code-block language-python">a = 17
+b = 5
+hasil = a % b
+print(hasil)</code></pre>
+  </li>
+  <li>
+    <p><strong>Faktorial</strong></p>
+    <p>Faktorial dari suatu bilangan n(n!) adalah hasil perkalian semua bilangan positif dari 1 hinggan n. Penerapan
+      pada bidang komputer, digunakan dalam perhitungan kombinatorika, algoritma</p>
+    <p><strong>Notasi:</strong> n!=n\times (n-1)\times\cdots\times2\times1</p>
+    <p><strong>Contoh:</strong> 5!=5\times4\times3\times2\times1=120</p>
+    <p><strong>Kode python:</strong></p>
+    <pre><code class="fenced-code-block language-python">import math
+
+n = 5
+hasil = math.factorial(n)
+print(hasil)</code></pre>
+  </li>
+  <li>
+    <p><strong>Eksponensial</strong></p>
+    <p>Eksponensial adalah fungsi matematika yang menghitung pertumbuhan eksponesial. Nilai e adalah konstanta Euler.
+      Apa itu konstanta euler?. Konstanta euler adalah suatu bilangan irrasional yang memiliki nilai kira-kira 2.71828.
+      Konstanta ini memiliki peran penting dalam banyak cabang matematika, fisika, dan rekayasa.</p>
+    <p><strong>Notasi:</strong></p>
+    <ul>
+      <li>
+        <p>Eksponen positif: a_{n}=a\times a\times \cdots\times a</p>
+      </li>
+      <li>
+        <p>Eksponen negatif: a^{-n}=\frac{1}{a^{n}}</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p> <strong>Contoh</strong></p>
+<ul>
+  <li>
+    <p>Eksponen positif: 2^{3}=2\times 2\times 2=8</p>
+  </li>
+  <li>
+    <p>Eksponen negatif: 2^{-3}=\frac{1}{2^{3}}=\frac{1}{8}</p>
+  </li>
+</ul>
+<p> <strong>Kode python:</strong></p>
+<pre><code class="fenced-code-block language-python"># Perpangkatan dengan eksponen positif
+base_pos = 2
+exponent_pos = 3
+result_pos = base_pos ** exponent_pos
+print(f"{base_pos}^{exponent_pos} = {result_pos}")</code></pre>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+      <pre>
+      <code class="python">
+
+      # Perpangkatan dengan eksponen negatif
+      base_neg = 2
+      exponent_neg = -3
+      result_neg = base_neg ** exponent_neg
+      print(f"{base_neg}^{exponent_neg} = {result_neg}")
+
+      </code>
+      </pre>
+    </div>
+<ol start="6">
+  <li>
+    <p><strong>Logaritmik</strong></p>
+    <p>Fungsi logaritma adalah kebalikan dari fungsi eksponensial. Logaritma sering digunakan dalam analisis
+      kompleksitas algoritma.</p>
+    <p><strong>Notasi:</strong> ^{b}log\ x=y\leftrightarrow b^{y}=x</p>
+    <p><strong>Contoh:</strong> ^{2}log(8)=3 \leftrightarrow 2^{3} = 8</p>
+    <p><strong>Kode python:</strong></p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+      <pre>
+      <code class="python">
+
+      import math
+
+      x = 8
+      base = 2
+      result = math.log(x, base)
+      print(result)
+
+      </code>
+      </pre>
+    </div>
+  </li>
+</ol>
