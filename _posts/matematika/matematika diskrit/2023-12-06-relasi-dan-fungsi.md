@@ -1300,4 +1300,4 @@ published: true
 <p>$$(f\circ g)(x)=f(g(x))=f(x^{2})=2x^{2}$$</p>
 <p>$$g\circ f(x)=g(f(x))=g(2x)=(2x)^{2}=4x^{2}$$</p>
 <p>Dengan demikian, $$f\circ g$$ tidak sama dengan $$g\circ f$$ dalam contoh ini. Oleh karena itu, komposisi fungsi tidak
-  bersifat komutatif secara umum, kecuali jika $f$ = $g$.</p>
+  bersifat komutatif secara umum, kecuali jika $$f$$ = $$g$$.</p>
