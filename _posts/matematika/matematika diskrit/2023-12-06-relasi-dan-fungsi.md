@@ -1384,22 +1384,12 @@ base_pos = 2
 exponent_pos = 3
 result_pos = base_pos ** exponent_pos
 print(f"{base_pos}^{exponent_pos} = {result_pos}")</code></pre>
-    <div class="code-container">
-    <button class="copy-button">
-      <i class="fas fa-copy"></i> Salin
-    </button>
-      <pre>
-      <code class="python">
 
-      # Perpangkatan dengan eksponen negatif
-      base_neg = 2
-      exponent_neg = -3
-      result_neg = base_neg ** exponent_neg
-      print(f"{base_neg}^{exponent_neg} = {result_neg}")
-
-      </code>
-      </pre>
-    </div>
+<pre><code class="fenced-code-block language-python"># Perpangkatan dengan eksponen negatif
+base_neg = 2
+exponent_neg = -3
+result_neg = base_neg ** exponent_neg
+print(f"{base_neg}^{exponent_neg} = {result_neg}")</code></pre>
 <ol start="6">
   <li>
     <p><strong>Logaritmik</strong></p>
