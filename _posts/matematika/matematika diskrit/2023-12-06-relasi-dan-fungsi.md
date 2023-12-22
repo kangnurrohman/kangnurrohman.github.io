@@ -1367,9 +1367,7 @@ print(hasil)</code></pre>
         <p>Eksponen negatif: a^{-n}=\frac{1}{a^{n}}</p>
       </li>
     </ul>
-  </li>
-</ol>
-<p> <strong>Contoh</strong></p>
+    <p> <strong>Contoh</strong></p>
 <ul>
   <li>
     <p>Eksponen positif: 2^{3}=2\times 2\times 2=8</p>
@@ -1390,6 +1388,9 @@ base_neg = 2
 exponent_neg = -3
 result_neg = base_neg ** exponent_neg
 print(f"{base_neg}^{exponent_neg} = {result_neg}")</code></pre>
+  </li>
+</ol>
+
 <ol start="6">
   <li>
     <p><strong>Logaritmik</strong></p>
