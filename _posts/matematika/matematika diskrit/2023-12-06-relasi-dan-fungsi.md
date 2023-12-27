@@ -56,6 +56,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-saja-beberapa-fungsi-khusus">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa saja beberapa fungsi khusus?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-fungsi-rekursif">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu fungsi rekursif?
+        </a>
       </li>
     </ul>
   </div>
@@ -1329,6 +1332,7 @@ published: true
       </code>
       </pre>
     </div>
+
   </li>
   <li>
     <p><strong>Ceiling</strong></p>
@@ -1352,6 +1356,7 @@ published: true
       </code>
       </pre>
     </div>
+
   </li>
   <li>
     <p><strong>Modulo</strong></p>
@@ -1374,6 +1379,7 @@ published: true
       </code>
       </pre>
     </div>
+
   </li>
   <li>
     <p><strong>Faktorial</strong></p>
@@ -1487,5 +1493,113 @@ published: true
       </code>
       </pre>
     </div>
+
+  </li>
+</ol>
+
+<h2 id="apa-itu-fungsi-rekursif">Apa itu fungsi rekursif?</h2>
+<p>Fungsi rekursif adalah suatu fungsi yang memanggil dirinya sendiri. Fungsi rekursif, membagi masalah menjadi
+  submasalah yang lebih kecil, dan untuk mengatasi sebuah masalah, rekursif menggabungkan solusi-solusi dari submasalah
+  tersebut.</p>
+<p>Mari kita membuat analogi sederhana. Anggap kita sedang menyelesaikan permainan teka-teki yang kompleks. Dalam
+  teka-teki tersebut, kita menemukan kata yang sulit pada teka-teki tersebut. Untuk memecahkan masalah ini, kita bisa
+  menggunakan pendekatan rekursif dengan memecah masalah ini menjadi pencarian kata untuk setiap baris dan kolom, di
+  mana setiap pencarian kata itu sendiri adalah masalah yang lebih kecil. Dengan teknik ini, kita secara bertahap
+  menemukan jawaban kata yang sulit dari teka-teki. Inilah cara kerja fungsi rekursif, menangani submasalah untuk
+  menyelesaikan masalah keseluruhan.</p>
+<p>Fungsi rekursif disusun oleh dua bagian, yaitu:</p>
+<ol>
+  <li>
+    <p><strong>Basis</strong></p>
+    <p>Basis adalah kondisi di mana fungsi rekursif berhenti memanggil dirinya sendiri. Basis digunakan untuk mencegah
+      kondisi <em>infinite loop</em> (pemanggilan terus-menerus tak terbatas).</p>
+  </li>
+  <li>
+    <p><strong>Rekurensi</strong></p>
+    <p>Rekurensi adalah ekspresi matematika atau logika yang mendefinisikan hubungan antara masalah keseluruhan dengan
+      submasalah yang lebih kecil. Rekursi digunakan untuk memberikan <em>rule</em> tentang bagaimana fungsi harus
+      memanggil dirinya sendiri dengan masalah yang lebih sederhana, sehingga secara bertahap mencapai basis rekursi.
+    </p>
+  </li>
+</ol>
+<p><strong>Notasi:</strong> f(n)=g(n)+f(n-1)</p>
+<p><strong>Kode python:</strong></p>
+<div class="code-container">
+  <button class="copy-button">
+    <i class="fas fa-copy"></i> Salin
+  </button>
+  <pre>
+  <code class="bash">
+
+   def recursive_function(n):
+    return g(n) + recursive_function(n-1)
+
+  </code>
+  </pre>
+</div>
+
+<p><strong>Contoh:</strong></p>
+<ol>
+  <li>
+    <p><strong>Fungsi Faktorial</strong></p>
+    <p><strong>Notasi:</strong></p>
+    <p>f(n) =
+      \begin{cases}
+      1, &amp; \text{jika } n = 0 \\
+      n\times f(n-1), &amp; \text{jika } n &gt; 0
+      \end{cases}</p>
+    <p><strong>Kode python:</strong></p>
+    <pre><code class="fenced-code-block language-python">def factorial(n):
+   if n == 0:
+       return 1
+   else:
+       return n * factorial(n-1)
+
+result = factorial(5)</code></pre>
+
+  </li>
+  <li>
+    <p><strong>Fungsi Chebyshev</strong></p>
+    <p>Fungsi chebyshev adalah fungsi matematika yang didefinisikan pada interval tertentu dan memiliki sifat rekursif.
+    </p>
+    <p><strong>Notasi:</strong></p>
+    <p>T(n) =
+      \begin{cases}
+      1, &amp; \text{jika } n = 0 \\
+      x, &amp; \text{jika } n = 1 \\
+      2xT(n-1,x)-T(n-2,x), &amp; \text{jika } n &gt; 1
+      \end{cases} </p>
+    <pre><code class="fenced-code-block language-python">def chebyshev(n, x):
+   if n == 0:
+       return 1
+   elif n == 1:
+       return x
+   else:
+       return 2 * x * chebyshev(n-1, x) - chebyshev(n-2, x)
+
+result = chebyshev(3, 0.5)</code></pre>
+
+  </li>
+  <li>
+    <p><strong>Fungsi Fibonacci</strong></p>
+    <p>Fungsi fibonacci adalah urutan bilangan yang dimulai dengan 0 dan 1, dan setiap elemen berikutnya diperoleh
+      dengan menjumlahkan dua elemen sebelumnya.</p>
+    <p><strong>Notasi:</strong></p>
+    <p>f(n) =
+      \begin{cases}
+      0, &amp; \text{jika } n = 0 \\
+      1, &amp; \text{jika } n = 1 \\
+      f(n-1)+f(n-2), &amp; \text{jika } n &gt; 1
+      \end{cases}</p>
+    <pre><code class="fenced-code-block language-python">def fibonacci(n):
+   if n == 0:
+       return 0
+   elif n == 1:
+       return 1
+   else:
+       return fibonacci(n-1) + fibonacci(n-2)
+
+result = fibonacci(5)</code></pre>
+
   </li>
 </ol>
