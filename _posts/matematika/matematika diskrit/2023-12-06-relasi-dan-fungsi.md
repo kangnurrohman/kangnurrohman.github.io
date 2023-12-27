@@ -1577,15 +1577,27 @@ published: true
       x, &amp; \text{jika } n = 1 \\
       2xT(n-1,x)-T(n-2,x), &amp; \text{jika } n &gt; 1
       \end{cases} </p>
-    <pre><code class="fenced-code-block language-python">def chebyshev(n, x):
-   if n == 0:
-       return 1
-   elif n == 1:
-       return x
-   else:
-       return 2 * x * chebyshev(n-1, x) - chebyshev(n-2, x)
+    <p><strong>Kode python:</strong></p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
 
-result = chebyshev(3, 0.5)</code></pre>
+    def chebyshev(n, x):
+      if n == 0:
+          return 1
+      elif n == 1:
+          return x
+      else:
+          return 2 * x * chebyshev(n-1, x) - chebyshev(n-2, x)
+
+    result = chebyshev(3, 0.5)
+
+    </code>
+    </pre>
+    </div>
 
   </li>
   <li>
@@ -1599,15 +1611,27 @@ result = chebyshev(3, 0.5)</code></pre>
       1, &amp; \text{jika } n = 1 \\
       f(n-1)+f(n-2), &amp; \text{jika } n &gt; 1
       \end{cases}</p>
-    <pre><code class="fenced-code-block language-python">def fibonacci(n):
-   if n == 0:
-       return 0
-   elif n == 1:
-       return 1
-   else:
-       return fibonacci(n-1) + fibonacci(n-2)
+    <p><strong>Kode python:</strong></p>
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
 
-result = fibonacci(5)</code></pre>
+    def fibonacci(n):
+      if n == 0:
+          return 0
+      elif n == 1:
+          return 1
+      else:
+          return fibonacci(n-1) + fibonacci(n-2)
+
+    result = fibonacci(5)
+
+    </code>
+    </pre>
+    </div>    
 
   </li>
 </ol>
