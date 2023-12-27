@@ -62,6 +62,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-kesetaraan">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi kesetaraan?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-pengurutan-parsial">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi pengurutan parsial?
+        </a>
       </li>
     </ul>
   </div>
@@ -1531,8 +1534,8 @@ published: true
   <pre>
   <code class="python">
 
-   def recursive_function(n):
-    return g(n) + recursive_function(n-1)
+def recursive_function(n):
+return g(n) + recursive_function(n-1)
 
   </code>
   </pre>
@@ -1634,7 +1637,7 @@ published: true
 
     </code>
     </pre>
-    </div>    
+    </div>
 
   </li>
 </ol>
@@ -1646,11 +1649,49 @@ published: true
 <p><strong>Contoh:</strong></p>
 <p>Misalkan himpunan $$A$$ adalah himpunan keluarga, dan $$R$$ adalah relasi kesetaraan "seseorang adalah saudara kandung dari
   orang lain". Artinya $$xRy$$, di mana $$x$$ dan $$y$$ adalah individu dalam himpunan keluarga.</p>
-<p><strong>Sifat refleksif</strong></p>
+<p><strong>Refleksif</strong></p>
 <p>Setiap individu adalah saudara kandung dari dirinya sendiri. Jika dinotasikan: $$x\equiv x$$ karena setiap orang adalah
   saudara kandung dari dirinya sendiri.</p>
-<p><strong>Sifat transitif</strong></p>
+<p><strong>Transitif</strong></p>
 <p>jika $$A$$ adalah saudara kandung dari $$B$$ dan $$B$$ adalah saudara kandung dari $$C$$, maka $$A$$ juga saudara kandung dari $$C$$. Jika
   dinotasikan: Jika $$x\equiv y$$ dan $$y\equiv z$$, maka $$x\equiv z$$.</p>
-<p><strong>Sifat simetris</strong></p>
+<p><strong>Simetris</strong></p>
 <p>jika $$A$$ adalah saudara kandung dari $$B$$, maka $$B$$ juga saudara kandung dari $$A$$. Jika dinotasikan: Jika $$x\equiv y$$, maka $$y\equiv x$$.</p>
+
+<h2 id="apa-itu-relasi-pengurutan-parsial">Apa itu relasi pengurutan parsial?</h2>
+<p>Relasi pengurutan parsial adalah relasi biner yang memenuhi tiga sifat relasi, yaitu: refleksif, transitif, dan
+  antisimetris. Dalam suatu himpunan, relasi pengurutan parsial memberikan suatu cara untuk membandingkan elemen-elemen
+  dalam hal "lebih kecil dari" atau "kurang dari atau sama dengan."</p>
+<p><strong>Notasi:</strong></p>
+<p>Jika $$R$$ adalah relasi pengurutan parsial pada suatu himpunan $$A$$, notasi matematisnya adalah $$a\leq b$$ atau $$aRb$$, yang
+  berarti elemen $$a$$ kurang dari atau sama dengan elemen $$b$$.</p>
+<p><strong>Contoh</strong></p>
+<p>Misalkan $$A$$ adalah himpunan bilangan bulat, dan $$R$$ adalah relasi pengurutan parsial yang didefinisikan sebagai "lebih
+  kecil dari atau sama dengan."</p>
+<p><strong>Simetris</strong></p>
+<ul>
+  <li>
+    <p>Setiap elemen setidaknya kurang dari atau sama dengan dirinya sendiri.</p>
+  </li>
+  <li>
+    <p>Untuk setiap $$a$$ dalam $$A$$, $$a\leq a$$.</p>
+  </li>
+</ul>
+<p><strong>Transitif</strong></p>
+<ul>
+  <li>
+    <p>Jika $$a\leq b$$ dan $$b\leq c$$, maka $$a\leq c$$.</p>
+  </li>
+  <li>
+    <p>Jika $$2\leq 4$$ dan $$4\leq 6$$, $$maka 2\leq 6$$.</p>
+  </li>
+</ul>
+<p><strong>Antisimetris</strong></p>
+<ul>
+  <li>
+    <p>Jika $$a\leq b$$ dan $$b\leq a$$, maka $$a$$ harus sama dengan $$b$$.</p>
+  </li>
+  <li>
+    <p>Jika $$3\leq 5$$ dan $$5\leq 3$$, maka $$3=5$$.</p>
+  </li>
+</ul>
