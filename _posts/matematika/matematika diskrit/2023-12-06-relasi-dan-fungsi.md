@@ -1525,9 +1525,6 @@ published: true
 <p><strong>Notasi:</strong> f(n)=g(n)+f(n-1)</p>
 <p><strong>Kode python:</strong></p>
 <div class="code-container">
-  <button class="copy-button">
-    <i class="fas fa-copy"></i> Salin
-  </button>
   <pre>
   <code class="bash">
 
@@ -1549,13 +1546,24 @@ published: true
       n\times f(n-1), &amp; \text{jika } n &gt; 0
       \end{cases}</p>
     <p><strong>Kode python:</strong></p>
-    <pre><code class="fenced-code-block language-python">def factorial(n):
-   if n == 0:
-       return 1
-   else:
-       return n * factorial(n-1)
+    <div class="code-container">
+    <button class="copy-button">
+      <i class="fas fa-copy"></i> Salin
+    </button>
+    <pre>
+    <code class="python">
 
-result = factorial(5)</code></pre>
+    def factorial(n):
+      if n == 0:
+          return 1
+      else:
+          return n * factorial(n-1)
+
+    result = factorial(5)
+
+    </code>
+    </pre>
+    </div>
 
   </li>
   <li>
