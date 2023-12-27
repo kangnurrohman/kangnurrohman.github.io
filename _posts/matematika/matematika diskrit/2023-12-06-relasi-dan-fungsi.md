@@ -59,6 +59,9 @@ published: true
         <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-fungsi-rekursif">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu fungsi rekursif?
         </a>
+        <a class="table-of-contents-link" href="relasi-dan-fungsi/#apa-itu-relasi-kesetaraan">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Apa itu relasi kesetaraan?
+        </a>
       </li>
     </ul>
   </div>
@@ -1635,3 +1638,19 @@ published: true
 
   </li>
 </ol>
+
+<h2 id="apa-itu-relasi-kesetaraan">Apa itu relasi kesetaraan?</h2>
+<p>Relasi kesetaraan adalah suatu relasi biner yang memenuhi tiga sifat relasi, yaitu: refleksif, transitif, dan
+  simetris. Relasi kesetaraan digunakan untuk membagi himpunan elemen-elemen ke dalam kelas kesetaraan, di mana
+  elemen-elemen dalam kelas yang sama dianggap setara satu sama lain.</p>
+<p><strong>Contoh:</strong></p>
+<p>Misalkan himpunan $$A$$ adalah himpunan keluarga, dan $$R$$ adalah relasi kesetaraan "seseorang adalah saudara kandung dari
+  orang lain". Artinya $$xRy$$, di mana $$x$$ dan $$y$$ adalah individu dalam himpunan keluarga.</p>
+<p><strong>Sifat refleksif</strong></p>
+<p>Setiap individu adalah saudara kandung dari dirinya sendiri. Jika dinotasikan: $$x\equiv x$$ karena setiap orang adalah
+  saudara kandung dari dirinya sendiri.</p>
+<p><strong>Sifat transitif</strong></p>
+<p>jika $$A$$ adalah saudara kandung dari $$B$$ dan $$B$$ adalah saudara kandung dari $$C$$, maka $$A$$ juga saudara kandung dari $$C$$. Jika
+  dinotasikan: Jika $$x\equiv y$$ dan $$y\equiv z$$, maka $$x\equiv z$$.</p>
+<p><strong>Sifat simetris</strong></p>
+<p>jika $$A$$ adalah saudara kandung dari $$B$$, maka $$B$$ juga saudara kandung dari $$A$$. Jika dinotasikan: Jika $$x\equiv y$$, maka $$y\equiv x$$.</p>
