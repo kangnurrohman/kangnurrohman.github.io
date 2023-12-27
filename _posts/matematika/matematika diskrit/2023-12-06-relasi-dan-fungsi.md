@@ -1522,11 +1522,11 @@ published: true
     </p>
   </li>
 </ol>
-<p><strong>Notasi:</strong> f(n)=g(n)+f(n-1)</p>
+<p><strong>Notasi:</strong> $$f(n)=g(n)+f(n-1)$$</p>
 <p><strong>Kode python:</strong></p>
 <div class="code-container">
   <pre>
-  <code class="bash">
+  <code class="python">
 
    def recursive_function(n):
     return g(n) + recursive_function(n-1)
@@ -1540,11 +1540,11 @@ published: true
   <li>
     <p><strong>Fungsi Faktorial</strong></p>
     <p><strong>Notasi:</strong></p>
-    <p>f(n) =
+    <p>$$f(n) =
       \begin{cases}
       1, &amp; \text{jika } n = 0 \\
       n\times f(n-1), &amp; \text{jika } n &gt; 0
-      \end{cases}</p>
+      \end{cases}$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1571,12 +1571,12 @@ published: true
     <p>Fungsi chebyshev adalah fungsi matematika yang didefinisikan pada interval tertentu dan memiliki sifat rekursif.
     </p>
     <p><strong>Notasi:</strong></p>
-    <p>T(n) =
+    <p>$$T(n) =
       \begin{cases}
       1, &amp; \text{jika } n = 0 \\
       x, &amp; \text{jika } n = 1 \\
       2xT(n-1,x)-T(n-2,x), &amp; \text{jika } n &gt; 1
-      \end{cases} </p>
+      \end{cases}$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1605,12 +1605,12 @@ published: true
     <p>Fungsi fibonacci adalah urutan bilangan yang dimulai dengan 0 dan 1, dan setiap elemen berikutnya diperoleh
       dengan menjumlahkan dua elemen sebelumnya.</p>
     <p><strong>Notasi:</strong></p>
-    <p>f(n) =
+    <p>$$f(n) =
       \begin{cases}
       0, &amp; \text{jika } n = 0 \\
       1, &amp; \text{jika } n = 1 \\
       f(n-1)+f(n-2), &amp; \text{jika } n &gt; 1
-      \end{cases}</p>
+      \end{cases}$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
