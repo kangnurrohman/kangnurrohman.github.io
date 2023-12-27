@@ -1683,7 +1683,7 @@ return g(n) + recursive_function(n-1)
     <p>Jika $$a\leq b$$ dan $$b\leq c$$, maka $$a\leq c$$.</p>
   </li>
   <li>
-    <p>Jika $$2\leq 4$$ dan $$4\leq 6$$, $$maka 2\leq 6$$.</p>
+    <p>Jika $$2\leq 4$$ dan $$4\leq 6$$, maka $$2\leq 6$$.</p>
   </li>
 </ul>
 <p><strong>Antisimetris</strong></p>
