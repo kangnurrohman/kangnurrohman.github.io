@@ -1571,7 +1571,7 @@ published: true
     <p>Fungsi chebyshev adalah fungsi matematika yang didefinisikan pada interval tertentu dan memiliki sifat rekursif.
     </p>
     <p><strong>Notasi:</strong></p>
-    <p>$$T(n) =
+    <p>$$T(n,x) =
       \begin{cases}
       1, &amp; \text{jika } n = 0 \\
       x, &amp; \text{jika } n = 1 \\
