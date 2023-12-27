@@ -1513,6 +1513,19 @@ published: true
   mana setiap pencarian kata itu sendiri adalah masalah yang lebih kecil. Dengan teknik ini, kita secara bertahap
   menemukan jawaban kata yang sulit dari teka-teki. Inilah cara kerja fungsi rekursif, menangani submasalah untuk
   menyelesaikan masalah keseluruhan.</p>
+<p><strong>Notasi:</strong> $$f(n)=g(n)+f(n-1)$$</p>
+<p><strong>Kode python:</strong></p>
+<div class="code-container">
+  <pre>
+  <code class="python">
+
+    def recursive_function(n):
+      return g(n) + recursive_function(n-1)
+
+  </code>
+  </pre>
+</div>
+
 <p>Fungsi rekursif disusun oleh dua bagian, yaitu:</p>
 <ol>
   <li>
@@ -1528,18 +1541,6 @@ published: true
     </p>
   </li>
 </ol>
-<p><strong>Notasi:</strong> $$f(n)=g(n)+f(n-1)$$</p>
-<p><strong>Kode python:</strong></p>
-<div class="code-container">
-  <pre>
-  <code class="python">
-
-def recursive_function(n):
-return g(n) + recursive_function(n-1)
-
-  </code>
-  </pre>
-</div>
 
 <p><strong>Contoh:</strong></p>
 <ol>
