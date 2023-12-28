@@ -1710,16 +1710,16 @@ published: true
 <ol>
   <li>
     <p><strong>Klosur Refleksif</strong></p>
-    <p>Klosur refleksif dari suatu relasi R pada himpunan A adalah himpunan terkecil yang terdapat R dan bersifat
-      refleksif. Proses pembentukan klosur refleksif melibatkan penambahan elemen refleksif (a,a) untuk setiap a dalam
-      A.</p>
-    <p><strong>Notasi:</strong> R^{+}=R\cup \{(a,a)|a\in A\}</p>
+    <p>Klosur refleksif dari suatu relasi $$R$$ pada himpunan $$A$$ adalah himpunan terkecil yang terdapat $$R$$ dan bersifat
+      refleksif. Proses pembentukan klosur refleksif melibatkan penambahan elemen refleksif $$(a,a)$$ untuk setiap $$a$$ dalam
+      $$A$$.</p>
+    <p><strong>Notasi:</strong> $$R^{+}=R\cup \{(a,a)|a\in A\}$$</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai himpunan A = \{1,2,3,4\} dan relasi R=\{(1,2),(3,4)\}.</p>
-    <p>Relasi ini tidak bersifat refleksif karena (a,a)\notin R. Mari kita buat relasi yang bersifat refleksif:</p>
-    <p>\{(1,1),(2,2),(3,3),(4,4)\}</p>
-    <p>Lalu kita buat klosur refleksifnya dengan menggabungkan R dengan relasi yang baru dibuat:</p>
-    <p>R^{+}=\{(1,1),(2,2),(3,3),(4,4),(1,2),(3,4)\}</p>
+    <p>Misal kita mempunyai himpunan $$A = \{1,2,3,4\}$$ dan relasi $$R=\{(1,2),(3,4)\}$$.</p>
+    <p>Relasi ini tidak bersifat refleksif karena $$(a,a)\notin R$$. Mari kita buat relasi yang bersifat refleksif:</p>
+    <p>$$\{(1,1),(2,2),(3,3),(4,4)\}$$</p>
+    <p>Lalu kita buat klosur refleksifnya dengan menggabungkan $$R$$ dengan relasi yang baru dibuat:</p>
+    <p>$$R^{+}=\{(1,1),(2,2),(3,3),(4,4),(1,2),(3,4)\}$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1751,17 +1751,17 @@ published: true
   </li>
   <li>
     <p><strong>Klosur Simetris</strong></p>
-    <p>Klosur simetris dari suatu relasi R pada himpunan A adalah himpunan terkecil yang terdapat R dan bersifat
-      simetris. Proses pembentukan klosur simetris melibatkan penambahan elemen simetris (b,a) untuk setiap (a,b) dalam
-      R.</p>
-    <p><strong>Notasi:</strong> R^{sym}=R\cup \{(b,a)|(a,b)\in R\}</p>
+    <p>Klosur simetris dari suatu relasi $$R$$ pada himpunan $$A$$ adalah himpunan terkecil yang terdapat $$R$$ dan bersifat
+      simetris. Proses pembentukan klosur simetris melibatkan penambahan elemen simetris $$(b,a)$$ untuk setiap $$(a,b)$$ dalam
+      $$R$$.</p>
+    <p><strong>Notasi:</strong> $$R^{sym}=R\cup \{(b,a)|(a,b)\in R\}$$</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai himpunan A = \{1,2,3,4\} dan relasi R=\{(1,2),(3,4)\}.</p>
-    <p>Relasi ini tidak bersifat simetris karena (a,b)\in R namun (b,a)\notin R. Mari kita buat relasi yang bersifat
+    <p>Misal kita mempunyai himpunan $$A = \{1,2,3,4\}$$ dan relasi $$R=\{(1,2),(3,4)\}$$.</p>
+    <p>Relasi ini tidak bersifat simetris karena $$(a,b)\in R$$ namun $$(b,a)\notin R$$. Mari kita buat relasi yang bersifat
       simetris:</p>
-    <p>\{(2,1),(4,3)\}</p>
-    <p>Lalu kita buat klosur simetrisnya dengan menggabungkan R dengan relasi yang baru dibuat:</p>
-    <p>R^{sym}=\{(1,2),(2,1),(3,4),(4,3)\}</p>
+    <p>$$\{(2,1),(4,3)\}$$</p>
+    <p>Lalu kita buat klosur simetrisnya dengan menggabungkan $$R$$ dengan relasi yang baru dibuat:</p>
+    <p>$$R^{sym}=\{(1,2),(2,1),(3,4),(4,3)\}$$</p>
     <p><strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
@@ -1796,39 +1796,39 @@ published: true
   </li>
   <li>
     <p><strong>Klosur Transitif</strong></p>
-    <p>Klosur transitif dari suatu relasi R pada himpunan A adalah himpunan terkecil yang mengandung R dan bersifat
+    <p>Klosur transitif dari suatu relasi $$R$$ pada himpunan $$A$$ adalah himpunan terkecil yang mengandung $$R$$ dan bersifat
       transitif. Proses pembentukan klosur transitif agak beda dan agak sulit dari klosur sebelumnya.</p>
-    <p><strong>Notasi:</strong> R^{*}=R\cup R^{2}\cup R^{3}\cup \cdots\cup R^{n}</p>
+    <p><strong>Notasi:</strong> $$R^{*}=R\cup R^{2}\cup R^{3}\cup \cdots\cup R^{n}$$</p>
     <p><strong>Contoh:</strong></p>
-    <p>Misal kita mempunyai himpunan A = \{1,2,3,4\} dan relasi R=\{(1,2),(1,4),(2,1),(3,2)\}.</p>
-    <p>Relasi ini tidak bersifat transitif karena (a,b)\in R\ dan\ (b,c)\in R namun (a,c)\notin R. Mari kita buat relasi
+    <p>Misal kita mempunyai himpunan $$A = \{1,2,3,4\}$$ dan relasi $$R=\{(1,2),(1,4),(2,1),(3,2)\}$$.</p>
+    <p>Relasi ini tidak bersifat transitif karena $$(a,b)\in R\ dan\ (b,c)\in R$$ namun $$(a,c)\notin R$$. Mari kita buat relasi
       yang bersifat transitif:</p>
     <ul>
       <li>
-        <p><strong>Perhitungan R^{2}</strong></p>
-        <p>R^{2}=R\circ R</p>
-        <p>R\circ R=\{(1,2),(1,4),(2,1),(3,2)\}\circ \{(1,2),(1,4),(2,1),(3,2)\}</p>
-        <p>R\circ R=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
+        <p><strong>Perhitungan $$R^{2}$$</strong></p>
+        <p>$$R^{2}=R\circ R$$</p>
+        <p>$$R\circ R=\{(1,2),(1,4),(2,1),(3,2)\}\circ \{(1,2),(1,4),(2,1),(3,2)\}$$</p>
+        <p>$$R\circ R=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}$$</p>
       </li>
       <li>
-        <p><strong>Perhitungan R^{3}</strong></p>
-        <p>R^{3}=R\circ R^{2}</p>
-        <p>R\circ R^{2}=\{(1,2),(1,4),(2,1),(3,2)\}\circ \\
-          \{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
-        <p>R\circ R^{2}=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
+        <p><strong>Perhitungan $$R^{3}$$</strong></p>
+        <p>$$R^{3}=R\circ R^{2}$$</p>
+        <p>$$R\circ R^{2}=\{(1,2),(1,4),(2,1),(3,2)\}\circ \\
+          \{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}$$</p>
+        <p>$$R\circ R^{2}=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}$$</p>
       </li>
       <li>
-        <p><strong>Perhitungan R^{4}</strong></p>
-        <p>R^{4}=R\circ R^{3}</p>
-        <p>R\circ R^{3}=\{(1,2),(1,4),(2,1),(3,2)\}\circ \\
-          \{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
-        <p>R\circ R^{3}=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
+        <p><strong>Perhitungan $$R^{4}$$</strong></p>
+        <p>$$R^{4}=R\circ R^{3}$$</p>
+        <p>$$R\circ R^{3}=\{(1,2),(1,4),(2,1),(3,2)\}\circ \\
+          \{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}$$</p>
+        <p>$$R\circ R^{3}=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}$$</p>
       </li>
       <li>
-        <p><strong>Klosur Transitif R^{*}</strong></p>
-        <p>R^{*}=R\cup R^{2}\cup R^{3}</p>
-        <p>R^{*}=\{(1,2),(1,4),(2,1),(3,2)\}\cup \\ \{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
-        <p>R^{*}=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
+        <p><strong>Klosur Transitif $$R^{*}$$</strong></p>
+        <p>$$R^{*}=R\cup R^{2}\cup R^{3}$$</p>
+        <p>$$R^{*}=\{(1,2),(1,4),(2,1),(3,2)\}\cup \\ \{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}$$</p>
+        <p>$$R^{*}=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}$$</p>
       </li>
     </ul>
     <p> <strong>Kode python:</strong></p>
@@ -1868,7 +1868,7 @@ published: true
     </code>
     </pre>
     </div>
-    
+
   </li>
 </ol>
 
