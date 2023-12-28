@@ -1831,9 +1831,7 @@ published: true
         <p>R^{*}=\{(1,1),(1,2),(1,4),(2,1),(2,2),(2,4),(3,1),(3,2),(3,4)\}</p>
       </li>
     </ul>
-  </li>
-</ol>
-<p> <strong>Kode python:</strong></p>
+    <p> <strong>Kode python:</strong></p>
     <div class="code-container">
     <button class="copy-button">
       <i class="fas fa-copy"></i> Salin
@@ -1870,4 +1868,8 @@ published: true
     </code>
     </pre>
     </div>
+    
+  </li>
+</ol>
+
     
