@@ -1,7 +1,7 @@
 ---
 title: "Relasi dan Fungsi"
 date: 2023-12-06T00:00:00+00:00
-update: 2023-12-15T00:00:00+00:00
+update: 2023-12-28T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /relasi-dan-fungsi/
@@ -1841,32 +1841,33 @@ published: true
     <pre>
     <code class="python">
 
-    def transitiveClosure(A, R):
-      closure = set(R)  # Inisialisasi dengan relasi R
+      def transitiveClosure(A, R):
+        closure = set(R)  # Inisialisasi dengan relasi R
 
-      while True:
-          new_pairs = set()
-          # Mencari pasangan baru yang dapat ditambahkan ke klosur
-          for (x, y) in closure:
-              for z in A:
-                  if (y, z) in closure and (x, z) not in closure:
-                      new_pairs.add((x, z))
+        while True:
+            new_pairs = set()
+            # Mencari pasangan baru yang dapat ditambahkan ke klosur
+            for (x, y) in closure:
+                for z in A:
+                    if (y, z) in closure and (x, z) not in closure:
+                        new_pairs.add((x, z))
 
-          # Menghentikan iterasi jika tidak ada pasangan baru yang ditemukan
-          if not new_pairs:
-              break
+            # Menghentikan iterasi jika tidak ada pasangan baru yang ditemukan
+            if not new_pairs:
+                break
 
-          closure.update(new_pairs)
+            closure.update(new_pairs)
 
-      return closure
+        return closure
 
-    # Contoh:
-    A = {1, 2, 3, 4}
-    R = {(1, 2), (1, 4), (2, 1), (3, 2)}
+      # Contoh:
+      A = {1, 2, 3, 4}
+      R = {(1, 2), (1, 4), (2, 1), (3, 2)}
 
-    transitive_closure_result = transitiveClosure(A, R)
-    print("Klosur Transitif R:", transitive_closure_result)
+      transitive_closure_result = transitiveClosure(A, R)
+      print("Klosur Transitif R:", transitive_closure_result)
 
     </code>
     </pre>
     </div>
+    
