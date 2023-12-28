@@ -1567,6 +1567,7 @@ published: true
           return n * factorial(n-1)
 
     result = factorial(5)
+    print("Fungsi factorial:",result)
 
     </code>
     </pre>
@@ -1601,6 +1602,7 @@ published: true
           return 2 * x * chebyshev(n-1, x) - chebyshev(n-2, x)
 
     result = chebyshev(3, 0.5)
+    print("Fungsi chebyshev:",result)
 
     </code>
     </pre>
@@ -1635,6 +1637,7 @@ published: true
           return fibonacci(n-1) + fibonacci(n-2)
 
     result = fibonacci(5)
+    print("Fungsi fibonacci:",result)
 
     </code>
     </pre>
