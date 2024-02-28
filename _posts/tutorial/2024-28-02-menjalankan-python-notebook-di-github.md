@@ -4,7 +4,7 @@ date: 2024-02-28T00:00:00+00:00
 update: 2024-02-28T00:00:00+00:00
 author: Kang Nur
 layout: post
-image: "/assets/images/post/menjalankan-file-.ipynb-(python-notebook)-di-github/gambar0.jpg"
+image: "/assets/images/post/menjalankan-file-python-notebook-di-github/gambar0.jpg"
 permalink: /menjalankan-python-notebook-di-github/
 description: "Sebagai data analyst/scientist, kita kerap kali dalam mencari inspirasi kode dengan menjelajahi kaggle atau github."
 categories: Tutorial
