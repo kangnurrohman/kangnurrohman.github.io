@@ -5,7 +5,7 @@ update: 2022-05-19T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /wisata-omah-ranting-di-dusun-rembang-banyuwangi/
-image: "/assets/images/post/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar1.jpg"
+image: "/assets/images/post/budaya/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar1.jpg"
 description: "Di Dusun Rembang atau yang biasa disebut “Rembang Village” terdapat sebuah wisata yaitu “Omah Ranting”. Omah ranting terletak di sebuah komplek perkebunan pinus yang dikelola oleh perhutani. Berawal dari hutan pinus pada umumnya hingga disulap menjadi perkebunan pinus yang instagramable."
 categories: Wisata
 tags: [wisata alam, banyuwangi]
@@ -16,19 +16,19 @@ Mendengar kata Rembang, pasti di benak kita langsung mengarah ke salah satu kabu
 Di Dusun Rembang atau yang biasa disebut “Rembang Village” terdapat sebuah wisata yaitu “Omah Ranting”. Omah ranting terletak di sebuah komplek perkebunan pinus yang dikelola oleh perhutani. Berawal dari hutan pinus pada umumnya hingga disulap menjadi perkebunan pinus yang instagramable.
 
 <figure>
-<img src="/assets/images/post/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar1.jpg">
+<img src="/assets/images/post/budaya/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar1.jpg">
 <figcaption>Gambar 1. pondok berbentuk segitiga </figcaption>
 </figure>
 
 Wisatawan akan disuguhkan panorama yang eksotis jika datang pagi dan sore hari. Bau dari aroma getah pinus yang khas dan hawa yang dingin dari omah ranting. Berbagai spot foto yang estetik banyak ditemukan, mulai dari rumah-rumah ranting, terowongan bambu, dan pondok berbentuk segitiga. Harga Tiket Masuk (HTM) sangat terjangkau hanya 5000 rupiah. Untuk akses jalan ada 2 pintu gerbang lewat Villa Kampung Joglo dan Villa Grand Harvest dan akses jalan keduanya sudah dipavingisasi. Namun ingat ya sobat, jika berkunjung ke omah ranting jangan meninggalkan apapun selain jejak.
 
 <figure>
-<img src="/assets/images/post/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar2.jpg">
+<img src="/assets/images/post/budaya/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar2.jpg">
 <figcaption>Gambar 2. terowongan bambu </figcaption>
 </figure>
 
 <figure>
-<img src="/assets/images/post/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar3.jpg">
+<img src="/assets/images/post/budaya/wisata-omah-ranting-di-dusun-rembang-banyuwangi/gambar3.jpg">
 <figcaption>Gambar 3. rumah pohon </figcaption>
 </figure>
 

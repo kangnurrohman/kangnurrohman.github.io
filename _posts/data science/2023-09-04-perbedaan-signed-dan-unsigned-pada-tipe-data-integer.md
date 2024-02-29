@@ -5,7 +5,7 @@ update: 2023-09-04T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /perbedaan-signed-dan-unsigned-pada-tipe-data-integer/
-image: "/assets/images/post/perbedaan-signed-dan-unsigned-pada-tipe-data-integer/gambar0.png"
+image: "/assets/images/post/data-science/perbedaan-signed-dan-unsigned-pada-tipe-data-integer/gambar0.png"
 description: "Ketika kita melakukan analisis data menggunakan pandas, sering kali menjumpai tipe data integer berbentuk int8, int16 atau uint8"
 categories: Data Science
 tags: [analisis data, teknologi]

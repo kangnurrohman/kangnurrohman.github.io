@@ -5,7 +5,7 @@ update: 2023-12-28T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /relasi-dan-fungsi/
-image: "/assets/images/post/relasi-dan-fungsi/gambar0.png"
+image: "/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar0.png"
 description:
   "Sebelum membahas tentang relasi dan fungsi, di sini kita akan belajar sedikit tentang matriks yang nantinya digunakan
   untuk salah satu representasi matriks."
@@ -174,7 +174,7 @@ published: true
 <p>Jika digambarkan dengan diagram panah sebagai berikut:</p>
 
 <figure>
-<img src="/assets/images/post/relasi-dan-fungsi/gambar1.png">
+<img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar1.png">
 <figcaption>Gambar 1. Hubungan antara himpunan $$A$$ dan $$B$$ </figcaption>
 </figure>
 
@@ -208,7 +208,7 @@ published: true
     <p>Relasi: $$R=\{(1,2),(2,3),(1,4),(2,4)\}$$</p>
     <p>Maka diagram panahnya:</p>
     <figure>
-      <img src="/assets/images/post/relasi-dan-fungsi/gambar2.png">
+      <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar2.png">
       <figcaption>Gambar 2. Representasi relasi dengan diagram panah </figcaption>
     </figure>
   </li>
@@ -295,7 +295,7 @@ published: true
     <p>Relasi: $$R=\{(1,1),(1,2),(2,3),(3,1)\}$$</p>
     <p>Maka graf berarahnya:</p>
     <figure>
-      <img src="/assets/images/post/relasi-dan-fungsi/gambar3.png">
+      <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar3.png">
       <figcaption>Gambar 3. Representasi relasi dengan graf berarah </figcaption>
     </figure>
   </li>
@@ -310,7 +310,7 @@ published: true
     <p>Relasi: $$R=\{(1,2),(2,3),(1,4)\}$$</p>
     <p>Maka diagram kartesiannya:</p>
     <figure>
-      <img src="/assets/images/post/relasi-dan-fungsi/gambar4.png">
+      <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar4.png">
       <figcaption>Gambar 4. Representasi relasi dengan diagram kartesian </figcaption>
     </figure>
   </li>
@@ -346,7 +346,7 @@ published: true
       <li>
         <p>Graf berarah:</p>
         <figure>
-          <img src="/assets/images/post/relasi-dan-fungsi/gambar5.png">
+          <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar5.png">
           <figcaption>Gambar 5. Representasi relasi graf berarah dari refleksif </figcaption>
         </figure>
       </li>
@@ -400,7 +400,7 @@ published: true
       <li>
         <p>Graf berarah</p>
         <figure>
-          <img src="/assets/images/post/relasi-dan-fungsi/gambar6.png">
+          <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar6.png">
           <figcaption>Gambar 6. Representasi relasi graf berarah dari transitif </figcaption>
         </figure>
       </li>
@@ -466,7 +466,7 @@ published: true
       <li>
         <p>Graf berarah</p>
         <figure>
-          <img src="/assets/images/post/relasi-dan-fungsi/gambar7.png">
+          <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar7.png">
           <figcaption>Gambar 7. Representasi relasi graf berarah dari setangkup/simetris </figcaption>
         </figure>
       </li>
@@ -505,7 +505,7 @@ published: true
       <li>
         <p>Graf berarah</p>
         <figure>
-          <img src="/assets/images/post/relasi-dan-fungsi/gambar8.png">
+          <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar8.png">
           <figcaption>Gambar 8. Representasi relasi graf berarah dari tolak setangkup/antisimetris </figcaption>
         </figure>
       </li>
@@ -1169,7 +1169,7 @@ published: true
       parabola ini merepresentasikan pasangan <em>input</em> dan <em>output</em> dari fungsi kuadrat.</p>
     <p>Berikut grafik kartesian dari $$f(x)=x^{2}$$</p>
     <figure>
-          <img src="/assets/images/post/relasi-dan-fungsi/gambar9.png">
+          <img src="/assets/images/post/matematika/matematika-diskrit/relasi-dan-fungsi/gambar9.png">
           <figcaption>Gambar 9. Grafik kartesian dari fungsi kuadrat </figcaption>
         </figure>
     <p>Oh iya,

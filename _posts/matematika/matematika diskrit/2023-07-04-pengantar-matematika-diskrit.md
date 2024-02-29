@@ -5,7 +5,7 @@ update: 2023-08-31T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /pengantar-matematika-diskrit/
-image: "/assets/images/post/pengantar-matematika-diskrit/gambar0.png"
+image: "/assets/images/post/matematika/matematika-diskrit/pengantar-matematika-diskrit/gambar0.png"
 description: "Matematika diskrit adalah cabang matematika yang mempelajari objek-objek yang terpisah secara individual."
 categories: Matematika
 tags: [matematika, matematika diskrit]

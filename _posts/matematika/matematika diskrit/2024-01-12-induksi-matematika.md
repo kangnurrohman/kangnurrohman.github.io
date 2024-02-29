@@ -5,7 +5,7 @@ update: 2024-01-12T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /induksi-matematika/
-image: "/assets/images/post/induksi-matematika/gambar0.png"
+image: "/assets/images/post/matematika/matematika-diskrit/induksi-matematika/gambar0.png"
 description:
   ""
 categories: Matematika

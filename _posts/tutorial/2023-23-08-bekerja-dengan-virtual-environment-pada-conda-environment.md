@@ -4,7 +4,7 @@ date: 2023-08-23T00:00:00+00:00
 update: 2023-08-23T00:00:00+00:00
 author: Kang Nur
 layout: post
-image: "/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.jpg"
+image: "/assets/images/post/tutorial/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.jpg"
 permalink: /bekerja-dengan-virtual-environment-pada-conda-environment/
 description: "Ketika kita bekerja dengan tim, tidak semua orang pada tim kita menggunakan package dengan versi yang sama."
 categories: Tutorial
@@ -13,7 +13,7 @@ published: true
 ---
 
 <figure>
-<img src="/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.jpg">
+<img src="/assets/images/post/tutorial/bekerja-dengan-virtual-environment-pada-conda-environment/gambar0.jpg">
 </figure>
 
 <h2>Mengapa menggunakan virtual environment?</h2>
@@ -375,7 +375,7 @@ wincertstore-0.2           |   py35hfebbdb8_0          14 KB
 <p>Kemudian kita cek juga di jupyter notebook:</p>
 
 <figure>
-<img src="/assets/images/post/bekerja-dengan-virtual-environment-pada-conda-environment/gambar1.jpg">
+<img src="/assets/images/post/tutorial/bekerja-dengan-virtual-environment-pada-conda-environment/gambar1.jpg">
 <figcaption>Gambar 1. cek virtual environment di jupyter notebook </figcaption>
 </figure>
 

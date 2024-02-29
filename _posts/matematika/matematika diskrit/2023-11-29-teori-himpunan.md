@@ -5,7 +5,7 @@ update: 2023-12-06T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /teori-himpunan/
-image: "/assets/images/post/teori-himpunan/gambar0.png"
+image: "/assets/images/post/matematika/matematika-diskrit/teori-himpunan/gambar0.png"
 description:
   "Mungkin kita sudah pernah belajar himpunan sejak bangku SMP, namun tahukah kamu himpunan ini adalah teori yang
   fundamental di bidang Ilmu Komputer."

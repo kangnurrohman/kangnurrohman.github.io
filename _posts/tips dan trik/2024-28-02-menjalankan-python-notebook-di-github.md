@@ -4,11 +4,11 @@ date: 2024-02-28T00:00:00+00:00
 update: 2024-02-28T00:00:00+00:00
 author: Kang Nur
 layout: post
-image: "/assets/images/post/menjalankan-file-python-notebook-di-github/gambar0.png"
+image: "/assets/images/post/tips-dan-trik/menjalankan-file-python-notebook-di-github/gambar0.png"
 permalink: /menjalankan-python-notebook-di-github/
 description: "Sebagai data analyst/scientist, kita kerap kali dalam mencari inspirasi kode dengan menjelajahi kaggle atau github."
 categories: Tutorial
-tags: [github, google colab, python, tutorial]
+tags: [github, google colab, python, tips dan trik]
 published: true
 ---
 

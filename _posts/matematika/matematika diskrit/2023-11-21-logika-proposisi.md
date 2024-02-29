@@ -5,7 +5,7 @@ update: 2023-12-02T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /logika-proposisi/
-image: "/assets/images/post/logika-proposisi/gambar0.png"
+image: "/assets/images/post/matematika/matematika-diskrit/logika-proposisi/gambar0.png"
 description:
   "Sebelum membahas Logika Proposisi kita bahas dulu secara singkat logika itu sendiri. Mungkin kita sudah sering
   mendengar kata 'Logika' di kehidupan sehari-hari."

@@ -5,7 +5,7 @@ update: 2022-12-05T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /berbagai-proses-analisis-data/
-image: "/assets/images/post/berbagai-proses-analisis-data/gambar1.jpg"
+image: "/assets/images/post/data-science/berbagai-proses-analisis-data/gambar1.jpg"
 description: "Proses analisis data melibatkan pengumpulan, pemrosesan, penjelajahan, dan penggunaan data untuk menemukan sebuah pola"
 categories: Data Science
 tags: [analisis data, teknologi]
@@ -31,7 +31,7 @@ published: true
 </ol>
 <figure>
 
-<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar2.svg"></center>
+<center><img src="/assets/images/post/data-science/berbagai-proses-analisis-data/gambar2.svg"></center>
 
 <figcaption>Gambar 1. analisis data</figcaption>
 
@@ -60,7 +60,7 @@ published: true
 </ol>
 <figure>
 
-<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar3.svg"></center>
+<center><img src="/assets/images/post/data-science/berbagai-proses-analisis-data/gambar3.svg"></center>
 
 <figcaption>Gambar 2. Proses KDD</figcaption>
 
@@ -90,7 +90,7 @@ published: true
 </ol>
 <figure>
 
-<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar4.svg"></center>
+<center><img src="/assets/images/post/data-science/berbagai-proses-analisis-data/gambar4.svg"></center>
 
 <figcaption>Gambar 3. Proses SEMMA</figcaption>
 
@@ -123,7 +123,7 @@ CRISP-DM adalah akronim dari <em>Cross-Industry Process for Data Mining</em>. CR
 </ol>
 <figure>
 
-<center><img src="/assets/images/post/berbagai-proses-analisis-data/gambar5.svg"></center>
+<center><img src="/assets/images/post/data-science/berbagai-proses-analisis-data/gambar5.svg"></center>
 
 <figcaption>Gambar 4. Proses CRISP-DM</figcaption>
 
