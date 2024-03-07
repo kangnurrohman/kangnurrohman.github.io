@@ -7,7 +7,7 @@ layout: post
 image: "/assets/images/post/tips-dan-trik/menjalankan-file-python-notebook-di-github/gambar0.png"
 permalink: /menjalankan-python-notebook-di-github/
 description: "Sebagai data analyst/scientist, kita kerap kali dalam mencari inspirasi kode dengan menjelajahi kaggle atau github."
-categories: Tutorial
+categories: Tips dan Trik
 tags: [github, google colab, python, tips dan trik]
 published: true
 ---
