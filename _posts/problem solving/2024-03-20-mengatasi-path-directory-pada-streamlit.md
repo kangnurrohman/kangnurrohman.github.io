@@ -32,7 +32,7 @@ published: true
 <p>Ketika saya menjalankan streamlit di lokal, untuk mengakses <code>model.sav</code> cukup dengan <code>pickle.load(open('model.sav', 'rb'))</code> karena memang masih satu direktori dengan <code>app.py</code>. Namun, ketika dijalankan di <a href="https://share.streamlit.io/">https://share.streamlit.io/</a>, web-apps tidak bisa dijalankan . Berikut error yang muncul:</p>
 <div class="code-container">
   <pre>
-  <code class="python">
+  <code>
 
     File "/mount/src/data-science-portfolio/To-the-Moon/Streamlit/Calories-Burned-Calculator/app.py", line 10, in &lt;module&gt;
         model = pickle.load(open('model.sav', 'rb'))
