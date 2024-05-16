@@ -83,7 +83,7 @@ published: true
 </ol>
 
 <ol start="4">
-<li><p><strong><em>Presctiptive Analytics</em></strong></p>
+<li><p><strong><em>Prescriptive Analytics</em></strong></p>
 <p><em>Prescriptive analytics</em> menjawab pertanyaan *"What should we do next?"* atau "apa yang harus kita lakukan selanjutnya?". Analitik ini memberikan rekomendasi tindakan yang harus diambil untuk mencapai hasil tertentu. Tipe ini melibatkan penggunaan seperti algoritma optimasi, simulasi, teknik analitik lainnya untuk memberikan saran yang <em>actionable</em> berdasarkan data dan prediksi.</p>
 <p><strong>Contoh pertanyaan bisnis</strong></p>
 <ul>
