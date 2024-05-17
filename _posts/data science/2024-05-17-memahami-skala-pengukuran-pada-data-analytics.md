@@ -48,9 +48,9 @@ published: true
 <p>Skala interval memiliki urutan dan jarak yang sama antara nilai, tetapi tidak memiliki titik nol yang absolut. Skala interval dapat memiliki angka negatif karena titik nolnya bukan titik absolut.</p>
 <p><strong>Contoh:</strong></p>
 <ul>
-<li>Suhu dalam derajat celcius, reamur atau fahrenheit $(-1°C,\ 25°C, \ -8°F, -40°R)$.</li>
-<li>Tahun $(2000, 2001, 2002,...)$.</li>
-<li>Skor $(85, 100, 155, ...)$.</li>
+<li>Suhu dalam derajat celcius, reamur atau fahrenheit $$(-1°C,\ 25°C, \ -8°F, -40°R)$$.</li>
+<li>Tahun $$(2000, 2001, 2002,...)$$.</li>
+<li>Skor $$(85, 100, 155, ...)$$.</li>
 </ul>
 </li>
 <li><p><strong>Ratio</strong></p>
