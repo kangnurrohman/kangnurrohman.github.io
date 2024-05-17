@@ -40,7 +40,7 @@ published: true
 
 <ol start="2">
 <li><p><strong><em>Diagnostic Analytics</em></strong></p>
-<p><em>Diagnostic analytics</em> menjawab pertanyaan <em>"Why did it happen?"</em> atau "mengapa itu terjadi?". Analitik ini digunakan untuk memahami penyebab suatu di balik suatu kejadian. Teknik ini melibatkan analisis data yang cukup dalam, seperti: <em>drill-down</em>, <em>data mining,</em> dan korelasi untuk menemukan penyebab kejadian dalam data.</p>
+<p><em>Diagnostic analytics</em> menjawab pertanyaan <em>"Why did it happen?"</em> atau "mengapa itu terjadi?". Analitik ini digunakan untuk memahami penyebab sesuatu di balik suatu kejadian. Teknik ini melibatkan analisis data yang cukup dalam, seperti: <em>drill-down</em>, <em>data mining,</em> dan korelasi untuk menemukan penyebab kejadian dalam data.</p>
 <p><strong>Contoh pertanyaan bisnis:</strong></p>
 <ul>
 <li><p>Mengapa terjadi penurunan penjualan pada bulan tertentu?</p>
