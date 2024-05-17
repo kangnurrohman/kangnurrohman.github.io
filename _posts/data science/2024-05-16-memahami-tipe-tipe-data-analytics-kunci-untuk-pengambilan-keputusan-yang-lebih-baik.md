@@ -16,7 +16,7 @@ published: true
 <p>Dalam tulisan ini, kita akan mempelajari empat tipe utama data analytics yang umum digunakan oleh organisasi: <em>Descriptive Analytics, Diagnostic Analytics, Predictive Analytics</em>, dan <em>Prescriptive Analytics</em>. Dengan memahami masing-masing tipe <em>data analytics</em>, kita dapat lebih efektif dalam mengaplikasikan <em>data analytics</em> untuk mencapai tujuan bisnis yang diinginkan. Mari kita mulai dengan menggali lebih dalam apa yang dimaksud pada masing-masing tipe dan bagaimana mereka dapat menjawab pertanyaan bisnis.</p>
 <ol>
 <li><p><strong><em>Descriptive Analytics</em></strong></p>
-<p><em>Descriptive analytics</em> menjawab pertanyaan *"What happened?"* atau "apa yang terjadi?". Tipe ini, bertujuan untuk memahami dan menganalisis data historis untuk mengidentifikasi pola, tren, dan anomali. Tipe ini adalah tahap awal dalam analisis data yang memberikan gambaran tentang apa yang telah terjadi berdasarkan data masa lalu.</p>
+<p><em>Descriptive analytics</em> menjawab pertanyaan <em>"What happened?"</em> atau "apa yang terjadi?". Tipe ini, bertujuan untuk memahami dan menganalisis data historis untuk mengidentifikasi pola, tren, dan anomali. Tipe ini adalah tahap awal dalam analisis data yang memberikan gambaran tentang apa yang telah terjadi berdasarkan data masa lalu.</p>
 <p><strong>Contoh pertanyaan bisnis:</strong></p>
 <ul>
 <li><p>Berapa total penjualan produk kita bulan lalu?</p>
@@ -40,7 +40,7 @@ published: true
 
 <ol start="2">
 <li><p><strong><em>Diagnostic Analytics</em></strong></p>
-<p><em>Diagnostic analytics</em> menjawab pertanyaan *"Why did it happen?"* atau "mengapa itu terjadi?". Analitik ini digunakan untuk memahami penyebab suatu di balik suatu kejadian. Teknik ini melibatkan analisis data yang cukup dalam, seperti: <em>drill-down</em>, <em>data mining,</em> dan korelasi untuk menemukan penyebab kejadian dalam data.</p>
+<p><em>Diagnostic analytics</em> menjawab pertanyaan <em>"Why did it happen?"</em> atau "mengapa itu terjadi?". Analitik ini digunakan untuk memahami penyebab suatu di balik suatu kejadian. Teknik ini melibatkan analisis data yang cukup dalam, seperti: <em>drill-down</em>, <em>data mining,</em> dan korelasi untuk menemukan penyebab kejadian dalam data.</p>
 <p><strong>Contoh pertanyaan bisnis:</strong></p>
 <ul>
 <li><p>Mengapa terjadi penurunan penjualan pada bulan tertentu?</p>
@@ -62,7 +62,7 @@ published: true
 
 <ol start="3">
 <li><p><strong><em>Predictive Analytics</em></strong></p>
-<p><em>Predictive analytics</em> menjawab pertanyaan *"What coud happen?"* atau "apa yang bisa terjadi?". Analitik ini menggunakan model statistik seperti <em>machine learning</em> untuk menganalisis data historis dan memprediksi kemungkinan tren dan pola di masa depan. Tipe analitik ini membantu organisasi dalam membuat keputusan berdasarkan prediksi masa depan.</p>
+<p><em>Predictive analytics</em> menjawab pertanyaan <em>"What coud happen?"</em> atau "apa yang bisa terjadi?". Analitik ini menggunakan model statistik seperti <em>machine learning</em> untuk menganalisis data historis dan memprediksi kemungkinan tren dan pola di masa depan. Tipe analitik ini membantu organisasi dalam membuat keputusan berdasarkan prediksi masa depan.</p>
 <p><strong>Contoh pertanyaan bisnis:</strong></p>
 <ul>
 <li><p>Berapa besar kemungkinan penjualan produk kita akan meningkat dalam tiga bulan ke depan?</p>
@@ -84,7 +84,7 @@ published: true
 
 <ol start="4">
 <li><p><strong><em>Prescriptive Analytics</em></strong></p>
-<p><em>Prescriptive analytics</em> menjawab pertanyaan *"What should we do next?"* atau "apa yang harus kita lakukan selanjutnya?". Analitik ini memberikan rekomendasi tindakan yang harus diambil untuk mencapai hasil tertentu. Tipe ini melibatkan penggunaan seperti algoritma optimasi, simulasi, teknik analitik lainnya untuk memberikan saran yang <em>actionable</em> berdasarkan data dan prediksi.</p>
+<p><em>Prescriptive analytics</em> menjawab pertanyaan <em>"What should we do next?"</em> atau "apa yang harus kita lakukan selanjutnya?". Analitik ini memberikan rekomendasi tindakan yang harus diambil untuk mencapai hasil tertentu. Tipe ini melibatkan penggunaan seperti algoritma optimasi, simulasi, teknik analitik lainnya untuk memberikan saran yang <em>actionable</em> berdasarkan data dan prediksi.</p>
 <p><strong>Contoh pertanyaan bisnis</strong></p>
 <ul>
 <li><p>Strategi pemasaran apa yang harus kita gunakan untuk meningkatkan penjualan produk A di pasar banyuwangi?</p>
