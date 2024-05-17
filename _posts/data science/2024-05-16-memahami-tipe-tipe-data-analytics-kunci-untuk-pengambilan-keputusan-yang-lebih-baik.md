@@ -105,3 +105,13 @@ published: true
 </ol>
 
 <p>Dengan memahami dan mengimplementasikan masing-masing tipe <em>data analytics</em>, organisasi dapat membuat keputusan yang lebih baik, meningkatkan efisiensi, dan memaksimalkan hasil.</p>
+
+#### **Referensi :**
+<div class="endnote">
+    <ol>
+      <li>Goyal, A., Jirkuntwar, V., Hasani, V., & Burla, T. (2021). <a style="color:green" href="https://archives.palarch.nl/index.php/jae/article/view/9894">BUSINESS ANALYTICS, BACKBONE OF ORGANIZATIONS-A LITERATURE REVIEW.</a> PalArch's Journal of Archaeology of Egypt/Egyptology, 18(10), 793-802.</li>
+      <li>Ryu, Seewon. (2013). <a style="color:green" href="https://www.researchgate.net/publication/269803854_Book_Review_Predictive_Analytics_The_Power_to_Predict_Who_Will_Click_Buy_Lie_or_Die">Book Review: Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie or Die.</a> Healthcare Informatics Research. 19. 63. 10.4258/hir.2013.19.1.63. </li>
+    </ol>
+  </div>
+
+      
