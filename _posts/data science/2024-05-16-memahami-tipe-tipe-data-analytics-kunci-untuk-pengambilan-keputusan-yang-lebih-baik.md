@@ -62,7 +62,7 @@ published: true
 
 <ol start="3">
 <li><p><strong><em>Predictive Analytics</em></strong></p>
-<p><em>Predictive analytics</em> menjawab pertanyaan <em>"What coud happen?"</em> atau "apa yang bisa terjadi?". Analitik ini menggunakan model statistik seperti <em>machine learning</em> untuk menganalisis data historis dan memprediksi kemungkinan tren dan pola di masa depan. Tipe analitik ini membantu organisasi dalam membuat keputusan berdasarkan prediksi masa depan.</p>
+<p><em>Predictive analytics</em> menjawab pertanyaan <em>"What could happen?"</em> atau "apa yang bisa terjadi?". Analitik ini menggunakan model statistik seperti <em>machine learning</em> untuk menganalisis data historis dan memprediksi kemungkinan tren dan pola di masa depan. Tipe analitik ini membantu organisasi dalam membuat keputusan berdasarkan prediksi masa depan.</p>
 <p><strong>Contoh pertanyaan bisnis:</strong></p>
 <ul>
 <li><p>Berapa besar kemungkinan penjualan produk kita akan meningkat dalam tiga bulan ke depan?</p>
