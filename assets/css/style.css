@@ -704,13 +704,13 @@ th {
 
 .quote-text {
   /* font-size: 1.5em; */
-  line-height: 1.5;
+  line-height: .5;
   color: var(--primary-font-color);
   margin: 0;
 }
 
 .quote-author {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: right;
   /* font-size: 1.2em; */
   color: var(--primary-font-color);
