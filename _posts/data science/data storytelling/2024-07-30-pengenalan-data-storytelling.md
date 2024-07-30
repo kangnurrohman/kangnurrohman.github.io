@@ -1,7 +1,7 @@
 ---
 title: "Pengenalan Data Storytelling"
 date: 2024-07-30T00:00:00+00:00
-update: 2022-12-30T00:00:00+00:00
+update: 2024-07-30T00:00:00+00:00
 author: Kang Nur
 layout: post
 permalink: /pengenalan-data-storytelling/
