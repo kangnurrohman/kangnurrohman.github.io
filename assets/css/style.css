@@ -712,6 +712,6 @@ th {
 .quote-author {
   margin-top: 20px;
   text-align: right;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   color: var(--primary-font-color);
 }
