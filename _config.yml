@@ -7,7 +7,7 @@ description: >-
 lang: id
 timezone: Asia/Jakarta
 repo: https://github.com/kangnurrohman.github.io # site repo [optional]
-google_verify: LVWbsUypSRWd572qyjH8JMCJr79CSQTUp_Yz96wM1GU # Put your Google Verification here
+google_verify: google-site-verification=LVWbsUypSRWd572qyjH8JMCJr79CSQTUp_Yz96wM1GU # Put your Google Verification here
 google_analytics: G-NDW1FJZQ74 # Put your Google Analytics code
 discus-identifier: kangnurrohman
 
