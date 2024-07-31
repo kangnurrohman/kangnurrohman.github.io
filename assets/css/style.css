@@ -715,3 +715,11 @@ th {
   /* font-size: 1.2em; */
   color: var(--primary-font-color);
 }
+
+/* Mathjax */
+.MJXc-display {
+  display: inline;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
