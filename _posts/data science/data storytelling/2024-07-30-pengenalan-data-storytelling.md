@@ -26,6 +26,9 @@ published: true
         <a class="table-of-contents-link" href="pengenalan-data-storytelling/#peran-data-storyteller">
           <i class="fas fa-angle-right table-of-contents-icon"></i> Peran Data Storyteller
         </a>
+        <a class="table-of-contents-link" href="pengenalan-data-storytelling/#data-storytelling-framework">
+          <i class="fas fa-angle-right table-of-contents-icon"></i> Data Storytelling Framework
+        </a>
       </li>
     </ul>
   </div>
@@ -149,3 +152,60 @@ published: true
     </p>
   </li>
 </ol>
+
+<h2 id="data-storytelling-framework">Data Storytelling Framework</h2>
+<figure>
+  <img src="/assets/images/post/data-science/data-storytelling/pengenalan-data-storytelling/gambar1.png">
+  <figcaption>Gambar 1. Data Storytelling Framework </figcaption>
+</figure>
+<p>Setelah membahas manfaat storytelling beserta peran data storyteller, mari kita bahas data storytelling framework
+  secara singkat. Di artikel selanjutnya data storytelling framework ini akan kita bahas satu-satu secara komprehensif.
+</p>
+<ol>
+  <li>
+    <p><strong>Hypothesis</strong></p>
+    <p>Langkah pertama adalah merumuskan hipotesis atau pertanyaan yang ingin dijawab, biasanya formulanya 5W + 2H (Why,
+      Who, What, When, Where, How, How Much). Hipotesis ini memberikan arah yang jelas tentang apa yang ingin ditemukan
+      atau dibuktikan melalui analisis data. Ini juga membantu dalam menentukan jenis data yang perlu dikumpulkan dan
+      metode analisis yang akan digunakan.</p>
+  </li>
+  <li>
+    <p><strong>Data Gathering</strong></p>
+    <p>Setelah menentukan hipotesis, langkah selanjutnya adalah mengumpulkan data yang relevan. Ini bisa mencakup data
+      dari berbagai sumber, seperti database, survei, laporan, API, dan lain-lain. Pengumpulan data yang tepat dan
+      akurat sangat penting untuk memastikan hasil analisis yang dapat diandalkan.</p>
+  </li>
+  <li>
+    <p><strong>Data Transformation</strong></p>
+    <p>Data yang telah dikumpulkan sering kali memerlukan cleaning atau pembersihan dan transformasi. Proses ini
+      mencakup penghapusan data yang tidak lengkap atau tidak relevan (data removing), menggabungkan data dari berbagai
+      sumber, dan mengubah data ke format yang sesuai dengan analisis. Transformasi data memastikan bahwa data siap
+      untuk dianalisis lebih lanjut.</p>
+  </li>
+  <li>
+    <p><strong>Data Mining</strong></p>
+    <p>Dalam tahap ini, teknik analisis data seperti statistik, machine learning, atau algoritma lainnya digunakan untuk
+      mengekstraksi pola, tren, dan insight dari data. Data mining membantu mengidentifikasi korelasi yang mungkin tidak
+      terlihat dan memberikan pondasi untuk membuat narasi yang kuat.</p>
+  </li>
+  <li>
+    <p><strong>Visualization</strong></p>
+    <p>Visualisasi data adalah tahap krusial untuk membuat data lebih mudah dipahami. Grafik, diagram, maps, dan alat
+      visual lainnya digunakan untuk menyajikan hasil analisis dengan cara menarik dan intuitif. Visualisasi yang baik
+      membantu audiens untuk dengan cepat memahai informasi, tren, dan insight dalam data.</p>
+  </li>
+  <li>
+    <p><strong>Create Narrative</strong></p>
+    <p>Setelah data divisualisasikan, langkah selanjutnya adalah menyusun narasi yang menghubungkan insight dengan
+      cerita yang koheren dan menarik. Narasi ini harus menjelaskan konteks, menggambarkan temuan utama, dan mengaitkan
+      data dengan hipotesis awal.</p>
+  </li>
+  <li>
+    <p><strong>Tell the Story</strong></p>
+    <p>Tahap akhir adalah pemaparan kepada audiens. Ini melibatkan presentasi yang jelas dan menarik, menggunakan narasi
+      dan visualisasi yang telah disiapkan. Memaparkan temuan hasil analisis secara efektif dapat membantu audiens untuk
+      memahami pesan yang disampaikan, mengingat informasi yang penting, dan menjadi langkah yang actionable.</p>
+  </li>
+</ol>
+<p>Pada pengenalan data storytelling kita telah mengenal tiga poin utama yaitu manfaat storytelling, peran storyteller
+  dan data storytelling framework. Pembahasan selanjutnya kita breakdown lebih dalam framework ini.</p>
