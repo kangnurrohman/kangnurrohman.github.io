@@ -718,8 +718,8 @@ th {
 
 /* Mathjax */
 .MJXc-display {
-  display: inline;
-  text-align: left;
-  margin: 0;
-  padding: 0;
+  display: inline !important;
+  text-align: left !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
