@@ -642,7 +642,7 @@ th {
 }
 
 /* Block kode */
-/* .formula {
+.formula {
   font-size: 24px;
   color: #333;
   background-color: #f0f0f0;
@@ -658,7 +658,7 @@ th {
 
 .formula-container {
   text-align: center;
-} */
+}
 
 /* Datatable */
 
