@@ -130,15 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
   progressContainer.appendChild(progressBar);
 
   var getMaxScroll = function () {
-    var documentHeight = Math.max(
-      document.body.scrollHeight,
-      document.body.offsetHeight,
-      document.documentElement.clientHeight,
-      document.documentElement.scrollHeight,
-      document.documentElement.offsetHeight
-    );
-
-    return documentHeight - window.innerHeight;
+    return document.documentElement.scrollHeight - window.innerHeight;
   };
 
   var updateProgressBar = function () {
@@ -146,18 +138,9 @@ document.addEventListener("DOMContentLoaded", function () {
     progressBar.style.width = scrollPercentage + "%";
   };
 
-  var toggleDarkMode = function () {
-    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  };
-
   var updateProgressBarColor = function () {
-    var isDarkMode = toggleDarkMode();
-
-    if (isDarkMode) {
-      progressBar.style.backgroundColor = "var(--primary-font-color)"; // Ganti dengan variabel CSS untuk dark mode
-    } else {
-      progressBar.style.backgroundColor = "var(--primary-font-color)"; // Ganti dengan warna untuk light mode
-    }
+    var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    progressBar.style.backgroundColor = isDarkMode ? "var(--primary-font-color)" : "var(--light-mode-color)";
   };
 
   document.addEventListener("scroll", updateProgressBar);
@@ -166,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Pembaruan warna progress bar saat halaman dimuat
   updateProgressBarColor();
 });
+
 
 // Venn Diagram
     // Data untuk diagram Venn dengan Interseksi A dan B
