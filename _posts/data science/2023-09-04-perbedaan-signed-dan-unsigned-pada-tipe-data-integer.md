@@ -24,7 +24,7 @@ published: true
 <p>  Sebagai contoh, kita memiliki data dengan tipe data <code>int8</code>, artinya tipe data tersebut dapat menyimpan nilai dari -127 hingga 127. Dari mana angka tersebut? Mari kita hitung.</p>
 <p>  Rumus untuk menghitung penyimpanan data tersebut adalah:</p>
 <div class="formula-container">
-  <span class="formula">$$2^{(n-1)} -1$$</span>
+  <span class="formula">$2^{(n-1)} -1$</span>
 </div>
 <p>  Dimana:</p>
 <ul>
