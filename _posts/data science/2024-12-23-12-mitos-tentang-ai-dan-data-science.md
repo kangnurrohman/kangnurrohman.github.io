@@ -13,7 +13,7 @@ published: true
 ---
 
 <p>Di era data saat ini, banyak teknologi-teknologi AI bermunculan di sekitar kita bahkan dalam genggaman tangan kita. Hanya dengan memainkan "jari telunjuk", AI bisa jadi "asisten pribadi" kita. Sehingga bentuk "euforia berlebihan" muncul pada sebagian orang. Mereka ketika mendapat permasalahan langsung bertanya pada AI dan ketika AI memberikan solusi, mereka langsung mempercayai dan memakai solusi tersebut tanpa menyaring terlebih dahulu. Padahal, AI dan data science tidak ada bedanya dengan pisau, memiliki dua sisi.</p>
-<p>Artikel ini akan membantah beberapa euforia yang berlebihan, mitos dan miskonsepsi mengenai AI:</p>
+<p>Artikel ini akan membantah beberapa euforia yang berlebihan, mitos dan miskonsepsi mengenai AI dan Data Science:</p>
 <p><strong>Mitos 1: AI akan memecahkan semua masalah kita dengan mudah</strong></p>
 <p>Faktanya, AI memang teknologi yang <em>powerful</em>, namun bukan solusi instan untuk semua masalah. Dalam AI, ada fenomena "AI Halusinasi", yaitu sebuah fenomena ketika AI memberikan informasi yang "seakan-akan" valid dan benar padahal informasi tersebut salah. Sebagai contoh, ketika mahasiswa mencari referensi untuk skripsi mereka, di era saat ini bisa dicari secara pragmatis pada aplikasi chatbot. Namun pertanyaannya apakah referensi yang diberikan chatbot tersebut valid? atau mengada-adakan informasi yang tidak ada? padahal dalam menulis sebuah penelitian harus "berkesinambungan". Jadi, ketika menggunakan teknologi AI, kita sebagai pengguna harus selalu <em>check and recheck</em> sebelum menggunakan informasi dari AI.</p>
 <p><strong>Mitos 2: Proyek data science selalu memberikan ROI secara langsung</strong></p>
