@@ -6,7 +6,7 @@ author: Kang Nur
 layout: post
 permalink: /12-mitos-tentang-ai-dan-data-science/
 image: "/assets/images/post/data-science/12-mitos-tentang-ai-dan-data-science/gambar0.png"
-description: "Skala pengukuran adalah cara untuk mengklasifikasikan atau mengelompokkan data berdasarkan sifat atau karakteristiknya."
+description: "Di era data saat ini, banyak teknologi AI bermunculan di sekitar kita bahkan dalam genggaman tangan. Hanya dengan memainkan "jari telunjuk", AI bisa jadi "asisten pribadi" kita."
 categories: Data Analyst, Data Scientist, Mitos
 tags: [analisis data, ilmuwan data]
 published: true
