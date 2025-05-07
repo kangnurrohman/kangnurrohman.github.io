@@ -517,7 +517,7 @@ th {
   opacity: 0.95;
 }
 
-/* Desktop - TOC kecil di kiri */
+/* Desktop: Tetap fixed di kiri */
 @media (min-width: 769px) {
   .table-of-contents {
     position: fixed;
@@ -535,19 +535,15 @@ th {
   }
 }
 
-/* HP - TOC fixed di atas layar */
+/* Mobile: Biarkan posisi normal tapi nempel saat discroll */
 @media (max-width: 768px) {
   .table-of-contents {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 10px;
     background-color: var(--body-bg);
-    font-size: 14px;
     z-index: 999;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
 }
 
