@@ -506,6 +506,11 @@ th {
   border-radius: 4px;
   font-size: 14px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  position: sticky;
+  top: 20px;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 .table-of-contents-title {
