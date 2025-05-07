@@ -520,7 +520,7 @@ th {
 /* Mobile: Jadikan TOC sticky di bagian atas konten */
 @media (max-width: 768px) {
   .table-of-contents {
-    position: sticky !important;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 10px;
