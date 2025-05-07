@@ -500,7 +500,7 @@ th {
 
 /* table of content */
 
-/* Default: Layar besar - TOC kecil & fixed di kiri */
+/* Desktop / Layar besar */
 .table-of-contents {
   background-color: var(--body-bg);
   padding: 8px;
@@ -518,22 +518,18 @@ th {
   opacity: 0.95;
 }
 
-/* Untuk layar kecil - TOC pindah ke atas, melebar penuh */
+/* Mobile / layar kecil - kembalikan ke posisi biasa (ikut scroll) */
 @media (max-width: 768px) {
   .table-of-contents {
-    top: 0;
-    left: 0;
-    right: 0;
+    position: static;
+    /* tidak fixed */
     width: 100%;
-    border-radius: 0;
-    font-size: 14px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+    /* biar rapi di mobile */
     max-height: none;
-    overflow-y: auto;
-    padding: 10px;
-    position: fixed;
-    z-index: 999;
+    overflow: visible;
+    opacity: 1;
+    box-shadow: none;
+    margin-bottom: 20px;
   }
 }
 
