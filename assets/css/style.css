@@ -500,6 +500,7 @@ th {
 
 /* table of content */
 
+/* Desktop & tablet */
 .table-of-contents {
   background-color: var(--body-bg);
   padding: 10px;
@@ -508,12 +509,24 @@ th {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   position: fixed;
-  top: 20px;
-  right: 20px; /* atau left: 20px jika ingin di kiri */
+  top: 80px;
+  /* agar tidak tabrakan dengan navbar jika ada */
+  left: 20px;
   width: 250px;
-  max-height: 90vh;
+  max-height: 80vh;
   overflow-y: auto;
   z-index: 999;
+}
+
+/* Untuk layar kecil (mobile), TOC disembunyikan atau dipindah */
+@media (max-width: 768px) {
+  .table-of-contents {
+    position: static;
+    width: 100%;
+    max-height: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
 }
 
 .table-of-contents-title {
