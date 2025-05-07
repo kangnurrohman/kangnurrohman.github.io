@@ -500,14 +500,13 @@ th {
 
 /* table of content */
 
-/* Desktop / Layar besar */
+/* Default: Desktop – TOC kecil dan fixed di kiri */
 .table-of-contents {
   background-color: var(--body-bg);
   padding: 8px;
   border-radius: 4px;
   font-size: 13px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
   position: fixed;
   top: 20px;
   left: 10px;
@@ -518,17 +517,16 @@ th {
   opacity: 0.95;
 }
 
-/* Mobile / layar kecil - kembalikan ke posisi biasa (ikut scroll) */
+/* Mobile: Jadikan TOC sticky di bagian atas konten */
 @media (max-width: 768px) {
   .table-of-contents {
-    position: static;
-    /* tidak fixed */
+    position: sticky;
+    top: 0;
     width: 100%;
-    /* biar rapi di mobile */
-    max-height: none;
-    overflow: visible;
-    opacity: 1;
-    box-shadow: none;
+    padding: 10px;
+    background-color: var(--body-bg);
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
 }
