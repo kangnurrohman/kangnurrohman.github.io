@@ -529,6 +529,25 @@ th {
   }
 }
 
+#main-content {
+  margin-left: 280px;
+  /* 250px lebar TOC + 30px jarak */
+}
+
+@media (max-width: 768px) {
+  .table-of-contents {
+    position: static;
+    width: 100%;
+    max-height: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+
+  #main-content {
+    margin-left: 0;
+  }
+}
+
 .table-of-contents-title {
   font-weight: bold;
   margin-bottom: 10px;
