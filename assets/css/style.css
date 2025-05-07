@@ -515,6 +515,7 @@ th {
   overflow-y: auto;
   z-index: 999;
   opacity: 0.95;
+  text-align: left !important;
 }
 
 /* Mobile: Jadikan TOC sticky di bagian atas konten */
