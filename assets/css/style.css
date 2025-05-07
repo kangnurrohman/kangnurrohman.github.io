@@ -507,10 +507,13 @@ th {
   font-size: 14px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-  position: sticky;
+  position: fixed;
   top: 20px;
+  right: 20px; /* atau left: 20px jika ingin di kiri */
+  width: 250px;
   max-height: 90vh;
   overflow-y: auto;
+  z-index: 999;
 }
 
 .table-of-contents-title {
