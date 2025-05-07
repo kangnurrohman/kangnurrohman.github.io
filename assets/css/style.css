@@ -521,11 +521,11 @@ th {
 @media (max-width: 768px) {
   .table-of-contents {
     position: sticky !important;
-    top: 0 !important;
+    top: 0;
     width: 100%;
     padding: 10px;
     background-color: var(--body-bg);
-    z-index: 999 !important;
+    z-index: 999;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
